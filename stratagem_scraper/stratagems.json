@@ -1,0 +1,736 @@
+{
+    "orks": {
+        "CAREEN!": {
+            "name": "CAREEN!",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in any phase, when an ORKS VEHICLE model in your army that is not within Engagement Range of any enemy models is destroyed and explodes. That model can make a Normal Move of up to 6\" before resolving the explosion. If that VEHICLE is a WAGON or TITANIC model, this Stratagem costs 2CP; otherwise, it costs 1CP."
+        },
+        "GET STUCK IN LADZ!": {
+            "name": "GET STUCK IN LADZ!",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in the Fight phase, when a BOYZ or BEAST SNAGGA BOYZ unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a pile in or consolidation move, it can move up to an additional 3\". This is not cumulative with any other rule that increases the distance models can pile in or consolidate. If that unit contains 10 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "RAMMING SPEED": {
+            "name": "RAMMING SPEED",
+            "cost": "2CP",
+            "description": "Use this Stratagem in your Charge phase, when an ORKS VEHICLE unit from your army is selected to charge.Until the end of the phase, when making a charge roll for that unit, roll 3D6 instead.Until the end of the phase, when that unit finishes a charge move, select one enemy unit that is within Engagement Range of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
+        },
+        "GUN CRAZY SHOW OFFS": {
+            "name": "GUN CRAZY SHOW OFFS",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the end of your Shooting phase. Select one FLASH GITZ unit from your army; that unit can shoot again, but must target the closest eligible enemy unit."
+        },
+        "HIT \u2019EM HARDER": {
+            "name": "HIT \u2019EM HARDER",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Fight phase, when a MEGANOBZ unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack with a power klaw or killsaw, add 1 to that attack\u2019s Damage characteristic."
+        },
+        "TOUGH AS SQUIG-HIDE": {
+            "name": "TOUGH AS SQUIG-HIDE",
+            "cost": "2CP",
+            "description": "Use this Stratagem in any phase, when a BEAST SNAGGA INFANTRY, BEAST SNAGGA CAVALRY or BEAST SNAGGA MONSTER unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, an unmodified wound roll of 1-3 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have."
+        },
+        "BREAKIN\u2019 HEADS": {
+            "name": "BREAKIN\u2019 HEADS",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Morale phase, when a Morale test is failed for a <CLAN>BAD MOONSBLOOD AXESDEATHSKULLSEVIL SUNZFREEBOOTERZGOFFSSNAKEBITES unit (excluding GRETCHIN units) from your army that is within 3\" of any friendly <CLAN>BAD MOONSBLOOD AXESDEATHSKULLSEVIL SUNZFREEBOOTERZGOFFSSNAKEBITES WARBOSS or <CLAN>BAD MOONSBLOOD AXESDEATHSKULLSEVIL SUNZFREEBOOTERZGOFFSSNAKEBITES NOBZ units. That <CLAN>BAD MOONSBLOOD AXESDEATHSKULLSEVIL SUNZFREEBOOTERZGOFFSSNAKEBITES unit suffers D3 mortal wounds, and the Morale test is treated as having been passed."
+        },
+        "ORKS IS NEVER BEATEN": {
+            "name": "ORKS IS NEVER BEATEN",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Fight phase, when an ORKS CHARACTER model in your army that has not already been selected to fight this phase is destroyed. Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. If the selected model\u2019s characteristics change as it takes damage, use the bottom row of that model\u2019s profile when resolving those attacks. After resolving the destroyed model\u2019s attacks, it is then removed."
+        },
+        "DA BIGGER DEY IZ...": {
+            "name": "DA BIGGER DEY IZ...",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Fight phase, when a BEAST SNAGGA WARBOSS unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack that targets a TITANIC unit, add 2 to the Damage characteristic of that attack."
+        },
+        "EXTRA GUBBINZ": {
+            "name": "EXTRA GUBBINZ",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER model in your army and give them one Shiny Gubbinz (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times)."
+        },
+        "BIG BOSS": {
+            "name": "BIG BOSS",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER from your army and determine one Warlord Trait for that model (this must be a Warlord Trait they could have); that model it is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times)."
+        },
+        "TIDE OF MUSCLE": {
+            "name": "TIDE OF MUSCLE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase, when you select an ORKS CORE unit (excluding GRETCHIN units) from your army to charge. That unit can ignore any or all modifiers to the charge roll."
+        },
+        "UNSTOPPABLE MOMENTUM": {
+            "name": "UNSTOPPABLE MOMENTUM",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase, after a NOB ON SMASHA SQUIG unit from your army finishes a charge move. If there are no enemy models within Engagement Range of that model, it can immediately be selected to declare a charge again."
+        },
+        "GROT SHIELDS": {
+            "name": "GROT SHIELDS",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one ORKS INFANTRY unit from your army, then select one GRETCHIN INFANTRY unit (excluding CHARACTER units) from your army that is within 6\" of that unit. Until the end of the phase, enemy models cannot select the selected ORKS INFANTRY unit as a target if the selected GRETCHIN INFANTRY unit is a closer visible target."
+        },
+        "TELLYPORTA": {
+            "name": "TELLYPORTA",
+            "cost": "2CP",
+            "description": "Use this Stratagem during deployment. Select one non-MONSTER ORKS unit from your army that has Power Rating 20 or less. You can set up this unit on a tellyporta pad instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases, you can set up this unit anywhere on the battlefield that is more than 9\" away from any enemy models. If you select a TRANSPORT unit, any embarked units remain embarked when this unit is set up on the battlefield."
+        },
+        "LUMBERING STRIDES": {
+            "name": "LUMBERING STRIDES",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase, when you use the \u2019Ere We Go ability to re-roll a charge roll for a MORKANAUT, GORKANAUT or STOMPA unit from your army. You can re-roll one of the dice for that charge roll instead of both."
+        },
+        "BURN \u2019EM ALL!": {
+            "name": "BURN \u2019EM ALL!",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase, when a BURNA-BOMMER unit from your army makes attacks with skorcha missile racks. After resolving these attacks, each other unit within 3\" of the target suffers 1 mortal wound."
+        },
+        "MONSTER HUNTERZ": {
+            "name": "MONSTER HUNTERZ",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of any phase. Select one enemy MONSTER or VEHICLE unit and up to 3 BEAST SNAGGA units from your army. Until the end of the phase, each time an attack is made by a model in one of the selected BEAST SNAGGA units that targets the selected MONSTER or VEHICLE unit, add 1 to that attack\u2019s wound roll."
+        },
+        "CUTTIN\u2019 FLAMES": {
+            "name": "CUTTIN\u2019 FLAMES",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase. Select one BURNA BOYZ unit from your army. Until the end of the phase, each time a Burna Boy model in that unit makes a melee attack, that attack has an Armour Penetration characteristic of -2. This cannot be improved by any abilities or rules that improve Armour Penetration characteristics."
+        },
+        "MORE DAKKA!": {
+            "name": "MORE DAKKA!",
+            "cost": "2CP",
+            "description": "Use this Stratagem in your Shooting phase, when an ORKS unit from your army is selected to shoot. Until the end of the phase, Dakka weapons that unit is equipped with are considered to be within half range when determining how many attacks are made with that weapon."
+        },
+        "CLOUD OF SMOKE": {
+            "name": "CLOUD OF SMOKE",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one SPEED FREEKS VEHICLE unit from your army. Until the end of the phase, while a friendly SPEED FREEKS VEHICLE unit is within 6\" of the selected unit, each time a ranged attack targets that unit, subtract 1 from that attack\u2019s hit roll."
+        },
+        "TANKBUSTA BOMB": {
+            "name": "TANKBUSTA BOMB",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase, when an ORKS TANKBUSTA BOMBS unit from your army is selected to fight. Select one model in that unit; that model can only make one attack this phase and must target an enemy VEHICLE unit with that attack, but if a hit is scored, that unit suffers 2D3 mortal wounds and the attack sequence ends."
+        },
+        "SNAGGA GRAPPLE": {
+            "name": "SNAGGA GRAPPLE",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of your opponent\u2019s Movement phase. Select one BEAST SNAGGA BOYZ unit from your army. Each time an enemy unit (excluding TITANIC units) that is within Engagement Range of that unit is selected to move, roll one D6: on a 4+, that enemy unit cannot Fall Back this turn."
+        },
+        "GROUNDSHAKER SHELLS": {
+            "name": "GROUNDSHAKER SHELLS",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase, when selecting a target for an \u2019eavy lobba. Until the end of the phase, each time that model makes a ranged attack, if a hit is scored against a target that is not TITANIC and cannot FLY, then until the start of your next Movement phase, halve the Move characteristic of models in the target unit and subtract 2 from the result of Advance rolls and charge rolls made for that unit."
+        },
+        "FORCE FIELD BOOSTA": {
+            "name": "FORCE FIELD BOOSTA",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one model in your army that is equipped with a kustom force field. Until the end of the turn, replace that kustom force field\u2019s ability with the following:\u2018(Aura) While a friendly ORKS unit is within 9\" of the bearer, models in that unit have a 5+ invulnerable save.\u2019At the end of this turn, the kustom force field overloads and cannot be used for the rest of the battle. You can only use this Stratagem once per battle."
+        },
+        "STOMP \u2019EM GOOD": {
+            "name": "STOMP \u2019EM GOOD",
+            "cost": "",
+            "description": "If you select this secondary objective, you can score victory points for the following:Score 3 victory points at the end of each battle round if the number of enemy units destroyed by melee attacks made by ORKS units from your army is more than the number of friendly non-GRETCHIN units that were destroyed by melee attacks during this battle round.Score 1 additional victory point at the end of each battle round if the number of enemy units destroyed by melee attacks made by ORKS units from your army is at least 2 and double or more than the number of friendly non-GRETCHIN units that were destroyed by melee attacks during this battle round."
+        },
+        "GET DA GOOD BITZ": {
+            "name": "GET DA GOOD BITZ",
+            "cost": "",
+            "description": "If you selected this secondary objective, then after both sides have finished deploying, starting with your opponent, the players alternate selecting objective markers that are not within any player\u2019s deployment zone to be Good Bitz objective markers, until 3 objective markers have been selected (if there is only one such objective marker, then only that objective marker is a Good Bitz objective marker).ORKS CORE units from your army can attempt the following action:Get da Good Bitz (Action): At the end of your Movement phase, one or more ORKS CORE units from your army can start to perform this action. Each unit from your army that starts to perform this action must be in range of a different Good Bitz objective marker. A unit cannot start this action while there are any enemy units (excluding AIRCRAFT) in range of the same objective marker. The action is completed at the end of your next Command phase, provided the unit attempting that action is still within range of that Good Bitz objective marker.Score 3 victory points each time a unit from your army completes the Get da Good Bitz action."
+        },
+        "DA BIGGEST AND DA BEST": {
+            "name": "DA BIGGEST AND DA BEST",
+            "cost": "",
+            "description": "If you select this secondary objective, you score 3 victory points at the end of each battle round for each of the following achieved by your ORKS WARLORD, for a maximum of 5 victory points:An enemy MONSTER or VEHICLE unit is destroyed as the result of a melee attack made by this WARLORD.An enemy CHARACTER is destroyed as the result of a melee attack made by this WARLORD.5 or more enemy models were destroyed as the result of attacks made by this WARLORD."
+        },
+        "GREEN TIDE": {
+            "name": "GREEN TIDE",
+            "cost": "",
+            "description": "At the start of the battle, divide the battlefield into four even quarters. Score 3 victory points at the end of the battle round if two or more battlefield quarters each have an ORKS unit from your army that contains 11 or more models wholly within them. Score 5 victory points at the end of the battle round instead if all four battlefield quarters each have an ORKS unit from your army that contains 11 or more models wholly within them."
+        },
+        "SCRAP \u2019EM": {
+            "name": "SCRAP \u2019EM",
+            "cost": "",
+            "description": "At the end of the battle:Gain 1 additional Scrap point for every 2 enemy VEHICLE units that were destroyed and did not explode.Gain 1 additional Scrap point for each enemy TITANIC VEHICLE unit that was destroyed and did not explode.Each LOOTAS unit from your army gains 1 experience point for each enemy TITANIC VEHICLE unit that was destroyed and did not explode.Each MEK and BIG MEK unit from your army gains 2 experience points for each enemy TITANIC VEHICLE unit that was destroyed and did not explode."
+        },
+        "KRUMPIN\u2019 SPREE": {
+            "name": "KRUMPIN\u2019 SPREE",
+            "cost": "",
+            "description": "Keep a Krumpin\u2019 tally for your WARLORD. Each time your WARLORD destroys an enemy CHARACTER, VEHICLE or MONSTER unit, add 1 to your WARLORD\u2019s Krumpin\u2019 tally. At the end of the battle, Your WARLORD gains 2 experience points for every mark on its Krumpin\u2019 tally."
+        },
+        "BRING IT DOWN!": {
+            "name": "BRING IT DOWN!",
+            "cost": "",
+            "description": "Keep a Big Trophies tally for each BEAST SNAGGA unit from your army. Each time a BEAST SNAGGA unit destroys an enemy VEHICLE or MONSTER unit, add 1 to that unit\u2019s Big Trophies tally. If that enemy unit was destroyed by a melee attack, add 2 to that unit\u2019s tally instead. At the end of the battle, each BEAST SNAGGA unit gains 1 experience point for every mark on its Big Trophies tally."
+        },
+        "MEGAWAAAGH!": {
+            "name": "MEGAWAAAGH!",
+            "cost": "",
+            "description": "Keep a Waaagh! tally for each non-GRETCHIN ORKS unit from your army.While Stage 1 of a Waaagh! or Speedwaaagh! is in effect, each time an ORKS unit from your army destroys any enemy unit, add 3 to that unit\u2019s Waaagh! tally.While Stage 2 of a Waaagh! or Speedwaaagh! is in effect, each time an ORKS unit from your army destroys any enemy unit, add 1 to that unit\u2019s Waaagh! tally.At the end of the battle, each unit gains 1 experience point for every 2 marks on its Waaagh! tally."
+        },
+        "KUNNIN\u2019 STUNTZ": {
+            "name": "KUNNIN\u2019 STUNTZ",
+            "cost": "",
+            "description": "Keep a Stuntz tally for each SPEED FREEKS unit from your army.If you selected this Agenda, then these units from your army can attempt the following action:Kunnin\u2019 Stuntz (Action): At the end of your Movement phase, select one eligible ORKS SPEED FREEKS unit from your army that Advanced this turn and ended its move more than 6\" from where it started. The action is completed at the end of your Shooting phase. Once completed, add one to the selected unit\u2019s Stuntz tally.At the end of the battle, each unit gains 2 experience points for each mark on its Stuntz tally."
+        },
+        "YOU\u2019Z FIGHT FOR ME NOW!": {
+            "name": "YOU\u2019Z FIGHT FOR ME NOW!",
+            "cost": "1RP",
+            "description": "Purchase this Requisition after a victory is achieved in a battle against an ORKS army. Your Warlord gains 5 experience points and you can immediately purchase the Fresh Recruits Requisition once, for 0RP."
+        },
+        "EXTRA SCRAP": {
+            "name": "EXTRA SCRAP",
+            "cost": "1RP",
+            "description": "Purchase this Requisition at the end of a battle. Gain a number of additional Scrap points equal to the number of objective markers controlled by units from your army."
+        },
+        "SPECIALIST MOB": {
+            "name": "SPECIALIST MOB",
+            "cost": "1RP",
+            "description": "Purchase this Requisition when an ORKS unit from your Crusade force gains the Battle Hardened, Heroic or Legendary rank. You can select one of the Specialist Mobs upgrades that unit is eligible for and upgrade it."
+        },
+        "SNEAKY SCHEME": {
+            "name": "SNEAKY SCHEME",
+            "cost": "2RP",
+            "description": "Purchase this Requisition when a leadership challenge takes place after a battle (see Might Makes Right). The leadership challenge does not take place. Instead, the Waaagh!boss is treated as the winner and the challenger is the loser."
+        },
+        "PATCH UP": {
+            "name": "PATCH UP",
+            "cost": "3SP",
+            "description": "Purchase this Mek Job either before or after a battle. Select one VEHICLE Crusade card from your Order of Battle that has one or more Battle Scars. Select one of that unit\u2019s Battle Scars and remove it from its Crusade card (remember that for each Battle Scar removed, the unit\u2019s Crusade points will effectively increase by 1). You can find out more about Battle Scars in the Warhammer 40,000 Core Book."
+        },
+        "KUSTOM JOB": {
+            "name": "KUSTOM JOB",
+            "cost": "3SP",
+            "description": "Purchase this Mek Job at any time. Select an ORKS VEHICLE model in your Order of Battle, then select one of the Kustom Jobs that model is eligible to gain. That model gains that Kustom Job; increase its Power Rating accordingly and make a note on its Crusade card. You cannot purchase this Mek Job if doing so would cause your total power level to exceed your Crusade force\u2019s Supply Limit."
+        },
+        "LOOT VEHICLE": {
+            "name": "LOOT VEHICLE",
+            "cost": "6+SP",
+            "description": "Purchase this Mek Job either before or after a battle. Add one LOOTED WAGON, LOOTED \u2018EAVY WAGON or BATTLE FORTRESS unit to your Order of Battle. The Scrap point cost of this Mek Job depends on which unit you wish to add. The starting Scrap point cost for each unit can be found in the table below.UNITSTARTING SCRAP POINT COSTLOOTED WAGON unit6LOOTED \u2018EAVY WAGON unit8BATTLE FORTRESS unit16Each datasheet also lists a selection of wargear options. Some wargear options will also carry an additional Scrap point cost. If you select to use one of these wargear options when creating your looted vehicle, add that number of Scrap points to the total cost. Once you have decided which options you wish to use, the Scrap points total for your selected vehicle and wargear options is deducted from your army\u2019s Scrap points total. This looted vehicles Power Rating is equal to its total Scrap points cost. You cannot purchase this Mek Job if doing so would cause your total Power Level to exceed your Crusade forces Supply Limit.Example: Andy wishes to add a looted vehicle to the Order of Battle for his Orks Crusade force. Because he has 11 Scrap points, he chooses to add a LOOTED \u2019EAVY WAGON unit to his Order of Battle for 8 Scrap points, and uses the weapon option to equip it with a killkannon, which costs 1 additional Scrap point. He also replaces that model\u2019s big shoota with a rokkit launcha using the second weapon option, and adds 2 more rokkit launchas using the third weapon option for 1 additional Scrap point. The total Scrap point cost of Andy\u2019s LOOTED 'EAVY WAGON unit is 10 Scrap points, which he deducts from his army\u2019s Scrap points total. He then creates a Crusade card for this unit with a Power Rating of 10, and then adds this unit to his Order of Battle."
+        },
+        "FRESH RECRUITS": {
+            "name": "FRESH RECRUITS",
+            "cost": "1RP",
+            "description": "Purchase this Requisition at any time. Select one unit from your Order of Battle (excluding CHARACTERS, VEHICLES and MONSTERS) that has a Crusade card. You cannot choose a unit that has achieved the Battle-hardened, Heroic or Legendary rank. Add any number of additional models to this unit (up to the maximum listed on its datasheet) and increase its Power Rating accordingly. If the unit you selected has achieved the Blooded rank, you must increase its Crusade points total by 1 if its Power Rating has gone from 10 or less to 11 or more."
+        },
+        "REARM AND RESUPPLY": {
+            "name": "REARM AND RESUPPLY",
+            "cost": "1RP",
+            "description": "Purchase this Requisition at any time. Select one unit from your Order of Battle (excluding CHARACTERS) that has a Crusade card. You can change any wargear options that models in that unit are equipped with as described on that unit\u2019s datasheet, provided that none of those wargear options would change the Power Rating of the unit. You cannot replace a weapon that a model is equipped with if the weapon in question has been upgraded by a Weapon Enhancement."
+        },
+        "TAKTICAL AWARENESS": {
+            "name": "TAKTICAL AWARENESS",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of any phase. Select one BLOOD AXES unit from your army. Until the end of the turn:That unit can start to perform an action even if it Advanced this turn.That unit can make ranged attacks without any action it is performing failing.If that unit has the CHARACTER keyword, it can still use any aura abilities it has while performing an action."
+        },
+        "GET DA LOOT": {
+            "name": "GET DA LOOT",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of your Command phase. Select one FREEBOOTERZ INFANTRY unit from your army that is on the battlefield. Until the start of your next Command phase, that unit gains the Objective Secured ability."
+        },
+        "MORE GITZ OVER \u2019ERE!": {
+            "name": "MORE GITZ OVER \u2019ERE!",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Movement phase, when a SPEED MOB unit from your army Falls Back:That unit is still eligible to shoot this turn even though it Fell Back.If that unit has the BOOMDAKKA SNAZZWAGONS keyword, until the end of the turn, each time a model in that unit makes a ranged attack, an unmodified hit roll of 6 scores 1 additional hit."
+        },
+        "DED SNEAKY": {
+            "name": "DED SNEAKY",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the end of your Movement phase if the mission you are playing is using the Strategic Reserves rule. Select one BLOOD AXES INFANTRY unit from your army (excluding MEGA ARMOUR units) that is within 3\" of any battlefield edge. Place that unit in Strategic Reserve."
+        },
+        "MYSTIC CHANTING": {
+            "name": "MYSTIC CHANTING",
+            "cost": "1CP",
+            "description": "Use this Stratagem during your opponent\u2019s Psychic phase. Select one SNAKEBITES unit from your army. Until the end of the phase, that unit can attempt to deny one psychic power as if it were a PSYKER."
+        },
+        "WRECKAZ": {
+            "name": "WRECKAZ",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of your Shooting or Fight phase. Select one DEATHSKULLS CORE or DEATHSKULLS CHARACTER unit from your army. Until the end of the phase, each time a model in that unit makes an attack that targets a VEHICLE, add 1 to that attack\u2019s wound roll."
+        },
+        "SPOTTED \u2018EM!": {
+            "name": "SPOTTED \u2018EM!",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of your Shooting phase. Select one enemy unit within 12\" of and visible to a BLOOD AXES KOMMANDOS unit from your army. Until the end of the phase, each time a BLOOD AXES model in your army makes an attack against that enemy unit, the target unit does not receive the benefits of cover against that attack."
+        },
+        "BLITZA DAKKA": {
+            "name": "BLITZA DAKKA",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase, when a SPEED MOB unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack that targets an enemy unit within 12\", re-roll a hit roll of 1. If that SPEED MOB unit has the KUSTOM BOOSTA-BLASTAS keyword, re-roll a hit roll of 1-2 instead."
+        },
+        "LOTSA SQUIGS!": {
+            "name": "LOTSA SQUIGS!",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase. Select one RUKKATRUKK SQUIGBUGGIES unit from your army. Add 1 to the number of squig mines that unit has remaining."
+        },
+        "SPESHUL AMMO": {
+            "name": "SPESHUL AMMO",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Shooting phase, when a BLOOD AXES unit from your army is selected to shoot. Until the end of the phase, shootas models in that unit are equipped with have a Type characteristic of Dakka 4/2 and an Armour Penetration characteristic of -1 (this includes the Shoota profile of kombi-weapons). If that unit contains 10 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "TRIGGA DISCIPLINE": {
+            "name": "TRIGGA DISCIPLINE",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Shooting phase, when a BLOOD AXES LOOTAS unit from your army is selected to shoot. Select one enemy VEHICLE unit. Until the end of the phase, each time a model in that LOOTAS unit makes an attack against that VEHICLE unit, you can re-roll the hit roll. If that LOOTAS unit contains 10 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "SHOWIN\u2019 OFF": {
+            "name": "SHOWIN\u2019 OFF",
+            "cost": "1CP",
+            "description": "Use this Stratagem when a BAD MOONS CORE or BAD MOONS CHARACTER unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack with a Dakka weapon, an unmodified hit roll of 6 scores 1 additional hit."
+        },
+        "DRIVE BY DAKKA": {
+            "name": "DRIVE BY DAKKA",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the end of your Shooting phase. Select one EVIL SUNZ SPEED FREEKS unit from your army. That unit can immediately make a Normal Move as if it was your Movement phase. That unit is not eligible to charge this turn."
+        },
+        "CHAAAAARGE!": {
+            "name": "CHAAAAARGE!",
+            "cost": "2CP",
+            "description": "Use this Stratagem in your Charge phase, when a Warbikers unit from your army makes a charge move. Until the end of the turn:Add 1 to the Strength characteristic of models in that unit.Each time a model in that unit makes a melee attack, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        "GLORYBOYZ": {
+            "name": "GLORYBOYZ",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase, when a BLOOD AXES unit from your army makes a charge move. Select one enemy unit that was a target of that charge. Until the end of the phase, each time a BLOOD AXES STORMBOYZ unit declares that enemy unit as a target of a charge, add 2 to that charge roll."
+        },
+        "CRASHIN\u2019 THROUGH": {
+            "name": "CRASHIN\u2019 THROUGH",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase, when a SPEED FREEKS unit from your army finishes a charge move. If that unit has the Spiked Ram ability, it cannot use that ability this turn. Select one enemy unit within 1\" of that SPEED FREEKS unit and roll one D6 for each model that SPEED FREEKS unit contains (to a maximum of six D6):If that SPEED FREEKS unit has the BIKER keyword, for each dice result of 4+, that enemy unit suffers 1 mortal wound.If that SPEED FREEKS unit has the VEHICLE keyword (excluding MEGATRAKK SCRAPJETS and KUSTOM BOOSTA-BLASTAS units), for each dice result of 4+, that enemy unit suffers D3 mortal wounds.If that SPEED FREEKS unit has the Megatrakk Scrapjets or KUSTOM BOOSTA-BLASTAS keywords, for each dice result of 2-5, that enemy unit suffers D3 mortal wounds; for each dice result of 6, that enemy unit suffers 2D3 mortal wounds."
+        },
+        "UNBRIDLED CARNAGE": {
+            "name": "UNBRIDLED CARNAGE",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of the Fight phase. Select one GOFF CORE or GOFF CHARACTER unit from your army that has the No Mukkin\u2019 About Clan Kultur. Until the end of the phase, each time a model in that unit makes an attack, it scores an additional hit on an unmodified hit roll of 5+ instead of 6."
+        },
+        "GOT\u2019EM TRAPPED": {
+            "name": "GOT\u2019EM TRAPPED",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the start of the Fight phase. Select one enemy unit within Engagement Range of two or more BLOOD AXES units (excluding CHARACTER units) from your army. Until the end of the phase, each time a BLOOD AXES model makes an attack against that unit, an unmodified hit roll of 6 scores 1 additional hit."
+        },
+        "SURPRIZE!": {
+            "name": "SURPRIZE!",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of the Fight phase. Select one BLOOD AXES KOMMANDOS unit that is wholly within an Area Terrain feature. Until the end of the phase:While an enemy unit is within Engagement Range of this unit, that enemy unit cannot make use of any rules that allow it to fight first and never counts as having made a charge move this turn, irrespective of any abilities that unit may have.Each time an attack is made against that unit, subtract 1 from that attacks hit roll."
+        },
+        "YOUNGBLOODZ": {
+            "name": "YOUNGBLOODZ",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in the Fight phase, when a BLOOD AXES STORMBOYZ unit is selected to fight. Until the end of the phase, add 1 to the Strength characteristic of models in that unit. If that unit contains 10 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "ATTACK OUT O\u2019 DA SUN\u2019": {
+            "name": "ATTACK OUT O\u2019 DA SUN\u2019",
+            "cost": "2CP",
+            "description": "Use this Stratagem at the end of your turn. Select one DEFFKOPTAS unit from your army. Remove that unit from the battlefield. In the Reinforcements step of your next Movement phase, you can set that unit back up on the battlefield anywhere that is more than 9\" away from any enemy models. If the battle ends and that unit is not on the battlefield, it is destroyed."
+        }
+    },
+    "tyranids": {
+        "SCORCH BUGS": {
+            "name": "SCORCH BUGS",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Shooting phase, when a HIVE TENDRIL unit from your army is selected to shoot. Until the end of the phase, add 6\" to the Range characteristic and add 1 to the Strength characteristic of fleshborer and fleshborer hive weapons models in that unit are equipped with. If that unit has 16 or more models or has the MONSTER keyword, this Stratagem costs 2CP; otherwise, it costs 1CP."
+        },
+        "VORACIOUS APPETITE": {
+            "name": "VORACIOUS APPETITE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase, when a HIVE TENDRIL MONSTER model from your army is selected to fight. Until the end of the phase, each time that model makes a melee attack, you can re-roll the wound roll."
+        },
+        "ADRENAL SURGE": {
+            "name": "ADRENAL SURGE",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in the Fight phase, when an ADRENAL GLANDS unit from your army is selected to fight. Until the end of the phase, if that unit made a charge move this turn:Add 1 to the Attacks characteristic of models (excluding MONSTER models) in that unit.Add D3 to the Attacks characteristic of MONSTER models in that unit.If that unit contains 19 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "REINFORCED HIVE NODE": {
+            "name": "REINFORCED HIVE NODE",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in any phase, when a TYRANID WARRIORS or TYRANID PRIME unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack (to a minimum of 1). If that unit contains 5 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "OBSERVER ORGANISM": {
+            "name": "OBSERVER ORGANISM",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase, when an EXOCRINE model from your army is selected to shoot. Until the end of the phase, each time that model makes an attack:The target does not receive the benefits of cover against that attack.An unmodified hit roll of 6 scores 1 additional hit."
+        },
+        "INDOMITABLE MONSTROSITY": {
+            "name": "INDOMITABLE MONSTROSITY",
+            "cost": "1CP",
+            "description": "Use this Stratagem in any phase, when a HIVE TENDRIL MONSTER unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, an unmodified wound roll of 1-3 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have."
+        },
+        "POWER OF THE HIVE MIND": {
+            "name": "POWER OF THE HIVE MIND",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Psychic phase. Select one HIVE TENDRIL PSYKER CHARACTER unit from your army. Until the end of the phase, that unit can attempt to manifest one additional psychic power."
+        },
+        "DEATH FRENZY": {
+            "name": "DEATH FRENZY",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Fight phase, when a HIVE TENDRIL CHARACTER model from your army that has not already been selected to fight this phase is destroyed, instead of using any rules that are triggered when that model is destroyed (e.g. the Death Throes ability). Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. When making those attacks, if the destroyed model\u2019s characteristics can change as they suffer damage, that model is considered to have its full wounds remaining for the purpose of determining what those characteristics are. After resolving the destroyed model\u2019s attacks, it is then removed."
+        },
+        "PHEROMONE TRAIL": {
+            "name": "PHEROMONE TRAIL",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase. Select one enemy unit within 6\" of a <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN LICTOR model from your army. Until the end of the phase, each time a friendly <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN unit declares a charge that targets that enemy unit, add 2 to the charge roll."
+        },
+        "SYNAPTIC CHANNELLING": {
+            "name": "SYNAPTIC CHANNELLING",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Psychic phase. Select one <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN PSYKER unit from your army. Until the end of the phase, that unit knows all of the psychic powers known by friendly <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN PSYKER units that are on the battlefield."
+        },
+        "SYNAPTIC LEGACY": {
+            "name": "SYNAPTIC LEGACY",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of the battle round, when selecting a Synaptic Imperative ability to be active for your army. If your WARLORD is on the battlefield and has the HIVE TENDRIL keyword, this turn you can select the Synaptic Imperative ability of a destroyed model from your army instead of one from a model that is on the battlefield. Note that, unless otherwise allowed, you still cannot select that ability if it has already been selected by you earlier in the battle."
+        },
+        "TRAMPLING CHARGE": {
+            "name": "TRAMPLING CHARGE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase, when a HIVE TENDRIL MONSTER model from your army finishes a charge move. Select one enemy unit within Engagement Range of that MONSTER model and roll one D6:If that MONSTER model has the HORNED CHITIN keyword, on a 2-4, that enemy unit suffers 3 mortal wounds; on a 5+, that enemy unit suffers D3+3 mortal wounds.If that MONSTER model does not have the HORNED CHITIN keyword, on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5+, that enemy unit suffers 3 mortal wounds."
+        },
+        "ENFOLDING STRIKE": {
+            "name": "ENFOLDING STRIKE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Movement phase, when a PARASITE OF MORTREX model from your army finishes a Normal Move or Advances. Select one enemy unit that PARASITE OF MORTREX model moved across this phase. Roll one D6: on a 2-5, that unit suffers D3 mortal wounds and becomes infected with parasites (see Parasitic Infection ability, on model\u2019s datasheet); on a 6, that unit suffers 3 mortal wounds and becomes infected with parasites."
+        },
+        "RAREFIED ENHANCEMENTS": {
+            "name": "RAREFIED ENHANCEMENTS",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the HIVE TENDRIL keyword. Select one HIVE TENDRIL CHARACTER model from your army and give them one Relic (this must be a Relic they can have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times)."
+        },
+        "HIVE PREDATOR": {
+            "name": "HIVE PREDATOR",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the HIVE TENDRIL keyword. Select one HIVE TENDRIL CHARACTER model from your army and determine one Warlord Trait for that model (this must be a Warlord Trait they can have); that model is only regarded as your Warlord for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times)."
+        },
+        "SUBTERRANEAN ASSAULT": {
+            "name": "SUBTERRANEAN ASSAULT",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Reinforcements step of your Movement phase, when a <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN TRYGON or <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN TRYGON PRIME model from your army is set up on the battlefield using its Death From Below ability. Select one friendly <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN unit with the Troops Battlefield Role that is in Strategic Reserves. Set that unit up anywhere on the battlefield that is wholly within 9\" of that TRYGON or TRYGON PRIME model and not within 9\" of any enemy models."
+        },
+        "RAPID REGENERATION": {
+            "name": "RAPID REGENERATION",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Command phase. Select one HIVE TENDRIL model from your army. That model regenerates and regains up to D3 lost wounds. Each model can only be regenerated once per turn."
+        },
+        "INVISIBLE HUNTER": {
+            "name": "INVISIBLE HUNTER",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the end of your turn. Select one LICTOR model from your army that was not set up on the battlefield this turn. Remove that model from the battlefield. In the Reinforcements step of your next Movement phase, you can set that model back up on the battlefield anywhere that is wholly within 9\" of any battlefield edge and more than 9\" away from any enemy models. If the battle ends and that model is not on the battlefield, it is destroyed."
+        },
+        "OVERRUN": {
+            "name": "OVERRUN",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the end of the Fight phase. Select one HIVE TENDRIL unit from your army that made a charge move this turn. If there are no enemy models within Engagement Range of that unit, models in that unit can make a Normal Move."
+        },
+        "SHARD LURE": {
+            "name": "SHARD LURE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase, when a ranged attack made by a model in a <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN SYNAPSE unit from your army scores a hit against an enemy unit. Until the end of the turn, each time a friendly <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN unit declares a charge, if that enemy unit is one of the targets of that charge, roll one additional D6 and discard one of the dice when making the charge roll."
+        },
+        "ENDLESS SWARM": {
+            "name": "ENDLESS SWARM",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of your Command phase. Select one ENDLESS MULTITUDE unit from your army. Up to D3+3 destroyed models can be added back to that unit with their full wounds remaining. These returned models can only be set up within Engagement Range of enemy units that are already within Engagement Range of the unit they are being added back to."
+        },
+        "INSTINCTIVE RAMPAGE": {
+            "name": "INSTINCTIVE RAMPAGE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in any phase, when a <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN HIVE TYRANT model from your army is destroyed by an enemy unit. Until the end of the battle:Each time a friendly <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN TYRANT GUARD unit declares a charge, if that enemy unit is a target of that charge, add 4 to the charge roll.Each time a friendly <HIVE FLEET>BEHEMOTHGORGONHYDRAJORMUNGANDRKRAKENKRONOSLEVIATHAN TYRANT GUARD unit makes an attack against that enemy unit, add 1 to that attack\u2019s hit roll and add 1 to that attack\u2019s wound roll."
+        },
+        "BOUNDING ADVANCE": {
+            "name": "BOUNDING ADVANCE",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Movement phase, when a HORMAGAUNTS unit from your army is selected to Advance. Until the end of the turn:Each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit.That unit is still eligible to declare a charge this turn even though it Advanced.If that unit has 15 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "ENCIRCLE THE PREY": {
+            "name": "ENCIRCLE THE PREY",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the end of your Movement phase. Select one BURROWERS unit or unit that can FLY from your army. Remove that unit from the battlefield. In the Reinforcements step of your next Movement phase, you can set that unit back up anywhere on the battlefield anywhere that is more than 9\" away from any enemy models. If the battle ends and that unit is not on the battlefield, it is destroyed. A unit cannot be selected for this Stratagem if it was set up on the battlefield this turn."
+        },
+        "SPORE CLOUDS": {
+            "name": "SPORE CLOUDS",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Movement phase, when a SPORECASTER unit from your army is selected to Remain Stationary. Until the start of your next Command phase, add 6\" to the range of that unit\u2019s aura abilities."
+        },
+        "TOXIC ENTANGLEMENT": {
+            "name": "TOXIC ENTANGLEMENT",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase, when a TOXICRENE model from your army scores a hit against an enemy unit (excluding AIRCRAFT units) with a ranged attack. Roll one D6: on a 2+, until the start of your next Movement phase:Halve the Move characteristic of models in that enemy unit.If a charge is declared with that enemy unit, that TOXICRENE model must be one of the targets of that charge.If a charge is declared with that TOXICRENE model, that enemy unit must be one of the targets of that charge. In addition, add 2 to the charge roll."
+        },
+        "IMPALING HOOKS": {
+            "name": "IMPALING HOOKS",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase, when a FLESH HOOKS unit from your army is selected to fight. Until the end of the phase, each time a FLESH HOOKS model in that unit makes a melee attack against an enemy unit (excluding VEHICLE and MONSTER units), add 1 to that attack\u2019s hit roll."
+        },
+        "PSYCHOTROPIC VENOM": {
+            "name": "PSYCHOTROPIC VENOM",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of the Morale phase. Select one enemy unit (excluding VEHICLE units) within Engagement Range of a LASH WHIP or TOXIC LASHES unit from your army. Until the end of the phase:Subtract 2 from the Leadership characteristic of models in that enemy unit.Subtract 1 from Combat Attrition tests taken for that enemy unit."
+        },
+        "ACIDIC TORRENT": {
+            "name": "ACIDIC TORRENT",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase, when a unit from your army that contains any ACID MAW models is selected to fight. Select one enemy unit within Engagement Range of that unit. For each ACID MAW INFANTRY model in that unit that is within Engagement Range of that enemy unit, roll one D6, or three D6 if that model has the MONSTER keyword; for each 3+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        "CORROSIVE VISCERA": {
+            "name": "CORROSIVE VISCERA",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Fight phase, when a model in an ACID BLOOD unit from your army would lose a wound. Until the end of the phase, each time a model in that unit would lose a wound as the result of a melee attack, roll one D6: on a 4+, the attacking model\u2019s unit suffers 1 mortal wound after making all of its attacks (to a maximum of 6 mortal wounds)."
+        },
+        "BLINDING VENOM": {
+            "name": "BLINDING VENOM",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of the Fight phase. Select one enemy unit within Engagement Range of any GARGOYLES units from your army. Until the end of the phase:Each time a model in that enemy unit makes an attack, the hit roll cannot be re-rolled.Each time a model in that enemy unit makes a melee attack, subtract 1 from that attack\u2019s hit roll."
+        },
+        "PATHOGENIC SLIME": {
+            "name": "PATHOGENIC SLIME",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Shooting phase, when a HIVE TENDRIL unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack, an unmodified hit roll of 6 automatically wounds the target. If that unit has the TOXIN SACS keyword, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "SYNAPTIC INSIGHT": {
+            "name": "SYNAPTIC INSIGHT",
+            "cost": "",
+            "description": "If you select this objective, keep a tally of Synaptic Kill points. Reset your Synaptic Kill points tally to 0 at the start of each battle round. Each time an enemy model (excluding Dedicated Transport models) is destroyed by a SYNAPSE model from your army:If that enemy model had a Wounds characteristic of between 3 and 5, add 1 to your Synaptic Kill points tally.If that enemy model had a Wounds characteristic of between 6 and 9, add 2 to your Synaptic Kill points tally.If that enemy model had a Wounds characteristic of 10 or more, add 3 to your Synaptic Kill points tally.Score 3 victory points at the end of the battle round if your Synaptic Kill points tally for that battle round is 4 or more. You cannot score more than 12 victory points from this objective."
+        },
+        "SPORE NODES": {
+            "name": "SPORE NODES",
+            "cost": "",
+            "description": "Score 4 victory points each time a unit from your army successfully completes the following action:Seed Spore Node (Action): One Troops unit from your army can start to perform this action at the end of your Movement phase from the second battle round onwards if it is within 6\" of your opponent\u2019s deployment zone and not within 6\" of any Spore Node objective markers. The action is completed at the end of your turn. If this action is successfully completed, place one objective marker anywhere within 1\" of the unit that completed this action. This objective marker represents a Spore Node, but does not count as an objective marker for any rules purposes other than for this secondary objective."
+        },
+        "CRANIAL FEASTING": {
+            "name": "CRANIAL FEASTING",
+            "cost": "",
+            "description": "Each time an enemy CHARACTER model or unit champion is destroyed by a melee attack made by a HIVE TENDRIL model from your army, roll one D6, adding 2 to the roll if that HIVE TENDRIL model has the FEEDER TENDRILS keyword, and adding 2 if the destroyed model has the CHARACTER keyword: on a 6+, you gain 1 Command point (to a maximum of 1 Command point per battle round).At the end of the battle:Score 3 victory points if you gained 1 or more Command points during the battle due to this objective.Score 1 victory point for each enemy CHARACTER model and each enemy unit champion that was destroyed by a melee attack made by a HIVE TENDRIL model from your army.Score 3 victory points if the enemy WARLORD was destroyed by a melee attack made by a HIVE TENDRIL model from your army."
+        },
+        "1. INDUSTRIAL WORLD": {
+            "name": "1. INDUSTRIAL WORLD",
+            "cost": "",
+            "description": "STAGEBIOMASSCRUSHED RESISTANCEInvasion32D3Predation+D3+4Consumption+3+5"
+        },
+        "2. RURAL WORLD": {
+            "name": "2. RURAL WORLD",
+            "cost": "",
+            "description": "STAGEBIOMASSCRUSHED RESISTANCEInvasion3D32Predation+2D3+D3Consumption+2D3+D3"
+        },
+        "3. HIVE WORLD": {
+            "name": "3. HIVE WORLD",
+            "cost": "",
+            "description": "STAGEBIOMASSCRUSHED RESISTANCEInvasionD3+3D6Predation+2D3+D6Consumption+D6+D6"
+        },
+        "THE SWARM GROWS": {
+            "name": "THE SWARM GROWS",
+            "cost": "2 BIOMASS PTS",
+            "description": "Increase your Crusade force\u2019s Supply Limit by 3 Power."
+        },
+        "RARE BIOMORPHS": {
+            "name": "RARE BIOMORPHS",
+            "cost": "4 BIOMASS PTS",
+            "description": "Select one HIVE TENDRIL CHARACTER unit from your Order of Battle. You can use the Relic Requisition once for 0RP to give a model in that unit a Relic as if it had just gained a rank."
+        },
+        "ENHANCED ORGANISMS": {
+            "name": "ENHANCED ORGANISMS",
+            "cost": "5 BIOMASS PTS",
+            "description": "Select one HIVE TENDRIL unit from your Order of Battle. That unit gains 5 experience points. Each unit can only be selected for this upgrade once per devoured world."
+        },
+        "SWARMNODE": {
+            "name": "SWARMNODE",
+            "cost": "5 BIOMASS PTS",
+            "description": "Select one HIVE TENDRIL CHARACTER unit from your Order of Battle. You can use the Warlord Trait Requisition once for 0RP to give a model in that unit a Warlord Trait as if it had just gained a rank."
+        },
+        "RAPID ADAPTATION": {
+            "name": "RAPID ADAPTATION",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, when you are mustering your army. Select one CRUSHER STAMPEDE TYRANID WARRIORS unit from your army. Models in that unit have a Weapon Skill characteristic of 2+ and a Ballistic Skill characteristic of 3+. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times)."
+        },
+        "BIOLOGICAL RESOURCES": {
+            "name": "BIOLOGICAL RESOURCES",
+            "cost": "6 BIOMASS PTS",
+            "description": "Your Crusade force gains 1 Requisition point."
+        },
+        "INFEST THE PREY WORLD": {
+            "name": "INFEST THE PREY WORLD",
+            "cost": "",
+            "description": "Keep an Overwhelm and Spread tally for your army. At the end of your turn, add 1 to your army\u2019s Overwhelm and Spread tally for each table quarter that wholly contains one or more ENDLESS MULTITUDE units from your army that are not within 6\" of the centre of the battlefield.At the end of the battle, your Crusade force gains the number of Biomass and Crushed Resistance points shown in the table below, and each unit from your army wholly within your opponent\u2019s deployment zone earns 2 experience points.OVERWHELM AND SPREAD TALLYBIOMASS POINTS GAINEDCRUSHED RESISTANCE POINTS GAINED0-5006-101111-15D3116+D3D3"
+        },
+        "HUNT AND SLAY": {
+            "name": "HUNT AND SLAY",
+            "cost": "",
+            "description": "Keep a Predatory Kills tally for each unit from your army. At the start of the battle, your opponent selects five different units from their army to be Prey Targets (if your opponent's army has less than five units, they select as many as possible). Each time a unit from your army destroys a Prey Target unit in the Fight phase, add 1 to its Predatory Kills tally.If a Prey Target unit splits into multiple, smaller units, then all of those units must be destroyed for that Prey Target unit to be considered destroyed.Each unit from your army gains a number of experience points equal to double their Predatory Kills tally, and your Crusade force gains a number of Biomass and Crushed Resistance points as shown in the table.NUMBER OF ENEMY PREY TARGETS DESTROYEDBIOMASS POINTS GAINEDCRUSHED RESISTANCE POINTS GAINED1012-31D34+D33"
+        },
+        "TYRANNOFORM PREY WORLD": {
+            "name": "TYRANNOFORM PREY WORLD",
+            "cost": "",
+            "description": "Keep a Tyrannoform Prey World tally for each unit from your army. Add 1 to a unit\u2019s Tyrannoform Prey World tally each time it successfully completes the Implant Tyrannoform Spore action (see below). If you selected this Agenda, then HIVE TENDRIL INFANTRY units from your army can attempt the following action:Implant Tyrannoform Spore (Action): One HIVE TENDRIL INFANTRY unit (excluding CHARACTER units) from your army can start to perform this action at the end of your Movement phase if it is more than 12\" from any Implanted Tyrannoform Spore objective markers (see below). This action is completed at the end of your turn. Once completed, place an objective marker anywhere within 1\" of the unit that completed this action. This objective marker represents an Implanted Tyrannoform Spore, but does not count as an objective marker for any rules purposes other than for this Agenda.Each unit from your army gains a number of experience points equal to double their Tyrannoform Prey World tally, and your Crusade force gains a number of Biomass and Crushed Resistance points as shown in the table below.NUMBER OF IMPLANTED TYRANNOFORM SPORE OBJECTIVE MARKERSBIOMASS POINTS GAINEDCRUSHED RESISTANCE POINTS GAINED3114D315+3D3"
+        },
+        "TYRANID ATTACK": {
+            "name": "TYRANID ATTACK",
+            "cost": "",
+            "description": "At the end of the battle, if there are no enemy models remaining on the battlefield, each HIVE TENDRIL unit from your army that is on the battlefield gains 3 experience points, and your Crusade force gains 4 Biomass points and 4 Crushed Resistance points."
+        },
+        "RESPAWN WARRIOR ORGANISMS": {
+            "name": "RESPAWN WARRIOR ORGANISMS",
+            "cost": "1RP",
+            "description": "Purchase this Requisition at any time. Select one HIVE TENDRIL unit from your Order of Battle that has no Battle Scars. That unit loses any or all Battle Traits it currently has. For each Battle Trait it lost, you can now select a new Battle Trait for it."
+        },
+        "AN INTELLECT VAST AND COLD": {
+            "name": "AN INTELLECT VAST AND COLD",
+            "cost": "1RP",
+            "description": "Purchase this Requisition during the Select Agendas step of the battle. You can select one additional Agenda to use during this battle and up to two of your Agendas can be selected from the Tyranids Agendas. At least one of the Agendas you select must be from the Tyranids Agendas."
+        },
+        "ADAPTED PHYSIOLOGY": {
+            "name": "ADAPTED PHYSIOLOGY",
+            "cost": "1RP",
+            "description": "Purchase this Requisition when you add a HIVE TENDRIL unit to your Order of Battle, or when a HIVE TENDRIL unit in your Crusade force gains a rank.You can give that HIVE TENDRIL unit an Adaptive Physiology. The Adaptive Physiology that HIVE TENDRIL unit is given must be one that it can have. Make a note of the Adaptive Physiology on that HIVE TENDRIL unit\u2019s Crusade card and increase its Power Rating appropriately. You cannot give a HIVE TENDRIL unit an Adaptive Physiology in this manner if doing so would cause your total Power Level to exceed your Crusade force\u2019s Supply Limit."
+        },
+        "SYNAPTIC BIOREGENESIS": {
+            "name": "SYNAPTIC BIOREGENESIS",
+            "cost": "2RP",
+            "description": "Purchase this Requisition at any time. Select one SYNAPSE unit from your Order of Battle and replace it with a new SYNAPSE unit from the same hive fleet. You cannot purchase this Requisition if doing so would cause your total Power Level to exceed your Crusade force\u2019s Supply Limit. The newly added SYNAPSE unit starts with the same number of experience points as the unit it replaced and immediately gains the appropriate number of Battle Honours for its rank."
+        },
+        "NEURO-HYBRIDISATION": {
+            "name": "NEURO-HYBRIDISATION",
+            "cost": "1RP",
+            "description": "Purchase this Requisition at any time. Select two SYNAPSE units from your Order of Battle. Swap the Synaptic Imperative abilities of those two units with one another. Make a note on their Crusade cards of their new Synaptic Imperative abilities."
+        },
+        "INFESTATION": {
+            "name": "INFESTATION",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, during the Declare Reserves and Transports step (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one ENDLESS MULTITUDE unit from your army. During deployment, when you set up that unit, it can be set up anywhere on the battlefield that is wholly within an Area Terrain feature and more than 9\" away from the enemy deployment zone and any enemy models."
+        },
+        "BURIED IN WAIT": {
+            "name": "BURIED IN WAIT",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, during the Declare Reserves and Transports step (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one JORMUNGANDR unit from your army (excluding TITANIC units). You can set up that unit near to the surface instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases, you can set up that unit anywhere on the battlefield that is more than 9\" away from any enemy models. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times)."
+        },
+        "ALPHA LEADER-BEAST": {
+            "name": "ALPHA LEADER-BEAST",
+            "cost": "1CP",
+            "description": "Use this Stratagem before the battle, when mustering your army, after nominating a LEVIATHAN CHARACTER model that is not a named character to be your WARLORD. You can generate one additional Warlord Trait for them from the Leviathan Warlord Traits table. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results). You can only use this Stratagem once."
+        },
+        "HIVE MIND IMPERATIVE": {
+            "name": "HIVE MIND IMPERATIVE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Command phase. Select one LEVIATHAN unit from your army that is within 12\" of a friendly LEVIATHAN SYNAPSE unit. Until the start of your next Command phase:The unit you selected gains the Objective Secured ability. If a model in that unit already has this ability, it counts as one additional model when determining control of an objective marker.If the unit you selected performs an action, it can shoot without that action failing."
+        },
+        "HYPER ADAPTATION": {
+            "name": "HYPER ADAPTATION",
+            "cost": "2CP",
+            "description": "Use this Stratagem in your Command phase. Select one LEVIATHAN unit from your army, then select one Hive Fleet Adaptation. Until the end of the turn, models in that unit have the selected Hive Fleet Adaptation, instead of the Synaptic Imperative Hive Fleet Adaptation."
+        },
+        "OPPORTUNISTIC ADVANCE": {
+            "name": "OPPORTUNISTIC ADVANCE",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Movement phase, when a KRAKEN unit from your army is selected to move. Until the end of the turn:Each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 8\" to the Move characteristic of models in that unit (note that a unit cannot be affected by both this Stratagem and the Bounding Advance Stratagem, in the same phase).Models in that unit do not suffer the penalty to hit rolls incurred for firing Assault weapons in the same turn that their unit has Advanced."
+        },
+        "QUESTING TENDRILS": {
+            "name": "QUESTING TENDRILS",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your second Movement phase, when you set up a LEVIATHAN unit from your army that has arrived from Strategic Reserves. You can set that unit up as if it was battle round 3."
+        },
+        "SYNAPTIC DOMINATION": {
+            "name": "SYNAPTIC DOMINATION",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Psychic phase. Select one friendly LEVIATHAN SYNAPSE unit from your army, then select one friendly LEVIATHAN non-SYNAPSE unit from your army. Until the start of your next Psychic phase, while that SYNAPSE unit is on the battlefield, that non-SYNAPSE unit always counts as being within range of that SYNAPSE unit for the purposes of the Synapse and Instinctive behaviour abilities."
+        },
+        "THE DEEPEST SHADOW": {
+            "name": "THE DEEPEST SHADOW",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your opponent\u2019s Psychic phase, when an enemy unit fails a Psychic test. Select one KRONOS PSYKER unit from your army within 18\" of that enemy unit. That enemy unit suffers D3 mortal wounds and, until the end of the phase, that KRONOS PSYKER unit gains the following ability:Deepest Shadow (Aura): While an enemy PSYKER unit is within 18\" of this unit, each time a Psychic test taken for that unit is failed, that unit suffers D3 mortal wounds."
+        },
+        "THE VOID IN THE WARP": {
+            "name": "THE VOID IN THE WARP",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your opponent\u2019s Psychic phase, after a Psychic test is passed for an enemy PSYKER unit and after any Deny the Witch attempt is made (if any). If that enemy PSYKER unit is within 24\" of any LEVIATHAN SYNAPSE units from your army, roll one D6: on a 4+, that psychic power is denied."
+        },
+        "GUARD AND CONSUME": {
+            "name": "GUARD AND CONSUME",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Shooting phase, when a BIOVORES, EXOCRINE, HARUSPEX, HIVE GUARD, HIVE TYRANT, PYROVORES, RIPPER SWARMS, TYRANNOFEX or TYRANT GUARD unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack:If that unit is within range of an objective marker, re-roll a hit roll of 1.If that unit is within range of an Implanted Tyrannoform Spore objective marker, you can re-roll the hit roll."
+        },
+        "ENHANCED BRAIN FUNCTIONS": {
+            "name": "ENHANCED BRAIN FUNCTIONS",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Shooting phase. Select one CRUSHER STAMPEDE TYRANID WARRIORS unit from your army that is within Engagement Range of any enemy models. Until the end of the phase, models in that unit can make ranged attacks using the Big Guns Never Tire rule as if they had the MONSTER keyword. If that unit contains 5 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "BIO-ADAPTED BORER GRUBS": {
+            "name": "BIO-ADAPTED BORER GRUBS",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Shooting phase when a LEVIATHAN unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack with a fleshborer or fleshborer hive, on an unmodified wound roll of 6, that attack inflicts 1 mortal wound on the target in addition to the normal damage (a maximum of 6 mortal wounds can be inflicted per phase via this Stratagem). If that unit is a TYRANNOFEX, this Stratagem costs 2CP; otherwise, it costs 1CP. You cannot use this Stratagem and the Scorch Bugs Stratagem on the same unit during the same phase."
+        },
+        "RELENTLESS FLURRY": {
+            "name": "RELENTLESS FLURRY",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in your Shooting phase or in the Fight phase, when you select a LEVIATHAN unit from your army to shoot or fight. Until the end of the phase, each time an attack is made by a model in that unit, an unmodified hit roll of 6 scores 1 additional hit (if that unit currently contains 11 or more models, then it scores 2 additional hits instead). If that unit is a GENESTEALER unit, this Stratagem costs 2CP; otherwise, it costs 1CP."
+        },
+        "UNBREAKABLE CHITIN": {
+            "name": "UNBREAKABLE CHITIN",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in any phase, when a CRUSHER STAMPEDE unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, an unmodified wound roll of 1-3 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have. If that unit contains 5 or more models, or contains any models with a Wounds characteristic of 10 or more, this Stratagem costs 2CP; otherwise, it costs 1CP."
+        },
+        "BREAKING THROUGH": {
+            "name": "BREAKING THROUGH",
+            "cost": "1CP",
+            "description": "Use this Stratagem in your Charge phase, when a CRUSHER STAMPEDE MONSTER model from your army finishes a charge move. Select one enemy model within Engagement Range of that MONSTER model, and roll a number of D6 equal to that MONSTER model\u2019s remaining Wounds:If that MONSTER model\u2019s Strength characteristic is higher than that enemy model\u2019s Toughness characteristic, for each 3+, that enemy model\u2019s unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).If that MONSTER model\u2019s Strength characteristic is the same as that enemy model\u2019s Toughness characteristic, for each 4+, that enemy model\u2019s unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).If that MONSTER model\u2019s Strength characteristic is less than that enemy model\u2019s Toughness characteristic, for each 5+, that enemy model\u2019s unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        "VANGUARD ONSLAUGHT": {
+            "name": "VANGUARD ONSLAUGHT",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase, when a GARGOYLES, GENESTEALERS, HARPY, HIVE CRONE or LICTOR unit from your army is selected to fight. Until the end of the phase, if that unit made a charge move, was charged, or performed a Heroic Intervention this turn, then each time a model in that unit makes an attack, you can re-roll the wound roll."
+        },
+        "COMBINED ASSAULT": {
+            "name": "COMBINED ASSAULT",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase. Select one enemy unit within Engagement Range of two or more LEVIATHAN units from your army. Until the end of the phase, each time a LEVIATHAN model makes a melee attack against that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        "UNPARALLELED FEROCITY": {
+            "name": "UNPARALLELED FEROCITY",
+            "cost": "1CP/2CP",
+            "description": "Use this Stratagem in the Fight phase, when a BEHEMOTH INFANTRY unit (excluding CHARACTER units) from your army that has not fought this phase is selected as the target of a melee attack. Until the attacking model\u2019s unit has finished making its attacks, each time a model in that BEHEMOTH unit is destroyed, instead of using any rules that are triggered when that model is destroyed, do not remove the destroyed model from play - it can, after the attacking model\u2019s unit has finished making its attacks, attack as if its unit had been selected to fight. After resolving these attacks, the destroyed model is then removed. If that BEHEMOTH INFANTRY unit has the ENDLESS MULTITUDE keyword, this Stratagem costs 1CP; otherwise, it costs 2CP."
+        },
+        "DEATH SURGE": {
+            "name": "DEATH SURGE",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Fight phase, when a CRUSHER STAMPEDE MONSTER model (excluding CHARACTER models) from your army is destroyed. Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. When doing so, that CRUSHER STAMPEDE model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use. After resolving the destroyed model\u2019s attacks, it is then removed."
+        },
+        "THUNDEROUS IMPACT": {
+            "name": "THUNDEROUS IMPACT",
+            "cost": "2CP",
+            "description": "Use this Stratagem in the Fight phase, when a CRUSHER STAMPEDE MONSTER model from your army has finished a pile-in move. Select one enemy MONSTER or VEHICLE unit within Engagement Range of that model. Until the end of the phase, that model can only make attacks against the selected unit, and each time it makes an attack:Add 1 to that attack\u2019s hit roll.Add 1 to that attack\u2019s wound roll.Add 1 to that attack\u2019s damage roll."
+        },
+        "CRITICAL MASS": {
+            "name": "CRITICAL MASS",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase, when a HYDRA unit from your army is selected to fight. Until the end of the phase, each time a melee attack made by a model in that unit targets an enemy unit with fewer models than its own, you can re-roll the wound roll."
+        },
+        "HYPER-TOXICITY": {
+            "name": "HYPER-TOXICITY",
+            "cost": "1CP",
+            "description": "Use this Stratagem in the Fight phase, when a GORGON TOXIN SACS unit from your army is selected to fight. Until the end of the phase, each time a TOXIN SACS model in that unit makes a melee attack, an unmodified hit roll of 5+ automatically wounds the target."
+        },
+        "TERRIFYING CHARGE": {
+            "name": "TERRIFYING CHARGE",
+            "cost": "1CP",
+            "description": "Use this Stratagem at the start of the Morale phase. Select one enemy unit within Engagement Range of a CRUSHER STAMPEDE MONSTER model from your army that made a charge move this turn. Until the end of the turn, subtract 3 from the Leadership characteristic of models in that enemy unit."
+        },
+        "ANIMATED BY THE HIVE MIND": {
+            "name": "ANIMATED BY THE HIVE MIND",
+            "cost": "1CP",
+            "description": "Use this Stratagem in any phase, when a LEVIATHAN MONSTER model from your army (excluding TITANIC models) is destroyed. If that model has an ability that is triggered on a dice roll upon its destruction (e.g. Death Throes) do not roll to see if that ability is triggered: it does so automatically."
+        },
+        "CONTROL OF THE SWARM": {
+            "name": "CONTROL OF THE SWARM",
+            "cost": "1CP",
+            "description": "Use this Stratagem if a LEVIATHAN WARLORD from your army is destroyed. You can immediately select another LEVIATHAN SYNAPSE CHARACTER model from your army that does not have a Warlord Trait, then select a Warlord Trait that no model in your army has (this must be a Warlord Trait that the model you just selected can have). Until the end of the battle, that model gains that Warlord Trait and for all rules purposes now counts as your WARLORD. If any mission objective, secondary objective, tactical objective or Agenda rules are triggered when your original WARLORD is destroyed, those rules are not triggered until after your new WARLORD is destroyed."
+        },
+        "RELIC": {
+            "name": "RELIC",
+            "cost": "1RP",
+            "description": "Purchase this Requisition when you add a Crusade card for a CHARACTER unit to your Order of Battle, or when a CHARACTER unit in your Order of Battle gains a rank. You can give one CHARACTER model in that unit one Relic (excluding Crusade Relics). This must still be a Relic it can have, and it cannot be a Relic that replaces a weapon this CHARACTER is equipped with if the weapon in question has been upgraded by a Weapon Enhancement or a Crusade Relic (e.g. Artificer Weapon). Make a note of the Relic on the unit\u2019s Crusade card and add 1 to its Crusade points total (+2 instead if the CHARACTER is TITANIC). This upgrade is permanent to this unit, and cannot be removed or changed. No model can have more than one Relic and the same Relic cannot be included more than once by any model in your Order of Battle.*"
+        },
+        "WARLORD TRAIT": {
+            "name": "WARLORD TRAIT",
+            "cost": "1RP",
+            "description": "Purchase this Requisition when you add a Crusade card for a CHARACTER unit to your Order of Battle, or when a CHARACTER in your Order of Battle gains a rank. You can give that CHARACTER one Warlord Trait (even if they are not your Warlord - in battle, this CHARACTER is only considered your Warlord for the purposes of this trait). This must still be a Warlord Trait it can have; any Warlord can have the Inspiring Leader Warlord Trait (see below). Alternative Warlord Traits can be found in other publications. Make a note of the Warlord Trait on the unit\u2019s Crusade card and add 1 to its Crusade points total (+2 instead if the CHARACTER is TITANIC). This Warlord Trait is permanent to this unit, and cannot be removed or changed. No model can have more than one Warlord Trait and the same Warlord Trait cannot be included more than once by any model in your Order of Battle.*Inspiring Leader (Warlord Trait, Aura)Add 1 to the Leadership characteristic of friendly units while they are within 6\" of this WARLORD."
+        },
+        "INCREASE SUPPLY LIMIT": {
+            "name": "INCREASE SUPPLY LIMIT",
+            "cost": "1RP",
+            "description": "Purchase this Requisition at any time. Increase your Crusade force's Supply Limit by 5 Power."
+        }
+    }
+}
