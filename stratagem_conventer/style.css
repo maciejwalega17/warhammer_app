@@ -10,10 +10,12 @@ body {
 	padding: 40px;
 }
 
-input {
+textarea {
 	width: 500px;
 	margin-bottom: 30px;
     margin-right: 30px;
+    resize: none;
+
 }
 
 .text {
