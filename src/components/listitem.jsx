@@ -6,7 +6,7 @@ const ListItem = ({ name, cost, category, phase, text, keywords }) => {
 			<div>
 				<div>
 					<div>
-						<p>{name}</p>
+						<h3>{name}</h3>
 						<p>{category}</p>
 					</div>
 					<div>
