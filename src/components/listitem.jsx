@@ -3,7 +3,7 @@ import React from 'react';
 const ListItem = ({ name, cost, category, phase, text, keywords }) => {
 	return (
 		<>
-			<li>
+			<div>
 				<div>
 					<div>
 						<p>{name}</p>
@@ -16,7 +16,7 @@ const ListItem = ({ name, cost, category, phase, text, keywords }) => {
 				</div>
 				<p>{text}</p>
 				<p>{keywords}</p>
-			</li>
+			</div>
 		</>
 	);
 };
