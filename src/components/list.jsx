@@ -1,8 +1,10 @@
 import React from 'react';
 import ListItem from './listitem';
 
-const List = ({ stratList, selectedPhase }) => {
-	const selectedPhaseStratagems = stratList.filter((el) => el.phase === selectedPhase.toLowerCase());
+const List = ({ stratList, selectedArmy, selectedPhase }) => {
+
+	const selectedArmyStratagems = stratList.filter((el) => el.faction.toLowerCase() === selectedArmy.toLowerCase());
+	const selectedPhaseStratagems = selectedArmyStratagems.filter((el) => el.phase.toLowerCase() === selectedPhase.toLowerCase());
 	const myPhase = selectedPhaseStratagems.filter(
 		(el) => el.whose === 'mine' || el.whose === 'both'
 	);

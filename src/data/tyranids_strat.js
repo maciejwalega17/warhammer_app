@@ -1,5 +1,6 @@
 const testObjChanged = [
 	{
+		faction: 'tyranids',
 		name: 'stratagem1',
 		cost: '1cp',
 		category: 'requisition',
@@ -9,6 +10,7 @@ const testObjChanged = [
 		keywords: 'csm, adrenal glands',
 	},
 	{
+		faction: 'tyranids',
 		name: 'stratagem2',
 		cost: '2cp',
 		category: 'epic deed',
@@ -18,6 +20,7 @@ const testObjChanged = [
 		keywords: 'tyranid, genestealer',
 	},
 	{
+		faction: 'tyranids',
 		name: 'stratagem3',
 		cost: '1/2cp',
 		category: 'wargear',

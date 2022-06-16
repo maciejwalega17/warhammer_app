@@ -4,15 +4,9 @@ import Button from './button';
 import testObjChanged from '../data/tyranids_strat';
 import List from './list';
 
-const phaseList = [
-	'Command',
-	'Movement',
-	'Psychic',
-	'Shooting',
-	'Fight',
-	'Morale',
-];
-const armyList = ['Tyranids', 'Orks'];
+import phaseList from '../data/phaseList';
+import armyList from '../data/armyList';
+
 
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
@@ -63,7 +57,7 @@ const App = () => {
 				<p>{selectedArmy}</p>
 				<p>{selectedPhase}</p>
 			</div>
-			<List stratList={testObjChanged} selectedPhase={selectedPhase}></List>
+			<List stratList={testObjChanged} selectedArmy={selectedArmy} selectedPhase={selectedPhase}></List>
 		</>
 	);
 };
