@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Selector from './selector';
 import Button from './button';
+import testObj from '../data/tyranids_strat';
 
 const phaseList = [
 	'Command',
@@ -69,32 +70,3 @@ export default App;
 
 
 
-// const testObj = {
-// 	stratagem1: {
-// 		name: 'stratagem1',
-// 		cost: '1cp',
-// 		category: 'blablbalab',
-// 		phase: 'ss',
-// 		whose: 'ss',
-// 		text: 'ss',
-// 		keywords: 'ss',
-// 	},
-// 	stratagem2: {
-// 		name: 'stratagem1',
-// 		cost: '1cp',
-// 		category: 'blablbalab',
-// 		phase: 'ss',
-// 		whose: 'ss',
-// 		text: 'ss',
-// 		keywords: 'ss',
-// 	},
-// 	stratagem3: {
-// 		name: 'stratagem1',
-// 		cost: '1cp',
-// 		category: 'blablbalab',
-// 		phase: 'ss',
-// 		whose: 'ss',
-// 		text: 'ss',
-// 		keywords: 'ss',
-// 	},
-// };
