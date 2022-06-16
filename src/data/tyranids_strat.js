@@ -1,5 +1,5 @@
-const testObj = {
-	stratagem1: {
+const testObjChanged = [
+	{
 		name: 'stratagem1',
 		cost: '1cp',
 		category: 'requisition',
@@ -8,7 +8,7 @@ const testObj = {
 		text: 'qrwrrrrrrrrrr wwwwwwwwwwww ssssss r',
 		keywords: 'csm, adrenal glands',
 	},
-	stratagem2: {
+	{
 		name: 'stratagem2',
 		cost: '2cp',
 		category: 'epic deed',
@@ -17,7 +17,7 @@ const testObj = {
 		text: 'asf f fqfq fwqerqrwqrqw',
 		keywords: 'tyranid, genestealer',
 	},
-	stratagem3: {
+	{
 		name: 'stratagem3',
 		cost: '1/2cp',
 		category: 'wargear',
@@ -26,6 +26,6 @@ const testObj = {
 		text: 'asdfsafas asfsafs tqwtq',
 		keywords: 'monster',
 	},
-};
+];
 
-export default testObj;
+export default testObjChanged;
