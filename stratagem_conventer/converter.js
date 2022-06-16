@@ -1,3 +1,4 @@
+const factionInput = document.querySelector('.faction');
 const nameInput = document.querySelector('.name');
 const costInput = document.querySelector('.cost');
 const categoryInput = document.querySelector('.category');
@@ -11,9 +12,13 @@ const answerInput = document.querySelector('.answer');
 const submitButton = document.querySelector('.submit');
 const copyButton = document.querySelector('.copy');
 
+const prepFaction = () => {
+	const faction = `{faction:'${factionInput.value}',`;
+	return faction;
+};
 const prepName = () => {
-	const nname = `${nameInput.value}: {name:'${nameInput.value}',`;
-	return nname;
+	const name = `name:'${nameInput.value}',`;
+	return name;
 };
 const prepCost = () => {
 	const cost = `cost: '${costInput.value}',`;
@@ -47,6 +52,7 @@ const prepKeywords = () => {
 
 const mergeInputs = () => {
 	const result =
+		prepFaction() +
 		prepName() +
 		prepCost() +
 		prepCategory() +
@@ -54,45 +60,16 @@ const mergeInputs = () => {
 		prepWhose() +
 		prepText() +
 		prepKeywords();
-	answerInput.value = JSON.stringify(result);
+	// answerInput.value = JSON.stringify(result);
+	answerInput.value = result;
 };
 
 const handleCopy = () => {
-    answerInput.select();
+	answerInput.select();
 	answerInput.setSelectionRange(0, 99999);
 	navigator.clipboard.writeText(answerInput.value);
-    
-}
+};
 
 submitButton.addEventListener('click', mergeInputs);
 copyButton.addEventListener('click', handleCopy);
 
-// const testObj = {
-// 	stratagem1: {
-// 		name: 'stratagem1',
-// 		cost: '1cp',
-// 		category: 'blablbalab',
-// 		phase: 'ss',
-// 		whose: 'ss',
-// 		text: 'ss',
-// 		keywords: 'ss',
-// 	},
-// 	stratagem2: {
-// 		name: 'stratagem1',
-// 		cost: '1cp',
-// 		category: 'blablbalab',
-// 		phase: 'ss',
-// 		whose: 'ss',
-// 		text: 'ss',
-// 		keywords: 'ss',
-// 	},
-// 	stratagem3: {
-// 		name: 'stratagem1',
-// 		cost: '1cp',
-// 		category: 'blablbalab',
-// 		phase: 'ss',
-// 		whose: 'ss',
-// 		text: 'ss',
-// 		keywords: 'ss',
-// 	},
-// };
