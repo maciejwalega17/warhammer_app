@@ -63,7 +63,7 @@ const App = () => {
 				<p>{selectedArmy}</p>
 				<p>{selectedPhase}</p>
 			</div>
-			<List stratList={testObjChanged}></List>
+			<List stratList={testObjChanged} selectedPhase={selectedPhase}></List>
 		</>
 	);
 };

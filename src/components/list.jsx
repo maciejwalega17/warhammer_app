@@ -1,12 +1,12 @@
 import React from 'react';
 import ListItem from './listitem';
 
-const List = ({ stratList }) => {
-	const stratagems = stratList;
-	const myPhase = stratagems.filter(
+const List = ({ stratList, selectedPhase }) => {
+	const selectedPhaseStratagems = stratList.filter((el) => el.phase === selectedPhase.toLowerCase());
+	const myPhase = selectedPhaseStratagems.filter(
 		(el) => el.whose === 'mine' || el.whose === 'both'
 	);
-	const enemyPhase = stratagems.filter(
+	const enemyPhase = selectedPhaseStratagems.filter(
 		(el) => el.whose === 'enemy' || el.whose === 'both'
 	);
 
