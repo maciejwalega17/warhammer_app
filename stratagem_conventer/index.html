@@ -13,14 +13,42 @@
 			<textarea class="faction"></textarea>
 			<p>name</p>
 			<textarea class="name"></textarea>
+
 			<p>cost</p>
-			<textarea class="cost"></textarea>
+			<select name="cost" class="cost">
+				<option value="1cp">1cp</option>
+				<option value="2cp">2cp</option>
+				<option value="1/2cp">1/2cp</option>
+				<option value="3cp">3cp</option>
+			</select>
+
 			<p>category</p>
-			<textarea class="category"></textarea>
+			<select name="category" class="category">
+				<option value="Battle Tactic">Battle Tactic</option>
+				<option value="Strategic Ploy">Strategic Ploy</option>
+				<option value="Epic Deed">Epic Deed</option>
+				<option value="Wargear">Wargear</option>
+				<option value="Requisition">Requisition</option>
+			</select>
+
 			<p>phase</p>
-			<textarea class="phase"></textarea>
+			<select name="phase" class="phase">
+				<option value="Command">Command</option>
+				<option value="Movement">Movement</option>
+				<option value="Psychic">Psychic</option>
+				<option value="Shooting">Shooting</option>
+				<option value="Fight">Fight</option>
+				<option value="Morale">Morale</option>
+				<option value="Rest">Rest</option>
+			</select>
+
 			<p>whose</p>
-			<textarea class="whose"></textarea>
+			<select name="whose" class="whose">
+				<option value="mine">mine</option>
+				<option value="both">both</option>
+				<option value="enemy">enemy</option>
+			</select>
+
 			<p>text</p>
 			<textarea class="text"></textarea>
 			<p>keywords</p>
@@ -28,7 +56,7 @@
 			<button class="submit">Submit</button>
 		</div>
 		<div class="response">
-            <p>result</p>
+			<p>result</p>
 			<textarea class="answer"></textarea>
 			<button class="copy">Copy</button>
 		</div>
