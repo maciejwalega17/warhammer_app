@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Selector from './selector';
 import Button from './button';
-import testObj from '../data/tyranids_strat';
+import testObjChanged from '../data/tyranids_strat';
+import List from './list';
 
 const phaseList = [
 	'Command',
@@ -59,9 +60,10 @@ const App = () => {
 				<Button name='Next' onClick={onClickNext}></Button>
 			</div>
 			<div className='wrapper'>
-				{selectedPhase}
-				{selectedArmy}
+				<p>{selectedArmy}</p>
+				<p>{selectedPhase}</p>
 			</div>
+			<List stratList={testObjChanged}></List>
 		</>
 	);
 };
