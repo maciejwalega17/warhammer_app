@@ -1,4 +1,4 @@
-const testObjChanged = [
+const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'stratagem1',
@@ -30,5 +30,4 @@ const testObjChanged = [
 		keywords: 'monster',
 	},
 ];
-
-export default testObjChanged;
+export default tyranidStratagems;

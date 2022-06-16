@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+
 import Selector from './selector';
 import Button from './button';
-import testObjChanged from '../data/tyranids_strat';
 import List from './list';
 
 import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
+import stratagemListMerged from '../data/stratagemListMerged';
 
 
 const App = () => {
@@ -57,7 +58,7 @@ const App = () => {
 				<p>{selectedArmy}</p>
 				<p>{selectedPhase}</p>
 			</div>
-			<List stratList={testObjChanged} selectedArmy={selectedArmy} selectedPhase={selectedPhase}></List>
+			<List stratList={stratagemListMerged} selectedArmy={selectedArmy} selectedPhase={selectedPhase}></List>
 		</>
 	);
 };
