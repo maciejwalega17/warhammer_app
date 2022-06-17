@@ -4,7 +4,7 @@ import ListItem from './listitem';
 const List = ({ stratList, selectedArmy, selectedPhase }) => {
 
 	const selectedArmyStratagems = stratList.filter((el) => el.faction.toLowerCase() === selectedArmy.toLowerCase());
-	const selectedPhaseStratagems = selectedArmyStratagems.filter((el) => el.phase.toLowerCase() === selectedPhase.toLowerCase());
+	const selectedPhaseStratagems = selectedArmyStratagems.filter((el) => el.phase.toLowerCase().includes(selectedPhase.toLowerCase()));
 	const myPhase = selectedPhaseStratagems.filter(
 		(el) => el.whose === 'mine' || el.whose === 'both'
 	);
