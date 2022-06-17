@@ -16,7 +16,7 @@ import '../styles/App.css'
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
 	const [selectedArmy, setSelectedArmy] = useState(armyList[0]);
-	const [showModal, setShowModal] = useState(false);
+	const [showModal, setShowModal] = useState(true);
 
 	const callbackArmy = (value) => {
 		setSelectedArmy(value);
@@ -25,7 +25,7 @@ const App = () => {
 		setSelectedPhase(value);
 	};
 
-	const callbackModal = (prevValue) => {setShowModal(!prevValue)
+	const callbackModal = () => {setShowModal((prevState) => (!prevState))
 		
 	}
 
@@ -58,6 +58,7 @@ const App = () => {
 					list={armyList}
 					callback={callbackArmy}
 				></Selector>
+				<Button name='Show Core Stratagems' onClick={callbackModal}/>
 			</div>
 			<Modal stratList={stratagemListMerged} onClick={callbackModal} show={showModal}/>
 			<div className='wrapper'>

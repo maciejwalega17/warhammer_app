@@ -3,8 +3,15 @@
 }
 
 .active {
-	visibility: visible;
+	display: flex;
 }
 .inactive {
-	visibility: none;
+	display: none;
+}
+.modal {
+	position: absolute;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	background-color: grey;
+	width: 850px;
 }

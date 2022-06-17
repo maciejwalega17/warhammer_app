@@ -2,7 +2,7 @@ import React from 'react';
 import ListItem from './listitem';
 import Button from './button';
 
-const Modal = ({stratList, onClickModal, show}) => {
+const Modal = ({stratList, onClick, show}) => {
     
 	const coreStratagems = stratList.filter(
 		(el) => el.faction.toLowerCase() === 'core'
@@ -27,14 +27,15 @@ const Modal = ({stratList, onClickModal, show}) => {
 	const coreList = listItemGenerator(coreStratagems);
 
 
-
+	
 	return (<>
-    <div className={`flex-column ${show ? 'active' : 'inactive '}`}>
+    <div className={`${show ? 'active' : 'inactive'} modal`}>
         <h2>Core Stratagems:</h2>
         {coreList}
-        <Button name='Close' onClick={onClickModal}/>
+        <Button name='Close' onClick={onClick}/>
     </div>
     </>);
 };
 
 export default Modal;
+//'active' : 'inactive'
