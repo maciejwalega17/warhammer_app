@@ -7,10 +7,12 @@ const List = ({ stratList, selectedArmy, selectedPhase }) => {
 	const selectedArmyStratagems = stratList.filter(
 		(el) =>
 			el.faction.toLowerCase() === selectedArmy.toLowerCase() ||
-			el.faction.toLowerCase() === 'general'
+			el.faction.toLowerCase() === 'core'
 	);
-	const selectedPhaseStratagems = selectedArmyStratagems.filter((el) =>
-		el.phase.toLowerCase().includes(selectedPhase.toLowerCase())
+	const selectedPhaseStratagems = selectedArmyStratagems.filter(
+		(el) =>
+			el.phase.toLowerCase() === selectedPhase.toLowerCase() ||
+			el.phase.toLowerCase() === 'any'
 	);
 	const myPhase = selectedPhaseStratagems.filter(
 		(el) => el.whose === 'mine' || el.whose === 'both'
