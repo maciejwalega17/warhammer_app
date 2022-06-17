@@ -11,16 +11,7 @@ const startingArr = [
 		text: 'Use this Stratagem after you have made a hit roll, a wound roll, a damage roll, a saving throw, an Advance roll, a charge roll, a Psychic test, a Deny the Witch test or you have rolled the dice to determine the number of attacks made by a weapon. Re-roll that roll, test or saving throw.',
 		keywords: 'CORE',
 	},
-	{
-		faction: 'Core',
-		name: 'CUT THEM DOWN',
-		cost: '1cp',
-		category: 'Core',
-		phase: 'Movement',
-		whose: 'Core',
-		text: 'Use this Stratagem when an enemy unit Falls Back, before any models in that unit are moved. Roll one D6 for each model from your army that is within Engagement Range of that enemy unit; for each result of 6, that enemy unit suffers 1 mortal wound.',
-		keywords: 'CORE',
-	},
+
 	{
 		faction: 'Core',
 		name: 'DESPERATE BREAKOUT',
@@ -40,6 +31,16 @@ const startingArr = [
 		whose: 'Core',
 		text: `Use this Stratagem when a TRANSPORT model from your army is destroyed. All units that are embarked within that model can be set up wholly within 6" of the destroyed model when they disembark instead of the normal 3" before the model itself is removed from the battlefield. These units are not affected by the destroyed model's Explodes ability (or equivalent) — instead you must roll one D6 for each model you just set up on the battlefield. Instead of one model that disembarked (your choice) being destroyed for each roll of 1, one model that disembarked (your choice) is destroyed for each roll of 1 or 2. Units cannot declare a charge or perform a Heroic Intervention in the same turn that they disembarked from a destroyed TRANSPORT model.`,
 		keywords: 'TRANSPORT',
+	},
+	{
+		faction: 'Core',
+		name: 'CUT THEM DOWN',
+		cost: '1cp',
+		category: 'Core',
+		phase: 'Movement',
+		whose: 'Core',
+		text: 'Use this Stratagem when an enemy unit Falls Back, before any models in that unit are moved. Roll one D6 for each model from your army that is within Engagement Range of that enemy unit; for each result of 6, that enemy unit suffers 1 mortal wound.',
+		keywords: 'CORE',
 	},
 	{
 		faction: 'Core',
