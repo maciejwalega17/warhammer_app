@@ -3,19 +3,19 @@ import React from 'react';
 const ListItem = ({ name, cost, category, phase, text, keywords }) => {
 	return (
 		<>
-			<div>
-				<div>
-					<div>
-						<h3>{name}</h3>
-						<p>{category}</p>
+			<div className='flex-column list-item'>
+				<div className='container-whole flex-row'>
+					<div className='flex-column container-left'>
+						<p className="name">{name}</p>
+						<p className='category'>{category}</p>
 					</div>
-					<div>
-						<p>{cost}</p>
-						<p>{phase}</p>
+					<div className='flex-column container-right'>
+						<p className='cost'>{cost}</p>
+						<p className='phase'>{phase}</p>
 					</div>
 				</div>
-				<p>{text}</p>
-				<p>{keywords}</p>
+				<p className='text'>{text}</p>
+				<p className='keywords'>KEYWORDS: {keywords}</p>
 			</div>
 		</>
 	);

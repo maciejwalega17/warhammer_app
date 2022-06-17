@@ -1,10 +1,17 @@
 import React from 'react';
 import ListItem from './listitem';
 
-const List = ({ stratList, selectedArmy, selectedPhase }) => {
+import '../styles/list.css';
 
-	const selectedArmyStratagems = stratList.filter((el) => el.faction.toLowerCase() === selectedArmy.toLowerCase());
-	const selectedPhaseStratagems = selectedArmyStratagems.filter((el) => el.phase.toLowerCase().includes(selectedPhase.toLowerCase()));
+const List = ({ stratList, selectedArmy, selectedPhase }) => {
+	const selectedArmyStratagems = stratList.filter(
+		(el) =>
+			el.faction.toLowerCase() === selectedArmy.toLowerCase() ||
+			el.faction.toLowerCase() === 'general'
+	);
+	const selectedPhaseStratagems = selectedArmyStratagems.filter((el) =>
+		el.phase.toLowerCase().includes(selectedPhase.toLowerCase())
+	);
 	const myPhase = selectedPhaseStratagems.filter(
 		(el) => el.whose === 'mine' || el.whose === 'both'
 	);
@@ -33,14 +40,14 @@ const List = ({ stratList, selectedArmy, selectedPhase }) => {
 
 	return (
 		<>
-			<div>
-				<h1>Stratagems:</h1>
+			<h1>Stratagems:</h1>
+			<div className='flex-row'>
 				<div>
 					<h2>Mine:</h2>
 					{myPhaseList}
 				</div>
 				<div>
-					<h2>Enemy:</h2>
+					{enemyPhase.length ? <h2>Enemy:</h2> : null}
 					{enemyPhaseList}
 				</div>
 			</div>
