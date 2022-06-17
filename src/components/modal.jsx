@@ -2,7 +2,7 @@ import React from 'react';
 import ListItem from './listitem';
 import Button from './button';
 
-const PopUp = ({stratList, onClickClose}) => {
+const Modal = ({stratList, onClickModal, show}) => {
     
 	const coreStratagems = stratList.filter(
 		(el) => el.faction.toLowerCase() === 'core'
@@ -29,12 +29,12 @@ const PopUp = ({stratList, onClickClose}) => {
 
 
 	return (<>
-    <div>
+    <div className={`flex-column ${show ? 'active' : 'inactive '}`}>
         <h2>Core Stratagems:</h2>
         {coreList}
-        <Button name='Close' onClick={onClickClose}/>
+        <Button name='Close' onClick={onClickModal}/>
     </div>
     </>);
 };
 
-export default PopUp;
+export default Modal;

@@ -1,4 +1,10 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
+.active {
+	visibility: visible;
+}
+.inactive {
+	visibility: none;
+}
