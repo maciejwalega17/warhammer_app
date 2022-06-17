@@ -1,0 +1,60 @@
+:root {
+	--border-color: black;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+}
+
+.list-item {
+	width: 400px;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid var(--border-color);
+    border-radius: 25px;
+}
+
+.container-left,
+.container-right {
+	justify-content: center;
+	align-items: center;
+}
+.container-whole {
+	border: 3px solid var(--border-color);
+    border-radius: 25px;
+    padding: 5px;
+}
+.container-left {
+	width: 300px;
+    border-right: 1px solid var(--border-color);
+}
+
+.container-right {
+	width: 100px;
+}
+.cost,
+.name {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.phase,
+.category {
+	font-size: 12px;
+}
+
+.text {
+	font-size: 13px;
+}
+.keywords {
+	text-align: center;
+	padding: 5px;
+	border-top: 1px solid var(--border-color);
+
+	font-size: 14px;
+	font-weight: bold;
+}
