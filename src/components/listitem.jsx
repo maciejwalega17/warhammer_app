@@ -1,5 +1,6 @@
 import React from 'react';
-import Button from './button';
+import buttonGenerator from '../functions/buttonGenerator';
+
 
 const ListItem = ({
 	name,
@@ -10,35 +11,6 @@ const ListItem = ({
 	keywords,
 	callback,
 }) => {
-	const buttons = (cost) => {
-		if (cost === '1/2') {
-			return (
-				<>
-					<Button
-						name={`1 CP`}
-						onClick={() => {
-							callback(name, 1);
-						}}
-					/>
-					<Button
-						name={`2 CP`}
-						onClick={() => {
-							callback(name, 2);
-						}}
-					/>
-				</>
-			);
-		} else {
-			return (
-				<Button
-					name={`${cost} CP`}
-					onClick={() => {
-						callback(name, cost);
-					}}
-				/>
-			);
-		}
-	};
 
 	return (
 		<>
@@ -49,7 +21,7 @@ const ListItem = ({
 						<p className='category'>{category}</p>
 					</div>
 					<div className='flex-column container-right'>
-						<p className='cost'>{buttons(cost)}</p>
+						<p className='cost'>{buttonGenerator(cost, callback, name)}</p>
 						<p className='phase'>{phase}</p>
 					</div>
 				</div>
