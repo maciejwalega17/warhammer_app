@@ -25,6 +25,7 @@ const App = () => {
 	const [itemName, setitemName] = useState('');
 	const [itemCost, setitemCost] = useState(0);
 
+	//^States
 	const onClickNav = (params) => {
 		if (params === 'next') {
 			if (phaseList.indexOf(selectedPhase) < phaseList.length - 1) {
@@ -49,6 +50,12 @@ const App = () => {
 		}
 	};
 
+	const callbackBuy = (name, cost) => {
+		setitemName(name);
+		setitemCost(parseInt(cost));
+	};
+	//^changing states
+
 	const selectedArmyStratagems = stratagemListMerged.filter(
 		(el) => el.faction.toLowerCase() === selectedArmy.toLowerCase()
 	);
@@ -68,6 +75,7 @@ const App = () => {
 		(el) => el.faction.toLowerCase() === 'core'
 	);
 
+	//^stratagem list filtering
 	const contentSmall = (
 		<PayWindow
 			itemName={itemName}
@@ -81,10 +89,13 @@ const App = () => {
 		/>
 	);
 
-	const callbackBuy = (name, cost) => {
-		setitemName(name);
-		setitemCost(parseInt(cost));
-	};
+	const contentBig = (
+		<List
+			title='Core Stratagems:'
+			listArr={coreStratagems}
+			callback={callbackBuy}
+		/>
+	);
 
 	return (
 		<>
@@ -126,13 +137,7 @@ const App = () => {
 				/>
 			</div>
 			<Modal
-				content={
-					<List
-						title='Core Stratagems:'
-						listArr={coreStratagems}
-						callback={callbackBuy}
-					/>
-				}
+				content={contentBig}
 				onClick={() => {
 					setShowModalBig((prevState) => !prevState);
 				}}
