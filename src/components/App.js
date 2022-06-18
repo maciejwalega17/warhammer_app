@@ -42,6 +42,26 @@ const App = () => {
 		}
 	};
 
+
+
+
+	const selectedArmyStratagems = armyList.filter(
+		(el) => el.faction.toLowerCase() === selectedArmy.toLowerCase()
+	);
+	const selectedPhaseStratagems = phaseList.filter(
+		(el) =>
+			el.phase.toLowerCase() === selectedPhase.toLowerCase() ||
+			el.phase.toLowerCase() === 'any'
+	);
+	const myPhase = selectedPhaseStratagems.filter(
+		(el) => el.whose === 'mine' || el.whose === 'both'
+	);
+	const enemyPhase = selectedPhaseStratagems.filter(
+		(el) => el.whose === 'enemy' || el.whose === 'both'
+	);
+
+
+
 	return (
 		<>
 			<div className='wrapper'>
@@ -78,11 +98,16 @@ const App = () => {
 				<p>{selectedArmy}</p>
 				<p>{selectedPhase}</p>
 			</div>
+			<h1>Stratagems:</h1>
+			<div className="flex-row">
 			<List
-				stratList={stratagemListMerged}
-				selectedArmy={selectedArmy}
-				selectedPhase={selectedPhase}
+				title='Mine:' listArr={myPhase}
 			></List>
+			<List
+				title='Enemy:' listArr={enemyPhase}
+			></List>
+			</div>
+			
 		</>
 	);
 };
