@@ -10,8 +10,5 @@
 }
 .modal {
 	position: absolute;
-	justify-content: flex-end;
-	flex-wrap: wrap;
 	background-color: grey;
-	width: 850px;
 }

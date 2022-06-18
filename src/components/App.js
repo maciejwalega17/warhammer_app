@@ -88,7 +88,7 @@ const App = () => {
 				/>
 			</div>
 			<Modal
-				listArr={coreStratagems}
+				content={coreStratagems}
 				onClick={() => {
 					setShowModal((prevState) => !prevState);
 				}}
