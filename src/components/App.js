@@ -29,19 +29,19 @@ const App = () => {
 		setShowModal((prevState) => !prevState);
 	};
 
-	const onClickNext = () => {
-		if (phaseList.indexOf(selectedPhase) < phaseList.length - 1) {
-			setSelectedPhase(phaseList[phaseList.indexOf(selectedPhase) + 1]);
-		} else {
-			setSelectedPhase(phaseList[0]);
-		}
-	};
-
-	const onClickPrev = () => {
-		if (phaseList.indexOf(selectedPhase) === 0) {
-			setSelectedPhase(phaseList[phaseList.length - 1]);
-		} else {
-			setSelectedPhase(phaseList[phaseList.indexOf(selectedPhase) - 1]);
+	const onClickNav = (params) => {
+		if (params === 'next') {
+			if (phaseList.indexOf(selectedPhase) < phaseList.length - 1) {
+				setSelectedPhase(phaseList[phaseList.indexOf(selectedPhase) + 1]);
+			} else {
+				setSelectedPhase(phaseList[0]);
+			}
+		} else if (params === 'prev') {
+			if (phaseList.indexOf(selectedPhase) === 0) {
+				setSelectedPhase(phaseList[phaseList.length - 1]);
+			} else {
+				setSelectedPhase(phaseList[phaseList.indexOf(selectedPhase) - 1]);
+			}
 		}
 	};
 
@@ -75,8 +75,8 @@ const App = () => {
 				show={showModal}
 			/>
 			<div className='wrapper'>
-				<Button name='Previous' onClick={onClickPrev}></Button>
-				<Button name='Next' onClick={onClickNext}></Button>
+				<Button name='Previous' onClick={() => onClickNav('prev')}></Button>
+				<Button name='Next' onClick={() => onClickNav('next')}></Button>
 			</div>
 			<div className='wrapper'>
 				<p>{selectedArmy}</p>
