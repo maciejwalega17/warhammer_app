@@ -1,6 +1,8 @@
 import React from 'react';
 import ListItem from './listitem';
 
+import listItemGenerator from './functions/listItemGenerator'
+
 import '../styles/list.css';
 
 const List = ({ stratList, selectedArmy, selectedPhase }) => {
@@ -21,21 +23,6 @@ const List = ({ stratList, selectedArmy, selectedPhase }) => {
 		(el) => el.whose === 'enemy' || el.whose === 'both'
 	);
 
-	const listItemGenerator = (arr) => {
-		return arr.map((el, index) => {
-			return (
-				<ListItem
-					key={index}
-					name={el.name}
-					cost={el.cost}
-					category={el.category}
-					phase={el.phase}
-					text={el.text}
-					keywords={el.keywords}
-				/>
-			);
-		});
-	};
 
 	const myPhaseList = listItemGenerator(myPhase);
 	const enemyPhaseList = listItemGenerator(enemyPhase);

@@ -1,6 +1,9 @@
 import React from 'react';
 import ListItem from './listitem';
 import Button from './button';
+import ModalContent from './modal_content';
+
+import listItemGenerator from './functions/listItemGenerator'
 
 const Modal = ({stratList, onClick, show}) => {
     
@@ -8,21 +11,6 @@ const Modal = ({stratList, onClick, show}) => {
 		(el) => el.faction.toLowerCase() === 'core'
 	);
 
-	const listItemGenerator = (arr) => {
-		return arr.map((el, index) => {
-			return (
-				<ListItem
-					key={index}
-					name={el.name}
-					cost={el.cost}
-					category={el.category}
-					phase={el.phase}
-					text={el.text}
-					keywords={el.keywords}
-				/>
-			);
-		});
-	};
 
 	const coreList = listItemGenerator(coreStratagems);
 
@@ -33,9 +21,9 @@ const Modal = ({stratList, onClick, show}) => {
         <h2>Core Stratagems:</h2>
         {coreList}
         <Button name='Close' onClick={onClick}/>
+		{/* <ModalContent children={} callback={()=>{}} */}
     </div>
     </>);
 };
 
 export default Modal;
-//'active' : 'inactive'
