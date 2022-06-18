@@ -43,14 +43,6 @@ const App = () => {
 		}
 	};
 
-	// const onClickToggleWhose = () => {
-	// 	if (whoseShow === 'mine') {
-	// 		setWhoseShow('enemy');
-	// 	} else {
-	// 		setWhoseShow('mine');
-	// 	}
-	// }
-
 	const selectedArmyStratagems = stratagemListMerged.filter(
 		(el) => el.faction.toLowerCase() === selectedArmy.toLowerCase()
 	);
@@ -97,7 +89,7 @@ const App = () => {
 				/>
 			</div>
 			<Modal
-				content={coreStratagems}
+				content={<List title='Core Stratagems:' listArr={coreStratagems} />}
 				onClick={() => {
 					setShowModal((prevState) => !prevState);
 				}}
