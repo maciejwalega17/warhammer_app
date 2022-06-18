@@ -45,10 +45,10 @@ const App = () => {
 
 
 
-	const selectedArmyStratagems = armyList.filter(
+	const selectedArmyStratagems = stratagemListMerged.filter(
 		(el) => el.faction.toLowerCase() === selectedArmy.toLowerCase()
 	);
-	const selectedPhaseStratagems = phaseList.filter(
+	const selectedPhaseStratagems = selectedArmyStratagems.filter(
 		(el) =>
 			el.phase.toLowerCase() === selectedPhase.toLowerCase() ||
 			el.phase.toLowerCase() === 'any'
@@ -59,6 +59,12 @@ const App = () => {
 	const enemyPhase = selectedPhaseStratagems.filter(
 		(el) => el.whose === 'enemy' || el.whose === 'both'
 	);
+
+	    
+	const coreStratagems = stratagemListMerged.filter(
+		(el) => el.faction.toLowerCase() === 'core'
+	);
+
 
 
 
@@ -84,7 +90,7 @@ const App = () => {
 				<CpCalculator commandPoints={commandPoints} onClick={onClickSetCP} />
 			</div>
 			<Modal
-				stratList={stratagemListMerged}
+				listArr={coreStratagems}
 				onClick={() => {
 					setShowModal((prevState) => !prevState);
 				}}
