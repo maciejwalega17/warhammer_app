@@ -17,6 +17,7 @@ const App = () => {
 	const [selectedArmy, setSelectedArmy] = useState(armyList[0]);
 	const [commandPoints, setCommandPoints] = useState(12);
 	const [showModal, setShowModal] = useState(false);
+	const [whoseShow, setWhoseShow] = useState(true);
 
 	const onClickNav = (params) => {
 		if (params === 'next') {
@@ -41,6 +42,14 @@ const App = () => {
 			callback((prevValue) => prevValue - 1);
 		}
 	};
+
+	// const onClickToggleWhose = () => {
+	// 	if (whoseShow === 'mine') {
+	// 		setWhoseShow('enemy');
+	// 	} else {
+	// 		setWhoseShow('mine');
+	// 	}
+	// }
 
 	const selectedArmyStratagems = stratagemListMerged.filter(
 		(el) => el.faction.toLowerCase() === selectedArmy.toLowerCase()
@@ -103,9 +112,21 @@ const App = () => {
 				<p>{selectedPhase}</p>
 			</div>
 			<h1>Stratagems:</h1>
+			<Button
+				name={`${
+					whoseShow ? 'Show enemy phase Stratagems' : 'Show my phase Stratagems'
+				}`}
+				onClick={() => {
+					setWhoseShow((prevState) => !prevState);
+				}}
+			/>
+
 			<div className='flex-row'>
-				<List title='Mine:' listArr={myPhase}></List>
-				<List title='Enemy:' listArr={enemyPhase}></List>
+				{whoseShow ? (
+					<List title='My phase:' listArr={myPhase}></List>
+				) : (
+					<List title='Enemy phase:' listArr={enemyPhase}></List>
+				)}
 			</div>
 		</>
 	);
