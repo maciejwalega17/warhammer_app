@@ -4,7 +4,7 @@ const startingArr = [
 	{
 		faction: 'Core',
 		name: 'COMMAND RE-ROLL',
-		cost: '1cp',
+		cost: '1',
 		category: 'Core',
 		phase: 'Any',
 		whose: 'Core',
@@ -15,7 +15,7 @@ const startingArr = [
 	{
 		faction: 'Core',
 		name: 'DESPERATE BREAKOUT',
-		cost: '2cp',
+		cost: '2',
 		category: 'Core',
 		phase: 'Movement',
 		whose: 'Core',
@@ -25,7 +25,7 @@ const startingArr = [
 	{
 		faction: 'Core',
 		name: 'EMERGENCY DISEMBARKATION',
-		cost: '1cp',
+		cost: '1',
 		category: 'Core',
 		phase: 'Any',
 		whose: 'Core',
@@ -35,7 +35,7 @@ const startingArr = [
 	{
 		faction: 'Core',
 		name: 'CUT THEM DOWN',
-		cost: '1cp',
+		cost: '1',
 		category: 'Core',
 		phase: 'Movement',
 		whose: 'Core',
@@ -45,7 +45,7 @@ const startingArr = [
 	{
 		faction: 'Core',
 		name: 'FIRE OVERWATCH',
-		cost: '1cp',
+		cost: '1',
 		category: 'Core',
 		phase: 'Fight',
 		whose: 'Core',
@@ -55,7 +55,7 @@ const startingArr = [
 	{
 		faction: 'Core',
 		name: 'COUNTER-OFFENSIVE',
-		cost: '2cp',
+		cost: '2',
 		category: 'Core',
 		phase: 'Fight',
 		whose: 'Core',
@@ -65,7 +65,7 @@ const startingArr = [
 	{
 		faction: 'Core',
 		name: 'INSANE BRAVERY',
-		cost: '2cp',
+		cost: '2',
 		category: 'Core',
 		phase: 'Morale',
 		whose: 'Core',

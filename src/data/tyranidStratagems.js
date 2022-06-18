@@ -2,7 +2,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'SCORCH BUGS',
-		cost: '1/2cp',
+		cost: '1/2',
 		category: 'Battle Tactic',
 		phase: 'Shooting',
 		whose: 'mine',
@@ -13,7 +13,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'VORACIOUS APPETITE',
-		cost: '1cp',
+		cost: '1',
 		category: 'Battle Tactic',
 		phase: 'Fight',
 		whose: 'both',
@@ -23,7 +23,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'ADRENAL SURGE',
-		cost: '1/2cp',
+		cost: '1/2',
 		category: 'Battle Tactic',
 		phase: 'Fight',
 		whose: 'both',
@@ -33,7 +33,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'REINFORCED HIVE NODE',
-		cost: '1/2cp',
+		cost: '1/2',
 		category: 'Battle Tactic',
 		phase: 'Any',
 		whose: 'both',
@@ -43,7 +43,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'OBSERVER ORGANISM',
-		cost: '1cp',
+		cost: '1',
 		category: 'Battle Tactic',
 		phase: 'Shooting',
 		whose: 'mine',
@@ -53,7 +53,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'INDOMITABLE MONSTROSITY',
-		cost: '1cp',
+		cost: '1',
 		category: 'Battle Tactic',
 		phase: 'Any',
 		whose: 'both',
@@ -63,7 +63,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'POWER OF THE HIVE MIND',
-		cost: '1cp',
+		cost: '1',
 		category: 'Epic Deed',
 		phase: 'Psychic',
 		whose: 'mine',
@@ -73,7 +73,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'DEATH FRENZY',
-		cost: '2cp',
+		cost: '2',
 		category: 'Epic Deed',
 		phase: 'Fight',
 		whose: 'both',
@@ -83,7 +83,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'PHEROMONE TRAIL',
-		cost: '1cp',
+		cost: '1',
 		category: 'Epic Deed',
 		phase: 'Fight',
 		whose: 'mine',
@@ -93,7 +93,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'SYNAPTIC CHANNELLING',
-		cost: '1cp',
+		cost: '1',
 		category: 'Epic Deed',
 		phase: 'Psychic',
 		whose: 'mine',
@@ -103,7 +103,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'SYNAPTIC LEGACY',
-		cost: '1cp',
+		cost: '1',
 		category: 'Epic Deed',
 		phase: 'Start of Battle Round',
 		whose: 'mine',
@@ -113,7 +113,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'TRAMPLING CHARGE',
-		cost: '1cp',
+		cost: '1',
 		category: 'Epic Deed',
 		phase: 'Fight',
 		whose: 'mine',
@@ -123,7 +123,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'ENFOLDING STRIKE',
-		cost: '1cp',
+		cost: '1',
 		category: 'Epic Deed',
 		phase: 'Movement',
 		whose: 'mine',
@@ -133,7 +133,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'RAREFIED ENHANCEMENTS',
-		cost: '1cp',
+		cost: '1',
 		category: 'Requisition',
 		phase: 'Before the Battle',
 		whose: 'mine',
@@ -143,7 +143,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'HIVE PREDATOR',
-		cost: '1cp',
+		cost: '1',
 		category: 'Requisition',
 		phase: 'Before the Battle',
 		whose: 'mine',
@@ -153,7 +153,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'SUBTERRANEAN ASSAULT',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Movement',
 		whose: 'mine',
@@ -163,7 +163,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'RAPID REGENERATION',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Command',
 		whose: 'mine',
@@ -173,7 +173,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'INVISIBLE HUNTER',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'End of Turn',
 		whose: 'mine',
@@ -183,7 +183,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'OVERRUN',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Fight',
 		whose: 'both',
@@ -193,7 +193,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'SHARD LURE',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Shooting',
 		whose: 'mine',
@@ -203,7 +203,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'ENDLESS SWARM',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Command',
 		whose: 'mine',
@@ -213,7 +213,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'INSTINCTIVE RAMPAGE',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Any',
 		whose: 'mine',
@@ -223,7 +223,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'BOUNDING ADVANCE',
-		cost: '1/2cp',
+		cost: '1/2',
 		category: 'Strategic Ploy',
 		phase: 'Movement',
 		whose: 'mine',
@@ -233,7 +233,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'ENCIRCLE THE PREY',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Movement',
 		whose: 'mine',
@@ -243,7 +243,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'SPORE CLOUDS',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Movement',
 		whose: 'mine',
@@ -253,7 +253,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'TOXIC ENTANGLEMENT',
-		cost: '1cp',
+		cost: '1',
 		category: 'Strategic Ploy',
 		phase: 'Shooting',
 		whose: 'mine',
@@ -263,7 +263,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'IMPALING HOOKS',
-		cost: '1cp',
+		cost: '1',
 		category: 'Wargear',
 		phase: 'Fight',
 		whose: 'both',
@@ -273,7 +273,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'PSYCHOTROPIC VENOM',
-		cost: '1cp',
+		cost: '1',
 		category: 'Wargear',
 		phase: 'Morale',
 		whose: 'both',
@@ -283,7 +283,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'ACIDIC TORRENT',
-		cost: '1cp',
+		cost: '1',
 		category: 'Wargear',
 		phase: 'Fight',
 		whose: 'both',
@@ -293,7 +293,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'CORROSIVE VISCERA',
-		cost: '2cp',
+		cost: '2',
 		category: 'Wargear',
 		phase: 'Fight',
 		whose: 'both',
@@ -303,7 +303,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'BLINDING VENOM',
-		cost: '1cp',
+		cost: '1',
 		category: 'Wargear',
 		phase: 'Fight',
 		whose: 'both',
@@ -313,7 +313,7 @@ const tyranidStratagems = [
 	{
 		faction: 'tyranids',
 		name: 'PATHOGENIC SLIME',
-		cost: '1/2cp',
+		cost: '1/2',
 		category: 'Wargear',
 		phase: 'Shooting',
 		whose: 'mine',
