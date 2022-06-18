@@ -53,6 +53,7 @@ const App = () => {
 	const callbackBuy = (name, cost) => {
 		setitemName(name);
 		setitemCost(parseInt(cost));
+		setShowModalSmall((prevState) => !prevState);
 	};
 	//^changing states
 
@@ -114,12 +115,6 @@ const App = () => {
 					name='Show Core Stratagems'
 					onClick={() => {
 						setShowModalBig((prevState) => !prevState);
-					}}
-				/>
-				<Button
-					name='pop'
-					onClick={() => {
-						setShowModalSmall((prevState) => !prevState);
 					}}
 				/>
 				<Modal
