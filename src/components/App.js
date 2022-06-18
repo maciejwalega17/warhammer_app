@@ -5,6 +5,7 @@ import Button from './button';
 import List from './list';
 import Modal from './modal';
 import Counter from './counter';
+import PayWindow from './pay_window';
 
 import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
@@ -16,8 +17,13 @@ const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
 	const [selectedArmy, setSelectedArmy] = useState(armyList[0]);
 	const [commandPoints, setCommandPoints] = useState(12);
-	const [showModal, setShowModal] = useState(false);
 	const [whoseShow, setWhoseShow] = useState(true);
+
+	const [showModalBig, setShowModalBig] = useState(false);
+	const [showModalSmall, setShowModalSmall] = useState(false);
+
+	const [itemName, setitemName] = useState('');
+	const [itemCost, setitemCost] = useState(0);
 
 	const onClickNav = (params) => {
 		if (params === 'next') {
@@ -35,11 +41,11 @@ const App = () => {
 		}
 	};
 
-	const onClickSetCounter = (callback, params) => {
+	const onClickSetCounter = (callback, params, value) => {
 		if (params === 'add') {
-			callback((prevValue) => prevValue + 1);
+			callback((prevValue) => prevValue + value);
 		} else if (params === 'sub') {
-			callback((prevValue) => prevValue - 1);
+			callback((prevValue) => prevValue - value);
 		}
 	};
 
@@ -62,6 +68,24 @@ const App = () => {
 		(el) => el.faction.toLowerCase() === 'core'
 	);
 
+	const contentSmall = (
+		<PayWindow
+			itemName={itemName}
+			cost={itemCost}
+			callback={() => {
+				onClickSetCounter(setCommandPoints, 'sub', itemCost);
+			}}
+			closeCallback={() => {
+				setShowModalSmall((prevState) => !prevState);
+			}}
+		/>
+	);
+
+	const callbackBuy = (name, cost) => {
+		setitemName(name);
+		setitemCost(parseInt(cost));
+	};
+
 	return (
 		<>
 			<div className='wrapper'>
@@ -78,22 +102,41 @@ const App = () => {
 				<Button
 					name='Show Core Stratagems'
 					onClick={() => {
-						setShowModal((prevState) => !prevState);
+						setShowModalBig((prevState) => !prevState);
 					}}
+				/>
+				<Button
+					name='pop'
+					onClick={() => {
+						setShowModalSmall((prevState) => !prevState);
+					}}
+				/>
+				<Modal
+					content={contentSmall}
+					onClick={() => {
+						setShowModalSmall((prevState) => !prevState);
+					}}
+					show={showModalSmall}
 				/>
 				<Counter
 					counter={commandPoints}
 					currency='CP'
-					onClickAdd={() => onClickSetCounter(setCommandPoints, 'add')}
-					onClickSub={() => onClickSetCounter(setCommandPoints, 'sub')}
+					onClickAdd={() => onClickSetCounter(setCommandPoints, 'add', 1)}
+					onClickSub={() => onClickSetCounter(setCommandPoints, 'sub', 1)}
 				/>
 			</div>
 			<Modal
-				content={<List title='Core Stratagems:' listArr={coreStratagems} />}
+				content={
+					<List
+						title='Core Stratagems:'
+						listArr={coreStratagems}
+						callback={callbackBuy}
+					/>
+				}
 				onClick={() => {
-					setShowModal((prevState) => !prevState);
+					setShowModalBig((prevState) => !prevState);
 				}}
-				show={showModal}
+				show={showModalBig}
 			/>
 			<div className='wrapper'>
 				<Button name='Previous' onClick={() => onClickNav('prev')}></Button>
@@ -115,9 +158,17 @@ const App = () => {
 
 			<div className='flex-row'>
 				{whoseShow ? (
-					<List title='My phase:' listArr={myPhase}></List>
+					<List
+						title='My phase:'
+						listArr={myPhase}
+						callback={callbackBuy}
+					></List>
 				) : (
-					<List title='Enemy phase:' listArr={enemyPhase}></List>
+					<List
+						title='Enemy phase:'
+						listArr={enemyPhase}
+						callback={callbackBuy}
+					></List>
 				)}
 			</div>
 		</>
