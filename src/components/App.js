@@ -18,17 +18,6 @@ const App = () => {
 	const [commandPoints, setCommandPoints] = useState(12);
 	const [showModal, setShowModal] = useState(false);
 
-	const callbackArmy = (value) => {
-		setSelectedArmy(value);
-	};
-	const callbackPhase = (value) => {
-		setSelectedPhase(value);
-	};
-
-	const callbackModal = () => {
-		setShowModal((prevState) => !prevState);
-	};
-
 	const onClickNav = (params) => {
 		if (params === 'next') {
 			if (phaseList.indexOf(selectedPhase) < phaseList.length - 1) {
@@ -59,19 +48,26 @@ const App = () => {
 				<Selector
 					type='Phase Select'
 					list={phaseList}
-					callback={callbackPhase}
+					callback={(value) => setSelectedPhase(value)}
 				></Selector>
 				<Selector
 					type='Army Select'
 					list={armyList}
-					callback={callbackArmy}
+					callback={(value) => setSelectedArmy(value)}
 				></Selector>
-				<Button name='Show Core Stratagems' onClick={callbackModal} />
+				<Button
+					name='Show Core Stratagems'
+					onClick={() => {
+						setShowModal((prevState) => !prevState);
+					}}
+				/>
 				<CpCalculator commandPoints={commandPoints} onClick={onClickSetCP} />
 			</div>
 			<Modal
 				stratList={stratagemListMerged}
-				onClick={callbackModal}
+				onClick={() => {
+					setShowModal((prevState) => !prevState);
+				}}
 				show={showModal}
 			/>
 			<div className='wrapper'>
