@@ -4,10 +4,10 @@ import listItemGenerator from '../functions/listItemGenerator';
 
 import '../styles/list.css';
 
-const List = ({ title, listArr }) => {
+const List = ({ title, listArr, callback }) => {
 
 
-	const listItemList = listItemGenerator(listArr);
+	const listItemList = listItemGenerator(listArr, callback);
 
 	return (
 		<>

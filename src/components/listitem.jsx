@@ -1,6 +1,7 @@
 import React from 'react';
+import Button from './button';
 
-const ListItem = ({ name, cost, category, phase, text, keywords }) => {
+const ListItem = ({ name, cost, category, phase, text, keywords, callback }) => {
 	return (
 		<>
 			<div className='flex-column list-item'>
@@ -10,7 +11,7 @@ const ListItem = ({ name, cost, category, phase, text, keywords }) => {
 						<p className='category'>{category}</p>
 					</div>
 					<div className='flex-column container-right'>
-						<p className='cost'>{cost}</p>
+						<p className='cost'><Button name={`${cost} CP`} onClick={()=>{callback(name, cost)}}/></p>
 						<p className='phase'>{phase}</p>
 					</div>
 				</div>
