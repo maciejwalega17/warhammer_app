@@ -4,7 +4,7 @@ import Selector from './selector';
 import Button from './button';
 import List from './list';
 import Modal from './modal';
-import CpCalculator from './cp_calculator';
+import Counter from './counter';
 
 import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
@@ -34,16 +34,13 @@ const App = () => {
 		}
 	};
 
-	const onClickSetCP = (params) => {
+	const onClickSetCounter = (callback, params) => {
 		if (params === 'add') {
-			setCommandPoints((prevValue) => prevValue + 1);
+			callback((prevValue) => prevValue + 1);
 		} else if (params === 'sub') {
-			setCommandPoints((prevValue) => prevValue - 1);
+			callback((prevValue) => prevValue - 1);
 		}
 	};
-
-
-
 
 	const selectedArmyStratagems = stratagemListMerged.filter(
 		(el) => el.faction.toLowerCase() === selectedArmy.toLowerCase()
@@ -60,13 +57,9 @@ const App = () => {
 		(el) => el.whose === 'enemy' || el.whose === 'both'
 	);
 
-	    
 	const coreStratagems = stratagemListMerged.filter(
 		(el) => el.faction.toLowerCase() === 'core'
 	);
-
-
-
 
 	return (
 		<>
@@ -87,7 +80,12 @@ const App = () => {
 						setShowModal((prevState) => !prevState);
 					}}
 				/>
-				<CpCalculator commandPoints={commandPoints} onClick={onClickSetCP} />
+				<Counter
+					counter={commandPoints}
+					currency='CP'
+					onClickAdd={() => onClickSetCounter(setCommandPoints, 'add')}
+					onClickSub={() => onClickSetCounter(setCommandPoints, 'sub')}
+				/>
 			</div>
 			<Modal
 				listArr={coreStratagems}
@@ -105,15 +103,10 @@ const App = () => {
 				<p>{selectedPhase}</p>
 			</div>
 			<h1>Stratagems:</h1>
-			<div className="flex-row">
-			<List
-				title='Mine:' listArr={myPhase}
-			></List>
-			<List
-				title='Enemy:' listArr={enemyPhase}
-			></List>
+			<div className='flex-row'>
+				<List title='Mine:' listArr={myPhase}></List>
+				<List title='Enemy:' listArr={enemyPhase}></List>
 			</div>
-			
 		</>
 	);
 };
