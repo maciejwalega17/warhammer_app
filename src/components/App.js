@@ -4,19 +4,19 @@ import Selector from './selector';
 import Button from './button';
 import List from './list';
 import Modal from './modal';
+import CpCalculator from './cp_calculator';
 
 import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
 import stratagemListMerged from '../data/stratagemListMerged';
 
-import '../styles/App.css'
-
-
+import '../styles/App.css';
 
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
 	const [selectedArmy, setSelectedArmy] = useState(armyList[0]);
-	const [showModal, setShowModal] = useState(true);
+	const [commandPoints, setCommandPoints] = useState(12);
+	const [showModal, setShowModal] = useState(false);
 
 	const callbackArmy = (value) => {
 		setSelectedArmy(value);
@@ -25,9 +25,9 @@ const App = () => {
 		setSelectedPhase(value);
 	};
 
-	const callbackModal = () => {setShowModal((prevState) => (!prevState))
-		
-	}
+	const callbackModal = () => {
+		setShowModal((prevState) => !prevState);
+	};
 
 	const onClickNext = () => {
 		if (phaseList.indexOf(selectedPhase) < phaseList.length - 1) {
@@ -45,6 +45,14 @@ const App = () => {
 		}
 	};
 
+	const onClickSetCP = (params) => {
+		if (params === 'add') {
+			setCommandPoints((prevValue) => prevValue + 1);
+		} else if (params === 'sub') {
+			setCommandPoints((prevValue) => prevValue - 1);
+		}
+	};
+
 	return (
 		<>
 			<div className='wrapper'>
@@ -58,9 +66,14 @@ const App = () => {
 					list={armyList}
 					callback={callbackArmy}
 				></Selector>
-				<Button name='Show Core Stratagems' onClick={callbackModal}/>
+				<Button name='Show Core Stratagems' onClick={callbackModal} />
+				<CpCalculator commandPoints={commandPoints} onClick={onClickSetCP} />
 			</div>
-			<Modal stratList={stratagemListMerged} onClick={callbackModal} show={showModal}/>
+			<Modal
+				stratList={stratagemListMerged}
+				onClick={callbackModal}
+				show={showModal}
+			/>
 			<div className='wrapper'>
 				<Button name='Previous' onClick={onClickPrev}></Button>
 				<Button name='Next' onClick={onClickNext}></Button>
@@ -69,12 +82,13 @@ const App = () => {
 				<p>{selectedArmy}</p>
 				<p>{selectedPhase}</p>
 			</div>
-			<List stratList={stratagemListMerged} selectedArmy={selectedArmy} selectedPhase={selectedPhase}></List>
+			<List
+				stratList={stratagemListMerged}
+				selectedArmy={selectedArmy}
+				selectedPhase={selectedPhase}
+			></List>
 		</>
 	);
 };
 
 export default App;
-
-
-
