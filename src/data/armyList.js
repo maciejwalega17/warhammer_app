@@ -1,3 +1,3 @@
-const armyList = ['Tyranids', 'Orks'];
+const armyList = ['Tyranids', 'Orks', 'Aeldari', 'Adepta Sororitas'];
 
 export default armyList
