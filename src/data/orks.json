@@ -1,308 +1,256 @@
 [
-  {
-    "Name": "CAREEN!",
-    "Cost": "1/2",
-    "Faction": "Orks",
-    "Category": "Battle Tactic",
-    "Whose": "Both",
-    "Phase": "Any",
-    "Text": "Use this Stratagem in any phase, when an ORKS VEHICLE model in your army that is not within Engagement Range of any enemy models is destroyed and explodes. That model can make a Normal Move of up to 6\u0022 before resolving the explosion. If that VEHICLE is a WAGON or TITANIC model, this Stratagem costs 2CP; otherwise, it costs 1CP.",
-    "Keywords": [
-      "ORKS VEHICLE",
-      "WAGON",
-      "TITANIC"
-    ]
-  },
-  {
-    "Name": "GET STUCK IN LADZ!",
-    "Cost": "1/2",
-    "Faction": "Orks",
-    "Category": "Battle Tactic",
-    "Whose": "Both",
-    "Phase": "Fight",
-    "Text": "Use this Stratagem in the Fight phase, when a BOYZ or BEAST SNAGGA BOYZ unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a pile in or consolidation move, it can move up to an additional 3\u0022. This is not cumulative with any other rule that increases the distance models can pile in or consolidate. If that unit contains 10 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.",
-    "Keywords": [
-      "BOYZ",
-      "BEAST SNAGGA BOYZ"
-    ]
-  },
-  {
-    "Name": "RAMMING SPEED",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Battle Tactic",
-    "Whose": "Mine",
-    "Phase": "Charge",
-    "Text": "Use this Stratagem in your Charge phase, when an ORKS VEHICLE unit from your army is selected to charge.Until the end of the phase, when making a charge roll for that unit, roll 3D6 instead.Until the end of the phase, when that unit finishes a charge move, select one enemy unit that is within Engagement Range of it and roll one D6: on a 2\u002B, that enemy unit suffers D3 mortal wounds.",
-    "Keywords": [
-      "ORKS VEHICLE"
-    ]
-  },
-  {
-    "Name": "GUN CRAZY SHOW OFFS",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Battle Tactic",
-    "Whose": "Mine",
-    "Phase": "Shooting",
-    "Text": "Use this Stratagem at the end of your Shooting phase. Select one FLASH GITZ unit from your army; that unit can shoot again, but must target the closest eligible enemy unit.",
-    "Keywords": [
-      "FLASH GITZ"
-    ]
-  },
-  {
-    "Name": "HIT \u2019EM HARDER",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Battle Tactic",
-    "Whose": "Both",
-    "Phase": "Fight",
-    "Text": "Use this Stratagem in the Fight phase, when a MEGANOBZ unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack with a power klaw or killsaw, add 1 to that attack\u2019s Damage characteristic.",
-    "Keywords": [
-      "MEGANOBZ"
-    ]
-  },
-  {
-    "Name": "TOUGH AS SQUIG-HIDE",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Battle Tactic",
-    "Whose": "Both",
-    "Phase": "Any",
-    "Text": "Use this Stratagem in any phase, when a BEAST SNAGGA INFANTRY, BEAST SNAGGA CAVALRY or BEAST SNAGGA MONSTER unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, an unmodified wound roll of 1-3 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have.",
-    "Keywords": [
-      "BEAST SNAGGA INFANTRY",
-      "BEAST SNAGGA CAVALRY",
-      "BEAST SNAGGA MONSTER"
-    ]
-  },
-  {
-    "Name": "BREAKIN\u2019 HEADS",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Battle Tactic",
-    "Whose": "Both",
-    "Phase": "Morale",
-    "Text": "Use this Stratagem in the Morale phase, when a Morale test is failed for a \u0026lt;CLAN\u0026gt; unit (excluding GRETCHIN units) from your army that is within 3\u0022 of any friendly \u0026lt;CLAN\u0026gt; WARBOSS or \u0026lt;CLAN\u0026gt; NOBZ units. That \u0026lt;CLAN\u0026gt; unit suffers D3 mortal wounds, and the Morale test is treated as having been passed.",
-    "Keywords": [
-    ]
-  },
-  {
-    "Name": "ORKS IS NEVER BEATEN",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Epic Deed",
-    "Whose": "Both",
-    "Phase": "Fight",
-    "Text": "Use this Stratagem in the Fight phase, when an ORKS CHARACTER model in your army that has not already been selected to fight this phase is destroyed. Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. If the selected model\u2019s characteristics change as it takes damage, use the bottom row of that model\u2019s profile when resolving those attacks. After resolving the destroyed model\u2019s attacks, it is then removed.",
-    "Keywords": [
-      "ORKS CHARACTER"
-    ]
-  },
-  {
-    "Name": "DA BIGGER DEY IZ...",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Epic Deed",
-    "Whose": "Both",
-    "Phase": "Fight",
-    "Text": "Use this Stratagem in the Fight phase, when a BEAST SNAGGA WARBOSS unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack that targets a TITANIC unit, add 2 to the Damage characteristic of that attack.",
-    "Keywords": [
-      "BEAST SNAGGA WARBOSS"
-    ]
-  },
-  {
-    "Name": "EXTRA GUBBINZ",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Requisition",
-    "Whose": "Mine",
-    "Phase": "Error",
-    "Text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER model in your army and give them one Shiny Gubbinz (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
-    "Keywords": [
-      "ORKS CHARACTER"
-    ]
-  },
-  {
-    "Name": "BIG BOSS",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Requisition",
-    "Whose": "Mine",
-    "Phase": "Error",
-    "Text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER from your army and determine one Warlord Trait for that model (this must be a Warlord Trait they could have); that model it is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
-    "Keywords": [
-      "ORKS CHARACTER"
-    ]
-  },
-  {
-    "Name": "TIDE OF MUSCLE",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Strategic Ploy",
-    "Whose": "Mine",
-    "Phase": "Charge",
-    "Text": "Use this Stratagem in your Charge phase, when you select an ORKS CORE unit (excluding GRETCHIN units) from your army to charge. That unit can ignore any or all modifiers to the charge roll.",
-    "Keywords": [
-      "ORKS CORE"
-    ]
-  },
-  {
-    "Name": "UNSTOPPABLE MOMENTUM",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Strategic Ploy",
-    "Whose": "Mine",
-    "Phase": "Charge",
-    "Text": "Use this Stratagem in your Charge phase, after a NOB ON SMASHA SQUIG unit from your army finishes a charge move. If there are no enemy models within Engagement Range of that model, it can immediately be selected to declare a charge again.",
-    "Keywords": [
-      "NOB ON SMASHA SQUIG"
-    ]
-  },
-  {
-    "Name": "GROT SHIELDS",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Strategic Ploy",
-    "Whose": "Enemy",
-    "Phase": "Shooting",
-    "Text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one ORKS INFANTRY unit from your army, then select one GRETCHIN INFANTRY unit (excluding CHARACTER units) from your army that is within 6\u0022 of that unit. Until the end of the phase, enemy models cannot select the selected ORKS INFANTRY unit as a target if the selected GRETCHIN INFANTRY unit is a closer visible target.",
-    "Keywords": [
-      "ORKS INFANTRY"
-    ]
-  },
-  {
-    "Name": "TELLYPORTA",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Strategic Ploy",
-    "Whose": "Mine",
-    "Phase": "Movement",
-    "Text": "Use this Stratagem during deployment. Select one non-MONSTER ORKS unit from your army that has Power Rating 20 or less. You can set up this unit on a tellyporta pad instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases, you can set up this unit anywhere on the battlefield that is more than 9\u0022 away from any enemy models. If you select a TRANSPORT unit, any embarked units remain embarked when this unit is set up on the battlefield.",
-    "Keywords": [
-      "ORKS"
-    ]
-  },
-  {
-    "Name": "LUMBERING STRIDES",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Strategic Ploy",
-    "Whose": "Mine",
-    "Phase": "Charge",
-    "Text": "Use this Stratagem in your Charge phase, when you use the \u2019Ere We Go ability to re-roll a charge roll for a MORKANAUT, GORKANAUT or STOMPA unit from your army. You can re-roll one of the dice for that charge roll instead of both.",
-    "Keywords": [
-      "MORKANAUT",
-      "GORKANAUT",
-      "STOMPA"
-    ]
-  },
-  {
-    "Name": "BURN \u2019EM ALL!",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Strategic Ploy",
-    "Whose": "Mine",
-    "Phase": "Shooting",
-    "Text": "Use this Stratagem in your Shooting phase, when a BURNA-BOMMER unit from your army makes attacks with skorcha missile racks. After resolving these attacks, each other unit within 3\u0022 of the target suffers 1 mortal wound.",
-    "Keywords": [
-      "BURNA-BOMMER"
-    ]
-  },
-  {
-    "Name": "MONSTER HUNTERZ",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Strategic Ploy",
-    "Whose": "Both",
-    "Phase": "Any",
-    "Text": "Use this Stratagem at the start of any phase. Select one enemy MONSTER or VEHICLE unit and up to 3 BEAST SNAGGA units from your army. Until the end of the phase, each time an attack is made by a model in one of the selected BEAST SNAGGA units that targets the selected MONSTER or VEHICLE unit, add 1 to that attack\u2019s wound roll.",
-    "Keywords": [
-      "BEAST SNAGGA"
-    ]
-  },
-  {
-    "Name": "CUTTIN\u2019 FLAMES",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Wargear",
-    "Whose": "Both",
-    "Phase": "Fight",
-    "Text": "Use this Stratagem in the Fight phase. Select one BURNA BOYZ unit from your army. Until the end of the phase, each time a Burna Boy model in that unit makes a melee attack, that attack has an Armour Penetration characteristic of -2. This cannot be improved by any abilities or rules that improve Armour Penetration characteristics.",
-    "Keywords": [
-      "BURNA BOYZ"
-    ]
-  },
-  {
-    "Name": "MORE DAKKA!",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Wargear",
-    "Whose": "Mine",
-    "Phase": "Shooting",
-    "Text": "Use this Stratagem in your Shooting phase, when an ORKS unit from your army is selected to shoot. Until the end of the phase, Dakka weapons that unit is equipped with are considered to be within half range when determining how many attacks are made with that weapon.",
-    "Keywords": [
-      "ORKS"
-    ]
-  },
-  {
-    "Name": "CLOUD OF SMOKE",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Wargear",
-    "Whose": "Enemy",
-    "Phase": "Shooting",
-    "Text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one SPEED FREEKS VEHICLE unit from your army. Until the end of the phase, while a friendly SPEED FREEKS VEHICLE unit is within 6\u0022 of the selected unit, each time a ranged attack targets that unit, subtract 1 from that attack\u2019s hit roll.",
-    "Keywords": [
-      "SPEED FREEKS VEHICLE"
-    ]
-  },
-  {
-    "Name": "TANKBUSTA BOMB",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Wargear",
-    "Whose": "Both",
-    "Phase": "Fight",
-    "Text": "Use this Stratagem in the Fight phase, when an ORKS TANKBUSTA BOMBS unit from your army is selected to fight. Select one model in that unit; that model can only make one attack this phase and must target an enemy VEHICLE unit with that attack, but if a hit is scored, that unit suffers 2D3 mortal wounds and the attack sequence ends.",
-    "Keywords": [
-      "ORKS TANKBUSTA BOMBS"
-    ]
-  },
-  {
-    "Name": "SNAGGA GRAPPLE",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Wargear",
-    "Whose": "Enemy",
-    "Phase": "Movement",
-    "Text": "Use this Stratagem at the start of your opponent\u2019s Movement phase. Select one BEAST SNAGGA BOYZ unit from your army. Each time an enemy unit (excluding TITANIC units) that is within Engagement Range of that unit is selected to move, roll one D6: on a 4\u002B, that enemy unit cannot Fall Back this turn.",
-    "Keywords": [
-      "BEAST SNAGGA BOYZ"
-    ]
-  },
-  {
-    "Name": "GROUNDSHAKER SHELLS",
-    "Cost": "1",
-    "Faction": "Orks",
-    "Category": "Wargear",
-    "Whose": "Mine",
-    "Phase": "Shooting",
-    "Text": "Use this Stratagem in your Shooting phase, when selecting a target for an \u2019eavy lobba. Until the end of the phase, each time that model makes a ranged attack, if a hit is scored against a target that is not TITANIC and cannot FLY, then until the start of your next Movement phase, halve the Move characteristic of models in the target unit and subtract 2 from the result of Advance rolls and charge rolls made for that unit.",
-    "Keywords": [
-
-    ]
-  },
-  {
-    "Name": "FORCE FIELD BOOSTA",
-    "Cost": "2",
-    "Faction": "Orks",
-    "Category": "Wargear",
-    "Whose": "Enemy",
-    "Phase": "Shooting",
-    "Text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one model in your army that is equipped with a kustom force field. Until the end of the turn, replace that kustom force field\u2019s ability with the following:\u2018(Aura) While a friendly ORKS unit is within 9\u0022 of the bearer, models in that unit have a 5\u002B invulnerable save.\u2019At the end of this turn, the kustom force field overloads and cannot be used for the rest of the battle. You can only use this Stratagem once per battle.",
-    "Keywords": [
-
-    ]
-  }
+	{
+		"name": "CAREEN!",
+		"cost": "1/2",
+		"faction": "Orks",
+		"category": "Battle Tactic",
+		"whose": "Both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when an ORKS VEHICLE model in your army that is not within Engagement Range of any enemy models is destroyed and explodes. That model can make a Normal Move of up to 6\u0022 before resolving the explosion. If that VEHICLE is a WAGON or TITANIC model, this Stratagem costs 2CP; otherwise, it costs 1CP.",
+		"keywords": ["ORKS VEHICLE", "WAGON", "TITANIC"]
+	},
+	{
+		"name": "GET STUCK IN LADZ!",
+		"cost": "1/2",
+		"faction": "Orks",
+		"category": "Battle Tactic",
+		"whose": "Both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a BOYZ or BEAST SNAGGA BOYZ unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a pile in or consolidation move, it can move up to an additional 3\u0022. This is not cumulative with any other rule that increases the distance models can pile in or consolidate. If that unit contains 10 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["BOYZ", "BEAST SNAGGA BOYZ"]
+	},
+	{
+		"name": "RAMMING SPEED",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Battle Tactic",
+		"whose": "Mine",
+		"phase": "Charge",
+		"text": "Use this Stratagem in your Charge phase, when an ORKS VEHICLE unit from your army is selected to charge.Until the end of the phase, when making a charge roll for that unit, roll 3D6 instead.Until the end of the phase, when that unit finishes a charge move, select one enemy unit that is within Engagement Range of it and roll one D6: on a 2\u002B, that enemy unit suffers D3 mortal wounds.",
+		"keywords": ["ORKS VEHICLE"]
+	},
+	{
+		"name": "GUN CRAZY SHOW OFFS",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Battle Tactic",
+		"whose": "Mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the end of your Shooting phase. Select one FLASH GITZ unit from your army; that unit can shoot again, but must target the closest eligible enemy unit.",
+		"keywords": ["FLASH GITZ"]
+	},
+	{
+		"name": "HIT \u2019EM HARDER",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Battle Tactic",
+		"whose": "Both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a MEGANOBZ unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack with a power klaw or killsaw, add 1 to that attack\u2019s Damage characteristic.",
+		"keywords": ["MEGANOBZ"]
+	},
+	{
+		"name": "TOUGH AS SQUIG-HIDE",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Battle Tactic",
+		"whose": "Both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a BEAST SNAGGA INFANTRY, BEAST SNAGGA CAVALRY or BEAST SNAGGA MONSTER unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, an unmodified wound roll of 1-3 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have.",
+		"keywords": [
+			"BEAST SNAGGA INFANTRY",
+			"BEAST SNAGGA CAVALRY",
+			"BEAST SNAGGA MONSTER"
+		]
+	},
+	{
+		"name": "BREAKIN\u2019 HEADS",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Battle Tactic",
+		"whose": "Both",
+		"phase": "Morale",
+		"text": "Use this Stratagem in the Morale phase, when a Morale test is failed for a \u0026lt;CLAN\u0026gt; unit (excluding GRETCHIN units) from your army that is within 3\u0022 of any friendly \u0026lt;CLAN\u0026gt; WARBOSS or \u0026lt;CLAN\u0026gt; NOBZ units. That \u0026lt;CLAN\u0026gt; unit suffers D3 mortal wounds, and the Morale test is treated as having been passed.",
+		"keywords": []
+	},
+	{
+		"name": "ORKS IS NEVER BEATEN",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Epic Deed",
+		"whose": "Both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when an ORKS CHARACTER model in your army that has not already been selected to fight this phase is destroyed. Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. If the selected model\u2019s characteristics change as it takes damage, use the bottom row of that model\u2019s profile when resolving those attacks. After resolving the destroyed model\u2019s attacks, it is then removed.",
+		"keywords": ["ORKS CHARACTER"]
+	},
+	{
+		"name": "DA BIGGER DEY IZ...",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Epic Deed",
+		"whose": "Both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a BEAST SNAGGA WARBOSS unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack that targets a TITANIC unit, add 2 to the Damage characteristic of that attack.",
+		"keywords": ["BEAST SNAGGA WARBOSS"]
+	},
+	{
+		"name": "EXTRA GUBBINZ",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Requisition",
+		"whose": "Mine",
+		"phase": "Error",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER model in your army and give them one Shiny Gubbinz (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["ORKS CHARACTER"]
+	},
+	{
+		"name": "BIG BOSS",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Requisition",
+		"whose": "Mine",
+		"phase": "Error",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER from your army and determine one Warlord Trait for that model (this must be a Warlord Trait they could have); that model it is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["ORKS CHARACTER"]
+	},
+	{
+		"name": "TIDE OF MUSCLE",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Strategic Ploy",
+		"whose": "Mine",
+		"phase": "Charge",
+		"text": "Use this Stratagem in your Charge phase, when you select an ORKS CORE unit (excluding GRETCHIN units) from your army to charge. That unit can ignore any or all modifiers to the charge roll.",
+		"keywords": ["ORKS CORE"]
+	},
+	{
+		"name": "UNSTOPPABLE MOMENTUM",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Strategic Ploy",
+		"whose": "Mine",
+		"phase": "Charge",
+		"text": "Use this Stratagem in your Charge phase, after a NOB ON SMASHA SQUIG unit from your army finishes a charge move. If there are no enemy models within Engagement Range of that model, it can immediately be selected to declare a charge again.",
+		"keywords": ["NOB ON SMASHA SQUIG"]
+	},
+	{
+		"name": "GROT SHIELDS",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Strategic Ploy",
+		"whose": "Enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one ORKS INFANTRY unit from your army, then select one GRETCHIN INFANTRY unit (excluding CHARACTER units) from your army that is within 6\u0022 of that unit. Until the end of the phase, enemy models cannot select the selected ORKS INFANTRY unit as a target if the selected GRETCHIN INFANTRY unit is a closer visible target.",
+		"keywords": ["ORKS INFANTRY"]
+	},
+	{
+		"name": "TELLYPORTA",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Strategic Ploy",
+		"whose": "Mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem during deployment. Select one non-MONSTER ORKS unit from your army that has Power Rating 20 or less. You can set up this unit on a tellyporta pad instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases, you can set up this unit anywhere on the battlefield that is more than 9\u0022 away from any enemy models. If you select a TRANSPORT unit, any embarked units remain embarked when this unit is set up on the battlefield.",
+		"keywords": ["ORKS"]
+	},
+	{
+		"name": "LUMBERING STRIDES",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Strategic Ploy",
+		"whose": "Mine",
+		"phase": "Charge",
+		"text": "Use this Stratagem in your Charge phase, when you use the \u2019Ere We Go ability to re-roll a charge roll for a MORKANAUT, GORKANAUT or STOMPA unit from your army. You can re-roll one of the dice for that charge roll instead of both.",
+		"keywords": ["MORKANAUT", "GORKANAUT", "STOMPA"]
+	},
+	{
+		"name": "BURN \u2019EM ALL!",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Strategic Ploy",
+		"whose": "Mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a BURNA-BOMMER unit from your army makes attacks with skorcha missile racks. After resolving these attacks, each other unit within 3\u0022 of the target suffers 1 mortal wound.",
+		"keywords": ["BURNA-BOMMER"]
+	},
+	{
+		"name": "MONSTER HUNTERZ",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Strategic Ploy",
+		"whose": "Both",
+		"phase": "Any",
+		"text": "Use this Stratagem at the start of any phase. Select one enemy MONSTER or VEHICLE unit and up to 3 BEAST SNAGGA units from your army. Until the end of the phase, each time an attack is made by a model in one of the selected BEAST SNAGGA units that targets the selected MONSTER or VEHICLE unit, add 1 to that attack\u2019s wound roll.",
+		"keywords": ["BEAST SNAGGA"]
+	},
+	{
+		"name": "CUTTIN\u2019 FLAMES",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Wargear",
+		"whose": "Both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase. Select one BURNA BOYZ unit from your army. Until the end of the phase, each time a Burna Boy model in that unit makes a melee attack, that attack has an Armour Penetration characteristic of -2. This cannot be improved by any abilities or rules that improve Armour Penetration characteristics.",
+		"keywords": ["BURNA BOYZ"]
+	},
+	{
+		"name": "MORE DAKKA!",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Wargear",
+		"whose": "Mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when an ORKS unit from your army is selected to shoot. Until the end of the phase, Dakka weapons that unit is equipped with are considered to be within half range when determining how many attacks are made with that weapon.",
+		"keywords": ["ORKS"]
+	},
+	{
+		"name": "CLOUD OF SMOKE",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Wargear",
+		"whose": "Enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one SPEED FREEKS VEHICLE unit from your army. Until the end of the phase, while a friendly SPEED FREEKS VEHICLE unit is within 6\u0022 of the selected unit, each time a ranged attack targets that unit, subtract 1 from that attack\u2019s hit roll.",
+		"keywords": ["SPEED FREEKS VEHICLE"]
+	},
+	{
+		"name": "TANKBUSTA BOMB",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Wargear",
+		"whose": "Both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when an ORKS TANKBUSTA BOMBS unit from your army is selected to fight. Select one model in that unit; that model can only make one attack this phase and must target an enemy VEHICLE unit with that attack, but if a hit is scored, that unit suffers 2D3 mortal wounds and the attack sequence ends.",
+		"keywords": ["ORKS TANKBUSTA BOMBS"]
+	},
+	{
+		"name": "SNAGGA GRAPPLE",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Wargear",
+		"whose": "Enemy",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the start of your opponent\u2019s Movement phase. Select one BEAST SNAGGA BOYZ unit from your army. Each time an enemy unit (excluding TITANIC units) that is within Engagement Range of that unit is selected to move, roll one D6: on a 4\u002B, that enemy unit cannot Fall Back this turn.",
+		"keywords": ["BEAST SNAGGA BOYZ"]
+	},
+	{
+		"name": "GROUNDSHAKER SHELLS",
+		"cost": "1",
+		"faction": "Orks",
+		"category": "Wargear",
+		"whose": "Mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when selecting a target for an \u2019eavy lobba. Until the end of the phase, each time that model makes a ranged attack, if a hit is scored against a target that is not TITANIC and cannot FLY, then until the start of your next Movement phase, halve the Move characteristic of models in the target unit and subtract 2 from the result of Advance rolls and charge rolls made for that unit.",
+		"keywords": []
+	},
+	{
+		"name": "FORCE FIELD BOOSTA",
+		"cost": "2",
+		"faction": "Orks",
+		"category": "Wargear",
+		"whose": "Enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one model in your army that is equipped with a kustom force field. Until the end of the turn, replace that kustom force field\u2019s ability with the following:\u2018(Aura) While a friendly ORKS unit is within 9\u0022 of the bearer, models in that unit have a 5\u002B invulnerable save.\u2019At the end of this turn, the kustom force field overloads and cannot be used for the rest of the battle. You can only use this Stratagem once per battle.",
+		"keywords": []
+	}
 ]
