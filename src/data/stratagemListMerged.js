@@ -1,4 +1,6 @@
-import tyranidStratagems from './tyranidStratagems';
+import tyranids from './tyranids';
+import adeptasororitas from './adeptaSororitas.json'
+
 
 const startingArr = [
 	{
@@ -9,7 +11,7 @@ const startingArr = [
 		phase: 'Any',
 		whose: 'Core',
 		text: 'Use this Stratagem after you have made a hit roll, a wound roll, a damage roll, a saving throw, an Advance roll, a charge roll, a Psychic test, a Deny the Witch test or you have rolled the dice to determine the number of attacks made by a weapon. Re-roll that roll, test or saving throw.',
-		keywords: 'CORE',
+		keywords: ['CORE'],
 	},
 
 	{
@@ -20,7 +22,7 @@ const startingArr = [
 		phase: 'Movement',
 		whose: 'Core',
 		text: 'Use this Stratagem in your Movement phase. Select one unit from your army that has not been selected to move this phase and which is in Engagement Range with at least one enemy unit. Roll one D6 for each model in that unit; for each result of 1, one model in that unit of your choice is destroyed. Assuming that unit was not destroyed, it can now attempt to Fall Back, and when doing so its models can be moved across enemy models as if they were not there. Any model in that unit that ends its Fall Back move within Engagement Range of any enemy model is destroyed. Assuming the unit is not destroyed, it cannot do anything else this turn (i.e. it cannot attempt to manifest psychic powers, shoot, declare a charge, be selected to fight etc.), even if it has a rule that would allow it to do so after Falling Back.',
-		keywords: 'CORE',
+		keywords: ['CORE'],
 	},
 	{
 		faction: 'Core',
@@ -30,7 +32,7 @@ const startingArr = [
 		phase: 'Any',
 		whose: 'Core',
 		text: `Use this Stratagem when a TRANSPORT model from your army is destroyed. All units that are embarked within that model can be set up wholly within 6" of the destroyed model when they disembark instead of the normal 3" before the model itself is removed from the battlefield. These units are not affected by the destroyed model's Explodes ability (or equivalent) — instead you must roll one D6 for each model you just set up on the battlefield. Instead of one model that disembarked (your choice) being destroyed for each roll of 1, one model that disembarked (your choice) is destroyed for each roll of 1 or 2. Units cannot declare a charge or perform a Heroic Intervention in the same turn that they disembarked from a destroyed TRANSPORT model.`,
-		keywords: 'TRANSPORT',
+		keywords: ['TRANSPORT'],
 	},
 	{
 		faction: 'Core',
@@ -40,7 +42,7 @@ const startingArr = [
 		phase: 'Movement',
 		whose: 'Core',
 		text: 'Use this Stratagem when an enemy unit Falls Back, before any models in that unit are moved. Roll one D6 for each model from your army that is within Engagement Range of that enemy unit; for each result of 6, that enemy unit suffers 1 mortal wound.',
-		keywords: 'CORE',
+		keywords: ['CORE'],
 	},
 	{
 		faction: 'Core',
@@ -50,7 +52,7 @@ const startingArr = [
 		phase: 'Fight',
 		whose: 'Core',
 		text: 'Use this Stratagem after an enemy unit has declared a charge against one or more units from your army. One of the units that was chosen as the target of that charge can fire Overwatch before the charge roll is made.',
-		keywords: 'CORE',
+		keywords: ['CORE'],
 	},
 	{
 		faction: 'Core',
@@ -60,7 +62,7 @@ const startingArr = [
 		phase: 'Fight',
 		whose: 'Core',
 		text: 'Use this Stratagem after an enemy unit has fought in this turn. Select one of your own eligible units and fight with it next.',
-		keywords: 'CORE',
+		keywords: ['CORE'],
 	},
 	{
 		faction: 'Core',
@@ -70,9 +72,9 @@ const startingArr = [
 		phase: 'Morale',
 		whose: 'Core',
 		text: 'Use this Stratagem before you take a Morale test for a unit in your army. That test is automatically passed (do not roll any dice). You can only use this Stratagem once per battle.',
-		keywords: 'CORE',
+		keywords: ['CORE'],
 	},
 ];
-const stratagemListMerged = startingArr.concat(tyranidStratagems);
+const stratagemListMerged = startingArr.concat(tyranids, adeptasororitas);
 
 export default stratagemListMerged;
