@@ -1,7 +1,6 @@
 import React from 'react';
 import buttonGenerator from '../functions/buttonGenerator';
 
-
 const ListItem = ({
 	name,
 	cost,
@@ -26,7 +25,7 @@ const ListItem = ({
 					</div>
 				</div>
 				<p className='text'>{text}</p>
-				<p className='keywords'>KEYWORDS: {keywords}</p>
+				<p className='keywords'>KEYWORDS: {keywords.join(', ')}</p>
 			</div>
 		</>
 	);
