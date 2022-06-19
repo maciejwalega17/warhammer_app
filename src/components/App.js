@@ -66,10 +66,10 @@ const App = () => {
 			el.phase.toLowerCase() === 'any'
 	);
 	const myPhase = selectedPhaseStratagems.filter(
-		(el) => el.whose === 'mine' || el.whose === 'both'
+		(el) => el.whose.toLowerCase() === 'mine' || el.whose.toLowerCase() === 'both'
 	);
 	const enemyPhase = selectedPhaseStratagems.filter(
-		(el) => el.whose === 'enemy' || el.whose === 'both'
+		(el) => el.whose.toLowerCase() === 'enemy' || el.whose.toLowerCase() === 'both'
 	);
 
 	const coreStratagems = stratagemListMerged.filter(
