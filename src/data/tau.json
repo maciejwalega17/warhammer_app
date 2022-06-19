@@ -1,0 +1,312 @@
+[
+	{
+		"name": "BREACH AND CLEAR",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a BREACHER TEAM unit from your army is selected to shoot. Until the end of the phase, each time a CORE model in that unit makes a ranged attack:The target does not receive the benefits of cover against that attack.You can re-roll the wound roll.",
+		"keywords": ["BREACHER TEAM", "CORE"]
+	},
+	{
+		"name": "RELENTLESS FUSILLADE",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a STRIKE TEAM unit from your army is selected to shoot. Until the end of the phase:Instead of following the normal rules for Rapid Fire weapons, models in that unit shooting pulse rifles make double the number of attacks.Each time a CORE model in that unit makes a ranged attack, improve the Armour Penetration characteristic of that attack by 1.",
+		"keywords": ["STRIKE TEAM", "CORE"]
+	},
+	{
+		"name": "ON-BOARD SENSORS",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your Shooting phase. Select one \u0026lt;SEPT\u0026gt; DEVILFISH model from your army and one enemy unit within 24\u0022 of and visible to that model. Until the end of the phase, that DEVILFISH model gains the following ability:\u2018Sensor Link (Aura): While a friendly \u0026lt;SEPT\u0026gt; FIRE WARRIOR TEAM unit is within 6\u0022 of this model, each time a model in that unit makes a ranged attack against the selected enemy unit, re-roll a hit roll of 1.\u2019",
+		"keywords": ["DEVILFISH", "FIRE WARRIOR TEAM"]
+	},
+	{
+		"name": "DYNAMIC OFFENSIVE",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a CRISIS BATTLESUIT unit from your army is selected to move. Until the end of the turn:Each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\u0022 to the Move characteristic of models in that unit.Models in that unit do not suffer the penalty to hit rolls incurred for firing Assault weapons in the same turn that their unit has Advanced.",
+		"keywords": ["CRISIS BATTLESUIT"]
+	},
+	{
+		"name": "PULSE ONSLAUGHT",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a FIRE WARRIOR TEAM unit from your army is selected to shoot. Until the end of the phase, each time a CORE model in that unit makes an attack with a pulse weapon, an unmodified hit roll of 6 automatically wounds the target.",
+		"keywords": ["FIRE WARRIOR TEAM", "CORE"]
+	},
+	{
+		"name": "POINT-BLANK VOLLEY",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your Shooting phase. Select one FIRE WARRIOR TEAM unit from your army that is within Engagement Range of any enemy units. Until the end of the phase, pulse blasters, pulse carbines and pulse rifles that models in that unit are equipped with have the Type characteristic Pistol 2.",
+		"keywords": ["FIRE", "WARRIOR", "TEAM"]
+	},
+	{
+		"name": "DROP THREAT ACQUISITION",
+		"cost": "3/2",
+		"faction": "T\u2019au Empire",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a BATTLESUITS unit from your army is set up on the battlefield using the Manta Strike ability or the Homing Beacon action (see Stealth Battlesuits datasheet). Until the end of the turn, each time a BATTLESUIT model in that unit makes a ranged attack, you can re-roll the hit roll. If that unit contains 4 or more BATTLESUIT models, this Stratagem-costs 3CP; otherwise, it costs 2CP.",
+		"keywords": ["BATTLESUIT "]
+	},
+	{
+		"name": "SAVIOUR PROTOCOLS",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a saving throw is failed for a model in a \u0026lt;SEPT\u0026gt; unit from your army. Select one friendly \u0026lt;SEPT\u0026gt; DRONE model within 3\u0022 of that unit, or within 6\u0022 of that unit if it contains a model equipped with a drone controller. That DRONE model is destroyed and the Damage characteristic of that attack is changed to 0.",
+		"keywords": ["DRONE"]
+	},
+	{
+		"name": "BRANCHED NOVA CHARGE",
+		"cost": "2",
+		"faction": "T\u2019au Empire",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase, when a RIPTIDE BATTLESUIT model from your army uses its Nova Reactor ability and it burns out. That model\u2019s nova reactor does not burn out, and you can select one of its reactor abilities. This Stratagem cannot be used to prevent the same model\u2019s reactor from burning out more than once per battle.",
+		"keywords": ["RIPTIDE", "BATTLESUIT"]
+	},
+	{
+		"name": "COMBAT DEBARKATION",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the start of your Movement phase.If you selected the Mont\u2019ka Tactical Philosophy at the start of the battle and it is the first, second or third battle round, select up to three DEVILFISH models from your army.If you selected the Kauyon Tactical Philosophy at the start of the battle and it is the third, fourth or fifth battle round, select up to three DEVILFISH models from your army.Otherwise, select one DEVILFISH model from your army.Until the end of the phase, each time one of those models makes a Normal Move, after it has moved, any units embarked within that transport can disembark. Any units that do so cannot charge this turn.",
+		"keywords": ["DEVILFISH"]
+	},
+	{
+		"name": "WISDOM OF THE MANY",
+		"cost": "2",
+		"faction": "T\u2019au Empire",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Any",
+		"text": "Use this Stratagem at the start of any of your phases other than your Command phase. Select one ETHEREAL unit from your army that has not intoned an invocation this turn. That model can intone one invocation that has not already been intoned by a friendly model this turn. That invocation is automatically inspiring (do not roll) and takes effect until the start of your next Command phase.",
+		"keywords": ["ETHEREAL"]
+	},
+	{
+		"name": "FAIL-SAFE DETONATOR",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a BATTLESUIT model from your army is destroyed. Before removing that model from play, instead of using any rules that are triggered when that model is destroyed (e.g. the Explodes ability), roll one D6 for each unit within 3\u0022 of that model, adding 1 to the roll if the destroyed model has a Wounds characteristic of 12 or more: on a 3-5, that unit suffers D3 mortal wounds; on a 6\u002B, that unit suffers 3 mortal wounds.",
+		"keywords": ["BATTLESUIT"]
+	},
+	{
+		"name": "BACKUP AI",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one T\u2019AU EMPIRE model in your army Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use.",
+		"keywords": ["T\u2019AU EMPIRE"]
+	},
+	{
+		"name": "EMERGENCY DISPENSATION",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Requisition",
+		"whose": "both",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the T\u2019AU EMPIRE keyword. Select one T\u2019AU EMPIRE CHARACTER model in your army and give them one Relic (this must be a Relic they can have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "T\u2019AU EMPIRE", "CHARACTER"]
+	},
+	{
+		"name": "PROMISING PUPIL",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Requisition",
+		"whose": "both",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the T\u2019AU EMPIRE keyword. Select one T\u2019AU EMPIRE CHARACTER model in your army and determine one Warlord Trait for that model (this must be a Warlord Trait they can have); that model is only regarded as your Warlord for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "T\u2019AU EMPIRE", "CHARACTER"]
+	},
+	{
+		"name": "ORBITAL ION BEAM",
+		"cost": "2",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Place two Ion Beam markers anywhere on the battlefield within 12\u0022 of each other. At the start of your next Command phase, draw a straight, imaginary line between the two Ion Beam markers, and then roll one D6 for each unit that this line crosses over, adding 1 if the unit being rolled for is a BUILDING: on a 2-5, that unit suffers D3 mortal wounds; on a 6\u002B, that unit suffers 3 mortal wounds. The Ion Beam markers are then removed. You can only use this Stratagem once.",
+		"keywords": ["BUILDING "]
+	},
+	{
+		"name": "WALL OF MIRRORS",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the end of your Movement phase. Select one STEALTH BATTLESUITS or GHOSTKEEL BATTLESUIT unit from your army that is wholly within 9\u0022 of any battlefield edges. Remove that unit from the battlefield. In the Reinforcements step of your next Movement phase, you can set that unit back up on the battlefield anywhere that is wholly within 9\u0022 of any battlefield edge and more than 9\u0022 away from any enemy models. If the battle ends and that unit is not on the battlefield, it is destroyed.",
+		"keywords": ["STEALTH BATTLESUITS", "GHOSTKEEL BATTLESUIT"]
+	},
+	{
+		"name": "THE GRISLY FEAST",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when an enemy unit is destroyed by an attack made by a model in a KROOT unit from your army. Until the end of the battle, each time a model in that Kroot unit would lose a wound, roll one D6: on a 5\u002B, that wound is not lost.",
+		"keywords": ["KROOT"]
+	},
+	{
+		"name": "COORDINATED ENGAGEMENT",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, before selecting a unit to shoot with. Select one enemy unit and two \u0026lt;SEPT\u0026gt; units from your army that are within 18\u0022 of and visible to that enemy unit. Until the end of the phase, each time a model in one of those \u0026lt;SEPT\u0026gt; units makes an attack:That attack can only target that enemy unit (and only if it is an eligible target).Improve the Armour Penetration characteristic of that attack by 1.",
+		"keywords": []
+	},
+	{
+		"name": "A TRAP WELL LAID",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "enemy",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Heroic Interventions step of your opponent\u2019s Charge phase. Select one KROOT unit from your army that is not within Engagement Range of any enemy units. Until the end of the turn:Add 1 to the Attacks characteristic of models in that unit.That unit is eligible to perform Heroic Interventions as if it were a CHARACTER.That unit is eligible to perform a Heroic Intervention if it is within 6\u0022 horizontally of an enemy unit, and when performing a Heroic Intervention move with that unit, you can move each model in that unit up to 6\u0022. All other rules for Heroic Interventions still apply.",
+		"keywords": ["KROOT", "CHARACTER"]
+	},
+	{
+		"name": "RECON SWEEP",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a PATHFINDER TEAM unit from your army successfully completes the Fire Markerlights action. Each time you roll to see if an enemy unit gains a Markerlight token as a result of that action completing, add 1 to the roll. That unit can make a Normal Move.",
+		"keywords": ["PATHFINDER TEAM"]
+	},
+	{
+		"name": "SHOCKING FIRESTORM",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a \u0026lt;SEPT\u0026gt; unit from your army is selected to shoot. Select one enemy unit within 18\u0022 of that \u0026lt;SEPT\u0026gt; unit. Until the end of the phase, each time a model in that enemy unit is destroyed as a result of an attack made by a model in that \u0026lt;SEPT\u0026gt; unit, the destroyed model counts as two destroyed models for the purposes of Morale tests this turn.",
+		"keywords": []
+	},
+	{
+		"name": "COUNTERFIRE DEFENCE SYSTEM",
+		"cost": "1/2",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your opponent\u2019s Shooting phase, when an attack is allocated to a COUNTERFIRE DEFENCE SYSTEM model from your army. The Damage characteristic of that attack is changed to 1. If that model has a Wounds characteristic of 14 or more, this Stratagem costs 2CP; otherwise, it costs 1CP.",
+		"keywords": ["COUNTERFIRE DEFENCE SYSTEM"]
+	},
+	{
+		"name": "DESIGNATED TASKING",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one T\u2019AU EMPIRE unit from your army that is not within Engagement Range of any enemy units and contains both DRONE models and models without the DRONE keyword. Split that unit into two units, one containing all of the DRONE models, and the other containing all of the models without the DRONE keyword.If any of those DRONE models are docked with another model, set them up within 1\u0022 of the model they are docked with before splitting the unit. Those DRONE models are no longer docked with that model.",
+		"keywords": ["T\u2019AU EMPIRE", "DRONE"]
+	},
+	{
+		"name": "STRIKE AND FADE",
+		"cost": "1/2",
+		"faction": "T\u2019au Empire",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your Shooting phase. Select one T\u2019AU EMPIRE JET PACK unit from your army. You can shoot with that unit and then it can make a Normal Move of up to 6\u0022. That unit cannot shoot again this phase.If that unit contains 5 or fewer models (excluding DRONE models), this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["T\u2019AU EMPIRE", "JET PACK", "DRONE"]
+	},
+	{
+		"name": "FREQUENCY LOCK",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a T\u2019AU EMPIRE model from your army is selected to shoot. Until the end of the phase, each time that model makes an attack with a seeker missile, seeker missile rack or destroyer missile:That attack can target units with one or more Markerlight tokens that are not visible to the attacking model.Add 1 to that attack\u2019s wound roll.",
+		"keywords": ["T\u2019AU EMPIRE"]
+	},
+	{
+		"name": "NEUROWEB SYSTEM JAMMER",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase. Select one enemy unit within 18\u0022 of and visible to a NEUROWEB SYSTEM JAMMER unit from your army. Roll one D6: on a 3\u002B, until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from that attack\u2019s hit roll.",
+		"keywords": ["NEUROWEB SYSTEM JAMMER"]
+	},
+	{
+		"name": "REPULSOR IMPACT FIELD",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Fight",
+		"text": "Use this Stratagem in your opponent\u2019s Charge phase, when a BATTLESUIT unit from your army is selected as a target of a charge. Until the end of the phase, subtract 2 from charge rolls made for any unit that declares a charge against that BATTLESUIT unit. The charge roll modifier incurred via this Stratagem is not cumulative with any other negative modifier to a unit\u2019s charge roll.",
+		"keywords": ["BATTLESUIT"]
+	},
+	{
+		"name": "IONISED SHOCKFIELD",
+		"cost": "2",
+		"faction": "T\u2019au Empire",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a model in an enemy unit is destroyed as a result of an attack made with an ion weapon by a \u0026lt;SEPT\u0026gt; model from your army. Until the start of your next Shooting phase, that enemy unit is not affected by the aura abilities of other enemy units.",
+		"keywords": []
+	},
+	{
+		"name": "SUBMUNITIONS",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a HAMMERHEAD model from your army is selected to shoot. If that model is equipped with a railgun, instead of making attacks with that weapon this phase, select one enemy unit that is not within Engagement Range of any units from your army and is within 36\u0022 of and visible to that model. Roll one D6 for each model in that unit, adding 1 to each roll if that unit has 11 or more models: for each 4\u002B, that unit suffers 1 mortal wound (to a maximum of 8 mortal wounds).",
+		"keywords": ["HAMMERHEAD"]
+	},
+	{
+		"name": "PHOTON GRENADES",
+		"cost": "1",
+		"faction": "T\u2019au Empire",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Fight",
+		"text": "Use this Stratagem in your opponent\u2019s Charge phase, when a PHOTON GRENADES unit from your army is selected as a target of a charge declared with an enemy unit (excluding VEHICLE and MONSTER units). Until the end of the turn:Subtract 2 from that unit\u2019s charge rolls.Each time a model in that unit makes an attack, subtract 1 from that attack\u2019s hit roll.The charge roll modifier incurred via this Stratagem is not cumulative with any other negative modifier to a unit\u2019s charge roll.",
+		"keywords": ["PHOTON GRENADES", "VEHICLE", "MONSTER"]
+	}
+]
