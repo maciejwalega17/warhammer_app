@@ -8,8 +8,8 @@ const Counter = ({ counter, currency, onClickAdd, onClickSub }) => {
 				<div>
 					<p>{counter} {currency}</p>
 				</div>
-				<Button name={`+ 1 ${currency}`} onClick={() => onClickAdd()} />
 				<Button name={`- 1 ${currency}`} onClick={() => onClickSub()} />
+				<Button name={`+ 1 ${currency}`} onClick={() => onClickAdd()} />
 			</div>
 		</>
 	);
