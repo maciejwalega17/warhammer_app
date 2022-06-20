@@ -120,23 +120,23 @@ const App = () => {
 				<div className='nav'>
 					<div className='flex-row'>
 						<Selector
+							title='Phase:'
+							value={selectedPhase}
 							type='Phase Select'
 							list={phaseList}
 							callback={(value) => setSelectedPhase(value)}
 						/>
 						<Selector
+							title='Army:'
+							value={selectedArmy}
 							type='Army Select'
 							list={armyList}
 							callback={(value) => setSelectedArmy(value)}
 						/>
 					</div>
-					<div className='flex-row'>
-						<Button name='Previous' onClick={() => onClickNav('prev')} />
-						<Button name='Next' onClick={() => onClickNav('next')} />
-					</div>
-					<div className='flex-column'>
-						<p className='show-selected show-selected-army'>{selectedArmy}</p>
-						<p className='show-selected show-selected-phase'>{selectedPhase}</p>
+					<div className='flex-row space-around'>
+						<Button name='Previous phase' onClick={() => onClickNav('prev')} />
+						<Button name='Next phase' onClick={() => onClickNav('next')} />
 					</div>
 				</div>
 
@@ -146,26 +146,28 @@ const App = () => {
 					onClickAdd={() => onClickSetCounter(setCommandPoints, 'add', 1)}
 					onClickSub={() => onClickSetCounter(setCommandPoints, 'sub', 1)}
 				/>
-				<div className='stratagems'>
+				<div className='stratagems flex-column'>
 					<h1>Stratagems:</h1>
-					<Button
-						name={`${
-							whoseShow
-								? 'Show enemy phase Stratagems'
-								: 'Show my phase Stratagems'
-						}`}
-						onClick={() => {
-							setWhoseShow((prevState) => !prevState);
-						}}
-					/>
-					<Button
-						name={
-							showModalBig ? 'Hide Core Stratagems' : 'Show Core Stratagems'
-						}
-						onClick={() => {
-							setShowModalBig((prevState) => !prevState);
-						}}
-					/>
+					<div className='stratagem-btn-container'>
+						<Button
+							name={`${
+								whoseShow
+									? 'Show enemy phase Stratagems'
+									: 'Show my phase Stratagems'
+							}`}
+							onClick={() => {
+								setWhoseShow((prevState) => !prevState);
+							}}
+						/>
+						<Button
+							name={
+								showModalBig ? 'Hide Core Stratagems' : 'Show Core Stratagems'
+							}
+							onClick={() => {
+								setShowModalBig((prevState) => !prevState);
+							}}
+						/>
+					</div>
 					<div className='flex-row'>
 						{whoseShow ? (
 							<List
