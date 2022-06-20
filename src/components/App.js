@@ -54,6 +54,7 @@ const App = () => {
 		setitemName(name);
 		setitemCost(parseInt(cost));
 		setShowModalSmall((prevState) => !prevState);
+		setShowModalBig(false);
 	};
 	//^changing states
 
