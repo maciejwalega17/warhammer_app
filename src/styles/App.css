@@ -12,7 +12,7 @@
 .wrapper {
 	padding: 20px;
 	align-items: center;
-	border: 3px solid var(--bg-tertiary-color);
+	border: 3px solid var(--btn-color);
 	background-color: var(--bg-primary-color);
 }
 
