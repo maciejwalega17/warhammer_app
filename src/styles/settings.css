@@ -1,0 +1,9 @@
+.settings-container {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+.settings-container .btn {
+	font-size: 10px;
+    background-color: var(--btn-color);
+}

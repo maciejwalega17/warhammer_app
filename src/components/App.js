@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Selector from './selector';
 import Button from './button';
@@ -27,9 +27,22 @@ const App = () => {
 	const [itemName, setitemName] = useState('');
 	const [itemCost, setitemCost] = useState(0);
 	const [DarkModeOn, setDarkModeOn] = useState(true);
-
+	const [isPageOnTop, setisPageOnTop] = useState(false);
 
 	//^States
+
+	useEffect(() => {
+		document.addEventListener('scroll', trackScrolling);
+	});
+
+	const trackScrolling = () => {
+		if (window.pageYOffset === 0) {
+			setisPageOnTop(true);
+		} else {
+			setisPageOnTop(false);
+		}
+	};
+
 	const onClickNav = (params) => {
 		if (params === 'next') {
 			if (phaseList.indexOf(selectedPhase) < phaseList.length - 1) {
@@ -118,7 +131,10 @@ const App = () => {
 	);
 
 	return (
-		<>	<Settings mode={DarkModeOn} callback={setDarkModeOn}/>
+		<>
+			{isPageOnTop ? (
+				<Settings mode={DarkModeOn} callback={setDarkModeOn} />
+			) : null}
 			<Modal
 				content={contentSmall}
 				onClick={() => {

@@ -3,6 +3,8 @@ import Button from './button';
 import switchLight from '../functions/switchLight';
 import switchDark from '../functions/switchDark';
 
+import '../styles/settings.css';
+
 const Settings = ({ mode, callback }) => {
 	const switchToLight = () => {
 		switchLight();
@@ -15,15 +17,16 @@ const Settings = ({ mode, callback }) => {
 
 	return (
 		<>
-			{mode ? (
-				<Button name='Switch to Light Mode' onClick={switchToLight} />
-			) : (
-				<Button name='Switch to Dark Mode' onClick={switchToDark} />
-			)}
+			
+			<div className='settings-container'>
+				{mode ? (
+					<Button name='Light Mode' onClick={switchToLight} />
+				) : (
+					<Button name='Dark Mode' onClick={switchToDark} />
+				)}
+			</div>
 		</>
 	);
 };
 
 export default Settings;
-
-
