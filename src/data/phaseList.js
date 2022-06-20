@@ -1,5 +1,4 @@
 const phaseList = [
-	'Before the Battle',
 	'Start of Battle Round',
 	'Command',
 	'Movement',

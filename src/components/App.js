@@ -19,7 +19,8 @@ const App = () => {
 	const [commandPoints, setCommandPoints] = useState(12);
 	const [whoseShow, setWhoseShow] = useState(true);
 
-	const [showModalBig, setShowModalBig] = useState(false);
+	const [showModalCore, setShowModalCore] = useState(false);
+	const [showModalBefore, setShowModalBefore] = useState(false);
 	const [showModalSmall, setShowModalSmall] = useState(false);
 
 	const [itemName, setitemName] = useState('');
@@ -54,7 +55,8 @@ const App = () => {
 		setitemName(name);
 		setitemCost(parseInt(cost));
 		setShowModalSmall((prevState) => !prevState);
-		setShowModalBig(false);
+		setShowModalCore(false);
+		setShowModalBefore(false);
 	};
 	//^changing states
 
@@ -79,6 +81,10 @@ const App = () => {
 		(el) => el.faction.toLowerCase() === 'core'
 	);
 
+	const beforeStratagems = stratagemListMerged
+		.filter((el) => el.phase === 'Before the Battle')
+		.filter((el) => el.faction.toLowerCase() === selectedArmy.toLowerCase());
+
 	//^stratagem list filtering
 	const contentSmall = (
 		<PayWindow
@@ -93,10 +99,17 @@ const App = () => {
 		/>
 	);
 
-	const contentBig = (
+	const contentCore = (
 		<List
 			title='Core Stratagems:'
 			listArr={coreStratagems}
+			callback={callbackBuy}
+		/>
+	);
+	const contentBefore = (
+		<List
+			title='Before the Battle Stratagems:'
+			listArr={beforeStratagems}
 			callback={callbackBuy}
 		/>
 	);
@@ -111,11 +124,18 @@ const App = () => {
 				show={showModalSmall}
 			/>
 			<Modal
-				content={contentBig}
+				content={contentCore}
 				onClick={() => {
-					setShowModalBig((prevState) => !prevState);
+					setShowModalCore((prevState) => !prevState);
 				}}
-				show={showModalBig}
+				show={showModalCore}
+			/>
+			<Modal
+				content={contentBefore}
+				onClick={() => {
+					setShowModalBefore((prevState) => !prevState);
+				}}
+				show={showModalBefore}
 			/>
 			<div className='wrapper flex-column'>
 				<div className='nav'>
@@ -162,10 +182,20 @@ const App = () => {
 						/>
 						<Button
 							name={
-								showModalBig ? 'Hide Core Stratagems' : 'Show Core Stratagems'
+								showModalCore ? 'Hide Core Stratagems' : 'Show Core Stratagems'
 							}
 							onClick={() => {
-								setShowModalBig((prevState) => !prevState);
+								setShowModalCore((prevState) => !prevState);
+							}}
+						/>
+						<Button
+							name={
+								showModalBefore
+									? 'Hide Before the Battle Stratagems'
+									: 'Show Before the Battle Stratagems'
+							}
+							onClick={() => {
+								setShowModalBefore((prevState) => !prevState);
 							}}
 						/>
 					</div>
