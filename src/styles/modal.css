@@ -1,0 +1,13 @@
+.active {
+	display: flex;
+}
+.inactive {
+	display: none;
+}
+.modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: grey;
+}

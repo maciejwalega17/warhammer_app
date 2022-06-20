@@ -11,9 +11,9 @@ const List = ({ title, listArr, callback }) => {
 
 	return (
 		<>
-			<div>
+			<div className='list-container'>
 				{listArr.length ? <h2>{title}</h2> : null}
-				{listItemList}
+				<div className="listitem-container">{listItemList}</div>
 			</div>
 		</>
 	);

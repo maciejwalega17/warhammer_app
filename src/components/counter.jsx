@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from './button';
 
+import '../styles/counter.css'
+
 const Counter = ({ counter, currency, onClickAdd, onClickSub }) => {
 	return (
 		<>
