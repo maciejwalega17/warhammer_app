@@ -25,7 +25,7 @@
 		"faction": "Orks",
 		"category": "Battle Tactic",
 		"whose": "Mine",
-		"phase": "Charge",
+		"phase": "Fight",
 		"text": "Use this Stratagem in your Charge phase, when an ORKS VEHICLE unit from your army is selected to charge.Until the end of the phase, when making a charge roll for that unit, roll 3D6 instead.Until the end of the phase, when that unit finishes a charge move, select one enemy unit that is within Engagement Range of it and roll one D6: on a 2\u002B, that enemy unit suffers D3 mortal wounds.",
 		"keywords": ["ORKS VEHICLE"]
 	},
@@ -99,7 +99,7 @@
 		"faction": "Orks",
 		"category": "Requisition",
 		"whose": "Mine",
-		"phase": "Error",
+		"phase": "Before the Battle",
 		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER model in your army and give them one Shiny Gubbinz (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
 		"keywords": ["ORKS CHARACTER"]
 	},
@@ -109,7 +109,7 @@
 		"faction": "Orks",
 		"category": "Requisition",
 		"whose": "Mine",
-		"phase": "Error",
+		"phase": "Before the Battle",
 		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the ORKS keyword. Select one ORKS CHARACTER from your army and determine one Warlord Trait for that model (this must be a Warlord Trait they could have); that model it is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
 		"keywords": ["ORKS CHARACTER"]
 	},
@@ -119,7 +119,7 @@
 		"faction": "Orks",
 		"category": "Strategic Ploy",
 		"whose": "Mine",
-		"phase": "Charge",
+		"phase": "Fight",
 		"text": "Use this Stratagem in your Charge phase, when you select an ORKS CORE unit (excluding GRETCHIN units) from your army to charge. That unit can ignore any or all modifiers to the charge roll.",
 		"keywords": ["ORKS CORE"]
 	},
@@ -129,7 +129,7 @@
 		"faction": "Orks",
 		"category": "Strategic Ploy",
 		"whose": "Mine",
-		"phase": "Charge",
+		"phase": "Fight",
 		"text": "Use this Stratagem in your Charge phase, after a NOB ON SMASHA SQUIG unit from your army finishes a charge move. If there are no enemy models within Engagement Range of that model, it can immediately be selected to declare a charge again.",
 		"keywords": ["NOB ON SMASHA SQUIG"]
 	},
@@ -159,7 +159,7 @@
 		"faction": "Orks",
 		"category": "Strategic Ploy",
 		"whose": "Mine",
-		"phase": "Charge",
+		"phase": "Fight",
 		"text": "Use this Stratagem in your Charge phase, when you use the \u2019Ere We Go ability to re-roll a charge roll for a MORKANAUT, GORKANAUT or STOMPA unit from your army. You can re-roll one of the dice for that charge roll instead of both.",
 		"keywords": ["MORKANAUT", "GORKANAUT", "STOMPA"]
 	},
