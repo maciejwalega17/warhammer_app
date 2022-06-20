@@ -13,8 +13,8 @@ const Counter = ({ counter, currency, onClickAdd, onClickSub }) => {
 					</h3>
 				</div>
 				<div className='counter-btn-container flex-column'>
-					<Button name={`- 1 ${currency}`} onClick={() => onClickSub()} />
 					<Button name={`+ 1 ${currency}`} onClick={() => onClickAdd()} />
+					<Button name={`- 1 ${currency}`} onClick={() => onClickSub()} />
 				</div>
 			</div>
 		</>
