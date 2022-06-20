@@ -6,6 +6,7 @@ import List from './list';
 import Modal from './modal';
 import Counter from './counter';
 import PayWindow from './pay_window';
+import Settings from './settings';
 
 import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
@@ -25,6 +26,8 @@ const App = () => {
 
 	const [itemName, setitemName] = useState('');
 	const [itemCost, setitemCost] = useState(0);
+	const [DarkModeOn, setDarkModeOn] = useState(true);
+
 
 	//^States
 	const onClickNav = (params) => {
@@ -115,7 +118,7 @@ const App = () => {
 	);
 
 	return (
-		<>
+		<>	<Settings mode={DarkModeOn} callback={setDarkModeOn}/>
 			<Modal
 				content={contentSmall}
 				onClick={() => {
