@@ -1,13 +1,13 @@
 import tyranids from './tyranids.json';
-import adeptasororitas from './adeptaSororitas.json'
-import adeptuscustodes from './adeptusCustodes.json'
-import orks from './orks.json'
-import tau from './tau.json'
-import harlequins from './harlequins.json'
-import adeptusmechanicus from './adeptusMechanicus.json'
-import necrons from './necrons.json'
-import chaosknights from './chaosKnights.json'
-
+import adeptasororitas from './adeptaSororitas.json';
+import adeptuscustodes from './adeptusCustodes.json';
+import orks from './orks.json';
+import tau from './tau.json';
+import harlequins from './harlequins.json';
+import adeptusmechanicus from './adeptusMechanicus.json';
+import necrons from './necrons.json';
+import chaosknights from './chaosKnights.json';
+import deathguard from './deathGuard.json';
 
 const startingArr = [
 	{
@@ -82,6 +82,17 @@ const startingArr = [
 		keywords: ['CORE'],
 	},
 ];
-const stratagemListMerged = startingArr.concat(tyranids, adeptasororitas, adeptuscustodes, orks, tau, harlequins, adeptusmechanicus, necrons, chaosknights);
+const stratagemListMerged = startingArr.concat(
+	tyranids,
+	adeptasororitas,
+	adeptuscustodes,
+	orks,
+	tau,
+	harlequins,
+	adeptusmechanicus,
+	necrons,
+	chaosknights,
+	deathguard
+);
 
 export default stratagemListMerged;

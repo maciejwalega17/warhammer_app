@@ -1,0 +1,318 @@
+[
+	{
+		"name": "TRENCH FIGHTERS",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a DEATH GUARD PLAGUE MARINES unit from your army is selected to fight. Until the end of the phase, each time a model in that unit fights, if it is equipped with any plague knives, it makes 1 additional attack with one of its plague knives.",
+		"keywords": ["DEATH GUARD", "PLAGUE MARINES"]
+	},
+	{
+		"name": "CREEPING BLIGHT",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a DEATH GUARD unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack with a plague weapon, on an unmodified wound roll of 6, that attack has an Armour Penetration characteristic of -4.",
+		"keywords": ["DEATH GUARD"]
+	},
+	{
+		"name": "FIRE FEVER",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a DEATH GUARD HELBRUTE model from your army is selected to shoot. Until the end of the phase, that model can only target a single eligible enemy unit and each time an attack is made by that model, add 1 to that attacks hit roll and add 1 to that attack\u2019s wound roll.",
+		"keywords": ["DEATH GUARD", "HELBRUTE"]
+	},
+	{
+		"name": "VERMID WHISPERS",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a DEATH GUARD TERMINATOR unit from your army is selected to shoot, or in the Fight phase, when a DEATH GUARD TERMINATOR unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, add 1 to that attack\u2019s hit roll.",
+		"keywords": ["DEATH GUARD", "TERMINATOR"]
+	},
+	{
+		"name": "HAZE OF CORRUPTION",
+		"cost": "2",
+		"faction": "Death Guard",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a DEATH GUARD CORE unit from your army is selected to fight. Until the end of the phase, each time an enemy model is destroyed by an attack made by a model in that unit, any excess damage inflicted by that attack is not lost and is instead suffered by another model in that unit (do not make a saving throw for that model). This continues until there is no excess damage remaining.",
+		"keywords": ["DEATH GUARD", "CORE"]
+	},
+	{
+		"name": "ETERNAL HATRED",
+		"cost": "2",
+		"faction": "Death Guard",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a BUBONIC ASTARTES INFANTRY unit from your army is selected to shoot, or in the Fight phase, when a BUBONIC ASTARTES INFANTRY unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, add 1 to that attacks wound roll.",
+		"keywords": ["BUBONIC ASTARTES", "INFANTRY"]
+	},
+	{
+		"name": "MUTANT STRAIN",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a POXWALKERS unit from your army is selected to fight. Until the end of the phase, each time an attack is made by a model in that unit:An unmodified hit roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage.An unmodified hit roll of 1 inflicts 1 mortal wound on that POXWALKERS unit after that fight is resolved.",
+		"keywords": ["POXWALKERS"]
+	},
+	{
+		"name": "DISEASED EFFLUENTS",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one DEATH GUARD CHARACTER model from your army (excluding DAEMON models) and one enemy unit within Engagement Range of that model. That model suffers 1 mortal wound and you then roll one D6: on a 2\u002B, that enemy unit suffers 2D3 mortal wounds. If that enemy unit has the CHARACTER keyword (excluding VEHICLE units), it suffers D3 mortal wounds instead.",
+		"keywords": ["DEATH GUARD", "CHARACTER", "DAEMON", "VEHICLE"]
+	},
+	{
+		"name": "UNCLEAN MACHINE SPIRIT",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one DEATH GUARD MACHINE SPIRIT model from your army. Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use.",
+		"keywords": ["DEATH GUARD", "MACHINE SPIRIT"]
+	},
+	{
+		"name": "BEFOULED INCUBATORS",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a DEATH GUARD CHARACTER model from your army is selected to fight. Until the end of the phase, each time an enemy model is destroyed by an attack made by that model, roll one D6: on a 3\u002B, that enemy model\u2019s unit suffers 1 mortal wound after your model has resolved all of its attacks (a maximum of 3 mortal wounds can be inflicted per phase via this Stratagem).",
+		"keywords": ["DEATH GUARD", "CHARACTER"]
+	},
+	{
+		"name": "RELEASE THE TOXINS",
+		"cost": "2",
+		"faction": "Death Guard",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one DEATH GUARD CHARACTER model from your army that was equipped with a Relic of Decay at the start of the battle. Roll one D6 for each enemy unit within 7\u0022 of that model: on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds. A model can only be selected for this Stratagem once per battle.",
+		"keywords": ["DEATH GUARD", "CHARACTER"]
+	},
+	{
+		"name": "ERUPTION OF FILTH",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a DEATH GUARD CHARACTER model from your army is destroyed instead of using any other rules that are triggered when a model is destroyed (e.g. the Putrid Explosion ability). Before removing that model from play, roll one D6 for each other unit within 3\u0022 (excluding NURGLE units): on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds.",
+		"keywords": ["DEATH GUARD", "CHARACTER", "NURGLE"]
+	},
+	{
+		"name": "CHAMPION OF DISEASE",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army. Select one BUBONIC ASTARTES model from your army that has the word \u2018Champion\u2019 in their profile and give them one of the following Relics of Decay (this must be a Relic they could have): Reaper of Glorious Entropy; Plague Skull of Glothila; Plaguebringer; Suppurating Plate.Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["BUBONIC ASTARTES"]
+	},
+	{
+		"name": "GIFTS OF DECAY",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the DEATH GUARD keyword. Select one DEATH GUARD CHARACTER model from your army and give them one Relic of Decay (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "DEATH GUARD", "CHARACTER"]
+	},
+	{
+		"name": "PLAGUE-CHOSEN",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the DEATH GUARD keyword. Select one DEATH GUARD CHARACTER model in your army (excluding named characters) and determine one Warlord Trait for that model (this must be a Warlord Trait they can have); that model is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "DEATH GUARD", "CHARACTER"]
+	},
+	{
+		"name": "GRANDFATHERLY INFLUENCE",
+		"cost": "1/2",
+		"faction": "Death Guard",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army. Select one DEATH GUARD CHAOS SPAWN unit from your army:Add 1 to the Toughness characteristic of models in that unit.That unit has the Disgustingly Resilient ability.If that unit contains 3 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["DEATH GUARD", "CHAOS SPAWN"]
+	},
+	{
+		"name": "SICKLY CORROSION",
+		"cost": "2",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in either the Fight phase or your Shooting phase, when a DEATH GUARD model from your army makes an attack with a plague weapon that scores a hit against an enemy unit. Until the end of the turn, each time an attack is made by a DEATH GUARD model against that enemy unit, re-roll a wound roll of 1.",
+		"keywords": ["DEATH GUARD"]
+	},
+	{
+		"name": "BELCHING FUMES",
+		"cost": "1/2",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one MYPHITIC BLIGHT-HAULERS unit from your army. Until the end of the phase, each time an enemy model makes an attack with a ranged weapon against that unit, reduce the number of attacks made with that weapon by 1 (to a minimum of 1). If that unit contains 2 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["MYPHITIC BLIGHT-HAULERS"]
+	},
+	{
+		"name": "BLIGHT BOMBARDMENT",
+		"cost": "2/3",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase, if a DEATH GUARD WARLORD from your army is on the battlefield. Select one point on the battlefield and place a marker on that point. At the start of your next Command phase, roll one D6 for each unit within 6\u0022 of the centre of that marker, adding 1 if the unit being rolled for is an INFANTRY unit and subtracting 1 if the unit being rolled for is a CHARACTER: on a 2-6, that unit suffers D3 mortal wounds; on a 7\u002B, that unit suffers D6 mortal wounds. The marker is then removed. If your WARLORD has the LORD OF VIRULENCE keyword, this Stratagem costs 2CP; otherwise it costs 3CP. You can only use this Stratagem once.",
+		"keywords": [
+			"DEATH GUARD",
+			"WARLORD",
+			"INFANTRY",
+			"CHARACTER ",
+			"LORD OF VIRULENCE"
+		]
+	},
+	{
+		"name": "THE DEAD WALK AGAIN",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one POXWALKERS unit from your army and roll seven D6s: for each 3\u002B, one of that unit\u2019s destroyed models is added back to it with 1 wound remaining. Models added back to that unit in this way can be set up within Engagement Range of enemy units that are already within Engagement Range of that unit. Each unit can only be selected for this Stratagem once per battle.",
+		"keywords": ["POXWALKERS"]
+	},
+	{
+		"name": "CLOUD OF FLIES",
+		"cost": "2/4",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of your opponent\u2019s Shooting phase. Select one BUBONIC ASTARTES INFANTRY unit from your army. Until the end of the phase, each time an enemy model shoots, if that unit is not the closest eligible target or within 12\u0022 of that model, then until that shooting is resolved, that model cannot target that unit. In addition, until the end of the phase, if the selected unit has the Bodyguard ability, it loses that ability. If the selected unit has the TERMINATOR keyword, this Stratagem costs 4CP; otherwise, it costs 2CP.",
+		"keywords": ["BUBONIC ASTARTES", "INFANTRY", "TERMINATOR"]
+	},
+	{
+		"name": "BREAK THEIR SPIRITS",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a DEATH GUARD TERMINATOR model from your army destroys a model in an enemy INFANTRY, BEASTS or SWARM unit. Until the end of the turn, subtract 4 from the Leadership characteristic of models in that unit.",
+		"keywords": ["DEATH GUARD", "TERMINATOR", "INFANTRY", "BEASTS", "SWARM"]
+	},
+	{
+		"name": "DARK CRAVINGS",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "enemy",
+		"phase": "Fight",
+		"text": "Use this Stratagem in your opponent\u2019s Charge phase. Select one FOETID BLOAT-DRONE unit from your army. Until the end of the phase, if that unit is within 6\u0022 horizontally and 5\u0022 vertically of any enemy units, it is eligible to perform Heroic Interventions as if it was a CHARACTER. When doing so, it can move up to 6\u0022 instead of 3\u0022. All other rules for Heroic Interventions still apply.",
+		"keywords": ["FOETID BLOAT-DRONE", "CHARACTER"]
+	},
+	{
+		"name": "DAEMONIC GLUTTONY",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a DEATH GUARD DAEMON ENGINE model from your army is selected to fight. Until the end of the phase, each time an enemy model is destroyed by an attack made by that model, that DAEMON ENGINE model regains 1 lost wound (to a maximum of 3 regained wounds per phase).",
+		"keywords": ["DEATH GUARD", "DAEMON ENGINE"]
+	},
+	{
+		"name": "FLASH OUTBREAK",
+		"cost": "2",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one \u0026lt;PLAGUE COMPANY\u0026gt; unit with the Contagions of Nurgle ability from your army:If there are any other \u0026lt;PLAGUE COMPANY\u0026gt; units from your army on the battlefield that have any Contagion abilities that the selected unit does not have, then until the start of your next Command phase, the selected unit has all of the same Contagion abilities (this is in addition to the ones it already has).Until the start of your next Command phase, units from your army count the battle round number as one higher than the current battle round number for the purpose of determining the Contagion range of any Contagion abilities they have.",
+		"keywords": ["PLAGUE COMPANY"]
+	},
+	{
+		"name": "PUTRID DETONATION",
+		"cost": "1/2",
+		"faction": "Death Guard",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a DEATH GUARD VEHICLE model from your army is destroyed. Do not roll to see if that model explodes: it does so automatically. If that model has a Wounds characteristic of 9 or less, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["DEATH GUARD", "VEHICLE"]
+	},
+	{
+		"name": "FOUL SMOKESCREEN",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your opponent\u2019s Shooting phase, when a DEATH GUARD SMOKESCREEN unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, subtract 1 from that attacks hit roll.",
+		"keywords": ["DEATH GUARD", "SMOKESCREEN"]
+	},
+	{
+		"name": "THE BLIGHTENING",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase. Select up to three DEATH GUARD models from your army. Until the end of the phase, plague weapons with the Grenade type that those models are equipped with lose the Blast ability, have a Type characteristic of Pistol 6, and each time that model makes an attack with one of those weapons against an enemy unit within Engagement Range that attack automatically hits the target.",
+		"keywords": ["DEATH GUARD"]
+	},
+	{
+		"name": "OVERWHELMING GENEROSITY",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a DEATH GUARD unit from your army is selected to shoot. Until the end of the phase, add 6\u0022 to the Range characteristic of plague weapons models in that unit are equipped with.",
+		"keywords": ["DEATH GUARD"]
+	},
+	{
+		"name": "VIRULENT ROUNDS",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a DEATH GUARD CORE unit from your army is selected to shoot. Until the end of the phase, bolt weapons models in that unit are equipped with have the Plague Weapon ability.",
+		"keywords": ["DEATH GUARD", "CORE"]
+	},
+	{
+		"name": "DISGUSTING FORCE",
+		"cost": "1",
+		"faction": "Death Guard",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a PLAGUEBURST CRAWLER model from your army is selected to shoot. Until the end of the phase:Each time that model makes an attack with a Plagueburst mortar, that attack has a Damage characteristic of 3.After that model has shot, select one enemy unit that was hit by one or more attacks made with a Plagueburst mortar by that model this turn. Roll one D6 for each other unit within 3\u0022 (excluding NURGLE units) of the selected unit: on a 4\u002B, that unit suffers 1 mortal wound.",
+		"keywords": ["PLAGUEBURST CRAWLER", "NURGLE"]
+	}
+]
