@@ -1,0 +1,343 @@
+[
+	{
+		"name": "BREAK THEIR LINES!",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when an ICONOCLAST HOUSEHOLD model from your army is selected to fight. Until the end of the phase, each time that model makes an attack, if that model made a charge move this turn, add 1 to that attack\u2019s hit roll.",
+		"keywords": ["ICONOCLAST HOUSEHOLD"]
+	},
+	{
+		"name": "HUNGRY FOR COMBAT",
+		"cost": "2",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase. Select one enemy unit from your opponent\u2019s army. Until the end of the phase, each time a WAR DOG-CLASS model from your army makes a melee attack against that enemy unit, an unmodified hit roll of 6 automatically wounds the target.",
+		"keywords": ["WAR DOG-CLASS"]
+	},
+	{
+		"name": "PACK HUNTERS",
+		"cost": "2",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem at the start of the Fight phase. Select one enemy unit that is within Engagement Range of 2 or more WAR DOG-CLASS models from your army. Until the end of the phase, add 1 to the Attacks characteristic of each WAR DOG-CLASS model from your army that started the phase within Engagement Range of that enemy unit.",
+		"keywords": ["WAR DOG-CLASS"]
+	},
+	{
+		"name": "SKIES OF FIRE",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a WAR DOG-CLASS model from your army is selected to shoot. Until the end of the phase, each time that model makes an attack against an AIRCRAFT unit, add 1 to that attack\u2019s hit roll.",
+		"keywords": ["WAR DOG-CLASS", "AIRCRAFT"]
+	},
+	{
+		"name": "MURDERBLISS",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a CHAOS KNIGHTS SLAANESH model from your army is selected to fight. If that model is within Engagement Range of one or more enemy units that contain 6 or more models, until the end of the phase, add 1 to this models Attacks characteristic (if one or more of those enemy units contains 11 or more models, until the end of the phase, add 2 to this models Attacks characteristic instead).",
+		"keywords": ["CHAOS KNIGHTS", "SLAANESH"]
+	},
+	{
+		"name": "TORMENTED WRATH",
+		"cost": "2",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase. Select one enemy unit from your opponent\u2019s army. Until the end of the phase, each time a WAR DOG-CLASS model from your army makes a ranged attack against that enemy unit, an unmodified hit roll of 6 scores 1 additional hit.",
+		"keywords": ["WAR DOG-CLASS"]
+	},
+	{
+		"name": "CRUSHED LIKE VERMIN",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a TITANIC CHAOS KNIGHTS model from your army is selected to fight. Until the end of the phase, each time that model makes a melee attack with its titanic feet:Subtract 1 from that attack\u2019s hit roll.If that attack successfully hits the target, unless the target of that attack is a MONSTER or a VEHICLE unit, the target suffers 2 mortal wounds and the attack sequence ends.",
+		"keywords": ["TITANIC", "CHAOS KNIGHTS", "MONSTER", "VEHICLE"]
+	},
+	{
+		"name": "VENGEFUL OUTCASTS",
+		"cost": "3",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a CHAOS KNIGHTS model from your army is selected to fight. Until the end of the phase, each time that model makes an attack against an IMPERIAL KNIGHTS model, add 1 to that attack\u2019s wound roll.",
+		"keywords": ["CHAOS KNIGHTS", "IMPERIAL KNIGHTS"]
+	},
+	{
+		"name": "TRAIL OF DESTRUCTION",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use the Stratagem in your Shooting phase, when a CHAOS KNIGHTS model from your army is selected to shoot, or in the Fight phase, when a CHAOS KNIGHTS model from your army is selected to fight. Until the end of the phase, each time that model makes an attack, if the target of that attack is within range of an objective marker, re-roll a hit roll of 1.",
+		"keywords": ["CHAOS KNIGHTS"]
+	},
+	{
+		"name": "UNYIELDING RAGE",
+		"cost": "1/2",
+		"faction": "Chaos Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a CHAOS KNIGHTS model from your army is selected as the target of an attack. Until the end of the phase, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack (to a minimum of 1). This is not cumulative with any other rules that reduce the Damage characteristic of an attack (e.g. the Hellforged Construction Fell Bond). If that model is a WAR DOG-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["CHAOS KNIGHTS", "WAR DOG-CLASS"]
+	},
+	{
+		"name": "TITANIC DUEL",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when a CHAOS KNIGHTS model from your army is selected to fight. Select one enemy TITANIC unit that is within Engagement Range of that model. You and your opponent secretly choose a number from 1 to 3 on a D6 (we suggest turning a D6 to show the number but concealing this behind your hand), then reveal your choice simultaneously; if they differ, then until the end of that phase, add the number you chose to the Attacks characteristic of your CHAOS KNIGHTS model but melee attacks made by that model can only target TITANIC units.",
+		"keywords": ["CHAOS KNIGHTS", "TITANIC"]
+	},
+	{
+		"name": "BESEECH THE DARK GODS",
+		"cost": "1/2",
+		"faction": "Chaos Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem when a CHAOS KNIGHTS PANTHEON UNDIVIDED model from your army is destroyed, but does not explode. Roll one D6 at the end of the phase: on a 4\u002B, set that model back up on the battlefield with 3 wounds remaining, as close as possible to where they were destroyed and not within Engagement Range of any enemy models. If that model is a WAR DOG-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP. This Stratagem can only be used once per battle.",
+		"keywords": ["CHAOS KNIGHTS", "PANTHEON UNDIVIDED", "WAR DOG-CLASS"]
+	},
+	{
+		"name": "ABOMINABLE CONSTITUTION",
+		"cost": "1/2",
+		"faction": "Chaos Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one CHAOS KNIGHTS NURGLE model from your army. Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use. If that model is a WAR DOG-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["CHAOS KNIGHTS", "NURGLE", "WAR DOG-CLASS"]
+	},
+	{
+		"name": "DOOM AND DESPAIR",
+		"cost": "2",
+		"faction": "Chaos Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Start of Battle Round",
+		"text": "Use this Stratagem at the start of the third, fourth or fifth battle round, if your WARLORD is on the battlefield. Select one Harbinger ability from any previous battle round. While your WARLORD is on the battlefield, that ability is active for every CHAOS KNIGHTS model from your army. You can only use this Stratagem if every unit from your army has the CHAOS KNIGHTS keyword (excluding units with the UNALIGNED or AGENT OF CHAOS keywords). This Stratagem can only be used once per battle.",
+		"keywords": ["WARLORD", "CHAOS KNIGHTS", "UNALIGNED", "AGENT OF CHAOS"]
+	},
+	{
+		"name": "DEATH GRIP",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when an attack made with a warpstrike claw or slaughterclaw (or a Relic that replaces such a weapon) by a CHAOS KNIGHTS model from your army is allocated to an enemy model. Before any saving throw is taken against that attack, both players roll off (if the Strength characteristic of this CHAOS KNIGHTS model is greater than that of the model the attack has been allocated to, add 1 to your result). If you win the roll off, invulnerable saving throws cannot be taken against that attack; otherwise, the Damage characteristic of that attack is 0.",
+		"keywords": ["CHAOS KNIGHTS"]
+	},
+	{
+		"name": "SPITEFUL DEMISE",
+		"cost": "1/2/3",
+		"faction": "Chaos Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem when a CHAOS KNIGHTS model from your army is destroyed. Do not roll to see if that model explodes: it does so automatically (if that model is a TYRANT-CLASS model, roll one D6: on a 4\u002B, the range of that explosion is 3D6\u0022). If that model is a WAR DOG-CLASS model, this Stratagem costs 1CP; if that model is an ABHORRENT-CLASS model, this Stratagem costs 2CP; otherwise, it costs 3CP. You can only use this Stratagem once.",
+		"keywords": [
+			"CHAOS KNIGHTS",
+			"TYRANT-CLASS",
+			"WAR DOG-CLASS",
+
+			"ABHORRENT-CLASS"
+		]
+	},
+	{
+		"name": "CHOSEN BY THE GODS",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army. Select one CHAOS KNIGHTS model from your army that does not have a Favour of the Dark Gods. That model gains one of the following keywords: KHORNE, TZEENTCH, NURGLE, SLAANESH, PANTHEON UNDIVIDED. A KHORNE KNIGHT ABOMINANT model loses the PSYKER keyword and cannot manifest psychic powers etc., its Weapon Skill characteristic is improved by 1 and its Attacks characteristic is increased by 1. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times). You cannot use this Stratagem on the same model more than once, and you cannot use it to add a keyword to a model in a Crusade force.",
+		"keywords": [
+			"CHAOS KNIGHTS",
+			"KHORNE",
+			"TZEENTCH",
+			"NURGLE",
+			"SLAANESH",
+			"PANTHEON UNDIVIDED",
+
+			"KNIGHT ABOMINANT",
+			"PSYKER"
+		]
+	},
+	{
+		"name": "CORRUPTED HEIRLOOMS",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the CHAOS KNIGHTS keyword. Select one CHAOS KNIGHTS model from your army. That model can have one Relic of Tyranny, even if they are not a CHARACTER model (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "CHAOS KNIGHTS", "CHARACTER"]
+	},
+	{
+		"name": "TYRANNICAL COURT",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the CHAOS KNIGHTS keyword. Select one CHAOS KNIGHTS model from your army. That model gains the CHARACTER keyword and you must determine one Warlord Trait for it (this must be a Warlord Trait they could have); that model is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "CHAOS KNIGHTS", "CHARACTER", "WARLORD"]
+	},
+	{
+		"name": "ARCH-TYRANT",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem after nominating a CHAOS KNIGHTS CHARACTER model to be your WARLORD. You can generate one additional Warlord Trait for them. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results). You can only use this Stratagem once.",
+		"keywords": ["CHAOS KNIGHTS", "CHARACTER", "WARLORD"]
+	},
+	{
+		"name": "BIND THE SOULS OF THE SLAIN",
+		"cost": "1/2",
+		"faction": "Chaos Knights",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when an INFERNAL HOUSEHOLD model from your army is selected to fight. Until the end of the phase, each time that model makes a melee attack that destroys an enemy model, roll one D6: on a 4\u002B, the INFERNAL HOUSEHOLD model regains 1 lost wound after it has resolved all of its attacks (to a maximum of 6 regained wounds). If that model is a WAR DOG-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CR",
+		"keywords": ["INFERNAL HOUSEHOLD", "WAR DOG-CLASS"]
+	},
+	{
+		"name": "HUNTING HOUNDS",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the start of your Movement phase. Select up to two \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS models from your army that are more than 6\u0022 away from any enemy models and within 6\u0022 of a battlefield edge. If the mission you are playing is using the Strategic Reserves rules, place those models into Strategic Reserves - those models cannot arrive from Strategic Reserves in the same turn it is placed into Strategic Reserves.",
+		"keywords": ["WAR DOG-CLASS"]
+	},
+	{
+		"name": "A LONG LEASH",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one \u0026lt;DREAD HOUSEHOLD\u0026gt; KNIGHT DESPOILER, KNIGHT RAMPAGER or KNIGHT DESECRATOR model from your army. Now select one friendly \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS model from your army. Until the end of the turn, that WAR DOG-CLASS model is always considered to be within range of the Aura ability that the first model you selected has: Dread Dominion; Frenzied Rampage; Taskmaster.",
+		"keywords": [
+			"KNIGHT DESPOILER",
+			"KNIGHT RAMPAGER",
+			"KNIGHT DESECRATOR",
+			"WAR DOG-CLASS"
+		]
+	},
+	{
+		"name": "UNLEASH THE HOUNDS",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Fight",
+		"text": "Use this Stratagem in your Charge phase, after a \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS model from your army finishes a charge move. Until the end of the phase, each time a friendly \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS model declares a charge against an enemy unit that is within Engagement Range of this model, you can re-roll that charge roll.",
+		"keywords": ["WAR DOG-CLASS"]
+	},
+	{
+		"name": "WRATHSURGE",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Strategic Ploy",
+		"whose": "enemy",
+		"phase": "Psychic",
+		"text": "Use this Stratagem in your opponent\u2019s Psychic phase, when a Psychic test taken for a PSYKER unit is failed whilst that unit is within 18\u0022 of a CHAOS KNIGHTS KHORNE model from your army. That PSYKER unit suffers Perils of the Warp.",
+		"keywords": ["PSYKER", "CHAOS KNIGHTS", "KHORNE"]
+	},
+	{
+		"name": "HARRYING HUNTER",
+		"cost": "2",
+		"faction": "Chaos Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase when a WAR DOG-CLASS model from your army Falls Back. That model is still eligible to shoot and charge this turn even though it Fell Back.",
+		"keywords": ["WAR DOG-CLASS"]
+	},
+	{
+		"name": "REAP AND REND",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when a CHAOS KNIGHTS model from your army that is equipped with a reaper chainsword or reaper chaintalon (or a Relic that replaces such a weapon) is selected to fight. Until the end of the phase, each time that model makes an attack, you can never re-roll that attack\u2019s hit roll, but if that attack is made using the sweep profile of a reaper chainsword or reaper chaintalon (or a Relic that replaces such a weapon), make 1 additional hit roll.",
+		"keywords": ["CHAOS KNIGHTS"]
+	},
+	{
+		"name": "DIABOLIC BULWARK",
+		"cost": "1/2",
+		"faction": "Chaos Knights",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your opponent\u2019s Shooting phase, when a CHAOS KNIGHTS model from your army is selected as the target of a ranged attack. Until the end of the phase, that model has a 4\u002B invulnerable save against ranged attacks. If that model is a WAR DOG-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["CHAOS KNIGHTS", "WAR DOG-CLASS"]
+	},
+	{
+		"name": "INFERNAL AEGIS",
+		"cost": "2",
+		"faction": "Chaos Knights",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Command",
+		"text": "Use this Stratagem in your opponent\u2019s Command phase. Select one TYRANT-CLASS model from your army. Until the end of the turn, that model has the following ability: \u2018Infernal Aegis (Aura): While a friendly \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS model is within 6\u0022 of this model, that WAR DOG-CLASS model has a 4\u002B invulnerable save against ranged weapons.\u2019",
+		"keywords": ["TYRANT-CLASS", "WAR DOG-CLASS"]
+	},
+	{
+		"name": "MACABRE PROJECTILES",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem at the end of the Fight phase. Select one CHAOS KNIGHTS model from your army equipped with a warpstrike claw (or a Relic that replaces a warpstrike claw). If a VEHICLE or MONSTER model was destroyed within Engagement Range of the selected CHAOS KNIGHTS model during that phase, you can now select one enemy unit within 9\u0022 of and visible to that CHAOS KNIGHTS model. Roll one D6, subtracting 1 from the result if the enemy unit you selected is a CHARACTER with a Wounds characteristic of 9 or less: on a 3-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
+		"keywords": ["CHAOS KNIGHTS", "VEHICLE", "MONSTER", "CHARACTER"]
+	},
+	{
+		"name": "RAVENOUS PTERRORSHADES",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Morale",
+		"text": "Use this Stratagem in the Morale phase. Select one enemy unit within Dread range of a PTERRORSHADES model from your army. That enemy unit must take a Dread test. If that test is failed, that enemy unit suffers 1 mortal wound for each point by which their Dread test was failed (to a maximum of 6 mortal wounds).",
+		"keywords": ["PTERRORSHADES"]
+	},
+	{
+		"name": "SORCEROUS AMMUNITION",
+		"cost": "1",
+		"faction": "Chaos Knights",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, before making the wound roll for an attack made by a CHAOS KNIGHTS TZEENTCH model from your army. Do not make a wound roll for that attack: it automatically wounds the target and, if this wound is allocated to a PSYKER unit, that unit must take a Dread test; if that test is failed, the target suffers Perils of the Warp after this CHAOS KNIGHTS model\u2019s attacks have been resolved.",
+		"keywords": ["CHAOS KNIGHTS", "TZEENTCH", "PSYKER"]
+	}
+]

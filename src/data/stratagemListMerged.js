@@ -5,6 +5,8 @@ import orks from './orks.json'
 import tau from './tau.json'
 import harlequins from './harlequins.json'
 import adeptusmechanicus from './adeptusMechanicus.json'
+import necrons from './necrons.json'
+import chaosknights from './chaosKnights.json'
 
 
 const startingArr = [
@@ -80,6 +82,6 @@ const startingArr = [
 		keywords: ['CORE'],
 	},
 ];
-const stratagemListMerged = startingArr.concat(tyranids, adeptasororitas, adeptuscustodes, orks, tau, harlequins, adeptusmechanicus);
+const stratagemListMerged = startingArr.concat(tyranids, adeptasororitas, adeptuscustodes, orks, tau, harlequins, adeptusmechanicus, necrons, chaosknights);
 
 export default stratagemListMerged;
