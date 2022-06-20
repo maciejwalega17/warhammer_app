@@ -228,7 +228,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Fight",
-		"text": "Use this Stratagem at the start of your Charge phase. Select one ADEPTA SORORITAS CORE unit from your army. Until the start of your next Command phase, that unit gains either the Zealot ability or the Fanatic ability, as shown below:Zealot: Each time a model in this unit makes a melee attack, if this unit made a charge move, was charged or performed a Heroic Intervention this turn, you can re-roll that attack's hit roll.Fanatic: This unit is eligible to declare a charge in a turn in which it Fell Back. If that unit is within 6 inches of an ADEPTUS MINISTORUM PRIEST model when this Stratagem is used, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"text": "Use this Stratagem at the start of your Charge phase. Select one ADEPTA SORORITAS CORE unit from your army. Until the start of your next Command phase, that unit gains either the Zealot ability or the Fanatic ability, as shown below: Zealot: Each time a model in this unit makes a melee attack, if this unit made a charge move, was charged or performed a Heroic Intervention this turn, you can re-roll that attack's hit roll.Fanatic: This unit is eligible to declare a charge in a turn in which it Fell Back. If that unit is within 6 inches of an ADEPTUS MINISTORUM PRIEST model when this Stratagem is used, this Stratagem costs 1CP; otherwise, it costs 2CP.",
 		"keywords": ["ADEPTA SORORITAS", "CORE", "ADEPTUS MINISTORUM", "PRIEST"]
 	},
 	{
