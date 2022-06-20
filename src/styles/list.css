@@ -1,4 +1,11 @@
+.list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .listitem-container {
+
 	column-count: 2;
 	break-inside: avoid;
 }

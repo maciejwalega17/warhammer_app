@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './button';
+import '../styles/paywindow.css'
 
 const PayWindow = ({ itemName, cost, callback, closeCallback }) => {
 	const callbackAndClose = () => {
@@ -9,12 +10,11 @@ const PayWindow = ({ itemName, cost, callback, closeCallback }) => {
 
 	return (
 		<>
-			<div>
+			<div className='pay-window'>
 				<p>
 					Do you want to pay {cost} CP for {itemName}?
 				</p>
-			</div>
-			<div>
+			
 				<Button name={`Pay ${cost} CP`} onClick={callbackAndClose} />
 			</div>
 		</>

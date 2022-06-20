@@ -8,10 +8,10 @@ const Modal = ({ content, onClick, show }) => {
 	return (
 		<>
 			<div className={`${show ? 'active' : 'inactive'} modal`}>
-				<div>
+				<div className='modal-container'>
 					<ModalContent content={content} />
-					<Button name='Close' onClick={onClick} />
 				</div>
+					<Button name='Close' onClick={onClick} />
 			</div>
 		</>
 	);

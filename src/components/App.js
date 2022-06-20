@@ -11,7 +11,7 @@ import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
 import stratagemListMerged from '../data/stratagemListMerged';
 
-import '../styles/App.css';
+import '../styles/app.css';
 
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
@@ -66,10 +66,12 @@ const App = () => {
 			el.phase.toLowerCase() === 'any'
 	);
 	const myPhase = selectedPhaseStratagems.filter(
-		(el) => el.whose.toLowerCase() === 'mine' || el.whose.toLowerCase() === 'both'
+		(el) =>
+			el.whose.toLowerCase() === 'mine' || el.whose.toLowerCase() === 'both'
 	);
 	const enemyPhase = selectedPhaseStratagems.filter(
-		(el) => el.whose.toLowerCase() === 'enemy' || el.whose.toLowerCase() === 'both'
+		(el) =>
+			el.whose.toLowerCase() === 'enemy' || el.whose.toLowerCase() === 'both'
 	);
 
 	const coreStratagems = stratagemListMerged.filter(
@@ -100,37 +102,13 @@ const App = () => {
 
 	return (
 		<>
-			<div className='wrapper'>
-				<Selector
-					type='Phase Select'
-					list={phaseList}
-					callback={(value) => setSelectedPhase(value)}
-				></Selector>
-				<Selector
-					type='Army Select'
-					list={armyList}
-					callback={(value) => setSelectedArmy(value)}
-				></Selector>
-				<Button
-					name='Show Core Stratagems'
-					onClick={() => {
-						setShowModalBig((prevState) => !prevState);
-					}}
-				/>
-				<Modal
-					content={contentSmall}
-					onClick={() => {
-						setShowModalSmall((prevState) => !prevState);
-					}}
-					show={showModalSmall}
-				/>
-				<Counter
-					counter={commandPoints}
-					currency='CP'
-					onClickAdd={() => onClickSetCounter(setCommandPoints, 'add', 1)}
-					onClickSub={() => onClickSetCounter(setCommandPoints, 'sub', 1)}
-				/>
-			</div>
+			<Modal
+				content={contentSmall}
+				onClick={() => {
+					setShowModalSmall((prevState) => !prevState);
+				}}
+				show={showModalSmall}
+			/>
 			<Modal
 				content={contentBig}
 				onClick={() => {
@@ -138,38 +116,72 @@ const App = () => {
 				}}
 				show={showModalBig}
 			/>
-			<div className='wrapper'>
-				<Button name='Previous' onClick={() => onClickNav('prev')}></Button>
-				<Button name='Next' onClick={() => onClickNav('next')}></Button>
-			</div>
-			<div className='wrapper'>
-				<p>{selectedArmy}</p>
-				<p>{selectedPhase}</p>
-			</div>
-			<h1>Stratagems:</h1>
-			<Button
-				name={`${
-					whoseShow ? 'Show enemy phase Stratagems' : 'Show my phase Stratagems'
-				}`}
-				onClick={() => {
-					setWhoseShow((prevState) => !prevState);
-				}}
-			/>
+			<div className='wrapper flex-column'>
+				<div className='nav'>
+					<div className='flex-row'>
+						<Selector
+							type='Phase Select'
+							list={phaseList}
+							callback={(value) => setSelectedPhase(value)}
+						/>
+						<Selector
+							type='Army Select'
+							list={armyList}
+							callback={(value) => setSelectedArmy(value)}
+						/>
+					</div>
+					<div className='flex-row'>
+						<Button name='Previous' onClick={() => onClickNav('prev')} />
+						<Button name='Next' onClick={() => onClickNav('next')} />
+					</div>
+					<div className='flex-column'>
+						<p className='show-selected show-selected-army'>{selectedArmy}</p>
+						<p className='show-selected show-selected-phase'>{selectedPhase}</p>
+					</div>
+				</div>
 
-			<div className='flex-row'>
-				{whoseShow ? (
-					<List
-						title='My phase:'
-						listArr={myPhase}
-						callback={callbackBuy}
-					></List>
-				) : (
-					<List
-						title='Enemy phase:'
-						listArr={enemyPhase}
-						callback={callbackBuy}
-					></List>
-				)}
+				<Counter
+					counter={commandPoints}
+					currency='CP'
+					onClickAdd={() => onClickSetCounter(setCommandPoints, 'add', 1)}
+					onClickSub={() => onClickSetCounter(setCommandPoints, 'sub', 1)}
+				/>
+				<div className='stratagems'>
+					<h1>Stratagems:</h1>
+					<Button
+						name={`${
+							whoseShow
+								? 'Show enemy phase Stratagems'
+								: 'Show my phase Stratagems'
+						}`}
+						onClick={() => {
+							setWhoseShow((prevState) => !prevState);
+						}}
+					/>
+					<Button
+						name={
+							showModalBig ? 'Hide Core Stratagems' : 'Show Core Stratagems'
+						}
+						onClick={() => {
+							setShowModalBig((prevState) => !prevState);
+						}}
+					/>
+					<div className='flex-row'>
+						{whoseShow ? (
+							<List
+								title='My phase:'
+								listArr={myPhase}
+								callback={callbackBuy}
+							></List>
+						) : (
+							<List
+								title='Enemy phase:'
+								listArr={enemyPhase}
+								callback={callbackBuy}
+							></List>
+						)}
+					</div>
+				</div>
 			</div>
 		</>
 	);

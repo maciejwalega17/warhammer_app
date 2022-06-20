@@ -1,3 +1,16 @@
-.App {
-	text-align: center;
+.btn {
+	width: 200px;
+}
+
+.wrapper {
+	padding: 20px;
+	align-items: center;
+	border: 3px solid var(--bg-tertiary-color);
+	background-color: var(--bg-primary-color);
+}
+
+.nav {
+}
+
+.show-selected {
 }

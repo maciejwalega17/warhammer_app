@@ -1,24 +1,15 @@
-:root {
-	--border-color: black;
-}
-
-.flex-column {
-	display: flex;
-	flex-direction: column;
-}
-
-.flex-row {
-	display: flex;
-}
-
 .list-item {
 	width: 400px;
-	margin: 0 5px 5px 5px;
+	margin: 0 5px 15px 5px;
 	padding: 5px;
-	border: 2px solid var(--border-color);
-    border-radius: 25px;
+	border: 2px solid var(--btn-color);
+	border-radius: 25px;
 	break-inside: avoid;
 	height: min-content;
+}
+
+.container-right .btn {
+	width: 50px;
 }
 
 .container-left,
@@ -27,13 +18,13 @@
 	align-items: center;
 }
 .container-head {
-	border: 3px solid var(--border-color);
-    border-radius: 25px;
-    padding: 5px;
+	border: 3px solid var(--btn-color);
+	border-radius: 25px;
+	padding: 5px;
 }
 .container-left {
 	width: 300px;
-    border-right: 1px solid var(--border-color);
+	border-right: 1px solid var(--btn-color);
 }
 
 .container-right {
@@ -55,7 +46,7 @@
 .keywords {
 	text-align: center;
 	padding: 5px;
-	border-top: 1px solid var(--border-color);
+	border-top: 1px solid var(--btn-color);
 
 	font-size: 14px;
 	font-weight: bold;
