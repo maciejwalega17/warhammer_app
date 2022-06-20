@@ -1,0 +1,352 @@
+[
+	{
+		"name": "PSYCHIC CHANNELLING",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Psychic",
+		"text": "Use this Stratagem in your Psychic phase, when a GREY KNIGHTS PSYKER unit from your army is selected to manifest psychic powers. Until the end of the phase, each time a Psychic test is taken for that unit, roll one additional D6 and discard one of the dice.",
+		"keywords": ["GREY KNIGHTS", "PSYKER"]
+	},
+	{
+		"name": "PSYCHIC ONSLAUGHT",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a GREY KNIGHTS PSYKER unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes a ranged attack with a psi weapon, add 1 to the Strength characteristic of that attack and improve the Armour Penetration characteristic of that attack by 1.",
+		"keywords": ["GREY KNIGHTS", "PSYKER"]
+	},
+	{
+		"name": "THE STEEL HEART",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Fight",
+		"text": "Use this Stratagem in your Fight phase, when a GREY KNIGHTS TERMINATOR unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a melee attack, add 1 to that attack\u2019s hit roll.",
+		"keywords": ["GREY KNIGHTS", "TERMINATOR"]
+	},
+	{
+		"name": "DEATH FROM THE WARP",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a GREY KNIGHTS PSYKER unit from your army shoots. Until the end of the phase, each time a model in that unit makes a ranged attack, if that unit was set up on the battlefield using the Teleport Strike ability this turn, add 1 to that attack\u2019s hit roll.",
+		"keywords": ["GREY KNIGHTS", "PSYKER"]
+	},
+	{
+		"name": "POWERFUL ADEPT",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Psychic",
+		"text": "Use this Stratagem in your Psychic phase, when a GREY KNIGHTS PSYKER unit from your army is selected to manifest psychic powers. Until the end of the phase, each time a psychic power is manifested by that unit, increase the range of that psychic power by 6\u0022.",
+		"keywords": ["GREY KNIGHTS", "PSYKER"]
+	},
+	{
+		"name": "SANCTIFIED KILL ZONE",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a PURGATION SQUAD unit from your army is selected to shoot. Until the end of the phase, each time a ranged attack made by a model in that unit targets an enemy unit within half range, add 1 to that attack\u2019s wound roll.",
+		"keywords": ["PURGATION SQUAD"]
+	},
+	{
+		"name": "FINAL JUSTICE",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a GREY KNIGHTS CHARACTER model (excluding CASTELLAN CROWE) from your army that has not already been selected to fight this phase is destroyed. Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. After resolving the destroyed model\u2019s attacks, it is then removed.",
+		"keywords": ["GREY KNIGHTS", "CHARACTER", "CASTELLAN CROWE)"]
+	},
+	{
+		"name": "SHADOW OF UNDYING LEGENDS",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one GREY KNIGHTS DREADNOUGHT model from your army. Until the start of your next Command phase, that model gains either the Rites of Battle ability or the Tactical Precision ability, as shown below:Rites of Battle (Aura): While a friendly GREY KNIGHTS CORE unit is within 6\u0022 of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1.Tactical Precision (Aura): While a friendly GREY KNIGHTS CORE unit is within 6\u0022 of this model, each time a model in that unit makes an attack, re-roll a wound roll of 1.",
+		"keywords": ["GREY KNIGHTS", "DREADNOUGHT", "CORE"]
+	},
+	{
+		"name": "PURITY OF THE MACHINE SPIRIT",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one GREY KNIGHTS MACHINE SPIRIT model from your army. Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use.",
+		"keywords": ["GREY KNIGHTS", "MACHINE SPIRIT"]
+	},
+	{
+		"name": "EMPYRIC DECLAMATION",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem at the start of any of your phases. Select one BROTHERHOOD CHAPLAIN unit from your army that has not recited a litany since the start of your last Command phase. That model can recite one litany it knows that has not already been recited by a friendly model since the start of your last Command phase. That litany is automatically inspiring (do not roll) and takes effect until the start of your next Command phase.",
+		"keywords": ["BROTHERHOOD CHAPLAIN"]
+	},
+	{
+		"name": "CHIRURGIC RESURRECTION",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the end of your Movement phase. Select one GREY KNIGHTS APOTHECARY unit from your army and then select one friendly GREY KNIGHTS INFANTRY unit that is not at its Starting Strength and is within 3\u0022 of that APOTHECARY. One of the selected unit\u2019s destroyed models is returned to its unit with its full wounds remaining.",
+		"keywords": ["GREY KNIGHTS", "APOTHECARY", "GREY KNIGHTS", "INFANTRY"]
+	},
+	{
+		"name": "PSYCHIC LOCUS",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Psychic",
+		"text": "Use this Stratagem at the start of your Psychic phase. Select one BROTHER-CAPTAIN model from your army. Until the end of the phase, that model gains the following ability: \u2018Psychic Locus (Aura): While a friendly \u0026lt;BROTHERHOOD\u0026gt; PSYKER unit is within 6\u0022 of this model, add 1 to Psychic tests taken for that unit.\u2019",
+		"keywords": ["BROTHER-CAPTAIN", "PSYKER"]
+	},
+	{
+		"name": "FINEST HOUR",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem at the start of any phase. Select one GREY KNIGHTS CHARACTER unit from your army. Until the end of the turn, add 3\u0022 to the range of that unit\u2019s aura abilities (to a maximum of 12\u0022).",
+		"keywords": ["GREY KNIGHTS", "CHARACTER"]
+	},
+	{
+		"name": "THUNDEROUS STRIDE",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Fight",
+		"text": "Use this Stratagem in your Charge phase, when a NEMESIS DREADKNIGHT model from your army finishes a charge move. Select one enemy unit within Engagement Range of that model, and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
+		"keywords": ["NEMESIS DREADKNIGHT"]
+	},
+	{
+		"name": "ARMOURY OF TITAN",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the GREY KNIGHTS keyword. Select one GREY KNIGHTS CHARACTER model from your army and give them one Relic of Titan (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "GREY KNIGHTS", "CHARACTER"]
+	},
+	{
+		"name": "EXEMPLAR OF THE SILVERED HOST",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem after nominating a GREY KNIGHTS CHARACTER model that is not a named character to be your WARLORD. Generate one additional Warlord Trait for them; this must be from the Grey Knights Warlord Traits table. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results). You can only use this Stratagem once.",
+		"keywords": ["GREY KNIGHTS", "CHARACTER", "WARLORD"]
+	},
+	{
+		"name": "SHIELD OF HUMANITY",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the GREY KNIGHTS keyword. Select one GREY KNIGHTS CHARACTER from your army and determine one Warlord Trait for that model (this must be a Warlord Trait they could have); that model is only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "GREY KNIGHTS", "CHARACTER"]
+	},
+	{
+		"name": "ENDOWMENT IN EXTREMIS",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle. Select one GREY KNIGHTS model from your army that has one of the following in their profile: \u2018Justicar\u2019; \u2018Paragon\u2019; \u2018Knight of the Flame\u2019. That model can have one of the following Relics of Titan, even though they are not a CHARACTER: Domina Liber Daemonica; Sanctic Shard; Augurium Scrolls; Stave of Supremacy. All of the Relics your army includes must be different and be given to different models.",
+		"keywords": ["GREY KNIGHTS", "CHARACTER "]
+	},
+	{
+		"name": "MENTAL FOCUS",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Psychic",
+		"text": "Use this Stratagem in your Psychic phase. Select one GREY KNIGHTS PSYKER unit from your army. Until the end of the phase, that unit can attempt to manifest one more psychic power than normal.",
+		"keywords": ["GREY KNIGHTS", "PSYKER"]
+	},
+	{
+		"name": "FIGHT ON THE MOVE",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a GREY KNIGHTS TELEPORTER unit from your army Falls Back. Until the end of the turn, that unit is still eligible to shoot and charge, even though it Fell Back.",
+		"keywords": ["GREY KNIGHTS", "TELEPORTER"]
+	},
+	{
+		"name": "HALOED IN SOULFIRE",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a GREY KNIGHTS CORE unit from your army is set up on the battlefield using the Teleport Strike ability. Until the start of your next turn, each time an attack is made against that unit, subtract 1 from that attack\u2019s hit roll.",
+		"keywords": ["GREY KNIGHTS", "CORE"]
+	},
+	{
+		"name": "UNTAINTED AND UNBOWED",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a PURIFIER SQUAD unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack (to a minimum of 1).",
+		"keywords": ["PURIFIER SQUAD"]
+	},
+	{
+		"name": "PSY-LANCE BOMBARDMENT",
+		"cost": "3",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase, if a GREY KNIGHTS WARLORD from your army is on the battlefield. Select one point on the battlefield and place a marker on that point. At the start of your next Command phase, roll one D6 for each unit within 6\u0022 of the centre of that marker, adding 1 if the unit being rolled for is within 3\u0022 of the centre of the marker and subtracting 1 if the unit being rolled for is a CHARACTER. On a 2-5, that unit suffers D3 mortal wounds, and on a 6\u002B, that unit suffers D6 mortal wounds. The marker is then removed. You can only use this Stratagem once.",
+		"keywords": ["GREY KNIGHTS", "WARLORD", "CHARACTER"]
+	},
+	{
+		"name": "THE NEED TO KNOW",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "You can only use this Stratagem if your army only contains GREY KNIGHTS Detachments. Use this Stratagem if you are playing a mission that requires you to select either secondary objectives or Agendas, after both players have revealed their selections. You can select one of your secondary objectives or Agendas, and replace it with a different one (make a note on your army roster as to your new selection and inform your opponent). All the normal rules for selecting secondary objectives and Agendas apply. If both players have a rule that allows them to select new secondary objectives or Agendas, both players make their new selections before revealing them simultaneously to their opponent.",
+		"keywords": ["GREY KNIGHTS"]
+	},
+	{
+		"name": "ALLOY OF DISCIPLINES",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one PALADIN unit from your army. Select one psychic power from the Sanctic discipline that unit does not know to replace one of the psychic powers that it does.",
+		"keywords": ["PALADIN"]
+	},
+	{
+		"name": "MARTIAL PRESCIENCE",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a GREY KNIGHTS unit that is Set to Defend is selected as the target of an attack made by an enemy model. Until the end of the phase, each time an unmodified save roll of 6 is made for a model in that unit, after the attacking model\u2019s unit has finished making its attacks, the attacking model\u2019s unit suffers 1 mortal wound.",
+		"keywords": ["GREY KNIGHTS"]
+	},
+	{
+		"name": "STEELY ADVANCE",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a GREY KNIGHTS INFANTRY unit from your army makes a Normal Move. Until the end of the turn, that unit is considered to have Remained Stationary.",
+		"keywords": ["GREY KNIGHTS", "INFANTRY"]
+	},
+	{
+		"name": "HEXAGRAMMIC WARDS",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Psychic",
+		"text": "Use this Stratagem in your opponent\u2019s Psychic phase, before a Deny the Witch test is taken for a GREY KNIGHTS PSYKER unit from your army. When taking that test, roll one additional D6 and discard the lowest result.",
+		"keywords": ["GREY KNIGHTS", "PSYKER"]
+	},
+	{
+		"name": "TELEPORTATION SHUNT",
+		"cost": "2",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a GREY KNIGHTS TELEPORTER unit from your army is selected to make a Normal Move. Instead of making a Normal Move with that unit, remove it from the battlefield and then set it back up on the battlefield, anywhere that is more than 9\u0022 away from any enemy models. A unit can only be selected for this Stratagem once per battle.",
+		"keywords": ["GREY KNIGHTS", "TELEPORTER"]
+	},
+	{
+		"name": "MISTS OF DEIMOS",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your opponent\u2019s Shooting phase, when a GREY KNIGHTS SMOKESCREEN unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, subtract 1 from that attack\u2019s hit roll.",
+		"keywords": ["GREY KNIGHTS", "SMOKESCREEN"]
+	},
+	{
+		"name": "TRUESILVER ARMOUR",
+		"cost": "2/3",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a GREY KNIGHTS CORE INFANTRY unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, an unmodified wound roll of 1-3 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have. If that unit contains 5 or fewer models, this Stratagem costs 2CP; otherwise, it costs 3CP.",
+		"keywords": ["GREY KNIGHTS", "CORE", "INFANTRY"]
+	},
+	{
+		"name": "PSYBOLT AMMUNITION",
+		"cost": "1/2",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a GREY KNIGHTS unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes a ranged attack with a bolt weapon:An unmodified hit roll of 6 automatically wounds the target.Improve the Armour Penetration characteristic of that attack by 1.If this unit has 6 or more models, this Stratagem costs 2CP; otherwise, it costs 1CP.",
+		"keywords": ["GREY KNIGHTS"]
+	},
+	{
+		"name": "ZONE OF WARDING",
+		"cost": "1/2",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a GREY KNIGHTS unit from your army is selected as the target of a ranged attack. Until the end of the phase, while that unit contains a model equipped with a Nemesis warding stave, models in that unit have a 5\u002B invulnerable save (TERMINATOR models instead have a 4\u002B invulnerable save). If that unit contains 5 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["GREY KNIGHTS", " TERMINATOR"]
+	},
+	{
+		"name": "PSYK-OUT GRENADE",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a GREY KNIGHTS PSYK-OUT GRENADES unit is selected to shoot. If that unit is not within Engagement Range of any enemy units, roll one D6: on a 2\u002B, the closest enemy PSYKER unit that is within 6\u0022 of and visible to your unit suffers Perils of the Warp.",
+		"keywords": ["GREY KNIGHTS", "PSYK-OUT GRENADES", "PSYKER"]
+	},
+	{
+		"name": "FRAG ASSAULT LAUNCHERS",
+		"cost": "1",
+		"faction": "Grey Knights",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Fight",
+		"text": "Use this Stratagem at the start of your Charge phase. Select one GREY KNIGHTS ASSAULT LAUNCHERS unit from your army and one enemy unit (excluding VEHICLE or MONSTER units) within 9\u0022 of that unit. That enemy unit can either brace or duck for cover.If that unit braces, it suffers D3 mortal wounds.If that unit ducks for cover, then until the end of the turn, subtract 1 from the Attacks characteristic of models in that unit, and that unit cannot fire Overwatch or Set to Defend.",
+		"keywords": ["GREY KNIGHTS", "ASSAULT LAUNCHERS", "VEHICLE", "MONSTER"]
+	}
+]

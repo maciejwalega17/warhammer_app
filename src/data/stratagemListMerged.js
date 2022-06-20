@@ -8,6 +8,7 @@ import adeptusmechanicus from './adeptusMechanicus.json';
 import necrons from './necrons.json';
 import chaosknights from './chaosKnights.json';
 import deathguard from './deathGuard.json';
+import greyknights from './greyKnights.json';
 
 const startingArr = [
 	{
@@ -92,7 +93,8 @@ const stratagemListMerged = startingArr.concat(
 	adeptusmechanicus,
 	necrons,
 	chaosknights,
-	deathguard
+	deathguard,
+	greyknights
 );
 
 export default stratagemListMerged;
