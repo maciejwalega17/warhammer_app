@@ -8,6 +8,8 @@ import Counter from './counter';
 import PayWindow from './pay_window';
 import Settings from './settings';
 
+import onClickSetCounter from '../functions/onClickSetCounter';
+
 import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
 import stratagemListMerged from '../data/stratagemListMerged';
@@ -56,14 +58,6 @@ const App = () => {
 			} else {
 				setSelectedPhase(phaseList[phaseList.indexOf(selectedPhase) - 1]);
 			}
-		}
-	};
-
-	const onClickSetCounter = (callback, params, value) => {
-		if (params === 'add') {
-			callback((prevValue) => prevValue + value);
-		} else if (params === 'sub') {
-			callback((prevValue) => prevValue - value);
 		}
 	};
 
