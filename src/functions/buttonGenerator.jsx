@@ -20,6 +20,29 @@ const buttonGenerator = (cost, callback, name) => {
                 />
             </>
         );
+    } else if (cost === '1/2/3') {
+        return (
+            <>
+                <Button
+                    name={`1 CP`}
+                    onClick={() => {
+                        callback(name, 1);
+                    }}
+                />
+                <Button
+                    name={`2 CP`}
+                    onClick={() => {
+                        callback(name, 2);
+                    }}
+                />
+                <Button
+                    name={`3 CP`}
+                    onClick={() => {
+                        callback(name, 2);
+                    }}
+                />
+            </>
+        );
     } else {
         return (
             <Button
