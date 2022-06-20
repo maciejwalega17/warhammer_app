@@ -7,7 +7,7 @@ const buttonGenerator = (cost, callback, name) => {
 	costSplit.forEach((el) => {
 		btnArr.push(
 			<Button
-				key={name}
+				key={name + el}
 				name={`${el} CP`}
 				onClick={() => {
 					callback(name, el);
