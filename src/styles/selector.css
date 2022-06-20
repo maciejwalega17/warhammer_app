@@ -1,0 +1,12 @@
+.selector {
+	margin: 10px;
+}
+.selector select {
+	background-color: var(--bg-tertiary-color);
+	width: 200px;
+	font-size: 19px;
+}
+
+.selector h3 {
+    margin: 1px;
+}

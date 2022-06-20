@@ -1,5 +1,11 @@
-.btn {
-	width: 200px;
+.nav .btn {
+	width: 150px;
+	margin: 10px;
+}
+.nav {
+	padding: 10px;
+	background-color: var(--bg-secondary-color);
+	border: 2px solid black;
 }
 
 .wrapper {
@@ -9,8 +15,10 @@
 	background-color: var(--bg-primary-color);
 }
 
-.nav {
+.stratagems {
+	align-items: center;
 }
-
-.show-selected {
+.stratagem-btn-container .btn {
+	width: 300px;
+	margin: 5px;
 }
