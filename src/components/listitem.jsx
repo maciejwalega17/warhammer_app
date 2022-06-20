@@ -14,16 +14,19 @@ const ListItem = ({
 	return (
 		<>
 			<div className='flex-column list-item'>
-				<div className='container-head flex-row'>
-					<div className='flex-column container-left'>
+				<div className='container-head flex-column'>
+					<div className='flex-row space-between'>
 						<p className='name'>{name}</p>
-						<p className='category'>{category}</p>
+						<div className='cost flex-row'>
+							{buttonGenerator(cost, callback, name)}
+						</div>
 					</div>
-					<div className='flex-column container-right'>
-						<p className='cost'>{buttonGenerator(cost, callback, name)}</p>
-						<p className='phase'>{phase}</p>
+					<div className='flex-row space-between'>
+						<p className='category'>{category} Stratagem</p>
+						<p className='phase'>{phase} Phase</p>
 					</div>
 				</div>
+
 				<div className='container-body'>
 					<p className='text'>{text}</p>
 					<p className='keywords'>KEYWORDS: {keywords.join(', ')}</p>

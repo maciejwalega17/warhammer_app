@@ -1,13 +1,16 @@
 .counter-container {
     margin-right: 10px;
-    border: 1px solid black;
+    border: 1px solid var(--btn-color);
 	background-color: var(--bg-tertiary-color);
+	align-items: center;
 }
 .counter-container h3 {
-    padding: 10px;
-	margin: 0;
+	height: 38px;
+	margin: 10px;
 	font-size: 26px;
 }
+
 .counter-btn-container .btn {
 	width: 70px;
+	margin: 4px;
 }

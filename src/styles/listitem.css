@@ -8,28 +8,30 @@
 	height: min-content;
 }
 
-.container-right .btn {
+.cost .btn {
+	height: 30px;
 	width: 50px;
+	font-size: 15px;
+	line-height: 15px;
 }
 
-.container-left,
-.container-right {
-	justify-content: center;
-	align-items: center;
-}
 .container-head {
 	border: 3px solid var(--btn-color);
 	border-radius: 25px;
 	padding: 5px;
 }
-.container-left {
-	width: 300px;
-	border-right: 1px solid var(--btn-color);
+
+.name {
+	font-size: 18px;
+	line-height: 30px;
+}
+.cost,
+.name,
+.phase,
+.category {
+	margin: 5px 15px 5px 15px;
 }
 
-.container-right {
-	width: 100px;
-}
 .cost,
 .name {
 	text-transform: uppercase;
@@ -47,7 +49,6 @@
 	text-align: center;
 	padding: 5px;
 	border-top: 1px solid var(--btn-color);
-
 	font-size: 14px;
 	font-weight: bold;
 }
