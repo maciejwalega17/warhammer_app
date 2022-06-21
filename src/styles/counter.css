@@ -1,8 +1,9 @@
 .counter-container {
-    margin-right: 10px;
+	align-items: center;
+	margin-right: 10px;
     border: 1px solid var(--btn-color);
 	background-color: var(--bg-tertiary-color);
-	align-items: center;
+	box-shadow: 0 0 5px black;
 }
 .counter-container h3 {
 	height: 38px;
