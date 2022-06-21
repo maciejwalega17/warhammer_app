@@ -15,6 +15,7 @@ import armyList from '../data/armyList';
 import stratagemListMerged from '../data/stratagemListMerged';
 
 import '../styles/app.css';
+import switchColor from '../functions/switchColor'
 
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
@@ -130,7 +131,7 @@ const App = () => {
 			}}
 		/>
 	);
-
+	switchColor(selectedArmy)
 	return (
 		<>
 			{isPageOnTop ? (
@@ -189,6 +190,8 @@ const App = () => {
 								setlistShow('enemy');
 							}}
 						/>
+					</div>
+					<div className='stratagem-btn-container'>
 						<Button
 							name='Show Core Stratagems'
 							onClick={() => {
