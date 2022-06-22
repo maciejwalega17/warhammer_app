@@ -96,13 +96,13 @@ const App = () => {
 
 	const listTitleGenerator = () => {
 		if (listShow === 'mine') {
-			return 'My turn Stratagems';
+			return 'My turn Stratagems:';
 		} else if (listShow === 'enemy') {
-			return 'Enemy turn Stratagems';
+			return 'Enemy turn Stratagems:';
 		} else if (listShow === 'core') {
-			return 'Core Stratagems';
+			return 'Core Stratagems:';
 		} else if (listShow === 'before') {
-			return 'Before the Battle Stratagems';
+			return 'Before the Battle Stratagems:';
 		}
 	};
 	const listArrGenerator = () => {
@@ -146,8 +146,8 @@ const App = () => {
 			/>
 
 			<div className='wrapper flex-column'>
-				<div className='nav'>
-					<div className='flex-row'>
+				<div className='nav '>
+					<div className='flex-row space-around'>
 						<Selector
 							title='Phase:'
 							value={selectedPhase}
