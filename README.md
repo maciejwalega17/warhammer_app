@@ -4,7 +4,7 @@
 
 A fan app made to make playing Warhammer 40k Tabletop Game easier.
 
-Featuers:
+Features:
 -Stratagem filter by phase and army selected;
 -Command Point calculator with option to 'buy' stratagems;
 
