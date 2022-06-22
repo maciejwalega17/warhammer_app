@@ -3,10 +3,10 @@
 ### IN DEVELOPMENT
 
 A fan app made to make playing Warhammer 40k Tabletop Game easier.
-featuers:
+
+Featuers:
 -Stratagem filter by phase and army selected;
 -Command Point calculator with option to 'buy' stratagems;
-
 
 -Victory Point calculator; (will move into different app after new missions come out)
 
