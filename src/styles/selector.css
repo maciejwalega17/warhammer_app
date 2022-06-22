@@ -1,12 +1,36 @@
+@media (max-width: 341px) {
+	.selector select {
+		width: 100px;
+	}
+}
+@media (min-width: 350px) and (max-width: 576px) {
+	.selector select {
+		width: 140px;
+	}
+}
+@media (max-width: 576px) {
+	.selector select {
+		font-size: 13px;
+	}
+	.selector h3 {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 577px) {
+	.selector select {
+		width: 200px;
+		font-size: 19px;
+	}
+}
+
 .selector {
 	margin: 10px;
 }
 .selector select {
 	background-color: var(--bg-tertiary-color);
-	width: 200px;
-	font-size: 19px;
 }
 
 .selector h3 {
-    margin: 1px;
+	margin: 1px;
 }

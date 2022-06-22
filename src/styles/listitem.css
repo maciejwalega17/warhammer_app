@@ -1,5 +1,82 @@
+@media (max-width: 341px) {
+	.list-item {
+		width: 240px;
+	}
+	.cost .btn {
+		height: 20px;
+		width: 35px;
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.cost,
+	.name,
+	.phase,
+	.category {
+		margin: 5px 5px 5px 5px;
+	}
+	.name {
+		font-size: 13px;
+		line-height: 16px;
+	}
+}
+@media (min-width: 342px) {
+	.cost .btn {
+		height: 30px;
+		width: 50px;
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.cost,
+	.name,
+	.phase,
+	.category {
+		margin: 5px 15px 5px 15px;
+	}
+	.name {
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 380px) {
+	.list-item {
+		width: 320px;
+	}
+}
+@media (min-width: 381px) and (max-width: 576px) {
+	.list-item {
+		width: 350px;
+	}
+}
+@media (max-width: 576px) {
+	.list-item {
+		margin: 0 2px 15px 2px;
+	}
+}
+@media (min-width: 577px) {
+	.list-item {
+		margin: 0 5px 15px 5px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	.list-item {
+		width: 400px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+	.list-item {
+		width: 350px;
+	}
+}
+@media (min-width: 912px) {
+	.list-item {
+		width: 400px;
+	}
+}
+
 .list-item {
-	width: 400px;
 	margin: 0 5px 15px 5px;
 	padding: 5px;
 	border: 2px solid var(--btn-color);
@@ -9,29 +86,13 @@
 	box-shadow: 0 0 5px black;
 }
 
-.cost .btn {
-	height: 30px;
-	width: 50px;
-	font-size: 15px;
-	line-height: 15px;
-}
-
 .container-head {
 	border: 3px solid var(--btn-color);
 	border-radius: 25px;
 	padding: 5px;
 }
 
-.name {
-	font-size: 18px;
-	line-height: 30px;
-}
-.cost,
-.name,
-.phase,
-.category {
-	margin: 5px 15px 5px 15px;
-}
+
 
 .cost,
 .name {

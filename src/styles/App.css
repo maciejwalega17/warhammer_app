@@ -1,27 +1,89 @@
+@media (max-width: 380px) {
+	.nav .btn {
+		width: 90px;
+	}
+	.stratagem-btn-container .btn {
+		width: 120px;
+		margin: 5px;
+		font-size: 10px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 381px) {
+	.nav .btn {
+		width: 150px;
+	}
+}
+@media (min-width: 381px) and (max-width: 576px) {
+	.stratagem-btn-container .btn {
+		width: 160px;
+		margin: 5px;
+		font-size: 12px;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+}
+@media (min-width: 577px) and (max-width: 768px) {
+	.stratagem-btn-container .btn {
+		width: 200px;
+		height: 75px;
+		margin: 5px;
+	}
+}
+@media (max-width: 768px) {
+	.wrapper {
+		padding: 5px;
+		border: 1px solid var(--btn-color);
+	}
+
+	.nav {
+		padding: 5px;
+	}
+}
+
+@media (min-width: 769px) {
+	.stratagem-btn-container .btn {
+		width: 300px;
+		margin: 5px;
+	}
+
+	.wrapper {
+		padding: 20px;
+		border: 3px solid var(--btn-color);
+	}
+	.nav {
+		padding: 10px;
+	}
+}
+
 .nav .btn {
-	width: 150px;
 	margin: 10px;
 }
+
 .nav {
 	margin-bottom: 20px;
-	padding: 10px;
 	background-color: var(--bg-secondary-color);
 	border: 2px solid var(--btn-color);
 	box-shadow: 0 0 5px black;
 }
 
 .wrapper {
-	padding: 20px;
 	align-items: center;
-	border: 3px solid var(--btn-color);
 	background-color: var(--bg-primary-color);
 	box-shadow: 0 0 5px black;
 }
 
 .stratagems {
 	align-items: center;
-}
-.stratagem-btn-container .btn {
-	width: 300px;
-	margin: 5px;
 }

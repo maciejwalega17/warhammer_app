@@ -1,11 +1,30 @@
+@media (max-width: 576px) {
+	.listitem-container {
+		column-count: 1;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	.listitem-container {
+		column-count: 1;
+	}
+}
+@media (min-width: 769px) and (max-width: 992px) {
+	.listitem-container {
+		column-count: 2;
+	}
+}
+@media (min-width: 993px) {
+	.listitem-container {
+		column-count: 2;
+	}
+}
+
+.listitem-container {
+	break-inside: avoid;
+}
 .list-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.listitem-container {
-
-	column-count: 2;
-	break-inside: avoid;
 }

@@ -163,7 +163,7 @@ const App = () => {
 							callback={(value) => setSelectedArmy(value)}
 						/>
 					</div>
-					<div className='flex-row space-around'>
+					<div className='flex-row space-around nav-container'>
 						<Button name='Previous phase' onClick={() => onClickNav('prev')} />
 						<Button name='Next phase' onClick={() => onClickNav('next')} />
 					</div>
@@ -177,7 +177,7 @@ const App = () => {
 				/>
 				<div className='stratagems flex-column'>
 					<h1>Stratagems:</h1>
-					<div className='stratagem-btn-container'>
+					<div className='stratagem-btn-container flex-row'>
 						<Button
 							name='Show my phase Stratagems'
 							onClick={() => {
@@ -191,7 +191,7 @@ const App = () => {
 							}}
 						/>
 					</div>
-					<div className='stratagem-btn-container'>
+					<div className='stratagem-btn-container flex-row'>
 						<Button
 							name='Show Core Stratagems'
 							onClick={() => {
