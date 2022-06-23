@@ -15,7 +15,7 @@ import armyList from '../data/armyList';
 import stratagemListMerged from '../data/stratagemListMerged';
 
 import '../styles/app.css';
-import switchColor from '../functions/switchColor'
+import switchColor from '../functions/switchColor';
 
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
@@ -131,7 +131,7 @@ const App = () => {
 			}}
 		/>
 	);
-	switchColor(selectedArmy)
+	switchColor(selectedArmy);
 	return (
 		<>
 			{isPageOnTop ? (
@@ -178,32 +178,40 @@ const App = () => {
 				<div className='stratagems flex-column'>
 					<h1>Stratagems:</h1>
 					<div className='stratagem-btn-container flex-row'>
-						<Button
-							name='Show my phase Stratagems'
-							onClick={() => {
-								setlistShow('mine');
-							}}
-						/>
-						<Button
-							name='Show enemy phase Stratagems'
-							onClick={() => {
-								setlistShow('enemy');
-							}}
-						/>
+						<div className={listShow === 'mine' ? 'clicked' : null}>
+							<Button
+								name='Show my phase Stratagems'
+								onClick={() => {
+									setlistShow('mine');
+								}}
+							/>
+						</div>
+						<div className={listShow === 'enemy' ? 'clicked' : null}>
+							<Button
+								name='Show enemy phase Stratagems'
+								onClick={() => {
+									setlistShow('enemy');
+								}}
+							/>
+						</div>
 					</div>
 					<div className='stratagem-btn-container flex-row'>
-						<Button
-							name='Show Core Stratagems'
-							onClick={() => {
-								setlistShow('core');
-							}}
-						/>
-						<Button
-							name='Before the Battle Stratagems'
-							onClick={() => {
-								setlistShow('before');
-							}}
-						/>
+						<div className={listShow === 'core' ? 'clicked' : null}>
+							<Button
+								name='Show Core Stratagems'
+								onClick={() => {
+									setlistShow('core');
+								}}
+							/>
+						</div>
+						<div className={listShow === 'before' ? 'clicked' : null}>
+							<Button
+								name='Before the Battle Stratagems'
+								onClick={() => {
+									setlistShow('before');
+								}}
+							/>
+						</div>
 					</div>
 					<div className='flex-row'>
 						<List

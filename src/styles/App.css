@@ -67,6 +67,9 @@
 	}
 }
 
+.clicked .btn {
+	background-color: var(--btn-color);
+}
 .nav .btn {
 	margin: 10px;
 }
