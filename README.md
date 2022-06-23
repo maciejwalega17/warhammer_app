@@ -9,7 +9,6 @@ Features:
 *Command Point calculator with option to 'buy' stratagems;
 
 Incoming features:
-*Add remaining armies stratagems;
 *Add subfaction stratagems with filter;
 *Victory Point calculator; (will move into different app after new missions come out)
 
