@@ -1,0 +1,331 @@
+[
+	{
+		"name": "CALCULATED TARGETING",
+		"cost": "2/3/4",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a QUESTOR MECHANICUS model from your army is selected to shoot. Until the end of the phase, each time that model makes a ranged attack, on an unmodified wound roll of 6, that attack inflicts a number of mortal wounds on the target equal to the Damage characteristic of that attack, and the attack sequence ends. If that model is an ARMIGER-CLASS model, this Stratagem costs 2CP; if that model is a QUESTORIS-CLASS model, this Stratagem costs 3CP; otherwise, it costs 4CP.",
+		"keywords": ["QUESTOR MECHANICUS", "ARMIGER-CLASS", "QUESTORIS-CLASS"]
+	},
+	{
+		"name": "FULL TILT",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when an IMPERIAL KNIGHTS VEHICLE model from your army Advances. Do not make an Advance roll. Instead, until the end of the phase, add 6\u0022 to the Move characteristic of this model (if this model is an ARMIGER-CLASS model, add 9\u0022 instead).",
+		"keywords": ["IMPERIAL KNIGHTS", "VEHICLE", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "THUNDERSTOMP",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when an IMPERIAL KNIGHTS TITANIC model from your army is selected to fight. Until the end of the phase, each time that model makes a melee attack with its titanic feet:Subtract 1 from that attack\u2019s hit roll.If that attack successfully hits the target, unless the target of that attack is a VEHICLE, MONSTER or a CHARACTER unit, the target suffers 2 mortal wounds and the attack sequence ends.",
+		"keywords": [
+			"IMPERIAL KNIGHTS",
+			"TITANIC",
+			"VEHICLE",
+			"MONSTER",
+			"CHARACTER"
+		]
+	},
+	{
+		"name": "IMPETUOUS GLORY",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem when an ARMIGER-CLASS model from your army is selected to fight in the Fight phase. Until the end of the phase, each time that model makes a melee attack, on an unmodified hit roll of 6, one additional hit is scored.",
+		"keywords": ["ARMIGER-CLASS"]
+	},
+	{
+		"name": "LINEBREAKER",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Fight",
+		"text": "Use the Stratagem in your Fight phase, when a QUESTOR IMPERIALIS VEHICLE model from your army makes a consolidation move. Until the end of the phase, when making that consolidation move, that model:Can move up to 6\u0022 instead of up to 3\u0022 (this is cumulative with the Vow of Honour Questor Allegiance Oath, meaning that such a model would move up to 7\u0022 when it consolidates this phase).Can move in any direction, provided it ends that consolidation move either within Engagement Range of an enemy model, or it ends that move at least 3\u0022 closer to your opponent\u2019s battlefield edge.",
+		"keywords": ["QUESTOR IMPERIALIS", "VEHICLE"]
+	},
+	{
+		"name": "MARTIAL PROWESS",
+		"cost": "1/2",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "fight",
+		"text": "Use this Stratagem in the fight phase when an IMPERIAL KNIGHTS VEHICLE unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is allocated to that model, add 1 to any armour saving throw taken against that attack. If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["IMPERIAL KNIGHTS", "VEHICLE", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "PACK TACTICS",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem at the start of the Fight phase. Select one enemy unit that is within Engagement Range of 2 or more ARMIGER-CLASS models from your army. Until the end of the phase, add 1 to the Attacks characteristic of each ARMIGER-CLASS model from your army that started the phase in Engagement Range with that enemy unit.",
+		"keywords": ["ARMIGER-CLASS"]
+	},
+	{
+		"name": "PAINS OF OLD NIGHT",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when an IMPERIAL KNIGHTS model from your army is selected to fight. Until the end of the phase, each time that model makes an attack against a CHAOS model, re-roll a wound roll of 1.",
+		"keywords": ["IMPERIAL KNIGHTS", "CHAOS"]
+	},
+	{
+		"name": "SKYFIRE PROTOCOLS",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase when an ARMIGER-CLASS model from your army is selected to shoot. Until the end of the phase, each time that model makes an attack against an AIRCRAFT unit, add 1 to that attack\u2019s hit roll.",
+		"keywords": ["ARMIGER-CLASS", "AIRCRAFT"]
+	},
+	{
+		"name": "THIN THEIR RANKS",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem at the start of the Shooting phase. Select up to 3 ARMIGER-CLASS models from your army. Until the end of the phase, each time a selected model makes a ranged attack, an unmodified hit roll of 6 automatically wounds the target.",
+		"keywords": ["ARMIGER-CLASS"]
+	},
+	{
+		"name": "TROPHY CLAIM",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when an IMPERIAL KNIGHTS model from your army destroys an enemy TITANIC unit with a melee attack.Until the end of the battle, add 1 to this model\u2019s Attacks characteristic.If every unit from your army has the IMPERIAL KNIGHTS keyword (excluding units with the AGENT OF THE IMPERIUM or UNALIGNED keywords), you gain 1 Honour point.Until the end of the battle, when you are determining which Chivalric abilities are active for IMPERIAL KNIGHTS models in your army, this model always counts as if your army was Virtuous. This may mean that different Chivalric abilities are active for different models in your army.",
+		"keywords": [
+			"IMPERIAL KNIGHTS",
+			"TITANIC",
+
+			"AGENT OF THE IMPERIUM",
+			"UNALIGNED"
+		]
+	},
+	{
+		"name": "BENEVOLENCE OF THE MACHINE GOD",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when a QUESTOR MECHANICUS model from your army would lose a wound as the result of a mortal wound. Until the end of the phase, each time that model would lose a wound as the result of a mortal wound, roll one D6: on a 5\u002B, that wound is not lost.",
+		"keywords": ["QUESTOR MECHANICUS"]
+	},
+	{
+		"name": "CRUSHED",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when an attack made with Freedom\u2019s Hand or a thunderstrike gauntlet (or a Relic that replaces such a weapon) by an IMPERIAL KNIGHTS model from your army is allocated to an enemy model. Before any saving throw is taken against that attack, both players roll off (if the Strength characteristic of this IMPERIAL KNIGHTS is greater than that of the model the attack has been allocated to, add 1 to your result). If you win the roll off, invulnerable saving throws cannot be taken against that attack; otherwise the Damage characteristic of that attack is 0.",
+		"keywords": ["IMPERIAL KNIGHTS"]
+	},
+	{
+		"name": "MACHINE SPIRIT RESURGENT",
+		"cost": "1/2",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one QUESTOR MECHANICUS model from your army. Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use. If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["QUESTOR MECHANICUS", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "VALIANT LAST STAND",
+		"cost": "1/2",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a QUESTOR IMPERIALIS model from your army that has not already been selected to fight this phase is destroyed (but did not explode). Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. When resolving these attacks, assume the model has 1 wound remaining when determining which characteristics to use. After resolving the destroyed model\u2019s attacks, it is then removed. If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["QUESTOR IMPERIALIS", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "NOBLE SACRIFICE",
+		"cost": "1/2/3",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem when an IMPERIAL KNIGHTS VEHICLE model from your army is destroyed. Do not roll to see if that model explodes: it does so automatically (if that model is a DOMINUS-CLASS model, roll one D6: on a 4\u002B, the range of the explosion is 3D6\u0022). If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; if that model is a QUESTORIS-CLASS model, this Stratagem costs 2CP; otherwise, it costs 3CP. You can only use this Stratagem once.",
+		"keywords": [
+			"IMPERIAL KNIGHTS",
+			"VEHICLE",
+			"DOMINUS-CLASS",
+			"ARMIGER-CLASS",
+
+			"QUESTORIS-CLASS"
+		]
+	},
+	{
+		"name": "RECOUNT THE VIRTUES",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Any",
+		"text": "Use this Stratagem at the start of any of your phases other than your Command phase. Select one MENTOR unit from your army that has not recounted a teaching this turn. That model can recount one teaching that has not already been recounted by a friendly model this turn. That teaching is automatically inspiring (do not roll) and takes effect until the start of your next Command phase.",
+		"keywords": ["MENTOR"]
+	},
+	{
+		"name": "SURVIVORS OF STRIFE",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when an ARMIGER-CLASS model from your army is selected as the target of an attack. Until the end of the phase, each time an attack is made against that model, an unmodified wound roll of 1-3 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have.",
+		"keywords": ["ARMIGER-CLASS"]
+	},
+	{
+		"name": "HEIRLOOMS OF THE HOUSEHOLD",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the IMPERIAL KNIGHTS keyword. Select one IMPERIAL KNIGHTS model from your army. That model can have one Heirloom Relic, even if they are not a CHARACTER model (this must be a Relic they could have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "IMPERIAL KNIGHTS", "CHARACTER"]
+	},
+	{
+		"name": "KNIGHT BARON",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the IMPERIAL KNIGHTS keyword. Select one IMPERIAL KNIGHTS model from your army (excluding named characters). That model gains the CHARACTER keyword and you must determine one Warlord Trait for it (this must be a Warlord Trait it can have); that model is only regarded as your Warlord for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "IMPERIAL KNIGHTS", "CHARACTER"]
+	},
+	{
+		"name": "REVERED PARAGON",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem after nominating an IMPERIAL KNIGHTS CHARACTER model to be your WARLORD. You can generate one additional Warlord Trait for them. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results). You can only use this Stratagem once and you cannot use this Stratagem if your WARLORD is a named character.",
+		"keywords": ["IMPERIAL KNIGHTS", "CHARACTER", "WARLORD"]
+	},
+	{
+		"name": "EXACTING CHARGE",
+		"cost": "1/2",
+		"faction": "Imperial Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Fight",
+		"text": "Use this Stratagem in your Charge phase, when an IMPERIAL KNIGHTS VEHICLE model from your army finishes a charge move. Select one enemy unit within Engagement Range of your model and roll four D6s (if this model is TITANIC, roll six D6s instead). For each dice result that equals or exceeds that enemy unit\u2019s Toughness characteristic, it suffers 1 mortal wound; for each unmodified roll of a 6, that enemy unit instead suffers 2 mortal wounds. If this model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["IMPERIAL KNIGHTS", "VEHICLE", "TITANIC", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "A SQUIRE\u2019S DUTY",
+		"cost": "2",
+		"faction": "Imperial Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase when an ARMIGER CLASS model from your army Falls Back. That model is still eligible to shoot and charge this turn even though it Fell Back.",
+		"keywords": ["ARMIGER CLASS"]
+	},
+	{
+		"name": "FLANKING MANOEUVRES",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the start of your Movement phase. Select up to two ARMIGER-CLASS models from your army that are more than 6\u0022 from any enemy models and within 6\u0022 of any battlefield edge. If the mission you are playing is using the Strategic Reserves rule, place that unit into Strategic Reserves - that model cannot arrive from Strategic Reserves in the same turn it is placed into Strategic Reserves.",
+		"keywords": ["ARMIGER-CLASS"]
+	},
+	{
+		"name": "STORMSTRIDERS",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when you select one QUESTOR IMPERIALIS TITANIC model from your army to make a Normal Move or Advance. After this model has moved, select one enemy unit it moved across (excluding AIRCRAFT units) and roll one D6. Add 1 to the result if that enemy unit contains between 6-10 models, and add 2 to the result if that enemy unit contains 11 or more models: on a 3-6, that enemy unit suffers D3 mortal wounds; on a 7\u002B, that unit suffers D6 mortal wounds.",
+		"keywords": ["QUESTOR IMPERIALIS", "TITANIC", "AIRCRAFT"]
+	},
+	{
+		"name": "DEFIANT FURY",
+		"cost": "2",
+		"faction": "Imperial Knights",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem in any phase, when an IMPERIAL KNIGHTS \u0026lt;NOBLE HOUSEHOLD\u0026gt; CHARACTER unit from your army is destroyed by an enemy unit. Select one friendly \u0026lt;NOBLE HOUSEHOLD\u0026gt; ARMIGER-CLASS model from your army.At the end of the phase, that ARMIGER-CLASS model can shoot as if it were your Shooting phase, but it can only target that enemy unit (and only if that enemy unit is an eligible target for that attack).Until the end of the battle, each time that ARMIGER-CLASS model makes an attack that targets that enemy unit, you can re-roll the hit roll.",
+		"keywords": ["IMPERIAL KNIGHTS", "CHARACTER", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "POINT BLANK BARRAGE",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when an IMPERIAL KNIGHTS model from your army is selected to shoot. Until the end of the phase:That model can make attacks with Blast weapons against units within Engagement Range of it.Each time this model makes an attack with a Blast weapon against a unit within Engagement Range of it, on an unmodified hit roll of 1, this model suffers 1 mortal wound after all of its attacks have been resolved.",
+		"keywords": ["IMPERIAL KNIGHTS"]
+	},
+	{
+		"name": "CHAINSWEEP",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when an IMPERIAL KNIGHTS model from your army that is equipped with a reaper chainsword or reaper chain-cleaver (or a Relic that replaces such a weapon) is selected to fight. Until the end of the phase, each time that model makes an attack, you can never re-roll that attacks hit roll, but if that attack is made using the Sweep profile of a reaper chainsword or reaper chain-cleaver (or a Relic that replaces such a weapon), make 1 additional hit roll.",
+		"keywords": ["IMPERIAL KNIGHTS"]
+	},
+	{
+		"name": "ROTATE ION SHIELDS",
+		"cost": "1/2",
+		"faction": "Imperial Knights",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your opponent\u2019s Shooting phase, when an IMPERIAL KNIGHTS VEHICLE model from your army is selected as the target of a ranged attack. Until the end of the phase, that model has a 4\u002B invulnerable save against ranged attacks. If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CR",
+		"keywords": ["IMPERIAL KNIGHTS", "VEHICLE", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "ION AEGIS",
+		"cost": "2",
+		"faction": "Imperial Knights",
+		"category": "Wargear",
+		"whose": "enemy",
+		"phase": "Command",
+		"text": "Use this Stratagem in your opponent\u2019s Command phase. Select one DOMINUS-CLASS model from your army. Until the end of the turn, that model has the following ability:Ion Aegis (Aura): While a friendly \u0026lt;NOBLE HOUSEHOLD\u0026gt; ARMIGER-CLASS model is within 6\u0022 of this model, that ARMIGER-CLASS model has a 4\u002B invulnerable save against ranged weapons.",
+		"keywords": ["DOMINUS-CLASS", "ARMIGER-CLASS"]
+	},
+	{
+		"name": "HURLED WRECKAGE",
+		"cost": "1",
+		"faction": "Imperial Knights",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem at the end of the Fight phase. Select one IMPERIAL KNIGHTS model from your army equipped with Freedom\u2019s Hand or a thunderstrike gauntlet (or a Relic that replaces such a weapon). If a VEHICLE or MONSTER model was destroyed within Engagement Range of the selected IMPERIAL KNIGHTS model during that phase, you can now select one enemy unit within 9\u0022 of and visible to that IMPERIAL KNIGHTS model that is not within engagement range of any friendly units. Roll one D6, subtracting 1 from the result if the enemy unit you selected is a CHARACTER with a Wounds characteristic of 9 or less: on a 3-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
+		"keywords": ["IMPERIAL KNIGHTS", "VEHICLE", "CHARACTER"]
+	}
+]

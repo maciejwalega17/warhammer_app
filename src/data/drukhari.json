@@ -1,0 +1,249 @@
+[
+	{
+		"name": "CRUEL DECEPTION",
+		"cost": "1/2",
+		"faction": "Drukhari",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a DRUKHARI unit from your army Falls Back. You can select for this unit to be eligible to shoot this turn or eligible to declare a charge this turn, or both. If you select both, this Stratagem costs 2CP; otherwise, it costs 1CP.",
+		"keywords": ["DRUKHARI"]
+	},
+	{
+		"name": "THE GREAT ENEMY",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when a DRUKHARI unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a melee attack against a SLAANESH unit, you can re-roll the hit roll and you can re-roll wound roll.",
+		"keywords": ["DRUKHARI", "SLAANESH"]
+	},
+	{
+		"name": "THE TORTURER\u2019S CRAFT",
+		"cost": "1/2",
+		"faction": "Drukhari",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase when URIEN RAKARTH or a \u0026lt;HAEMONCULUS COVEN\u0026gt; unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, you can re-roll the wound roll. If this Stratagem is used when a CHARACTER or WRACKS unit that contains 10 or less models is selected to fight, it costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["URIEN RAKARTH", "CHARACTER", "WRACKS"]
+	},
+	{
+		"name": "LIGHTNING-FAST REACTIONS",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Battle Tactic",
+		"whose": "both",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your opponents Shooting phase or the Fight phase, when a DRUKHARI INFANTRY, DRUKHARI VEHICLE or DRUKHARI BIKER unit from your army (excluding URIEN RAKARTH or a \u0026lt;HAEMONCULUS COVEN\u0026gt; unit) is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, subtract 1 from that attack\u2019s hit roll.",
+		"keywords": ["DRUKHARI", "INFANTRY", "VEHICLE", "BIKER", "URIEN RAKARTH"]
+	},
+	{
+		"name": "HUNT FROM THE SHADOWS",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Battle Tactic",
+		"whose": "enemy",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your opponent\u2019s Shooting phase, when a DRUKHARI unit from your army that has the benefits of Light Cover is selected as the target of a ranged attack. Until the end of that phase, add an additional 1 to that unit\u2019s saving throws (excluding invulnerable saving throws).",
+		"keywords": ["DRUKHARI"]
+	},
+	{
+		"name": "ALLIANCE OF AGONY",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD is a REALSPACE RAIDER ARCHON. Select one SUCCUBUS model from your army and one HAEMONCULUS model from your army (excluding named characters) and determine one Warlord Trait for each of these models (this must be a Warlord Trait it can have); those models are only regarded as your WARLORD for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once.",
+		"keywords": [
+			"WARLORD",
+			"REALSPACE RAIDER",
+			"ARCHON",
+			"SUCCUBUS",
+			"HAEMONCULUS",
+			"WARLORD"
+		]
+	},
+	{
+		"name": "TOLERATED AMBITION",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the DRUKHARI keyword. Select one DRUKHARI CHARACTER model from your army (excluding named characters) and determine one Warlord Trait for it (this must be a Warlord Trait it can have); that model it is only regarded as your Warlord for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results), and you cannot use this Stratagem to give a model two Warlord Traits. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "DRUKHARI", "CHARACTER"]
+	},
+	{
+		"name": "PRIZES FROM THE DARK CITY",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Requisition",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD has the DRUKHARI keyword. Select one DRUKHARI CHARACTER model from your army and give them one Artefact of Cruelty (this must be a Relic they can have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"keywords": ["WARLORD", "DRUKHARI", "CHARACTER"]
+	},
+	{
+		"name": "WEBWAY PORTAL",
+		"cost": "1/3",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle when declaring reserves and transports (if you are playing a mission without this step, use this Stratagem during deployment instead). If you spend 1CP, you can set up one DRUKHARI INFANTRY, BIKER or BEAST unit from your army in the webway instead of placing it on the battlefield. If you spend 3CPs, you can place two DRUKHARI INFANTRY, BIKER or BEAST units in the webway instead.In the Reinforcements step of one of your Movement phases, you can set up any units in the webway anywhere on the battlefield that is more than 9\u0022 away from any enemy models. You can only use this Stratagem once.",
+		"keywords": ["DRUKHARI", "INFANTRY", "BIKER", "BEAST"]
+	},
+	{
+		"name": "PAIN SYPHON",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Any",
+		"text": "Use this Stratagem when a DRUKHARI unit from your army that is within 6\u0022 of a friendly CRONOS unit destroys an enemy unit with a melee or ranged attack. Until the end of the battle, that DRUKHARI unit always treats each battle round as if it is battle round 5 for the purposes of the Power From Pain ability.",
+		"keywords": ["DRUKHARI", "CRONOS"]
+	},
+	{
+		"name": "EVISCERATING FLY-BY",
+		"cost": "1/2",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when you select a \u0026lt;WYCH CULT\u0026gt; unit that can FLY to make a Normal Move or Advance. After this unit has moved, select one enemy unit this unit moved across and roll one D6 for each model in this unit, adding 1 to the result if the enemy unit is an INFANTRY unit: for each result of 5\u002B, that enemy unit suffers 1 mortal wound. If the selected \u0026lt;WYCH CULT\u0026gt; unit contains 5 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["FLY", "INFANTRY"]
+	},
+	{
+		"name": "NEVER STATIONARY",
+		"cost": "2",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase after making attacks with a DRUKHARI unit (excluding AIRCRAFT units) from your army. That unit can immediately make a Normal Move of up to 7\u0022. Until the end of the turn, that unit is not eligible to declare a charge.",
+		"keywords": ["DRUKHARI", "AIRCRAFT"]
+	},
+	{
+		"name": "PREY ON THE WEAK",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when a DRUKHARI CORE unit from your army is selected to shoot or fight. Until the end of the phase, each time a model in this unit makes an attack:If that attack targets a unit that was below its starting strength when this unit was selected to shoot or fight, re-roll a hit roll of 1.If that attack targets a unit that was below Half-strength when this unit was selected to shoot or fight, you can re-roll the hit roll.",
+		"keywords": ["DRUKHARI", "CORE"]
+	},
+	{
+		"name": "SCREAMING JETS",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem before the battle when declaring reserves and transports (if you are playing a mission without this step, use this Stratagem during deployment instead). You can set up one DRUKHARI VEHICLE unit from your army in the skies instead of placing it on the battlefield.In the Reinforcements step of one of your Movement phases, you can set up this unit anywhere on the battlefield that is more than 9\u0022 away from any enemy models. You can only use this Stratagem once.",
+		"keywords": ["DRUKHARI", "VEHICLE"]
+	},
+	{
+		"name": "DEADLY RIVALS",
+		"cost": "2",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one REAVERS unit from your army and one HELLIONS unit from your army that are within 12\u0022 of and visible to each other. Until the end of the turn:Add 1\u0022 to the Movement characteristics of models in these units.Each time a model in these units makes an attack with a melee weapon, you can re-roll the hit roll.",
+		"keywords": ["REAVERS", "HELLIONS"]
+	},
+	{
+		"name": "SWIFT OUTFLANKING",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the end of your Movement phase. Select one DRUKHARI TRANSPORT unit from your army that is wholly within 9\u0022 of any battlefield edge. Remove that unit from the battlefield. That unit is placed into Strategic Reserves.",
+		"keywords": ["DRUKHARI", "TRANSPORT"]
+	},
+	{
+		"name": "MURDEROUS DESCENT",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in the Reinforcements step, after a TRANSPORT unit from your army is set up on the battlefield. Any units embarked upon that TRANSPORT unit can disembark after it is set up, but when they do so, they must be set up more than 9\u0022 away from any enemy units.",
+		"keywords": ["TRANSPORT"]
+	},
+	{
+		"name": "PRAY THEY DON\u2019T TAKE YOU ALIVE",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Epic Deed",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Fight phase, when an enemy WARLORD unit is destroyed by a melee attack made by a DRUKHARI unit from your army. Until the end of the battle, each time a Combat Attrition test is taken for an enemy unit, subtract 1 from that Combat Attrition test.",
+		"keywords": ["WARLORD", "DRUKHARI"]
+	},
+	{
+		"name": "ENHANCED AETHERSAILS",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when a RAIDER or RAVAGER unit from your army is selected to Advance. Do not make an Advance roll. Instead, until the end of the phase, add 8\u0022 to the Move characteristic of this model.",
+		"keywords": ["RAIDER", "RAVAGER"]
+	},
+	{
+		"name": "CRUCIBLE OF MALEDICTION",
+		"cost": "2",
+		"faction": "Drukhari",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Psychic",
+		"text": "Use this Stratagem in your Psychic phase. Select one HAEMONCULUS unit from your army and roll one D6 for each enemy PSYKER unit within 12\u0022 of it; for each roll of 4\u002B, that PSYKER unit suffers D3 mortal wounds. You can only use this Stratagem once.",
+		"keywords": ["HAEMONCULUS", "PSYKER"]
+	},
+	{
+		"name": "HAYWIRE GRENADE",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a DRUKHARI HAYWIRE GRENADE unit from your army is selected to shoot. Select one model in that unit; that model can only make one attack this phase, and must target an enemy VEHICLE unit within 6\u0022 of it, but if a hit is scored, that VEHICLE unit suffers D3 mortal wounds and the attack sequence ends.",
+		"keywords": ["DRUKHARI", "HAYWIRE GRENADE", "VEHICLE"]
+	},
+	{
+		"name": "HYPERSTIMM BACKLASH",
+		"cost": "2",
+		"faction": "Drukhari",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one \u0026lt;WYCH CULT\u0026gt; unit with the Combat Drugs ability from your army. Until your next Command phase, each effect of the Combat Drugs ability on that unit is doubled (e.g. if the unit is affected by Painbringer, add 2 to the Toughness characteristic of models affected by that combat drug instead of 1). A model with the Phial Bouquet Relic cannot be selected for this Stratagem.",
+		"keywords": []
+	},
+	{
+		"name": "SHOCK PROW",
+		"cost": "1",
+		"faction": "Drukhari",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Fight",
+		"text": "Use this Stratagem in the Charge phase, when a DRUKHARI SHOCK PROW unit from your army finishes a charge move. Select one enemy unit within Engagement Range of that SHOCK PROW unit:If the selected enemy unit is a VEHICLE unit, roll one D6: on a 2\u002B, that unit suffers D3 mortal wounds.If the selected enemy unit is not a VEHICLE unit, roll one D6 for each model in that enemy unit that is within Engagement Range of the SHOCK PROW unit. For each dice result that equals or exceeds that enemy unit\u2019s Toughness characteristic, it suffers 1 mortal wound.",
+		"keywords": ["DRUKHARI", "SHOCK PROW", "VEHICLE"]
+	},
+	{
+		"name": "POTENT METALLOTOXINS",
+		"cost": "2",
+		"faction": "Drukhari",
+		"category": "Wargear",
+		"whose": "both",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when you select a DRUKHARI unit from your army to shoot or fight. Until the end of the phase, each time an attack is made with a poisoned weapon (excluding Relics) by that unit, that ability does not exclude VEHICLE units (though it does still exclude TITANIC units).",
+		"keywords": ["DRUKHARI", "VEHICLE", "TITANIC"]
+	}
+]

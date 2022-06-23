@@ -9,6 +9,12 @@ import necrons from './necrons.json';
 import chaosknights from './chaosKnights.json';
 import deathguard from './deathGuard.json';
 import greyknights from './greyKnights.json';
+import aeldari from './aeldari.json';
+import drukhari from './drukhari.json';
+import spacemarines from './spaceMarines.json';
+import imperialknights from './imperialKnights.json';
+import thousandsons from './thousandSons.json';
+import genestealercults from './genestealerCults.json';
 
 const startingArr = [
 	{
@@ -94,7 +100,13 @@ const stratagemListMerged = startingArr.concat(
 	necrons,
 	chaosknights,
 	deathguard,
-	greyknights
+	greyknights,
+	aeldari,
+	drukhari,
+	spacemarines,
+	imperialknights,
+	thousandsons,
+	genestealercults
 );
 
 export default stratagemListMerged;

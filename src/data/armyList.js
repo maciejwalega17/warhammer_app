@@ -11,6 +11,11 @@ const armyListPrototype = [
 	'Chaos Knights',
 	'Death Guard',
 	'Grey Knights',
+	'Drukhari',
+	'Genestealer Cults',
+	'Imperial Knights',
+	'Adeptus Astartes',
+	'Thousand Sons',
 ];
 const armyList = armyListPrototype.sort();
 export default armyList;
