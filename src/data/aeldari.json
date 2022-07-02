@@ -186,7 +186,7 @@
 		"category": "Strategic Ploy",
 		"whose": "enemy",
 		"phase": "Movement",
-		"text": "Use this Stratagem at the end of the Reinforcements step of your opponent\u2019s Movement phase. Select one \u0026lt;CRAFTWORLD\u0026gt; unit from your army within 12\u0022 of a friendly \u0026lt;CRAFTWORLD\u0026gt; FARSEER model. That \u0026lt;CRAFTWORLD\u0026gt; unit can shoot as if it were your Shooting phase, but its models can only target a single eligible enemy unit that was set up as Reinforcements this turn and that is within 18\u0022 of their unit when doing so.",
+		"text": "Use this Stratagem at the end of the Reinforcements step of your opponent\u2019s Movement phase. Select one \u0026CRAFTWORLD\u0026 unit from your army within 12\u0022 of a friendly \u0026CRAFTWORLD\u0026 FARSEER model. That \u0026CRAFTWORLD\u0026 unit can shoot as if it were your Shooting phase, but its models can only target a single eligible enemy unit that was set up as Reinforcements this turn and that is within 18\u0022 of their unit when doing so.",
 		"keywords": ["FARSEER"]
 	},
 	{
@@ -196,7 +196,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Command",
-		"text": "Use this Stratagem in your Command phase. Select one \u0026lt;CRAFTWORLD\u0026gt; WRAITH CONSTRUCT model from your army. That model regains up to D3 lost wounds. If the selected model is within 6\u0022 of a friendly \u0026lt;CRAFTWORLD\u0026gt; SPIRITSEER model, that model regains 3 lost wounds instead. If you select a TITANIC model, this Stratagem costs 2CP; otherwise, it costs 1 CP.",
+		"text": "Use this Stratagem in your Command phase. Select one \u0026CRAFTWORLD\u0026 WRAITH CONSTRUCT model from your army. That model regains up to D3 lost wounds. If the selected model is within 6\u0022 of a friendly \u0026CRAFTWORLD\u0026 SPIRITSEER model, that model regains 3 lost wounds instead. If you select a TITANIC model, this Stratagem costs 2CP; otherwise, it costs 1 CP.",
 		"keywords": ["WRAITH CONSTRUCT", "SPIRITSEER", "TITANIC"]
 	},
 	{
