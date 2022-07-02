@@ -117,6 +117,10 @@ const App = () => {
 		}
 	};
 
+	const btnStyleChanger = (props) => {
+		return listShow === props ? 'clicked' : null;
+	};
+
 	const listTitle = listTitleGenerator();
 	const listArr = listArrGenerator();
 	const contentSmall = (
@@ -178,38 +182,30 @@ const App = () => {
 				<div className='stratagems flex-column'>
 					<h1>Stratagems:</h1>
 					<div className='stratagem-btn-container flex-row'>
-						<div className={listShow === 'mine' ? 'clicked' : null}>
+						<div className={btnStyleChanger('mine')}>
 							<Button
 								name='Show my phase Stratagems'
-								onClick={() => {
-									setlistShow('mine');
-								}}
+								onClick={() => setlistShow('mine')}
 							/>
 						</div>
-						<div className={listShow === 'enemy' ? 'clicked' : null}>
+						<div className={btnStyleChanger('enemy')}>
 							<Button
 								name='Show enemy phase Stratagems'
-								onClick={() => {
-									setlistShow('enemy');
-								}}
+								onClick={() => setlistShow('enemy')}
 							/>
 						</div>
 					</div>
 					<div className='stratagem-btn-container flex-row'>
-						<div className={listShow === 'core' ? 'clicked' : null}>
+						<div className={btnStyleChanger('core')}>
 							<Button
 								name='Show Core Stratagems'
-								onClick={() => {
-									setlistShow('core');
-								}}
+								onClick={() => setlistShow('core')}
 							/>
 						</div>
-						<div className={listShow === 'before' ? 'clicked' : null}>
+						<div className={btnStyleChanger('before')}>
 							<Button
 								name='Before the Battle Stratagems'
-								onClick={() => {
-									setlistShow('before');
-								}}
+								onClick={() => setlistShow('before')}
 							/>
 						</div>
 					</div>
