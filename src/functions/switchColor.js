@@ -15,7 +15,11 @@ const switchColor = (state) => {
 			'--active-color',
 			'rgb(27, 242, 7)'
 		);
-	} else if (state === 'Chaos Knights' || state === 'Death Guard') {
+	} else if (
+		state === 'Chaos Knights' ||
+		state === 'Death Guard' ||
+		state === 'Chaos Space Marines'
+	) {
 		document.documentElement.style.setProperty(
 			'--btn-color',
 			'rgb(163, 22, 3)'

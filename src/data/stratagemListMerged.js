@@ -15,6 +15,7 @@ import spacemarines from './spaceMarines.json';
 import imperialknights from './imperialKnights.json';
 import thousandsons from './thousandSons.json';
 import genestealercults from './genestealerCults.json';
+import chaosspacemarines from './chaosSpaceMarines.json';
 
 const startingArr = [
 	{
@@ -106,7 +107,8 @@ const stratagemListMerged = startingArr.concat(
 	spacemarines,
 	imperialknights,
 	thousandsons,
-	genestealercults
+	genestealercults,
+	chaosspacemarines
 );
 
 export default stratagemListMerged;

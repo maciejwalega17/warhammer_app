@@ -16,6 +16,7 @@ const armyListPrototype = [
 	'Imperial Knights',
 	'Adeptus Astartes',
 	'Thousand Sons',
+	'Chaos Space Marines',
 ];
 const armyList = armyListPrototype.sort();
 export default armyList;
