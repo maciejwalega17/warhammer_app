@@ -92,9 +92,9 @@ const App = () => {
 		(el) => el.faction.toLowerCase() === 'core'
 	);
 
-	const beforeStratagems = stratagemListMerged
-		.filter((el) => el.phase === 'Before the Battle')
-		.filter((el) => el.faction.toLowerCase() === selectedArmy.toLowerCase());
+	const beforeStratagems = selectedArmyStratagems.filter(
+		(el) => el.phase === 'Before the Battle'
+	);
 
 	//^stratagem list filtering
 
