@@ -70,7 +70,9 @@ const App = () => {
 	//^changing states
 
 	const selectedArmyStratagems = stratagemListMerged.filter(
-		(el) => el.faction.toLowerCase() === selectedArmy.toLowerCase()
+		(el) =>
+			el.faction.toLowerCase() === selectedArmy.toLowerCase() ||
+			el.faction.toLowerCase() === selectedSubfaction.toLowerCase()
 	);
 	const selectedPhaseStratagems = selectedArmyStratagems.filter(
 		(el) =>
