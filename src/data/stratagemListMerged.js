@@ -28,7 +28,6 @@ import deathguardFaction from './deathGuardFaction.json';
 import greyknightsFaction from './greyKnightsFaction.json';
 import aeldariFaction from './aeldariFaction.json';
 import drukhariFaction from './drukhariFaction.json';
-import spacemarinesFaction from './spaceMarinesFaction.json';
 import imperialknightsFaction from './imperialKnightsFaction.json';
 import genestealercultsFaction from './genestealerCultsFaction.json';
 // import thousandsonsFaction from './thousandSonsFaction.json';
