@@ -125,7 +125,7 @@ const subfactionListGenerator = (army) => {
 	} else if (army === 'Adeptus Astartes') {
 		return [
 			'Black Templars',
-			'Dark Angels',
+			'Blood Angels',
 			'Dark Angels',
 			'Deathwatch',
 			'Imperial Fists',
