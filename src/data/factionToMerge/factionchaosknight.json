@@ -1,0 +1,62 @@
+[
+	{
+		"name": "WARPING PRESENCE",
+		"cost": "1",
+		"faction": "HOUSE HERPETRAX",
+		"category": "Strategic Ploy",
+		"whose": "both",
+		"phase": "Fight",
+		"text": "Use this Stratagem at the end of the Fight phase. Select one HOUSE HERPETRAX model from your army. Roll one D6 for each enemy unit within 6'' of that model: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds.",
+		"keywords": [""]
+	},
+    {
+		"name": "TRAMPLE THEM",
+		"cost": "1",
+		"faction": "HOUSE LUCARIS",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when you select a HOUSE LUCARIS TITANIC model from your army to make a Normal Move or Advance. After this model has moved, select one enemy unit it moved across (excluding AIRCRAFT units) and roll one D6. Add 1 to the result if that enemy unit contains between 6-10 models and add 2 to the result if that enemy unit contains 11 or more models. On a 3-6, that enemy unit suffers D3 mortal wounds; on a 7+, that unit suffers D6 mortal wounds.",
+		"keywords": ["HOUSE LUCARIS","TITANIC"]
+	},
+    {
+		"name": "FURY OF SURTR’S WAKE",
+		"cost": "1/2",
+		"faction": "HOUSE KHYMERE",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Charge",
+		"text": "Use this Stratagem in your Charge phase, when a HOUSE KHYMERE model from your army finishes a charge move. Select one enemy unit within Engagement Range of your model and roll four D6 (if this model is TITANIC, roll six D6 instead). For each dice result that equals or exceeds that enemy unit’s Toughness characteristic, it suffers 1 mortal wound (for each unmodified roll of a 6, that enemy unit instead suffers 2 mortal wounds). If this model is a WAR DOG-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"keywords": ["HOUSE KHYMERE"]
+	},
+    {
+		"name": "INTERCEPTION ARRAY",
+		"cost": "1",
+		"faction": "HOUSE VEXTRIX",
+		"category": "1",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a HOUSE VEXTRIX model from your army is selected to shoot. Until the end of the phase, each time that model makes a ranged attack, you can ignore any or all hit roll and Ballistic Skill modifiers.",
+		"keywords": [""]
+	},
+    {
+		"name": "ENCIRCLING HOUNDS",
+		"cost": "1",
+		"faction": "HOUSE KHOMENTIS",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase. Select one HOUSE KHOMENTIS WAR DOG-CLASS unit from your army that is in Strategic Reserves; that unit can arrive from Strategic Reserves during the Reinforcements step of this phase as if the battle round was one higher than it currently is, regardless of any mission rules.",
+		"keywords": [""]
+	},
+    {
+		"name": "KNIGHTS OF SHADE",
+		"cost": "2",
+		"faction": "HOUSE KORVAX",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem at the start of your Movement phase or at the start of your Charge phase. Select up to two HOUSE KORVAX WAR DOG-CLASS models or one HOUSE KORVAX TITANIC model from your army. Until the end of the phase, the selected model(s) can move horizontally through models and terrain features as if they were not there.",
+		"keywords": ["HOUSE KORVAX","WAR DOG-CLASS","TITANIC"]
+	}
+]
