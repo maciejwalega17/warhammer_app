@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/warhammer_app/static/css/main.67d044f6.css",
-    "main.js": "/warhammer_app/static/js/main.69f805a6.js",
+    "main.css": "/warhammer_app/static/css/main.928e744f.css",
+    "main.js": "/warhammer_app/static/js/main.5d49f4a6.js",
     "index.html": "/warhammer_app/index.html",
-    "main.67d044f6.css.map": "/warhammer_app/static/css/main.67d044f6.css.map",
-    "main.69f805a6.js.map": "/warhammer_app/static/js/main.69f805a6.js.map"
+    "main.928e744f.css.map": "/warhammer_app/static/css/main.928e744f.css.map",
+    "main.5d49f4a6.js.map": "/warhammer_app/static/js/main.5d49f4a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.67d044f6.css",
-    "static/js/main.69f805a6.js"
+    "static/css/main.928e744f.css",
+    "static/js/main.5d49f4a6.js"
   ]
 }
