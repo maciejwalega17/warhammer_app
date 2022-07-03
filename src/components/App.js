@@ -156,7 +156,7 @@ const App = () => {
 
 			<div className='wrapper flex-column'>
 				<div className='nav '>
-					<div className='flex-row space-around'>
+					<div className='selector-container space-around'>
 						<Selector
 							title='Phase:'
 							value={selectedPhase}

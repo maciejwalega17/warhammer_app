@@ -50,6 +50,9 @@
 	.nav {
 		padding: 5px;
 	}
+	.selector-container {
+		flex-direction: column;
+	}
 }
 
 @media (min-width: 769px) {
@@ -65,8 +68,15 @@
 	.nav {
 		padding: 10px;
 	}
+	.selector-container {
+		flex-direction: row;
+	}
 }
 
+.selector-container {
+	display: flex;
+	align-items: center;
+}
 .clicked .btn {
 	background-color: var(--btn-color);
 }
