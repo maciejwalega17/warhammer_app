@@ -52,7 +52,7 @@
 	{
 		"name": "VENOMOUS SHARDBOMBS",
 		"cost": "2",
-		"faction": "Cult of the Cursed Blade ",
+		"faction": "Cult of the Cursed Blade",
 		"category": "Wargear",
 		"whose": "enemy",
 		"phase": "Fight",

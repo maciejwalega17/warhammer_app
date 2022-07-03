@@ -42,7 +42,7 @@
 	{
 		"name": "EXPERIMENTAL WEAPONRY",
 		"cost": "1",
-		"faction": "Bork’an ",
+		"faction": "Bork’an",
 		"category": "Epic Deed",
 		"whose": "mine",
 		"phase": "Shooting",
