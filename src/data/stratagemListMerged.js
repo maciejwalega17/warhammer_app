@@ -45,6 +45,12 @@ import spacemarinesspacewolvesFaction from './spaceMarinesSpaceWolvesFaction.jso
 import spacemarinesultramarinesFaction from './spaceMarinesUltramarinesFaction.json';
 import spacemarineswhitescarsFaction from './spaceMarinesWhiteScarsFaction.json';
 
+import adeptasororitasbloodyroseFaction from './adeptaSororitasBloodyRoseFaction.json';
+import adeptasororitasmartyredladyFaction from './adeptaSororitasMartyredLadyFaction.json';
+import adeptusmechanicusmetalicaFaction from './adeptusMechanicusMetalicaFaction.json';
+import drukharicultofstrifeFaction from './drukhariCultOfStrifeFaction.json';
+import orksbloodaxesFaction from './orksBloodAxesFaction.json';
+
 const startingArr = [
 	{
 		faction: 'Core',
@@ -162,7 +168,13 @@ const stratagemListMerged = startingArr.concat(
 	spacemarinessalmandersFaction,
 	spacemarinesspacewolvesFaction,
 	spacemarinesultramarinesFaction,
-	spacemarineswhitescarsFaction
+	spacemarineswhitescarsFaction,
+
+	adeptasororitasbloodyroseFaction,
+	adeptasororitasmartyredladyFaction,
+	adeptusmechanicusmetalicaFaction,
+	drukharicultofstrifeFaction,
+	orksbloodaxesFaction
 );
 
 export default stratagemListMerged;
