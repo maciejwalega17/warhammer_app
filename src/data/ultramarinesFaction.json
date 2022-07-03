@@ -1,0 +1,157 @@
+[
+	{
+		"Name": "MARTIAL PRECISION",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem before resolving an attack made by an ULTRAMARINES model from your army in your Shooting phase. When resolving that attack, do not make a hit roll: it automatically scores a hit.",
+		"Keywords": ["ULTRAMARINES"]
+	},
+	{
+		"Name": "VENGEANCE FOR CALTH",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem when an ULTRAMARINES unit from your army is chosen to fight with in the Fight phase. Until the end of the phase, when resolving an attack made with a melee weapon by a model in that unit against a WORD BEARERS unit, you can re-roll the hit roll and you can re-roll the wound roll.",
+		"Keywords": ["ULTRAMARINES", "WORD", "BEARERS"]
+	},
+	{
+		"Name": "INSPIRING COMMAND",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Epic Deed",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem at the start of the Shooting phase or the Fight phase. Select one ULTRAMARINES CHAPTER MASTER, ULTRAMARINES CAPTAIN or ULTRAMARINES LIEUTENANT model from your army. Until the end of the phase, the range of that model\u2019s aura abilities is increased by 3\u0022 (to a maximum of 9\u0022).",
+		"Keywords": ["ULTRAMARINES", "CHAPTER MASTER", "CAPTAIN", "LIEUTENANT"]
+	},
+	{
+		"Name": "CYCLE OF WAR",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Start of Battle Round",
+		"Text": "Use this Stratagem at the start of the battle round if an ULTRAMARINES WARLORD from your army is on the battlefield and the Assault Doctrine was active during the previous battle round. The currently active doctrine is changed so that the Devastator Doctrine is now active.",
+		"Keywords": ["ULTRAMARINES", "WARLORD"]
+	},
+	{
+		"Name": "RAPID REDEPLOYMENT",
+		"Cost": "2",
+		"Faction": "Ultramarines",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Start of Battle Round",
+		"Text": "At the start of the first battle round, before the first turn begins, select up to three ULTRAMARINES units from your army on the battlefield. Remove them from the battlefield and set them up again as described in the Deployment section of the mission (if both players have abilities that redeploy units, roll off; the winner chooses who redeploys their units first).",
+		"Keywords": ["ULTRAMARINES"]
+	},
+	{
+		"Name": "SONS OF GUILLIMAN",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem when an ULTRAMARINES INFANTRY or ULTRAMARINES BIKER unit from your army is chosen to shoot with in your Shooting phase or fight with in the Fight phase. If that unit has the Troops Battlefield Role, until the end of that phase, when resolving an attack made by that unit, you can re-roll a hit roll. Otherwise, until the end of that phase, when resolving an attack made by that unit, you can re-roll a hit roll of 1.",
+		"Keywords": ["ULTRAMARINES", "INFANTRY", "BIKER"]
+	},
+	{
+		"Name": "AVENGE THE FALLEN",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem when an ULTRAMARINES unit from your army is destroyed as a result of an attack made by an enemy unit. Until the end of the battle, when resolving an attack made by an ULTRAMARINES model from your army against that enemy unit, re-roll a hit roll of 1.",
+		"Keywords": ["ULTRAMARINES"]
+	},
+	{
+		"Name": "COURAGE AND HONOUR!",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Morale",
+		"Text": "Use this Stratagem at the start of the Morale phase. Add 1 to the Leadership characteristic of ULTRAMARINES models from your army until the end of the phase.",
+		"Keywords": ["ULTRAMARINES"]
+	},
+	{
+		"Name": "TACTICAL EXPERTISE",
+		"Cost": "2",
+		"Faction": "Ultramarines",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem at the start of your Movement phase if the Tactical Doctrine is active. Until the start of the next battle round, when resolving an attack made with a Rapid Fire or Assault weapon by an ULTRAMARINES model from your army, on an unmodified wound roll of 6 the Armour Penetration characteristic of that weapon is improved by an additional 1 for that attack. You can only use this Stratagem once per battle.",
+		"Keywords": ["ULTRAMARINES"]
+	},
+	{
+		"Name": "FALL BACK AND RE-ENGAGE",
+		"Cost": "1/2",
+		"Faction": "Ultramarines",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem when an ULTRAMARINES unit from your army Falls Back (this Stratagem costs 1 CP if that unit has the Codex Discipline Chapter Tactic, otherwise it costs 2 CP). That unit can shoot and charge this turn. If that unit has the Codex Discipline Chapter Tactic, the hit roll penalty from that tactic for Falling Back and shooting does not apply to that unit this turn.",
+		"Keywords": ["ULTRAMARINES"]
+	},
+	{
+		"Name": "DEFENSIVE FOCUS",
+		"Cost": "2",
+		"Faction": "Ultramarines",
+		"Category": "Strategic Ploy",
+		"Whose": "enemy",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem after an ULTRAMARINES unit from your army is chosen as a target of a charge. Select up to three other friendly ULTRAMARINES units that are within 6\u0022 of the targeted unit and are not within Engagement Range of any enemy models. The selected units fire Overwatch at the charging unit as if they were the targets of the charge. Until the end of the phase, the selected units cannot fire Overwatch again.",
+		"Keywords": ["ULTRAMARINES"]
+	},
+	{
+		"Name": "EXEMPLAR OF THE CHAPTER",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating an ULTRAMARINES model that is not a named character to be your WARLORD. You can generate one additional Warlord Trait for them; this must be from the Ultramarines Warlord Traits table. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results). You can only use this Stratagem once.",
+		"Keywords": ["ULTRAMARINES", "WARLORD"]
+	},
+	{
+		"Name": "SQUAD DOCTRINES",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem at the start of your Movement phase. Select one ULTRAMARINES INFANTRY or ULTRAMARINES BIKER unit from your army, then select either the Devastator, Tactical or Assault Doctrine. Until the start of your next Movement phase, that unit gains the bonus of that combat doctrine instead of the active combat doctrine.",
+		"Keywords": ["ULTRAMARINES", "INFANTRY", "BIKER"]
+	},
+	{
+		"Name": "HONOURED SERGEANT",
+		"Cost": "1",
+		"Faction": "Ultramarines",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle. Select one ULTRAMARINES model from your army that has the word \u2018Sergeant\u2019 in their profile. That model can have one of the following Special-issue Wargear Relics, even though they are not a CHARACTER: Master-crafted Weapon, Digital Weapons, Hellfury Bolts, Sunwrath Pistol. All of the Relics your army includes must be different and be given to different models.",
+		"Keywords": ["ULTRAMARINES", "CHARACTER"]
+	},
+	{
+		"Name": "HONOURED BY MACRAGGE",
+		"Cost": "1",
+		"Faction": "Space Marines",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating a model drawn from an Ultramarines successor Chapter to be your WARLORD. You can give one Relic of Macragge to a CHARACTER model from your army that is drawn from an Ultramarines successor Chapter instead of giving them a Special-issue Wargear Relic or a Chapter Relic from Codex: Space Marines. If you do, replace the ULTRAMARINES keyword in all instances on that Relic (if any) with that model\u2019s \u0026CHAPTER\u0026 keyword. You can only use this Stratagem once per battle.",
+		"Keywords": [
+			"WARLORD",
+			"CHARACTER",
+			"ULTRAMARINES",
+			"CHAPTER"
+		]
+	}
+]

@@ -1,0 +1,72 @@
+[
+	{
+		"Name": "UNPARALLELED FEROCITY",
+		"Cost": "1/2",
+		"Faction": "Behemoth",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a BEHEMOTH INFANTRY unit (excluding CHARACTER units) from your army that has not fought this phase is selected as the target of a melee attack. Until the attacking model’s unit has finished making its attacks, each time a model in that BEHEMOTH unit is destroyed, instead of using any rules that are triggered when that model is destroyed, do not remove the destroyed model from play - it can, after the attacking model’s unit has finished making its attacks, attack as if its unit had been selected to fight. After resolving these attacks, the destroyed model is then removed. If that BEHEMOTH INFANTRY unit has the ENDLESS MULTITUDE keyword, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"Keywords": ["BEHEMOTH", "INFANTRY", "ENDLESS MULTITUDE", "CHARACTER"]
+	},
+	{
+		"Name": "OPPORTUNISTIC ADVANCE",
+		"Cost": "1",
+		"Faction": "Kraken",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, when a KRAKEN unit from your army is selected to move. Until the end of the turn: Each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 8 inches to the Move characteristic of models in that unit (note that a unit cannot be affected by both this Stratagem and the Bounding Advance Stratagem, in the same phase). Models in that unit do not suffer the penalty to hit rolls incurred for firing Assault weapons in the same turn that their unit has Advanced.",
+		"Keywords": ["KRAKEN"]
+	},
+	{
+		"Name": "COMBINED ASSAULT",
+		"Cost": "1",
+		"Faction": "Leviathan",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase. Select one enemy unit within Engagement Range of two or more LEVIATHAN units from your army. Until the end of the phase, each time a LEVIATHAN model makes a melee attack against that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+		"Keywords": ["LEVIATHAN"]
+	},
+	{
+		"Name": "HYPER-TOXICITY",
+		"Cost": "1",
+		"Faction": "Gorgon",
+		"Category": "Wargear",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a GORGON TOXIN SACS unit from your army is selected to fight. Until the end of the phase, each time a TOXIN SACS model in that unit makes a melee attack, an unmodified hit roll of 5+ automatically wounds the target.",
+		"Keywords": ["GORGON", "TOXIN SACS"]
+	},
+	{
+		"Name": "BURIED IN WAIT",
+		"Cost": "1",
+		"Faction": "Jormungandr",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle, during the Declare Reserves and Transports step (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one JORMUNGANDR unit from your army (excluding TITANIC units). You can set up that unit near to the surface instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases, you can set up that unit anywhere on the battlefield that is more than 9 inches away from any enemy models. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
+		"Keywords": ["JORMUNGANDR", "TITANIC"]
+	},
+	{
+		"Name": "THE DEEPEST SHADOW",
+		"Cost": "1",
+		"Faction": "Kronos",
+		"Category": "Epic Deed",
+		"Whose": "enemy",
+		"Phase": "Psychic",
+		"Text": "Use this Stratagem in your opponent’s Psychic phase, when an enemy unit fails a Psychic test. Select one KRONOS PSYKER unit from your army within 18 inches of that enemy unit. That enemy unit suffers D3 mortal wounds and, until the end of the phase, that KRONOS PSYKER unit gains the following ability: Deepest Shadow (Aura): While an enemy PSYKER unit is within 18 inches of this unit, each time a Psychic test taken for that unit is failed, that unit suffers D3 mortal wounds.",
+		"Keywords": ["KRONOS", "PSYKER"]
+	},
+	{
+		"Name": "CRITICAL MASS",
+		"Cost": "1",
+		"Faction": "Hydra",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a HYDRA unit from your army is selected to fight. Until the end of the phase, each time a melee attack made by a model in that unit targets an enemy unit with fewer models than its own, you can re-roll the wound roll.",
+		"Keywords": ["HYDRA"]
+	}
+]

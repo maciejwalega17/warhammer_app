@@ -1,0 +1,158 @@
+[
+	{
+		"Name": "INFILTRATORS",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Start of Battle Round",
+		"Text": "Use this Stratagem at the start of the first battle round, before the first turn begins. Select one RAVEN GUARD INFANTRY unit from your army that is on the battlefield. That unit can move as if it were your Movement phase. The unit must end that move more than 9\u0022 away from any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first. Each unit can only be selected for this Stratagem once per battle.",
+		"Keywords": ["RAVEN GUARD", "INFANTRY"]
+	},
+	{
+		"Name": "THE RAVEN\u2019S BLADE",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem at the start of your Charge phase. Select one enemy unit on the battlefield. Until the end of that phase, when a charge roll is made for a RAVEN GUARD unit from your army, you can re-roll the dice if that enemy unit was the only selected target of that charge.",
+		"Keywords": ["RAVEN GUARD"]
+	},
+	{
+		"Name": "STRANGLEHOLD",
+		"Cost": "2",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Start of Battle Round",
+		"Text": "Use this Stratagem at the start of the first battle round, before the first turn begins, if your army includes any RAVEN GUARD SCOUT or RAVEN GUARD PHOBOS units. Until the end of that battle round, you can roll one D6 each time your opponent spends Command Points to use a Stratagem; on a 5\u002B your opponent must spend 1 additional Command Point, or else that Stratagem has no effect and cannot be used again this phase (the Command Points spent so far are lost). You can only use this Stratagem once per battle.",
+		"Keywords": ["RAVEN GUARD", "SCOUT", "PHOBOS"]
+	},
+	{
+		"Name": "FALSE FLIGHT",
+		"Cost": "2",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem when a RAVEN GUARD unit from your army Falls Back. That unit can shoot and charge in this turn.",
+		"Keywords": ["RAVEN GUARD"]
+	},
+	{
+		"Name": "LAY LOW THE TYRANTS",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem when a RAVEN GUARD INFANTRY unit or RAVEN GUARD BIKER unit from your army is chosen to fight with in the Fight phase. Until the end of the phase, when resolving an attack made by a model in that unit against a CHARACTER unit that is not a VEHICLE, or against a unit that is not a VEHICLE and contains any models with a Wounds characteristic of 4 or more, add 1 to the wound roll.",
+		"Keywords": ["RAVEN GUARD", "INFANTRY", "BIKER", "CHARACTER", "VEHICLE"]
+	},
+	{
+		"Name": "SEE, BUT REMAIN UNSEEN",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "End of Turn",
+		"Text": "Use this Stratagem at the end of your turn. Select one RAVEN GUARD unit from your army (excluding BUILDINGS) that did not make any attacks during that turn. Until the start of your next turn, when resolving an attack made with a ranged weapon against that unit, subtract 1 from the hit roll.",
+		"Keywords": ["RAVEN GUARD", "BUILDING"]
+	},
+	{
+		"Name": "STRIKE FROM THE SHADOWS",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem during the Declare Reserves and Transports step of your mission. Select one RAVEN GUARD INFANTRY unit from your army. You can set up that unit in ambush instead of setting it up on the battlefield. If you do, at the end of one of your Movement phases you can set up that unit anywhere on the battlefield that is more than 9\u0022 away from any enemy models.",
+		"Keywords": ["RAVEN GUARD", "INFANTRY"]
+	},
+	{
+		"Name": "VENGEANCE FOR ISSTVAN V",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem when a RAVEN GUARD unit from your army is chosen to fight with in the Fight phase. Until the end of that phase, when resolving an attack made by a model in that unit against a WORD BEARERS, IRON WARRIORS, NIGHT LORDS or ALPHA LEGION unit, you can re-roll the hit roll.",
+		"Keywords": [
+			"RAVEN GUARD",
+			"WORD BEARERS",
+			"IRON WARRIORS",
+			"NIGHT LORDS",
+			"ALPHA LEGION"
+		]
+	},
+	{
+		"Name": "AMBUSHING FIRE",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem at the start of your Movement phase if the Tactical Doctrine is active. Until the start of the next battle round, when resolving an attack made with a Rapid Fire or Assault weapon by a RAVEN GUARD model from your army, on an unmodified wound roll of 6 the Armour Penetration characteristic of that weapon is improved by an additional 1 for that attack (e.g. AP -1 becomes AP -2). You can only use this Stratagem once per battle.",
+		"Keywords": ["RAVEN GUARD"]
+	},
+	{
+		"Name": "DECAPITATING BLOW",
+		"Cost": "2",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem when an enemy WARLORD is destroyed by an attack made by a RAVEN GUARD unit from your army. Until the end of the battle, subtract 1 from the Leadership characteristic of enemy units.",
+		"Keywords": ["WARLORD ", "RAVEN GUARD"]
+	},
+	{
+		"Name": "A DEADLY PRIZE",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "End of Turn",
+		"Text": "Use this Stratagem at the end of your turn. Select one objective marker that is within 3\u0022 of any RAVEN GUARD INFANTRY units from your army and not within 3\u0022 of any enemy units. The next time an enemy unit ends a move within 3\u0022 of that objective marker, roll one D6; on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5\u002B it suffers 3 mortal wounds. You cannot use this Stratagem on the same objective marker more than once per battle.",
+		"Keywords": ["RAVEN GUARD", "INFANTRY"]
+	},
+	{
+		"Name": "STRIKE FROM THE SKIES",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem at the start of your Charge phase. Select one RAVEN GUARD JUMP PACK unit. Until the end of that phase, that unit can be chosen to charge with even if it Advanced this turn, and when a charge roll is made for that unit, add 1 to the result.",
+		"Keywords": ["RAVEN GUARD", "JUMP PACK"]
+	},
+	{
+		"Name": "MASTER OF THE TRIFOLD PATH",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating a RAVEN GUARD CHARACTER model that is not a named character to be your Warlord. You can generate one additional Warlord Trait for them; this must be from the Raven Guard Warlord Traits table. All of the Warlord Traits your army includes must be different (if randomly generated, re-roll duplicate results). You can only use this Stratagem once per battle.",
+		"Keywords": ["RAVEN GUARD", "CHARACTER"]
+	},
+	{
+		"Name": "FAVOUR OF THE RAVENSPIRE",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle. Select one RAVEN GUARD model from your army that has the word \u2018Sergeant\u2019 in their profile. That model can have one of the following Special-issue Wargear Relics, even though they are not a CHARACTER: Master-crafted Weapon; Digital Weapons; Silentus Pistol; Korvidari Bolts. All of the Relics your army includes must be different and be given to different models.",
+		"Keywords": ["RAVEN GUARD", "CHARACTER "]
+	},
+	{
+		"Name": "TOKEN OF BROTHERHOOD",
+		"Cost": "1",
+		"Faction": "Raven Guard",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating a model drawn from a Raven Guard successor Chapter to be your Warlord. You can give one Relic of the Ravenspire to a CHARACTER model from your army that is drawn from a Raven Guard successor Chapter instead of giving them a Special-issue Wargear Relic or a Chapter Relic from Codex: Space Marines. If you do, replace the RAVEN GUARD keyword in all instances on that Relic (if any) with that model\u2019s \u0026CHAPTER\u0026 keyword. You can only use this Stratagem once per battle.",
+		"Keywords": ["CHARACTER", "RAVEN GUARD", "CHAPTER"]
+	}
+]

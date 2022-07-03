@@ -1,0 +1,178 @@
+[
+	{
+		"Name": "WRATH OF THE LION",
+		"Cost": "2",
+		"Faction": "Dark Angels",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Command",
+		"Text": "Use this Stratagem in your Command phase if a combat doctrine is active for your army. Until the start of your next Command phase, each time a DARK ANGELS model from your army makes an attack with a weapon specified by the active combat doctrine, on an unmodified wound roll of 6 improve the Armour Penetration characteristic of that attack by 1. This is cumulative with the bonus from the active combat doctrine. You can only use this Stratagem once.",
+		"Keywords": ["DARK ANGELS"]
+	},
+	{
+		"Name": "INTRACTABLE",
+		"Cost": "2",
+		"Faction": "Dark Angels",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, when a DARK ANGELS unit from your army is selected to Fall Back.If that unit has the Inner Circle ability, you do not need to first roll 2D6 to see if it can Fall Back - it can automatically do so.Until the end of the turn, that unit is eligible to shoot.",
+		"Keywords": ["DARK ANGELS"]
+	},
+	{
+		"Name": "DEATHWING ASSAULT",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when a DEATHWING unit from your army is selected to shoot. Each time a model in that unit makes a ranged attack, if it was set up on the battlefield this turn as a result of a teleport homer or teleport strike, add 1 to that attack\u2019s wound roll.",
+		"Keywords": ["DEATHWING"]
+	},
+	{
+		"Name": "FULL THROTTLE",
+		"Cost": "1/2",
+		"Faction": "Dark Angels",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, after a RAVENWING unit from your army Advances. That unit immediately makes a Normal Move of up to 12\u0022, but is not eligible to shoot with or declare a charge with this turn. If that unit contains 5 or fewer models, this Stratagem costs 1CP; otherwise, it costs 2CP.",
+		"Keywords": ["RAVENWING"]
+	},
+	{
+		"Name": "LINE UNBREAKABLE",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem at the start of the Fight phase. Select one DARK ANGELS INFANTRY unit from your army. Until the end of the phase, that unit can only be selected as a target for melee attacks if the attacking model is within Engagement Range of it (note that this means that enemy models that are not within Engagement Range but are within 1/2\u0022 of a model from their own unit that is itself within 1/2\u0022 of this DARK ANGELS INFANTRY unit cannot target it with melee attacks this phase).",
+		"Keywords": ["DARK ANGELS", "INFANTRY"]
+	},
+	{
+		"Name": "HIGH-SPEED FOCUS",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Epic Deed",
+		"Whose": "enemy",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your opponent\u2019s Shooting phase, when you allocate a ranged attack to a RAVENWING VEHICLE model from your army. Until the start of your next turn, that model has a 4\u002B invulnerable save against ranged attacks.",
+		"Keywords": ["RAVENWING", "VEHICLE"]
+	},
+	{
+		"Name": "NO FOE TOO GREAT TO SUBDUE",
+		"Cost": "2",
+		"Faction": "Dark Angels",
+		"Category": "Epic Deed",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a DEATHWING KNIGHTS unit from your army is chosen to fight. Until the end of the phase, each time a model in that DEATHWING KNIGHTS unit makes an attack with a mace of absolution against an enemy VEHICLE or MONSTER unit, add 1 to that attacks wound roll and improve the Armour Penetration characteristic of that attack by 1.",
+		"Keywords": ["DEATHWING KNIGHTS", "VEHICLE", "MONSTER"]
+	},
+	{
+		"Name": "MARKED FOR COMMAND",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle. Select one DARK ANGELS Ravenwing Huntmaster or Knight Master model or a DARK ANGELS model from your army that has the word \u2018Sergeant\u2019 in their profile. That model can have one of the following Special-issue Wargear Relics, even though they are not a CHARACTER: Master-crafted Weapon; Digital Weapons; Atonement; Bolts of Judgement. Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once.",
+		"Keywords": ["DARK ANGELS", "CHARACTER "]
+	},
+	{
+		"Name": "PARAGON OF THE CHAPTER",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating a DARK ANGELS CHARACTER model that is not a named character to be your WARLORD. Generate one additional Warlord Trait for them; this must be from the Dark Angels Warlord Traits table. Each Warlord Trait in your army must be unique (if randomly generated, reroll duplicate results). You can only use this Stratagem once.",
+		"Keywords": ["DARK ANGELS", "CHARACTER", "WARLORD"]
+	},
+	{
+		"Name": "HONOURED BY THE ROCK",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating a model drawn from a Dark Angels successor Chapter to be your WARLORD. You can give one Relic of the Rock to a CHARACTER model from your army that is drawn from a Dark Angels successor Chapter instead of giving them a Special-issue Wargear Relic or a Chapter Relic from Codex: Space Marines. If you do, replace the DARK ANGELS keyword in all instances on that Relic (if any) with that model\u2019s successor Chapter keyword. You can only use this Stratagem once.",
+		"Keywords": ["WARLORD", "CHARACTER", "DARK ANGELS"]
+	},
+	{
+		"Name": "TACTICAL APPRAISAL",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Command",
+		"Text": "Use this Stratagem in your Command phase. Select one DARK ANGELS unit from your army within 6\u0022 of your WARLORD, then select one combat doctrine. Until the start of your next Command phase, for the purposes of that unit, treat that combat doctrine as being active for your army instead of the active combat doctrine. You can only use this Stratagem if every unit from your army has the Combat Doctrines ability (excluding SERVITOR, AGENT OF THE IMPERIUM and UNALIGNED units).",
+		"Keywords": [
+			"DARK ANGELS",
+			"WARLORD",
+			"SERVITOR",
+			"AGENT OF THE IMPERIUM",
+			"UNALIGNED"
+		]
+	},
+	{
+		"Name": "THE HUNT",
+		"Cost": "2/3",
+		"Faction": "Dark Angels",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Start of Battle Round",
+		"Text": "Use this Stratagem at the start of the first battle round, before the first turn begins. Select one RAVENWING unit from your army. That unit can make a Normal Move as if it were your Movement phase, but must end that move more than 9\u0022 away from any enemy models. If both players have units that can move before the first turn begins, the player who is taking the first turn moves their units first. If that unit contains 5 or fewer models, this Stratagem costs 2CP; otherwise, it costs 3CP. You can only use this Stratagem once.",
+		"Keywords": ["RAVENWING"]
+	},
+	{
+		"Name": "TARGETING GUIDANCE",
+		"Cost": "2",
+		"Faction": "Dark Angels",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase. Select one enemy unit within 18\u0022 of and visible to a RAVENWING LAND SPEEDER or RAVENWING STORM SPEEDER unit from your army. Until the end of the phase, each time a model in a friendly DARK ANGELS unit makes a ranged attack against the selected enemy unit, add 1 to that attacks hit roll.",
+		"Keywords": ["RAVENWING", "LAND SPEEDER", "STORM SPEEDER", "DARK ANGELS"]
+	},
+	{
+		"Name": "SWIFT STRIKE",
+		"Cost": "2/3",
+		"Faction": "Dark Angels",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, after a RAVENWING unit from your army has fought. If that unit is within Engagement Range of any enemy units, it can Fall Back as if it were the Movement phase. Otherwise, it can make a Normal Move as if it were the Movement phase. If that unit contains 5 or fewer models, this Stratagem costs 2CP; otherwise, it costs 3CP.",
+		"Keywords": ["RAVENWING"]
+	},
+	{
+		"Name": "SECRET AGENDA",
+		"Cost": "1",
+		"Faction": "Dark Angels",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after selecting secondary objectives or Agendas. Do not reveal one of your selections to your opponent. The first time you score victory points or experience points for it, reveal it to your opponent. Note that you must still have a record of your selection. We recommend writing it down and concealing it until revealed. You can only use this Stratagem once.",
+		"Keywords": []
+	},
+	{
+		"Name": "STASIS SHELL",
+		"Cost": "2",
+		"Faction": "Dark Angels",
+		"Category": "Wargear",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when a RAVENWING model from your army shoots with an astartes grenade launcher. That model can only make one attack with that weapon this phase. If a hit is scored, the target is caught in stasis until the start of your next turn and the attack sequence ends. While a unit (excluding VEHICLE and MONSTER units) is caught in stasis, it cannot Fall Back.",
+		"Keywords": ["RAVENWING", "VEHICLE", "MONSTER"]
+	},
+	{
+		"Name": "WEAPONS FROM THE DARK AGE",
+		"Cost": "2",
+		"Faction": "Dark Angels",
+		"Category": "Wargear",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when a DARK ANGELS unit from your army is selected to shoot. Until the end of the phase, add 1 to the Damage characteristic of plasma weapons models in that unit are equipped with.",
+		"Keywords": ["DARK ANGELS"]
+	}
+]
