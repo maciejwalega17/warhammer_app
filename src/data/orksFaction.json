@@ -1,0 +1,72 @@
+[
+	{
+		"Name": "SHOWIN’ OFF",
+		"Cost": "1",
+		"Faction": "Bad Moons",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem when a BAD MOONS CORE or BAD MOONS CHARACTER unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack with a Dakka weapon, an unmodified hit roll of 6 scores 1 additional hit.",
+		"Keywords": ["BAD MOONS", "CORE", "CHARACTER"]
+	},
+	{
+		"Name": "DED SNEAKY",
+		"Cost": "1",
+		"Faction": "Blood Axes",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem at the end of your Movement phase if the mission you are playing is using the Strategic Reserves rule. Select one BLOOD AXES INFANTRY unit from your army (excluding MEGA ARMOUR units) that is within 3 inches of any battlefield edge. Place that unit in Strategic Reserve.",
+		"Keywords": ["BLOOD AXES", "INFANTRY", "MEGA ARMOUR"]
+	},
+	{
+		"Name": "WRECKAZ",
+		"Cost": "2",
+		"Faction": "Deathskulls",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem at the start of your Shooting or Fight phase. Select one DEATHSKULLS CORE or DEATHSKULLS CHARACTER unit from your army. Until the end of the phase, each time a model in that unit makes an attack that targets a VEHICLE, add 1 to that attack’s wound roll.",
+		"Keywords": ["DEATHSKULLS", "CORE", "CHARACTER"]
+	},
+	{
+		"Name": "DRIVE BY DAKKA",
+		"Cost": "1",
+		"Faction": "Evil Sunz",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem at the end of your Shooting phase. Select one EVIL SUNZ SPEED FREEKS unit from your army. That unit can immediately make a Normal Move as if it was your Movement phase. That unit is not eligible to charge this turn.",
+		"Keywords": ["EVIL SUNZ", "SPEED FREEKS"]
+	},
+	{
+		"Name": "GET DA LOOT",
+		"Cost": "1",
+		"Faction": "Freebooterz",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Command",
+		"Text": "Use this Stratagem at the start of your Command phase. Select one FREEBOOTERZ INFANTRY unit from your army that is on the battlefield. Until the start of your next Command phase, that unit gains the Objective Secured ability.",
+		"Keywords": ["FREEBOOTERZ", "INFANTRY "]
+	},
+	{
+		"Name": "UNBRIDLED CARNAGE",
+		"Cost": "2",
+		"Faction": "Goffs",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem at the start of the Fight phase. Select one GOFF CORE or GOFF CHARACTER unit from your army that has the No Mukkin’ About Clan Kultur. Until the end of the phase, each time a model in that unit makes an attack, it scores an additional hit on an unmodified hit roll of 5+ instead of 6.",
+		"Keywords": ["GOFF", "CORE", "CHARACTER"]
+	},
+	{
+		"Name": "MYSTIC CHANTING",
+		"Cost": "1",
+		"Faction": "Snakebites",
+		"Category": "Epic Deed",
+		"Whose": "enemy",
+		"Phase": "Psychic",
+		"Text": "Use this Stratagem during your opponent’s Psychic phase. Select one SNAKEBITES unit from your army. Until the end of the phase, that unit can attempt to deny one psychic power as if it were a PSYKER.",
+		"Keywords": ["SNAKEBITES", "PSYKER"]
+	}
+]

@@ -1,0 +1,62 @@
+[
+	{
+		"Name": "FOCUSED FIRE",
+		"Cost": "2",
+		"Faction": "T’au Sept",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when an enemy model loses any wounds as a result of an attack made by a T’AU SEPT model from your army. Until the end of the phase, each time a T’AU SEPT CORE model from your army makes an attack against that enemy model’s unit, add 1 to that attack’s wound roll.",
+		"Keywords": ["T’AU SEPT", "CORE"]
+	},
+	{
+		"Name": "HOT-BLOODED",
+		"Cost": "2",
+		"Faction": "Vior’la",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when a VIOR’LA unit from your army is selected to shoot. Until the end of the phase, each time a model in that unit (excluding DRONE models) makes an attack that targets the closest eligible target, an unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage (to a maximum of 6 mortal wounds).",
+		"Keywords": ["VIOR’LA"]
+	},
+	{
+		"Name": "ORBITAL UPLINK",
+		"Cost": "1",
+		"Faction": "Sa’cea",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase. Select one enemy unit. Until the end of the phase, each time a model in a SA’CEA unit from your army makes a ranged attack against that enemy unit, the target does not receive the benefits of cover against that attack.",
+		"Keywords": ["SA’CEA"]
+	},
+	{
+		"Name": "OUTFLANK",
+		"Cost": "1",
+		"Faction": "Dal’yth",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem at the end of your Movement phase. Select one DAL’YTH CORE unit or T’AU AUXILIARY unit from your army that is within 9 inches of any battlefield edges. If the mission you are playing is using the Strategic Reserves rule, you can remove that unit from the battlefield and place it in Strategic Reserves.",
+		"Keywords": ["DAL’YTH", "CORE", "T’AU", "AUXILIARY"]
+	},
+	{
+		"Name": "EXPERIMENTAL WEAPONRY",
+		"Cost": "1",
+		"Faction": "Bork’an ",
+		"Category": "Epic Deed",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your shooting phase, when a BORK’AN unit from your army is selected to shoot. Select one model in that unit and one weapon that model is equipped with. Until the end of the phase, each time that model makes an attack with that weapon, invulnerable saving throws cannot be taken against that attack.",
+		"Keywords": ["BORK’AN"]
+	},
+	{
+		"Name": "DROP ZONE CLEAR",
+		"Cost": "2/3",
+		"Faction": "Farsight Enclaves",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, when a FARSIGHT ENCLAVES BATTLESUITS unit from your army is set up on the battlefield using the Manta Strike ability or the Homing Beacon action (see Stealth Battlesuits datasheet). Until the end of the turn, each time a BATTLESUIT model in that unit makes a ranged attack, you can re-roll the hit roll and you can re-roll the wound roll. If that unit contains 4 or more BATTLESUIT models, this Stratagem costs 3CP; otherwise, it costs 2CP.",
+		"Keywords": ["FARSIGHT ENCLAVES", "BATTLESUITS"]
+	}
+]

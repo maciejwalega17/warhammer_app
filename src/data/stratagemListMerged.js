@@ -17,6 +17,35 @@ import thousandsons from './thousandSons.json';
 import genestealercults from './genestealerCults.json';
 import chaosspacemarines from './chaosSpaceMarines.json';
 
+import tyranidsFaction from './tyranidsFaction.json';
+import adeptasororitasFaction from './adeptaSororitasFaction.json';
+import adeptuscustodesFaction from './adeptusCustodesFaction.json';
+import orksFaction from './orksFaction.json';
+import tauFaction from './tauFaction.json';
+import adeptusmechanicusFaction from './adeptusMechanicusFaction.json';
+import necronsFaction from './necronsFaction.json';
+import deathguardFaction from './deathGuardFaction.json';
+import greyknightsFaction from './greyKnightsFaction.json';
+import aeldariFaction from './aeldariFaction.json';
+import drukhariFaction from './drukhariFaction.json';
+import spacemarinesFaction from './spaceMarinesFaction.json';
+import imperialknightsFaction from './imperialKnightsFaction.json';
+import genestealercultsFaction from './genestealerCultsFaction.json';
+// import thousandsonsFaction from './thousandSonsFaction.json';
+import chaosknightsFaction from './chaosKnightsFaction.json';
+// import chaosspacemarinesFaction from './chaosSpaceMarinesFaction.json';
+import spacemarinesblacktemplarsFaction from './spaceMarinesBlackTemplarsFaction.json';
+import spacemarinesbloodangelsFaction from './spaceMarinesBloodAngelsFaction.json';
+import spacemarinesdarkangelsFaction from './spaceMarinesDarkAngelsFaction.json';
+import spacemarinesdeathwatchFaction from './spaceMarinesDeathWatchFaction.json';
+import spacemarinesimperialfistsFaction from './spaceMarinesImperialFistsFaction.json';
+import spacemarinesironhandsFaction from './spaceMarinesIronHandsFaction.json';
+import spacemarinesravenguardFaction from './spaceMarinesRavenGuardFaction.json';
+import spacemarinessalmandersFaction from './spaceMarinesSalamandersFaction.json';
+import spacemarinesspacewolvesFaction from './spaceMarinesSpaceWolvesFaction.json';
+import spacemarinesultramarinesFaction from './spaceMarinesUltramarinesFaction.json';
+import spacemarineswhitescarsFaction from './spaceMarinesWhiteScarsFaction.json';
+
 const startingArr = [
 	{
 		faction: 'Core',
@@ -108,7 +137,33 @@ const stratagemListMerged = startingArr.concat(
 	imperialknights,
 	thousandsons,
 	genestealercults,
-	chaosspacemarines
+	chaosspacemarines,
+
+	tyranidsFaction,
+	adeptasororitasFaction,
+	adeptuscustodesFaction,
+	orksFaction,
+	tauFaction,
+	adeptusmechanicusFaction,
+	necronsFaction,
+	chaosknightsFaction,
+	deathguardFaction,
+	greyknightsFaction,
+	aeldariFaction,
+	drukhariFaction,
+	imperialknightsFaction,
+	genestealercultsFaction,
+	spacemarinesblacktemplarsFaction,
+	spacemarinesbloodangelsFaction,
+	spacemarinesdarkangelsFaction,
+	spacemarinesdeathwatchFaction,
+	spacemarinesimperialfistsFaction,
+	spacemarinesironhandsFaction,
+	spacemarinesravenguardFaction,
+	spacemarinessalmandersFaction,
+	spacemarinesspacewolvesFaction,
+	spacemarinesultramarinesFaction,
+	spacemarineswhitescarsFaction
 );
 
 export default stratagemListMerged;

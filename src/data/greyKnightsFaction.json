@@ -1,0 +1,82 @@
+[
+	{
+		"Name": "MARKED FOR DEATH",
+		"Cost": "2",
+		"Faction": "Swordbearers",
+		"Category": "Battle Tactic",
+		"Whose": "Mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem at the start of your Shooting phase. Select one enemy unit within 12 inches of and visible to a SWORDBEARERS PSYKER unit from your army. Until the end of the phase, each time a friendly SWORDBEARERS unit makes a ranged attack against that enemy unit, add 1 to that attack’s hit roll.",
+		"Keywords": ["SWORDBEARERS", "PSYKER"]
+	},
+	{
+		"Name": "RADIANT STRIKE",
+		"Cost": "1",
+		"Faction": "Blades of Victory",
+		"Category": "Strategic Ploy",
+		"Whose": "Mine",
+		"Phase": "Charge",
+		"Text": "Use this Stratagem in your Charge phase, when a BLADES OF VICTORY CORE INFANTRY unit from your army finishes a charge move. Select one enemy unit within Engagement Range of that BLADES OF VICTORY unit and roll one D6 for each model in that BLADES OF VICTORY unit that is within Engagement Range of that enemy unit. For each dice result that equals or exceeds that enemy unit’s Toughness characteristic, it suffers 1 mortal wound.",
+		"Keywords": ["BLADES OF VICTORY", "CORE"]
+	},
+	{
+		"Name": "MASTERS OF THE WORD",
+		"Cost": "1",
+		"Faction": "Wardmakers",
+		"Category": "Epic Deed",
+		"Whose": "Mine",
+		"Phase": "Command",
+		"Text": "Use this Stratagem in your Command phase. Select one WARDMAKERS CHARACTER unit from your army. Select one psychic power from the Dominus discipline that model does not know to replace one of the psychic powers that it does.",
+		"Keywords": ["WARDMAKERS", "CHARACTER"]
+	},
+	{
+		"Name": "FORESIGHT",
+		"Cost": "1",
+		"Faction": "Prescient Brethren",
+		"Category": "Battle Tactic",
+		"Whose": "Both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem in your Shooting phase, when a PRESCIENT BRETHREN PSYKER unit from your army is selected to shoot, or in the Fight phase, when a PRESCIENT BRETHREN PSYKER unit from your army fights. Until the end of the phase, each time a model in that unit makes an attack, re-roll a hit roll of 1 and re-roll a wound roll of 1.",
+		"Keywords": ["PRESCIENT BRETHREN", "PSYKER"]
+	},
+	{
+		"Name": "CHARGE OF THE ANCIENTS",
+		"Cost": "1",
+		"Faction": "Preservers",
+		"Category": "Requisition",
+		"Whose": "Mine",
+		"Phase": "Before the battle",
+		"Text": "Use this Stratagem before the battle, when you muster your army. Select one PRESERVERS DREADNOUGHT model from your army. That model has a Move characteristic of 8 inches. You can re-roll charge rolls made for that model. Each time that model fights, if it made a charge move this turn, then until that fight is resolved, add 1 to the Damage characteristic of melee weapons that model is equipped with. You can only use this Stratagem once, unless you are playing an Onslaught battle (in which case, you can use this Stratagem twice, on two different Preservers Dreadnought models from your army).",
+		"Keywords": ["PRESERVERS", "DREADNOUGHT"]
+	},
+	{
+		"Name": "DEADLY EFFICACY",
+		"Cost": "1",
+		"Faction": "Rapiers",
+		"Category": "Battle Tactic",
+		"Whose": "Both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase when a RAPIERS unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 6 scores 1 additional hit.",
+		"Keywords": ["RAPIERS"]
+	},
+	{
+		"Name": "SANCTIC GUARDIANS",
+		"Cost": "1",
+		"Faction": "Exactors",
+		"Category": "Strategic Ploy",
+		"Whose": "Enemy",
+		"Phase": "Charge",
+		"Text": "Use this Stratagem in the Heroic Interventions step of your opponent’s Charge phase. Select one EXACTORS unit from your army that is not within Engagement Range of any enemy units. Until the end of the phase, that unit can perform a Heroic Intervention as if it were a CHARACTER.",
+		"Keywords": ["EXACTORS", "CHARACTER"]
+	},
+	{
+		"Name": "ADAPTIVE EXCORIATION",
+		"Cost": "1",
+		"Faction": "Silver Blades",
+		"Category": "Strategic Ploy",
+		"Whose": "Mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, when a SILVER BLADES CORE unit from your army Falls Back. That unit is still eligible to shoot this turn even though it Fell Back.",
+		"Keywords": ["SILVER BLADES", "CORE"]
+	}
+]

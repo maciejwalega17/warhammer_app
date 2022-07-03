@@ -1,0 +1,82 @@
+[
+	{
+		"Name": "ART OF THE KILL",
+		"Cost": "2/3",
+		"Faction": "Cult of Strife",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a CULT OF STRIFE unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a melee attack, you can re-roll the wound roll. If that unit has 11 or more models, this Stratagem costs 3CP; otherwise, it costs 2CP.",
+		"Keywords": ["CULT OF STRIFE"]
+	},
+	{
+		"Name": "DANCE OF DEATH",
+		"Cost": "1",
+		"Faction": "Cult of Strife",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, when a CULT OF STRIFE unit in your army is selected to move, or in your Charge phase, when a CULT OF STRIFE unit in your army is selected to charge. Until the end of the phase, each time that unit makes a Normal Move, Advances, Falls Back or it makes a charge move, until that move is finished, models in that unit can move horizontally through models and terrain features (they cannot finish a move on top of another model, or its base).",
+		"Keywords": ["CULT OF STRIFE"]
+	},
+	{
+		"Name": "INVIGORATED BY EVISCERATION",
+		"Cost": "1",
+		"Faction": "Cult of Strife",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem after an enemy unit is destroyed as a result of a melee attack made by a model in a CULT OF STRIFE INFANTRY or CULT OF STRIFE BIKER unit from your army. Until the start of your next turn, models in that unit have a 4\u002B invulnerable save.",
+		"Keywords": ["CULT OF STRIFE", "INFANTRY", "BIKER"]
+	},
+	{
+		"Name": "THE BLADE WELL PLACED",
+		"Cost": "2",
+		"Faction": "Cult of Strife",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a CULT OF STRIFE INFANTRY unit from your army is selected to fight. Until the end of the phase, each time a melee attack is made by a model in that unit, improve the Armour Penetration characteristic of that attack by 1.",
+		"Keywords": ["CULT OF STRIFE", "INFANTRY"]
+	},
+	{
+		"Name": "DEADLY EXEMPLAR",
+		"Cost": "1",
+		"Faction": "Cult of Strife",
+		"Category": "Epic Deed",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem when a CULT OF STRIFE SUCCUBUS from your army destroys an enemy CHARACTER or MONSTER unit with a melee attack. Until the end of the battle, all CULT OF STRIFE units from your army that are on the battlefield are considered to be within range of that Succubus\u2019 Brides of Death aura ability.",
+		"Keywords": ["CULT OF STRIFE", "SUCCUBUS", "CHARACTER"]
+	},
+	{
+		"Name": "FLAWLESS APPROACH",
+		"Cost": "1",
+		"Faction": "Cult of Strife",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in your Charge phase, when a CULT OF STRIFE INFANTRY unit from your army is selected to charge. Until the end of the turn:Enemy units cannot fire Overwatch at that unit.Enemy units selected as the target of that unit\u2019s charge cannot Hold Steady or Set to Defend as a result of that unit\u2019s charge.",
+		"Keywords": ["CULT OF STRIFE", "INFANTRY"]
+	},
+	{
+		"Name": "PICK THEM APART",
+		"Cost": "2",
+		"Faction": "Cult of Strife",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, when a CULT OF STRIFE unit from your army Falls Back. That unit is eligible to shoot and/or charge this turn even though it Fell Back.",
+		"Keywords": ["CULT OF STRIFE"]
+	},
+	{
+		"Name": "HEKATRIX OF THE CRUCIBAEL",
+		"Cost": "1",
+		"Faction": "Cult of Strife",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle. Select one CULT OF STRIFE Hekatrix model from your army. That model can have one of the following Relics, even though they are not a CHARACTER: Morvaine\u2019s Agoniser; Dark Lotus Toxin; Garland of Spite. Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once.",
+		"Keywords": ["CULT OF STRIFE", "CHARACTER"]
+	}
+]

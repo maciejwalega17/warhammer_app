@@ -1,0 +1,158 @@
+[
+	{
+		"Name": "BITTER ENMITY",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when an IMPERIAL FISTS unit from your army is chosen to fight with. Until the end of that phase, when resolving an attack made with a melee weapon by a model in that unit against an IRON WARRIORS unit, you can re-roll the hit roll and you can re-roll the wound roll.",
+		"Keywords": ["IMPERIAL FISTS", "IRON WARRIORS"]
+	},
+	{
+		"Name": "BOLSTER DEFENCES",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem at the start of your Movement phase. Select one IMPERIAL FISTS unit from your army that is receiving the benefits of cover. Until that unit makes a Normal Move, Advances, makes a charge move or performs a Heroic Intervention, each time an attack is allocated to a model in that unit, add an additional 1 to any armour saving throw made against that attack. You can only use this Stratagem once.",
+		"Keywords": ["IMPERIAL FISTS"]
+	},
+	{
+		"Name": "SAPPERS",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem in your Shooting phase or the Fight phase, when an IMPERIAL FISTS unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit against a BUILDING unit, add 1 to the hit roll and add 1 to the wound roll.",
+		"Keywords": ["IMPERIAL FISTS", "BUILDING"]
+	},
+	{
+		"Name": "PAIN IS A LESSON",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Strategic Ploy",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem in any phase, when an IMPERIAL FISTS unit from your army that is not a VEHICLE or SERVITOR is chosen as the target of an enemy attack. Until the end of that phase, when a model in that unit would lose a wound, roll one D6; on a 6 that wound is not lost.",
+		"Keywords": ["IMPERIAL FISTS", "VEHICLE", "SERVITOR"]
+	},
+	{
+		"Name": "CLOSE-RANGE BOLTER FIRE",
+		"Cost": "2",
+		"Faction": "Imperial Fists",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when you choose an IMPERIAL FISTS CORE or IMPERIAL FISTS CHARACTER unit from your army to shoot with. Until the end of that phase, bolt weapons models in that unit are equipped with have the Pistol type instead of their normal type (e.g. a Rapid Fire 2 bolt weapon becomes Pistol 2).",
+		"Keywords": ["IMPERIAL FISTS", "CORE", "CHARACTER"]
+	},
+	{
+		"Name": "BOLTER DRILL",
+		"Cost": "2",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when you choose an IMPERIAL FISTS CORE or IMPERIAL FISTS CHARACTER unit from your army to shoot with. Until the end of that phase, when resolving an attack made by a model in that unit with a bolt weapon, an unmodified hit roll of 6 scores 1 additional hit.",
+		"Keywords": ["IMPERIAL FISTS", "CORE", "CHARACTER"]
+	},
+	{
+		"Name": "TANK HUNTERS",
+		"Cost": "2",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem in your Shooting phase or the Fight phase, when you choose an IMPERIAL FISTS unit from your army to shoot or fight with. Select one enemy VEHICLE unit. Until the end of that phase, when resolving an attack made by a model in that IMPERIAL FISTS unit against the selected unit, add 1 to the wound roll.",
+		"Keywords": ["IMPERIAL FISTS", "VEHICLE"]
+	},
+	{
+		"Name": "CHAMPION OF BLADES",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating a model drawn from an Imperial Fists successor Chapter to be your WARLORD. You can give one Relic of the Fists to a CHARACTER model from your army that is drawn from an Imperial Fists successor Chapter instead of giving them a Special-issue Wargear Relic or a Chapter Relic from Codex: Space Marines. If you do, replace the IMPERIAL FISTS and CRIMSON FISTS keywords in all instances on that Relic (if any) with that model\u2019s \u0026CHAPTER\u0026 keyword. You can only use this Stratagem once per battle.",
+		"Keywords": [
+			"WARLORD",
+			"CHARACTER",
+			"IMPERIAL FISTS",
+			"CRIMSON FISTS",
+			"CHAPTER"
+		]
+	},
+	{
+		"Name": "SENTINEL OF TERRA",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem after nominating an IMPERIAL FISTS CHARACTER model that is not a named character to be your WARLORD. You can generate one additional Warlord Trait for them; this must be from the Imperial Fists Warlord Traits table. All of the Warlord Traits your army includes must be different (if randomly generated, re-roll duplicate results). You can only use this Stratagem once per battle.",
+		"Keywords": ["IMPERIAL FISTS", "CHARACTER", "WARLORD"]
+	},
+	{
+		"Name": "CLEARANCE PROTOCOLS",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase, when an IMPERIAL FISTS unit from your army is chosen to shoot with. Up to ten models in that unit that are equipped with Grenades can throw a Grenade that phase, instead of only one model being able to do so.",
+		"Keywords": ["IMPERIAL FISTS"]
+	},
+	{
+		"Name": "PRAETORIAN\u2019S WRATH",
+		"Cost": "2",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem at the start of your Movement phase if the Devastator Doctrine is active. Until the start of your next Movement phase, when resolving an attack made with a Heavy or Grenade weapon by an IMPERIAL FISTS model from your army, on an unmodified wound roll of 6 the Armour Penetration characteristic of that weapon is improved by an additional 1 for that attack. You can only use this Stratagem once per battle.",
+		"Keywords": ["IMPERIAL FISTS"]
+	},
+	{
+		"Name": "GIFT OF THE PHALANX",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle. Select one IMPERIAL FISTS model from your army that has the word \u2018Sergeant\u2019 in their profile. That model can have one of the following Special-issue Wargear Relics, even though they are not a CHARACTER: Master-crafted Weapon; Digital Weapons; Fist of Terra; Gatebreaker Bolts. All of the Relics your army includes must be different and be given to different models.",
+		"Keywords": ["IMPERIAL FISTS", "CHARACTER "]
+	},
+	{
+		"Name": "THE SHIELD UNWAVERING",
+		"Cost": "2",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Morale",
+		"Text": "Use this Stratagem at the end of your Morale phase. Select one IMPERIAL FISTS INFANTRY unit from your army that is within 3\u0022 of any objective markers. Until the start of your next turn, add 1 to the Attacks characteristic of models in that unit, and when resolving an attack made against that unit, add 1 to the saving throw (excluding invulnerable saves).",
+		"Keywords": ["IMPERIAL FISTS", "INFANTRY"]
+	},
+	{
+		"Name": "SLAY THE TYRANT",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your Shooting phase or the Fight phase, when a CRIMSON FISTS unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit against a CHARACTER unit, add 1 to the hit roll.",
+		"Keywords": ["CRIMSON FISTS", "CHARACTER"]
+	},
+	{
+		"Name": "A HATED FOE",
+		"Cost": "1",
+		"Faction": "Imperial Fists",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem in your Shooting phase or the Fight phase, when a CRIMSON FISTS unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit against an ORK unit, you can re-roll the wound roll.",
+		"Keywords": ["CRIMSON FISTS", "ORK"]
+	}
+]

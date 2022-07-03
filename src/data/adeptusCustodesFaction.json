@@ -1,0 +1,62 @@
+[
+	{
+		"Name": "ESTEEMED AMALGAM",
+		"Cost": "1",
+		"Faction": "Emperor’s Chosen",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Command",
+		"Text": "Use this Stratagem in your Command phase. Select one EMPEROR’S CHOSEN unit from your army, then select one other shield host’s fighting style. Until the start of your next Command phase, the models in that unit have the traits of that shield host fighting style instead of the traits of the Magna Imperator fighting style. You can only use this Stratagem once.",
+		"Keywords": ["EMPEROR’S CHOSEN"]
+	},
+	{
+		"Name": "GRIM RESPONSIBILITY",
+		"Cost": "1",
+		"Faction": "Shadowkeepers ",
+		"Category": "Battle Tactic",
+		"Whose": "Both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem in any phase, when a SHADOWKEEPERS unit from your army (excluding VEHICLE units) is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, subtract 1 from the Strength characteristic of that attack.",
+		"Keywords": ["SHADOWKEEPERS", "VEHICLE"]
+	},
+	{
+		"Name": "GOLDEN LIGHT OF THE MOIRAIDES",
+		"Cost": "2",
+		"Faction": "Dread Host",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Movement",
+		"Text": "Use this Stratagem in your Movement phase, when a DREAD HOST unit from your army is set up on the battlefield using the From Golden Light ability. Until the start of your next turn: Each time an attack is made against that unit, subtract 1 from that attack’s hit roll. Each time that unit declares a charge, enemy units that were targeted by that charge cannot fire Overwatch or Set to Defend against that charge.",
+		"Keywords": ["DREAD HOST"]
+	},
+	{
+		"Name": "SHIELD OF HONOUR",
+		"Cost": "1",
+		"Faction": "Aquilan Shield",
+		"Category": "Strategic Ploy",
+		"Whose": "Enemy",
+		"Phase": "Shooting",
+		"Text": "Use this Stratagem in your opponent’s Shooting phase, when an enemy unit is selected to shoot with. Select one IMPERIUM INFANTRY CHARACTER unit from your army. Until the end of the phase, while that unit from your army is within 6 inches of a friendly AQUILAN SHIELD CORE unit, that IMPERIUM INFANTRY CHARACTER unit can use the Look Out, Sir rule even if this unit contains fewer than 3 models.",
+		"Keywords": ["IMPERIUM", "INFANTRY", "CHARACTER", "AQUILAN SHIELD", "CORE"]
+	},
+	{
+		"Name": "THE EAGLE’S STRIKE",
+		"Cost": "1",
+		"Faction": "Solar Watch",
+		"Category": "Strategic Ploy",
+		"Whose": "Both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem in any phase, when an enemy WARLORD is destroyed by a SOLAR WATCH unit from your army. Until the end of the battle, each time a Combat Attrition test is taken for an enemy unit, subtract 1 from that Combat Attrition test.",
+		"Keywords": ["WARLORD", "SOLAR WATCH"]
+	},
+	{
+		"Name": "INTO THE DARKNESS",
+		"Cost": "2/3",
+		"Faction": "Emissaries Imperatus",
+		"Category": "Battle Tactic",
+		"Whose": "mine",
+		"Phase": "Start of battle round",
+		"Text": "Use this Stratagem at the start of the first battle round, before the first turn begins. Select one EMISSARIES IMPERATUS CORE unit from your army. That unit can make a Normal Move as if it were your Movement phase, but must end that move more than 9 inches away from any enemy models. If both players have units that can move before the first turn begins, the player who is taking the first turn moves their units first. If that unit contains 4 or more models, this Stratagem costs 3CP; otherwise, it costs 2CP. You can only use this Stratagem once.",
+		"Keywords": ["EMISSARIES IMPERATUS", "CORE"]
+	}
+]
