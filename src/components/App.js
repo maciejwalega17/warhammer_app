@@ -9,6 +9,7 @@ import PayWindow from './pay_window';
 import Settings from './settings';
 
 import onClickSetCounter from '../functions/onClickSetCounter';
+import subfactionListGenerator from '../functions/subfactionListGenerator';
 
 import phaseList from '../data/phaseList';
 import armyList from '../data/armyList';
@@ -20,6 +21,7 @@ import switchColor from '../functions/switchColor';
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
 	const [selectedArmy, setSelectedArmy] = useState(armyList[0]);
+	const [selectedSubfaction, setSelectedSubfaction] = useState('');
 	const [commandPoints, setCommandPoints] = useState(12);
 	const [listShow, setlistShow] = useState('mine');
 
@@ -117,10 +119,6 @@ const App = () => {
 		}
 	};
 
-	const btnStyleChanger = (props) => {
-		return listShow === props ? 'clicked' : null;
-	};
-
 	const listTitle = listTitleGenerator();
 	const listArr = listArrGenerator();
 	const contentSmall = (
@@ -135,7 +133,12 @@ const App = () => {
 			}}
 		/>
 	);
+
+	const btnStyleChanger = (props) => {
+		return listShow === props ? 'clicked' : null;
+	};
 	switchColor(selectedArmy);
+
 	return (
 		<>
 			{isPageOnTop ? (
@@ -165,6 +168,13 @@ const App = () => {
 							type='Army Select'
 							list={armyList}
 							callback={(value) => setSelectedArmy(value)}
+						/>
+						<Selector
+							title='Subfaction:'
+							value={selectedSubfaction}
+							type='Army Select'
+							list={subfactionListGenerator(selectedArmy)}
+							callback={(value) => setSelectedSubfaction(value)}
 						/>
 					</div>
 					<div className='flex-row space-around nav-container'>
