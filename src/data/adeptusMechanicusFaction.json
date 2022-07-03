@@ -1,72 +1,72 @@
 [
 	{
-		"Name": "WRATH OF MARS",
-		"Cost": "1/2",
-		"Faction": "Mars",
-		"Category": "Battle Tactic",
-		"Whose": "mine",
-		"Phase": "Shooting",
-		"Text": "Use this Stratagem in your Shooting phase, when a MARS unit is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack, an unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage (to a maximum of 6 mortal wounds). If that unit has a Power Rating of 11 or more, this Stratagem costs 2CP; otherwise, it costs 1CP.",
-		"Keywords": ["MARS"]
+		"name": "WRATH OF MARS",
+		"cost": "1/2",
+		"faction": "Mars",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a MARS unit is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack, an unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage (to a maximum of 6 mortal wounds). If that unit has a Power Rating of 11 or more, this Stratagem costs 2CP; otherwise, it costs 1CP.",
+		"keywords": ["MARS"]
 	},
 	{
-		"Name": "LEGIO TELEPORTARIUM",
-		"Cost": "1",
-		"Faction": "Lucius",
-		"Category": "Wargear",
-		"Whose": "mine",
-		"Phase": "Before the battle",
-		"Text": "Use this Stratagem before the battle, during the Declare Reserves and Transports step (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one LUCIUS unit (excluding VEHICLE units) from your army. You can set up that unit in a teleportarium instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases, you can set up that unit anywhere on the battlefield that is more than 9 inches away from any enemy models. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
-		"Keywords": ["LUCIUS", "VEHICLE"]
+		"name": "LEGIO TELEPORTARIUM",
+		"cost": "1",
+		"faction": "Lucius",
+		"category": "Wargear",
+		"whose": "mine",
+		"phase": "Before the battle",
+		"text": "Use this Stratagem before the battle, during the Declare Reserves and Transports step (if you are playing a mission without this step, use this Stratagem during deployment instead). Select one LUCIUS unit (excluding VEHICLE units) from your army. You can set up that unit in a teleportarium instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases, you can set up that unit anywhere on the battlefield that is more than 9 inches away from any enemy models. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
+		"keywords": ["LUCIUS", "VEHICLE"]
 	},
 	{
-		"Name": "INDENTURED MACHINES",
-		"Cost": "1",
-		"Faction": "Agripinaa",
-		"Category": "Requisition",
-		"Whose": "Mine",
-		"Phase": "Before the battle",
-		"Text": "Use this Stratagem before the battle. Select one AGRIPINAA KATAPHRON SERVITORS unit from your army. Add 1 to the Toughness characteristic of models in that unit. A unit can only be selected for this Stratagem once. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
-		"Keywords": ["AGRIPINAA", "KATAPHRON", "SERVITORS"]
+		"name": "INDENTURED MACHINES",
+		"cost": "1",
+		"faction": "Agripinaa",
+		"category": "Requisition",
+		"whose": "Mine",
+		"phase": "Before the battle",
+		"text": "Use this Stratagem before the battle. Select one AGRIPINAA KATAPHRON SERVITORS unit from your army. Add 1 to the Toughness characteristic of models in that unit. A unit can only be selected for this Stratagem once. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case you can use this Stratagem twice), or an Onslaught battle (in which case you can use this Stratagem three times).",
+		"keywords": ["AGRIPINAA", "KATAPHRON", "SERVITORS"]
 	},
 	{
-		"Name": "STEEL MIND, IRON LOGIC",
-		"Cost": "1",
-		"Faction": "Graia",
-		"Category": "Wargear",
-		"Whose": "Enemy",
-		"Phase": "Psychic",
-		"Text": "Use this Stratagem in your opponent’s Psychic phase, when an enemy PSYKER attempts to manifest a psychic power within 18 inches of any GRAIA units from your army. Roll one D6: on a 4+, that psychic power is denied.",
-		"Keywords": ["PSYKER", "GRAIA"]
+		"name": "STEEL MIND, IRON LOGIC",
+		"cost": "1",
+		"faction": "Graia",
+		"category": "Wargear",
+		"whose": "Enemy",
+		"phase": "Psychic",
+		"text": "Use this Stratagem in your opponent’s Psychic phase, when an enemy PSYKER attempts to manifest a psychic power within 18 inches of any GRAIA units from your army. Roll one D6: on a 4+, that psychic power is denied.",
+		"keywords": ["PSYKER", "GRAIA"]
 	},
 	{
-		"Name": "CLANDESTINE INFILTRATION",
-		"Cost": "1",
-		"Faction": "Stygies VIII",
-		"Category": "Wargear",
-		"Whose": "Mine",
-		"Phase": "Before the battle",
-		"Text": "Use this Stratagem during deployment. Select one STYGIES VIII CORE INFANTRY unit from your army. When you set up that unit, it can be set up anywhere on the battlefield that is more than 9 inches away from the enemy deployment zone and any enemy models. You can only use this Stratagem once, unless you are playing a Strike Force or Onslaught battle (in which case, you can use this Stratagem twice).",
-		"Keywords": ["STYGIES VIII", "CORE", "INFANTRY"]
+		"name": "CLANDESTINE INFILTRATION",
+		"cost": "1",
+		"faction": "Stygies VIII",
+		"category": "Wargear",
+		"whose": "Mine",
+		"phase": "Before the battle",
+		"text": "Use this Stratagem during deployment. Select one STYGIES VIII CORE INFANTRY unit from your army. When you set up that unit, it can be set up anywhere on the battlefield that is more than 9 inches away from the enemy deployment zone and any enemy models. You can only use this Stratagem once, unless you are playing a Strike Force or Onslaught battle (in which case, you can use this Stratagem twice).",
+		"keywords": ["STYGIES VIII", "CORE", "INFANTRY"]
 	},
 	{
-		"Name": "PLASMA SPECIALISTS",
-		"Cost": "2",
-		"Faction": "Ryza",
-		"Category": "Battle Tactic",
-		"Whose": "Mine",
-		"Phase": "Shooting",
-		"Text": "Use this Stratagem in your Shooting phase, when a RYZA unit is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack with a plasma weapon, add 1 to the Damage characteristic of that attack.",
-		"Keywords": ["RYZA"]
+		"name": "PLASMA SPECIALISTS",
+		"cost": "2",
+		"faction": "Ryza",
+		"category": "Battle Tactic",
+		"whose": "Mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a RYZA unit is selected to shoot. Until the end of the phase, each time a model in that unit makes an attack with a plasma weapon, add 1 to the Damage characteristic of that attack.",
+		"keywords": ["RYZA"]
 	},
 	{
-		"Name": "DEAFENING ASSAULT",
-		"Cost": "1",
-		"Faction": "Metalica",
-		"Category": "Wargear",
-		"Whose": "Mine",
-		"Phase": "Shooting",
-		"Text": "Use this Stratagem in your Shooting phase, when a METALICA unit from your army is selected to shoot. Select one enemy unit (excluding VEHICLE units) within 12 inches of that unit. Until the start of your next turn: Halve the Move characteristic of models in that enemy unit. That enemy unit cannot fire Overwatch or Set to Defend.",
-		"Keywords": ["METALICA", "VEHICLE"]
+		"name": "DEAFENING ASSAULT",
+		"cost": "1",
+		"faction": "Metalica",
+		"category": "Wargear",
+		"whose": "Mine",
+		"phase": "Shooting",
+		"text": "Use this Stratagem in your Shooting phase, when a METALICA unit from your army is selected to shoot. Select one enemy unit (excluding VEHICLE units) within 12 inches of that unit. Until the start of your next turn: Halve the Move characteristic of models in that enemy unit. That enemy unit cannot fire Overwatch or Set to Defend.",
+		"keywords": ["METALICA", "VEHICLE"]
 	}
 ]
