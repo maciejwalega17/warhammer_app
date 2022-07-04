@@ -5,6 +5,7 @@ const phaseList = [
 	'Psychic',
 	'Shooting',
 	'Fight',
+	'Charge',
 	'Morale',
 	'End of Turn',
 ];

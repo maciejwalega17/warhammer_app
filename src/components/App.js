@@ -76,7 +76,7 @@ const App = () => {
 	);
 	const selectedPhaseStratagems = selectedArmyStratagems.filter(
 		(el) =>
-			el.phase.toLowerCase() === selectedPhase.toLowerCase() ||
+			el.phase.toLowerCase().includes(selectedPhase.toLowerCase()) ||
 			el.phase.toLowerCase() === 'any'
 	);
 	const myPhase = selectedPhaseStratagems.filter(
