@@ -45,7 +45,7 @@
 		"faction": "Cult of Strife",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem at the end of your Shooting phase or the Fight phase. Select one CULT OF STRIFE WYCHES unit from your army. If it is the Shooting phase, that unit can shoot again. If it is the Fight phase, and that unit is within Engagement Range of any enemy units, that unit can fight again. You can only use this Stratagem once per battle round.",
 		"keywords": ["CULT OF STRIFE", "WYCHES"]
 	},
@@ -55,7 +55,7 @@
 		"faction": "Cult of the Cursed Blade",
 		"category": "Wargear",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem after the enemy has declared a charge against a CULT OF THE CURSED BLADE WYCHES unit from your army. That unit can fire Overwatch before the charge roll is made. When it does so, up to five models in that unit that are equipped with plasma grenades can make attacks with them, and until the end of the phase, plasma grenades this unit is equipped with gain the Poisoned Weapon (2+) ability.",
 		"keywords": ["CULT OF THE CURSED BLADE", "WYCHES"]
 	},
@@ -91,7 +91,7 @@
 		"faction": "The Dark Creed",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Charge",
 		"text": "Use this Stratagem when you select a DARK CREED CORE or DARK CREED CHARACTER unit from your army to shoot with. Until the end of the phase, each time you select a target for an attack made by this unit, you can ignore the Look Out, Sir rule.",
 		"keywords": ["DARK CREED", "CORE", "CHARACTER"]
 	},

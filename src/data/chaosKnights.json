@@ -66,7 +66,7 @@
 		"category": "Battle Tactic",
 		"whose": "both",
 		"phase": "Fight",
-		"text": "Use this Stratagem in the Fight phase, when a TITANIC CHAOS KNIGHTS model from your army is selected to fight. Until the end of the phase, each time that model makes a melee attack with its titanic feet:Subtract 1 from that attack\u2019s hit roll.If that attack successfully hits the target, unless the target of that attack is a MONSTER or a VEHICLE unit, the target suffers 2 mortal wounds and the attack sequence ends.",
+		"text": "Use this Stratagem in the Fight phase, when a TITANIC CHAOS KNIGHTS model from your army is selected to fight. Until the end of the phase, each time that model makes a melee attack with its titanic feet: Subtract 1 from that attack\u2019s hit roll.If that attack successfully hits the target, unless the target of that attack is a MONSTER or a VEHICLE unit, the target suffers 2 mortal wounds and the attack sequence ends.",
 		"keywords": ["TITANIC", "CHAOS KNIGHTS", "MONSTER", "VEHICLE"]
 	},
 	{
@@ -84,8 +84,8 @@
 		"cost": "1",
 		"faction": "Chaos Knights",
 		"category": "Battle Tactic",
-		"whose": "mine",
-		"phase": "Shooting",
+		"whose": "both",
+		"phase": "Shooting Fight",
 		"text": "Use the Stratagem in your Shooting phase, when a CHAOS KNIGHTS model from your army is selected to shoot, or in the Fight phase, when a CHAOS KNIGHTS model from your army is selected to fight. Until the end of the phase, each time that model makes an attack, if the target of that attack is within range of an objective marker, re-roll a hit roll of 1.",
 		"keywords": ["CHAOS KNIGHTS"]
 	},
@@ -232,7 +232,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Movement",
-		"text": "Use this Stratagem at the start of your Movement phase. Select up to two \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS models from your army that are more than 6\u0022 away from any enemy models and within 6\u0022 of a battlefield edge. If the mission you are playing is using the Strategic Reserves rules, place those models into Strategic Reserves - those models cannot arrive from Strategic Reserves in the same turn it is placed into Strategic Reserves.",
+		"text": "Use this Stratagem at the start of your Movement phase. Select up to two \u0026DREAD HOUSEHOLD\u0026 WAR DOG-CLASS models from your army that are more than 6\u0022 away from any enemy models and within 6\u0022 of a battlefield edge. If the mission you are playing is using the Strategic Reserves rules, place those models into Strategic Reserves - those models cannot arrive from Strategic Reserves in the same turn it is placed into Strategic Reserves.",
 		"keywords": ["WAR DOG-CLASS"]
 	},
 	{
@@ -242,7 +242,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Command",
-		"text": "Use this Stratagem in your Command phase. Select one \u0026lt;DREAD HOUSEHOLD\u0026gt; KNIGHT DESPOILER, KNIGHT RAMPAGER or KNIGHT DESECRATOR model from your army. Now select one friendly \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS model from your army. Until the end of the turn, that WAR DOG-CLASS model is always considered to be within range of the Aura ability that the first model you selected has: Dread Dominion; Frenzied Rampage; Taskmaster.",
+		"text": "Use this Stratagem in your Command phase. Select one \u0026DREAD HOUSEHOLD\u0026 KNIGHT DESPOILER, KNIGHT RAMPAGER or KNIGHT DESECRATOR model from your army. Now select one friendly \u0026DREAD HOUSEHOLD\u0026 WAR DOG-CLASS model from your army. Until the end of the turn, that WAR DOG-CLASS model is always considered to be within range of the Aura ability that the first model you selected has: Dread Dominion; Frenzied Rampage; Taskmaster.",
 		"keywords": [
 			"KNIGHT DESPOILER",
 			"KNIGHT RAMPAGER",
@@ -256,8 +256,8 @@
 		"faction": "Chaos Knights",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
-		"text": "Use this Stratagem in your Charge phase, after a \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS model from your army finishes a charge move. Until the end of the phase, each time a friendly \u0026lt;DREAD HOUSEHOLD\u0026gt; WAR DOG-CLASS model declares a charge against an enemy unit that is within Engagement Range of this model, you can re-roll that charge roll.",
+		"phase": "Charge",
+		"text": "Use this Stratagem in your Charge phase, after a \u0026DREAD HOUSEHOLD\u0026 WAR DOG-CLASS model from your army finishes a charge move. Until the end of the phase, each time a friendly \u0026DREAD HOUSEHOLD\u0026 WAR DOG-CLASS model declares a charge against an enemy unit that is within Engagement Range of this model, you can re-roll that charge roll.",
 		"keywords": ["WAR DOG-CLASS"]
 	},
 	{

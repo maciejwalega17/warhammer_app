@@ -45,7 +45,7 @@
 		"faction": "Blood Axes",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase, when a BLOOD AXES unit from your army makes a charge move. Select one enemy unit that was a target of that charge. Until the end of the phase, each time a BLOOD AXES STORMBOYZ unit declares that enemy unit as a target of a charge, add 2 to that charge roll.",
 		"keywords": ["BLOOD AXES", "STORMBOYZ"]
 	},
@@ -66,7 +66,7 @@
 		"category": "Strategic Ploy",
 		"whose": "both",
 		"phase": "Any",
-		"text": "Use this Stratagem at the start of any phase. Select one BLOOD AXES unit from your army. Until the end of the turn:That unit can start to perform an action even if it Advanced this turn.That unit can make ranged attacks without any action it is performing failing.If that unit has the CHARACTER keyword, it can still use any aura abilities it has while performing an action.",
+		"text": "Use this Stratagem at the start of any phase. Select one BLOOD AXES unit from your army. Until the end of the turn: That unit can start to perform an action even if it Advanced this turn. That unit can make ranged attacks without any action it is performing failing.If that unit has the CHARACTER keyword, it can still use any aura abilities it has while performing an action.",
 		"keywords": ["BLOOD AXES", "CHARACTER"]
 	},
 	{

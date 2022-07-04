@@ -35,7 +35,7 @@
 		"faction": "Prescient Brethren",
 		"category": "Battle Tactic",
 		"whose": "Both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when a PRESCIENT BRETHREN PSYKER unit from your army is selected to shoot, or in the Fight phase, when a PRESCIENT BRETHREN PSYKER unit from your army fights. Until the end of the phase, each time a model in that unit makes an attack, re-roll a hit roll of 1 and re-roll a wound roll of 1.",
 		"keywords": ["PRESCIENT BRETHREN", "PSYKER"]
 	},

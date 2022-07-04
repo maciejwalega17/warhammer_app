@@ -65,7 +65,7 @@
 		"faction": "Adeptus Custodes",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Charge Fight",
 		"text": "Use this Stratagem in any phase, after shooting or fighting with an ADEPTUS CUSTODES unit from your army. Select one friendly ANATHEMA PSYKANA unit within 6\u0022 of it. Until the end of the phase, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to that attack\u2019s hit roll.",
 		"keywords": ["ADEPTUS CUSTODES", "ANATHEMA PSYKANA"]
 	},
@@ -74,8 +74,8 @@
 		"cost": "1",
 		"faction": "Adeptus Custodes",
 		"category": "Battle Tactic",
-		"whose": "mine",
-		"phase": "Shooting",
+		"whose": "both",
+		"phase": "Shooting Charge",
 		"text": "Use this Stratagem in your Shooting phase, when a WITCHSEEKERS unit from your army is selected to shoot, or in your opponent\u2019s Charge phase, when a WITCHSEEKERS unit from your army is selected to fire Overwatch. Until the end of the phase, add 1 to the Strength characteristic of witchseeker flamers models in that unit are equipped with.",
 		"keywords": ["WITCHSEEKERS"]
 	},
@@ -126,7 +126,7 @@
 		"category": "Epic Deed",
 		"whose": "both",
 		"phase": "Fight",
-		"text": "Use this Stratagem when an enemy CHARACTER unit is destroyed as a result of a melee attack made by an ADEPTUS CUSTODES CHARACTER model (excluding named characters) from your army. Resolve one of the following for that ADEPTUS CUSTODES CHARACTER unit:Select one trait of a shield host fighting style that unit does not have. Until the end of the battle, that unit gains that trait (in addition to any other fighting styles it has gained).Select one stance of one martial ka\u2019tah. Until the end of the battle, that unit always benefits from that stance (even if a martial ka\u2019tah is not active for your army).You can only use this Stratagem on each ADEPTUS CUSTODES CHARACTER unit from your army once. You cannot use this Stratagem in a Crusade battle; you must use the Earning of a name Requisition instead.",
+		"text": "Use this Stratagem when an enemy CHARACTER unit is destroyed as a result of a melee attack made by an ADEPTUS CUSTODES CHARACTER model (excluding named characters) from your army. Resolve one of the following for that ADEPTUS CUSTODES CHARACTER unit: Select one trait of a shield host fighting style that unit does not have. Until the end of the battle, that unit gains that trait (in addition to any other fighting styles it has gained).Select one stance of one martial ka\u2019tah. Until the end of the battle, that unit always benefits from that stance (even if a martial ka\u2019tah is not active for your army).You can only use this Stratagem on each ADEPTUS CUSTODES CHARACTER unit from your army once. You cannot use this Stratagem in a Crusade battle; you must use the Earning of a name Requisition instead.",
 		"keywords": ["CHARACTER", "ADEPTUS CUSTODES"]
 	},
 	{
@@ -175,7 +175,7 @@
 		"faction": "Adeptus Custodes",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in the Heroic Interventions step of your opponent\u2019s Charge phase. Select one ADEPTUS CUSTODES unit from your army. Until the end of the phase, that unit is eligible to perform a Heroic Intervention as if it were a CHARACTER unit. If that unit is already eligible to perform a Heroic Intervention, it is eligible to perform a Heroic Intervention if it is within 6\u0022 horizontally and 5\u0022 vertically of an enemy unit, and when performing a Heroic Intervention with that unit, you can move each model in that unit up to 6\u0022.",
 		"keywords": ["ADEPTUS CUSTODES", "CHARACTER"]
 	},
@@ -275,7 +275,7 @@
 		"faction": "Adeptus Custodes",
 		"category": "Strategic Ploy",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Charge Fight",
 		"text": "Use this Stratagem at the start of any phase. Select one ANATHEMA PSYKANA INFANTRY unit from your army. Until the end of the phase, this unit gains the following ability: \u2018Creeping Dread (Aura): While an enemy unit is within 6\u0022 of this unit, each time a model in that enemy unit makes an attack, subtract 1 from that attack\u2019s hit roll.\u2019",
 		"keywords": ["ANATHEMA PSYKANA", "INFANTRY"]
 	},
@@ -305,7 +305,7 @@
 		"faction": "Adeptus Custodes",
 		"category": "Wargear",
 		"whose": "enemy",
-		"phase": "Fight Movement",
+		"phase": "Movement Charge",
 		"text": "Use this Stratagem at the start of your opponent\u2019s Movement or Charge phase. Select one enemy unit (excluding units that can FLY) within 12\u0022 of and visible to an ADEPTUS CUSTODES INFANTRY unit from your army and roll one D6. If it is your opponent\u2019s Movement phase, subtract an equivalent number of inches from that enemy unit\u2019s Move characteristic for this phase (to a minimum of 0\u0022). If it is your opponent\u2019s Charge phase, subtract the result from charge rolls made for that unit this phase (to a minimum of 0). You can only use this Stratagem once per turn.",
 		"keywords": ["FLY ", "ADEPTUS CUSTODES", "INFANTRY"]
 	},

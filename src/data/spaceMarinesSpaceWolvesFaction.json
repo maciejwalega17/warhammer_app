@@ -55,7 +55,7 @@
 		"faction": "Space Wolves",
 		"category": "Battle Tactic",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase. Select one enemy unit within Engagement Range of any SPACE WOLVES units from your army.Until the end of the turn, each time a friendly SPACE WOLVES BEAST or SPACE WOLVES CAVALRY unit declares a charge that targets the selected unit, roll one additional D6 and discard one of the dice.Until the end of the turn, each time a friendly SPACE WOLVES CAVALRY model makes an attack with its crushing teeth and claws against the selected unit, and each time a friendly SPACE WOLVES BEAST model makes an attack with its teeth and claws against the selected unit, you can re-roll the wound roll.",
 		"keywords": ["SPACE WOLVES", "BEAST", "CAVALRY"]
 	},
@@ -135,7 +135,7 @@
 		"faction": "Space Wolves",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent\u2019s Charge phase. Select one SPACE WOLVES unit from your army. Until the end of the phase, that unit is eligible to perform a Heroic Intervention if it is within 6\u0022 horizontally of an enemy unit, and when performing a Heroic Intervention with that unit, you can move each model in that unit up to 6\u0022. All other rules for Heroic Interventions still apply. This Stratagem costs 0CP if the SPACE WOLVES unit you select is a CHARACTER.",
 		"keywords": ["SPACE WOLVES", "CHARACTER"]
 	},

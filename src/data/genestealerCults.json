@@ -45,8 +45,8 @@
 		"faction": "Genestealer Cults",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase, when a GENESTEALER CULTS unit from your army is selected to shoot, or in the Fight phase, when a GENESTEALER CULTS unit from your army is selected to fight. Until the end of the phase, each time an industrial weapon is selected for a model in that unit to attack with, that model can overload it. If it does so, then until that shooting or fight is resolved, each time that model makes an attack with that weapon:If it is a ranged weapon, add 1 to the Damage characteristic of that attack.If it is a melee weapon, add 1 to the Strength characteristic of that attack.If any unmodified hit rolls of 1 are made for attacks with that weapon, after the attacking models unit has finished making its attacks, it suffers 1 mortal wound.",
+		"phase": "Shooting Fight",
+		"text": "Use this Stratagem in your Shooting phase, when a GENESTEALER CULTS unit from your army is selected to shoot, or in the Fight phase, when a GENESTEALER CULTS unit from your army is selected to fight. Until the end of the phase, each time an industrial weapon is selected for a model in that unit to attack with, that model can overload it. If it does so, then until that shooting or fight is resolved, each time that model makes an attack with that weapon:If it is a ranged weapon, add 1 to the Damage characteristic of that attack.If it is a melee weapon, add 1 to the Strength characteristic of that attack. If any unmodified hit rolls of 1 are made for attacks with that weapon, after the attacking models unit has finished making its attacks, it suffers 1 mortal wound.",
 		"keywords": ["GENESTEALER CULTS"]
 	},
 	{
@@ -136,7 +136,7 @@
 		"category": "Epic Deed",
 		"whose": "mine",
 		"phase": "Psychic",
-		"text": "Use this Stratagem in your Psychic phase, when a \u0026lt;CULT\u0026gt; PSYKER model from your army manifests a Blessing psychic power that instructs you to select a friendly unit. When selecting a unit to be affected by that psychic power, you can select one friendly \u0026lt;CULT\u0026gt; unit anywhere on the battlefield (that unit does not have to be visible to or within any specified range of that PSYKER model).",
+		"text": "Use this Stratagem in your Psychic phase, when a \u0026CULT\u0026 PSYKER model from your army manifests a Blessing psychic power that instructs you to select a friendly unit. When selecting a unit to be affected by that psychic power, you can select one friendly \u0026CULT\u0026 unit anywhere on the battlefield (that unit does not have to be visible to or within any specified range of that PSYKER model).",
 		"keywords": ["PSYKER"]
 	},
 	{
@@ -156,7 +156,7 @@
 		"category": "Requisition",
 		"whose": "mine",
 		"phase": "Before the Battle",
-		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD is a \u0026lt;CULT\u0026gt; PATRIARCH. Select up to two other \u0026lt;CULT\u0026gt; models with the HQ Battlefield Role from your army and determine one Warlord Trait for each of them (these must be Warlord Traits they could have); those models are only regarded as your WARLORD for the purposes of those Warlord Traits. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results). You can only use this Stratagem once.",
+		"text": "Use this Stratagem before the battle, when you are mustering your army, if your WARLORD is a \u0026CULT\u0026 PATRIARCH. Select up to two other \u0026CULT\u0026 models with the HQ Battlefield Role from your army and determine one Warlord Trait for each of them (these must be Warlord Traits they could have); those models are only regarded as your WARLORD for the purposes of those Warlord Traits. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results). You can only use this Stratagem once.",
 		"keywords": ["WARLORD", "PATRIARCH", "HQ", "WARLORD"]
 	},
 	{
@@ -176,7 +176,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase. Select one enemy unit within 6\u0022 of and visible to a \u0026lt;CULT\u0026gt; ATALAN JACKALS unit from your army. Until the end of the phase, each time a model in another friendly \u0026lt;CULT\u0026gt; unit makes a ranged attack against that enemy unit, treat that enemy unit as being Exposed for that attack.",
+		"text": "Use this Stratagem in your Shooting phase. Select one enemy unit within 6\u0022 of and visible to a \u0026CULT\u0026 ATALAN JACKALS unit from your army. Until the end of the phase, each time a model in another friendly \u0026CULT\u0026 unit makes a ranged attack against that enemy unit, treat that enemy unit as being Exposed for that attack.",
 		"keywords": ["ATALAN JACKALS"]
 	},
 	{
@@ -185,7 +185,7 @@
 		"faction": "Genestealer Cults",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase. Select one ACOLYTE HYBRIDS or HYBRID METAMORPHS unit from your army. Until the end of the turn, that unit is eligible to charge in a turn in which it Advanced.",
 		"keywords": ["ACOLYTE HYBRIDS", "HYBRID METAMORPHS"]
 	},
@@ -245,7 +245,7 @@
 		"faction": "Genestealer Cults",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase. Select one enemy unit that has a crossfire marker. Until the end of the turn, that unit cannot fire Overwatch, Set to Defend or perform Heroic Interventions.",
 		"keywords": []
 	},
@@ -255,7 +255,7 @@
 		"faction": "Genestealer Cults",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase. Select one Area Terrain feature. Until the end of the turn, each time a GENESTEALER CULTS INFANTRY unit from your army declares a charge against an enemy unit within that Area Terrain feature:Enemy units within that Area Terrain feature cannot fire Overwatch or Set to Defend.That GENESTEALER CULTS INFANTRY unit ignores the effects of the Difficult Ground trait from that Area Terrain feature.",
 		"keywords": ["GENESTEALER CULTS", "INFANTRY"]
 	},
@@ -265,8 +265,8 @@
 		"faction": "Genestealer Cults",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
-		"text": "Use this Stratagem in the Heroic Interventions step of your opponent\u2019s Charge phase. Select one enemy unit that is within Engagement Range of a \u0026lt;CULT\u0026gt; PATRIARCH, \u0026lt;CULT\u0026gt; PRIMUS or \u0026lt;CULT\u0026gt; MAGUS unit from your army. One friendly \u0026lt;CULT\u0026gt; CORE unit that is within 6\u0022 of that enemy unit and not within Engagement Range of any enemy units can perform a Heroic Intervention. When performing that Heroic Intervention, each model in that friendly \u0026lt;CULT\u0026gt; Core unit can move up to 6\u0022 instead of up to 3\u0022 and does not have to finish that move closer to the closest enemy model; instead, at least one model from that unit must end that move within Engagement Range of the selected enemy unit, and no models from that unit can end that move within Engagement Range of any other enemy units (otherwise it does not move).",
+		"phase": "Charge",
+		"text": "Use this Stratagem in the Heroic Interventions step of your opponent\u2019s Charge phase. Select one enemy unit that is within Engagement Range of a \u0026CULT\u0026 PATRIARCH, \u0026CULT\u0026 PRIMUS or \u0026CULT\u0026 MAGUS unit from your army. One friendly \u0026CULT\u0026 CORE unit that is within 6\u0022 of that enemy unit and not within Engagement Range of any enemy units can perform a Heroic Intervention. When performing that Heroic Intervention, each model in that friendly \u0026CULT\u0026 Core unit can move up to 6\u0022 instead of up to 3\u0022 and does not have to finish that move closer to the closest enemy model; instead, at least one model from that unit must end that move within Engagement Range of the selected enemy unit, and no models from that unit can end that move within Engagement Range of any other enemy units (otherwise it does not move).",
 		"keywords": ["PATRIARCH", "PRIMUS", "MAGUS", "CORE"]
 	},
 	{
@@ -295,7 +295,7 @@
 		"faction": "Genestealer Cults",
 		"category": "Wargear",
 		"whose": "both",
-		"phase": "Shooting",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, after making an attack with a SANCTUS model from your army. If an enemy model lost any wounds as a result of that attack but was not destroyed, roll 3D6. If the result is greater than that enemy model\u2019s Leadership characteristic:Until the start of your next Shooting phase, that enemy model\u2019s unit loses any aura abilities it has.If that enemy model is a PSYKER, its unit suffers Perils of the Warp.Each enemy unit can only be affected by this Stratagem once.",
 		"keywords": ["SANCTUS", "PSYKER"]
 	},

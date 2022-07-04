@@ -75,7 +75,7 @@
 		"faction": "White Scars",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem when a WHITE SCARS BIKER unit from your army finishes a charge move. For each model in that unit, you can select one enemy unit within 1\u0022 of that model and roll one D6; for each roll of a 6, that enemy unit suffers 1 mortal wound.",
 		"keywords": ["WHITE SCARS", "BIKER"]
 	},
@@ -95,7 +95,7 @@
 		"faction": "White Scars",
 		"category": "Battle Tactic",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem at the start of your Charge phase. The first time you make a charge roll for a WHITE SCARS unit from your army that phase, roll 3D6 instead of 2D6 and discard one of the results.",
 		"keywords": ["WHITE SCARS"]
 	},

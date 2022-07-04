@@ -5,7 +5,7 @@
 		"faction": "Iron Hands",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when an IRON HANDS unit from your army is chosen to shoot with or fight with. Select one enemy unit. Until the end of that phase, every attack made by a model in that IRON HANDS unit from your army that can target the selected unit must do so, but when resolving such an attack, an unmodified wound roll of 6 wounds the target unit twice instead of once.",
 		"keywords": ["IRON HANDS"]
 	},
@@ -141,7 +141,7 @@
 		"faction": "Iron Hands",
 		"category": "Battle Tactic",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent\u2019s Charge phase, when an IRON HANDS unit from your army fires Overwatch. Until the end of that phase, when resolving an Overwatch attack made by a model in that unit, a hit roll of 5 or 6 scores a hit. If that unit has the The Flesh is Weak Chapter Tactic, when resolving an Overwatch attack made by a model in that unit, a hit roll of 4-6 scores a hit instead.",
 		"keywords": ["IRON HANDS"]
 	},

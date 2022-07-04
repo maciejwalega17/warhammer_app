@@ -55,7 +55,7 @@
 		"faction": "Cult of Strife",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase, when a CULT OF STRIFE INFANTRY unit from your army is selected to charge. Until the end of the turn:Enemy units cannot fire Overwatch at that unit.Enemy units selected as the target of that unit\u2019s charge cannot Hold Steady or Set to Defend as a result of that unit\u2019s charge.",
 		"keywords": ["CULT OF STRIFE", "INFANTRY"]
 	},

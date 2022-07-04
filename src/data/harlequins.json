@@ -35,7 +35,7 @@
 		"faction": "Aeldari (Harlequins)",
 		"category": "Battle Tactic",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase, when a HARLEQUINS INFANTRY unit from your army makes a charge move. Until the end of the turn, add 1 to the Damage characteristic of melee weapons models in that unit are equipped with (to a maximum of 3).",
 		"keywords": ["HARLEQUINS", "INFANTRY"]
 	},
@@ -85,7 +85,7 @@
 		"faction": "Aeldari (Harlequins)",
 		"category": "Epic Deed",
 		"whose": "enemy",
-		"phase": "fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in the Heroic Interventions step of your opponent\u2019s Charge phase. Select one HARLEQUINS INFANTRY unit from your army. Until the end of the phase, that unit is eligible to perform a Heroic Intervention, and can do so if it is within 6\u0022 horizontally and 5\u0022 vertically of any enemy unit (instead of 3\u0022 horizontally and 5\u0022 vertically), and when performing a Heroic Intervention with that unit, you can move each model in that unit up to 6\u0022. All other rules for Heroic Interventions still apply.",
 		"keywords": ["HARLEQUINS", "INFANTRY"]
 	},
@@ -155,7 +155,7 @@
 		"faction": "Aeldari (Harlequins)",
 		"category": "Wargear",
 		"whose": "both",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem after a HARLEQUIN\u2019S EMBRACE unit from your army makes a charge move or performs a Heroic Intervention. Select one enemy unit (excluding VEHICLE or MONSTER units) within Engagement Range of that unit and roll one D6 for each model in that HARLEQUIN\u2019S EMBRACE unit. For each 4\u002B, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
 		"keywords": ["HARLEQUIN\u2019S EMBRACE", "VEHICLE", "MONSTER"]
 	}

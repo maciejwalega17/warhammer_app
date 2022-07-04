@@ -15,7 +15,7 @@
 		"faction": "Shadowkeepers ",
 		"category": "Battle Tactic",
 		"whose": "Both",
-		"phase": "Any",
+		"phase": "Shooting Charge Fight",
 		"text": "Use this Stratagem in any phase, when a SHADOWKEEPERS unit from your army (excluding VEHICLE units) is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, subtract 1 from the Strength characteristic of that attack.",
 		"keywords": ["SHADOWKEEPERS", "VEHICLE"]
 	},

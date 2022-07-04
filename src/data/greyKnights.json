@@ -135,7 +135,7 @@
 		"faction": "Grey Knights",
 		"category": "Epic Deed",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase, when a NEMESIS DREADKNIGHT model from your army finishes a charge move. Select one enemy unit within Engagement Range of that model, and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
 		"keywords": ["NEMESIS DREADKNIGHT"]
 	},
@@ -345,7 +345,7 @@
 		"faction": "Grey Knights",
 		"category": "Wargear",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem at the start of your Charge phase. Select one GREY KNIGHTS ASSAULT LAUNCHERS unit from your army and one enemy unit (excluding VEHICLE or MONSTER units) within 9\u0022 of that unit. That enemy unit can either brace or duck for cover.If that unit braces, it suffers D3 mortal wounds.If that unit ducks for cover, then until the end of the turn, subtract 1 from the Attacks characteristic of models in that unit, and that unit cannot fire Overwatch or Set to Defend.",
 		"keywords": ["GREY KNIGHTS", "ASSAULT LAUNCHERS", "VEHICLE", "MONSTER"]
 	}

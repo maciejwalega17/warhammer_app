@@ -15,7 +15,7 @@
 		"faction": "Order of the Valorous Heart",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when an ORDER OF THE VALOROUS HEART unit from your army is selected to shoot, or in the Fight phase, when an ORDER OF THE VALOROUS HEART unit from your army is selected to fight. Until the end of that phase, each time a model in that unit makes an attack, you can ignore any or all hit roll, Ballistic Skill and Weapon Skill modifiers.",
 		"keywords": ["ORDER OF THE VALOROUS HEART"]
 	},

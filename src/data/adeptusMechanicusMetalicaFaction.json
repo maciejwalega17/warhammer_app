@@ -25,7 +25,7 @@
 		"faction": "Metalica",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when a METALICA unit from your army is selected to shoot, or in the Fight phase, when a METALICA unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, you can ignore any or all modifiers to the hit roll and wound roll. If that unit is a VEHICLE, this Stratagem costs 2CP; otherwise, it costs 1 CP.",
 		"keywords": ["METALICA", "VEHICLE"]
 	},
@@ -75,7 +75,7 @@
 		"faction": "Metalica",
 		"category": "Strategic Ploy",
 		"whose": "both",
-		"phase": "Fight",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in the Fight phase or in your opponent\u2019s Shooting phase. Select one enemy unit that is within 6\u0022 of a METALICA unit from your army. Until the end of the phase, your opponent cannot re-roll any dice rolls made for attacks made by models in that enemy unit.",
 		"keywords": ["METALICA"]
 	}

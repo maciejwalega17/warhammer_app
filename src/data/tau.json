@@ -26,7 +26,7 @@
 		"category": "Battle Tactic",
 		"whose": "mine",
 		"phase": "Shooting",
-		"text": "Use this Stratagem at the start of your Shooting phase. Select one \u0026lt;SEPT\u0026gt; DEVILFISH model from your army and one enemy unit within 24\u0022 of and visible to that model. Until the end of the phase, that DEVILFISH model gains the following ability:\u2018Sensor Link (Aura): While a friendly \u0026lt;SEPT\u0026gt; FIRE WARRIOR TEAM unit is within 6\u0022 of this model, each time a model in that unit makes a ranged attack against the selected enemy unit, re-roll a hit roll of 1.\u2019",
+		"text": "Use this Stratagem at the start of your Shooting phase. Select one \u0026SEPT\u0026 DEVILFISH model from your army and one enemy unit within 24\u0022 of and visible to that model. Until the end of the phase, that DEVILFISH model gains the following ability:\u2018Sensor Link (Aura): While a friendly \u0026SEPT\u0026 FIRE WARRIOR TEAM unit is within 6\u0022 of this model, each time a model in that unit makes a ranged attack against the selected enemy unit, re-roll a hit roll of 1.\u2019",
 		"keywords": ["DEVILFISH", "FIRE WARRIOR TEAM"]
 	},
 	{
@@ -76,7 +76,7 @@
 		"category": "Epic Deed",
 		"whose": "both",
 		"phase": "Any",
-		"text": "Use this Stratagem in any phase, when a saving throw is failed for a model in a \u0026lt;SEPT\u0026gt; unit from your army. Select one friendly \u0026lt;SEPT\u0026gt; DRONE model within 3\u0022 of that unit, or within 6\u0022 of that unit if it contains a model equipped with a drone controller. That DRONE model is destroyed and the Damage characteristic of that attack is changed to 0.",
+		"text": "Use this Stratagem in any phase, when a saving throw is failed for a model in a \u0026SEPT\u0026 unit from your army. Select one friendly \u0026SEPT\u0026 DRONE model within 3\u0022 of that unit, or within 6\u0022 of that unit if it contains a model equipped with a drone controller. That DRONE model is destroyed and the Damage characteristic of that attack is changed to 0.",
 		"keywords": ["DRONE"]
 	},
 	{
@@ -186,7 +186,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase, before selecting a unit to shoot with. Select one enemy unit and two \u0026lt;SEPT\u0026gt; units from your army that are within 18\u0022 of and visible to that enemy unit. Until the end of the phase, each time a model in one of those \u0026lt;SEPT\u0026gt; units makes an attack:That attack can only target that enemy unit (and only if it is an eligible target).Improve the Armour Penetration characteristic of that attack by 1.",
+		"text": "Use this Stratagem in your Shooting phase, before selecting a unit to shoot with. Select one enemy unit and two \u0026SEPT\u0026 units from your army that are within 18\u0022 of and visible to that enemy unit. Until the end of the phase, each time a model in one of those \u0026SEPT\u0026 units makes an attack:That attack can only target that enemy unit (and only if it is an eligible target).Improve the Armour Penetration characteristic of that attack by 1.",
 		"keywords": []
 	},
 	{
@@ -195,7 +195,7 @@
 		"faction": "T\u2019au Empire",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in the Heroic Interventions step of your opponent\u2019s Charge phase. Select one KROOT unit from your army that is not within Engagement Range of any enemy units. Until the end of the turn:Add 1 to the Attacks characteristic of models in that unit.That unit is eligible to perform Heroic Interventions as if it were a CHARACTER.That unit is eligible to perform a Heroic Intervention if it is within 6\u0022 horizontally of an enemy unit, and when performing a Heroic Intervention move with that unit, you can move each model in that unit up to 6\u0022. All other rules for Heroic Interventions still apply.",
 		"keywords": ["KROOT", "CHARACTER"]
 	},
@@ -216,7 +216,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase, when a \u0026lt;SEPT\u0026gt; unit from your army is selected to shoot. Select one enemy unit within 18\u0022 of that \u0026lt;SEPT\u0026gt; unit. Until the end of the phase, each time a model in that enemy unit is destroyed as a result of an attack made by a model in that \u0026lt;SEPT\u0026gt; unit, the destroyed model counts as two destroyed models for the purposes of Morale tests this turn.",
+		"text": "Use this Stratagem in your Shooting phase, when a \u0026SEPT\u0026 unit from your army is selected to shoot. Select one enemy unit within 18\u0022 of that \u0026SEPT\u0026 unit. Until the end of the phase, each time a model in that enemy unit is destroyed as a result of an attack made by a model in that \u0026SEPT\u0026 unit, the destroyed model counts as two destroyed models for the purposes of Morale tests this turn.",
 		"keywords": []
 	},
 	{
@@ -275,7 +275,7 @@
 		"faction": "T\u2019au Empire",
 		"category": "Wargear",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent\u2019s Charge phase, when a BATTLESUIT unit from your army is selected as a target of a charge. Until the end of the phase, subtract 2 from charge rolls made for any unit that declares a charge against that BATTLESUIT unit. The charge roll modifier incurred via this Stratagem is not cumulative with any other negative modifier to a unit\u2019s charge roll.",
 		"keywords": ["BATTLESUIT"]
 	},
@@ -286,7 +286,7 @@
 		"category": "Wargear",
 		"whose": "mine",
 		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase, when a model in an enemy unit is destroyed as a result of an attack made with an ion weapon by a \u0026lt;SEPT\u0026gt; model from your army. Until the start of your next Shooting phase, that enemy unit is not affected by the aura abilities of other enemy units.",
+		"text": "Use this Stratagem in your Shooting phase, when a model in an enemy unit is destroyed as a result of an attack made with an ion weapon by a \u0026SEPT\u0026 model from your army. Until the start of your next Shooting phase, that enemy unit is not affected by the aura abilities of other enemy units.",
 		"keywords": []
 	},
 	{
@@ -305,8 +305,8 @@
 		"faction": "T\u2019au Empire",
 		"category": "Wargear",
 		"whose": "enemy",
-		"phase": "Fight",
-		"text": "Use this Stratagem in your opponent\u2019s Charge phase, when a PHOTON GRENADES unit from your army is selected as a target of a charge declared with an enemy unit (excluding VEHICLE and MONSTER units). Until the end of the turn:Subtract 2 from that unit\u2019s charge rolls.Each time a model in that unit makes an attack, subtract 1 from that attack\u2019s hit roll.The charge roll modifier incurred via this Stratagem is not cumulative with any other negative modifier to a unit\u2019s charge roll.",
+		"phase": "Charge",
+		"text": "Use this Stratagem in your opponent\u2019s Charge phase, when a PHOTON GRENADES unit from your army is selected as a target of a charge declared with an enemy unit (excluding VEHICLE and MONSTER units). Until the end of the turn: Subtract 2 from that unit\u2019s charge rolls.Each time a model in that unit makes an attack, subtract 1 from that attack\u2019s hit roll.The charge roll modifier incurred via this Stratagem is not cumulative with any other negative modifier to a unit\u2019s charge roll.",
 		"keywords": ["PHOTON GRENADES", "VEHICLE", "MONSTER"]
 	}
 ]

@@ -25,7 +25,7 @@
 		"faction": "HOUSE KHYMERE",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase, when a HOUSE KHYMERE model from your army finishes a charge move. Select one enemy unit within Engagement Range of your model and roll four D6 (if this model is TITANIC, roll six D6 instead). For each dice result that equals or exceeds that enemy unit’s Toughness characteristic, it suffers 1 mortal wound (for each unmodified roll of a 6, that enemy unit instead suffers 2 mortal wounds). If this model is a WAR DOG-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
 		"keywords": ["HOUSE KHYMERE"]
 	},

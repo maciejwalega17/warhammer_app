@@ -125,7 +125,7 @@
 		"faction": "Blood Angels",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem at the end of the Heroic Interventions step of your opponent\u2019s Charge phase. Select one SANGUINARY GUARD unit from your army that is within 6\u0022 horizontally and 5\u0022 vertically of any enemy units. The selected unit is eligible to perform a Heroic Intervention as if it were a CHARACTER unit, and when performing that Heroic Intervention, each model in that unit can move up to 6\u0022 instead of 3\u0022. All other rules for Heroic Interventions still apply.",
 		"keywords": ["SANGUINARY GUARD", "CHARACTER"]
 	},

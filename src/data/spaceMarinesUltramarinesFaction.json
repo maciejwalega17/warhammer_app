@@ -25,7 +25,7 @@
 		"faction": "Ultramarines",
 		"category": "Epic Deed",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem at the start of the Shooting phase or the Fight phase. Select one ULTRAMARINES CHAPTER MASTER, ULTRAMARINES CAPTAIN or ULTRAMARINES LIEUTENANT model from your army. Until the end of the phase, the range of that model\u2019s aura abilities is increased by 3\u0022 (to a maximum of 9\u0022).",
 		"keywords": ["ULTRAMARINES", "CHAPTER MASTER", "CAPTAIN", "LIEUTENANT"]
 	},
@@ -55,7 +55,7 @@
 		"faction": "Ultramarines",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem when an ULTRAMARINES INFANTRY or ULTRAMARINES BIKER unit from your army is chosen to shoot with in your Shooting phase or fight with in the Fight phase. If that unit has the Troops Battlefield Role, until the end of that phase, when resolving an attack made by that unit, you can re-roll a hit roll. Otherwise, until the end of that phase, when resolving an attack made by that unit, you can re-roll a hit roll of 1.",
 		"keywords": ["ULTRAMARINES", "INFANTRY", "BIKER"]
 	},
@@ -105,7 +105,7 @@
 		"faction": "Ultramarines",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem after an ULTRAMARINES unit from your army is chosen as a target of a charge. Select up to three other friendly ULTRAMARINES units that are within 6\u0022 of the targeted unit and are not within Engagement Range of any enemy models. The selected units fire Overwatch at the charging unit as if they were the targets of the charge. Until the end of the phase, the selected units cannot fire Overwatch again.",
 		"keywords": ["ULTRAMARINES"]
 	},

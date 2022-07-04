@@ -15,7 +15,7 @@
 		"faction": "Raven Guard",
 		"category": "Battle Tactic",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem at the start of your Charge phase. Select one enemy unit on the battlefield. Until the end of that phase, when a charge roll is made for a RAVEN GUARD unit from your army, you can re-roll the dice if that enemy unit was the only selected target of that charge.",
 		"keywords": ["RAVEN GUARD"]
 	},
@@ -121,7 +121,7 @@
 		"faction": "Raven Guard",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem at the start of your Charge phase. Select one RAVEN GUARD JUMP PACK unit. Until the end of that phase, that unit can be chosen to charge with even if it Advanced this turn, and when a charge roll is made for that unit, add 1 to the result.",
 		"keywords": ["RAVEN GUARD", "JUMP PACK"]
 	},

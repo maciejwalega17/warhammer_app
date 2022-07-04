@@ -44,8 +44,8 @@
 		"cost": "1",
 		"faction": "Adepta Sororitas",
 		"category": "Battle Tactic",
-		"whose": "mine",
-		"phase": "Shooting",
+		"whose": "both",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when an ADEPTUS MINISTORUM unit from your army is selected to shoot, or in the Fight phase, when an ADEPTUS MINISTORUM unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack against a PSYKER unit, add 1 to that attack's hit roll (if the attack is made by an ADEPTUS MINISTORUM CHARACTER model, add 1 to that attack's hit roll and add 1 to that attack's wound roll).",
 		"keywords": ["ADEPTUS MINISTORUM", "PSYKER", "CHARACTER"]
 	},
@@ -111,7 +111,7 @@
 		"faction": "Adepta Sororitas",
 		"category": "Epic Deed",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Charge Fight",
 		"text": "Use this Stratagem after making a hit roll or wound roll for an attack made by an ADEPTA SORORITAS model from your army, or after making a saving throw for an ADEPTA SORORITAS model from your army. Discard 1-2 Miracle dice from your Miracle dice pool. Add 1 to the result of the roll for each Miracle dice you discarded. You cannot use this Stratagem if you do not have Any Miracle dice remaining.",
 		"keywords": ["ADEPTA SORORITAS"]
 	},
@@ -227,7 +227,7 @@
 		"faction": "Adepta Sororitas",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem at the start of your Charge phase. Select one ADEPTA SORORITAS CORE unit from your army. Until the start of your next Command phase, that unit gains either the Zealot ability or the Fanatic ability, as shown below: Zealot: Each time a model in this unit makes a melee attack, if this unit made a charge move, was charged or performed a Heroic Intervention this turn, you can re-roll that attack's hit roll.Fanatic: This unit is eligible to declare a charge in a turn in which it Fell Back. If that unit is within 6 inches of an ADEPTUS MINISTORUM PRIEST model when this Stratagem is used, this Stratagem costs 1CP; otherwise, it costs 2CP.",
 		"keywords": ["ADEPTA SORORITAS", "CORE", "ADEPTUS MINISTORUM", "PRIEST"]
 	},
@@ -247,7 +247,7 @@
 		"faction": "Adepta Sororitas",
 		"category": "Strategic Ploy",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Charge Fight",
 		"text": "Use this Stratagem after an ADEPTA SORORITAS unit from your army has performed an Act of Faith for an attack's hit roll. You can reuse the same Miracle dice for that attack's wound roll (this does not count as having performed another Act of Faith).",
 		"keywords": ["ADEPTA SORORITAS"]
 	},

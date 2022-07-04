@@ -34,8 +34,8 @@
 		"cost": "1",
 		"faction": "Death Guard",
 		"category": "Battle Tactic",
-		"whose": "mine",
-		"phase": "Shooting",
+		"whose": "both",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when a DEATH GUARD TERMINATOR unit from your army is selected to shoot, or in the Fight phase, when a DEATH GUARD TERMINATOR unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, add 1 to that attack\u2019s hit roll.",
 		"keywords": ["DEATH GUARD", "TERMINATOR"]
 	},
@@ -54,8 +54,8 @@
 		"cost": "2",
 		"faction": "Death Guard",
 		"category": "Battle Tactic",
-		"whose": "mine",
-		"phase": "Shooting",
+		"whose": "both",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when a BUBONIC ASTARTES INFANTRY unit from your army is selected to shoot, or in the Fight phase, when a BUBONIC ASTARTES INFANTRY unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, add 1 to that attacks wound roll.",
 		"keywords": ["BUBONIC ASTARTES", "INFANTRY"]
 	},
@@ -165,7 +165,7 @@
 		"faction": "Death Guard",
 		"category": "Strategic Ploy",
 		"whose": "both",
-		"phase": "Fight",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in either the Fight phase or your Shooting phase, when a DEATH GUARD model from your army makes an attack with a plague weapon that scores a hit against an enemy unit. Until the end of the turn, each time an attack is made by a DEATH GUARD model against that enemy unit, re-roll a wound roll of 1.",
 		"keywords": ["DEATH GUARD"]
 	},
@@ -231,7 +231,7 @@
 		"faction": "Death Guard",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent\u2019s Charge phase. Select one FOETID BLOAT-DRONE unit from your army. Until the end of the phase, if that unit is within 6\u0022 horizontally and 5\u0022 vertically of any enemy units, it is eligible to perform Heroic Interventions as if it was a CHARACTER. When doing so, it can move up to 6\u0022 instead of 3\u0022. All other rules for Heroic Interventions still apply.",
 		"keywords": ["FOETID BLOAT-DRONE", "CHARACTER"]
 	},
@@ -252,7 +252,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Command",
-		"text": "Use this Stratagem in your Command phase. Select one \u0026lt;PLAGUE COMPANY\u0026gt; unit with the Contagions of Nurgle ability from your army:If there are any other \u0026lt;PLAGUE COMPANY\u0026gt; units from your army on the battlefield that have any Contagion abilities that the selected unit does not have, then until the start of your next Command phase, the selected unit has all of the same Contagion abilities (this is in addition to the ones it already has).Until the start of your next Command phase, units from your army count the battle round number as one higher than the current battle round number for the purpose of determining the Contagion range of any Contagion abilities they have.",
+		"text": "Use this Stratagem in your Command phase. Select one \u0026PLAGUE COMPANY\u0026 unit with the Contagions of Nurgle ability from your army:If there are any other \u0026PLAGUE COMPANY\u0026 units from your army on the battlefield that have any Contagion abilities that the selected unit does not have, then until the start of your next Command phase, the selected unit has all of the same Contagion abilities (this is in addition to the ones it already has).Until the start of your next Command phase, units from your army count the battle round number as one higher than the current battle round number for the purpose of determining the Contagion range of any Contagion abilities they have.",
 		"keywords": ["PLAGUE COMPANY"]
 	},
 	{

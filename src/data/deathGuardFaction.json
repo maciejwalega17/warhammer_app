@@ -15,7 +15,7 @@
 		"faction": "THE INEXORABLE",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent’s Charge phase, when an INEXORABLE unit from your army is selected as a target of a charge. Until the end of the phase, subtract 2 from charge rolls made for any unit that declares a charge against that INEXORABLE unit (to a minimum of 1).",
 		"keywords": ["INEXORABLE"]
 	},
@@ -25,7 +25,7 @@
 		"faction": "MORTARION’S ANVIL",
 		"category": "Strategic Ploy",
 		"whose": "Enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent’s Charge phase, when an enemy unit finishes a charge move. Select any number of MORTARION’S ANVIL units from your army within 3'' of that enemy unit. Until the end of the phase, the selected units are eligible to perform Heroic Interventions as if they were CHARACTERS.",
 		"keywords": ["MORTARION’S ANVIL", "CHARACTER"]
 	},

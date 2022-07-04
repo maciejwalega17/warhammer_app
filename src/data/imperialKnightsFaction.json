@@ -15,7 +15,7 @@
 		"faction": "House Griffith",
 		"category": "Epic Deed",
 		"whose": "Both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when a HOUSE GRIFFITH model from your army is selected to shoot, or in the Fight phase, when a HOUSE GRIFFITH model from your army is selected to fight. Until the end of the phase, each time that model makes an attack, if the target of that attack contains any VEHICLE or MONSTER models, add 1 to that attack’s wound roll.",
 		"keywords": ["HOUSE GRIFFITH", "VEHICLE", "MONSTER"]
 	},
@@ -45,7 +45,7 @@
 		"faction": "House Mortan",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when a HOUSE MORTAN model from your army is selected to shoot, or in the Fight phase, when a HOUSE MORTAN model from your army is selected to fight. Until the end of the phase, each time that model makes an attack, you can ignore any or all hit roll, Ballistic Skill and Weapon Skill modifiers.",
 		"keywords": ["HOUSE MORTAN"]
 	},

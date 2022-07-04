@@ -25,7 +25,7 @@
 		"faction": "Aeldari",
 		"category": "Battle Tactic",
 		"whose": "enemy",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your opponent\u2019s Shooting phase or the Fight phase, when an ASURYANI, HARLEQUINS or YNNARI unit from your army (excluding MONSTER units) is selected as the target of an attack. Until the end of the phase, each time an attack is made against that unit, subtract 1 from that attack\u2019s hit roll.",
 		"keywords": ["ASURYANI", "HARLEQUINS", "YNNARI", "MONSTER"]
 	},
@@ -45,7 +45,7 @@
 		"faction": "Aeldari",
 		"category": "Battle Tactic",
 		"whose": "mine",
-		"phase": "Shooting",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when a GUARDIANS unit from your army is selected to shoot or fight. Until the end of the phase, each time a model in that unit makes an attack, re-roll a hit roll of 1.",
 		"keywords": ["GUARDIANS"]
 	},
@@ -245,7 +245,7 @@
 		"faction": "Aeldari",
 		"category": "Wargear",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Movement Charge",
 		"text": "Use this Stratagem at the start of your opponent\u2019s Movement or Charge phase. Select one enemy unit (excluding units that can FLY) within 12\u0022 of a SHROUD RUNNERS unit from your army, and roll one D3:That enemy unit suffers a number of mortal wounds equal to the result (to a maximum of 1 mortal wound per model in that enemy unit).Until the end of the phase, subtract the result from that enemy unit\u2019s Move characteristic (to a minimum of 0\u0022).Until the end of the phase, your opponent must subtract the result from charge rolls made for that enemy unit (to a minimum of 0\u0022).You can only use this Stratagem once per turn.",
 		"keywords": ["FLY ", "SHROUD RUNNERS"]
 	},
@@ -255,7 +255,7 @@
 		"faction": "Aeldari",
 		"category": "Wargear",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem at the start of your Charge phase. Select one model from your army equipped with a serpent shield or Wave Serpent shield, then select one enemy unit within 12\u0022 of that model. Until the end of the turn:That enemy unit cannot fire Overwatch or Set to Defend.Each time a model in that enemy unit makes a melee attack, subtract 1 from that attack\u2019s hit roll.After using this Stratagem, the selected model is no longer considered to be equipped with a serpent shield or Wave Serpent shield.",
 		"keywords": []
 	},

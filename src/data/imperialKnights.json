@@ -61,7 +61,7 @@
 		"faction": "Imperial Knights",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "fight",
+		"phase": "Fight",
 		"text": "Use this Stratagem in the fight phase when an IMPERIAL KNIGHTS VEHICLE unit from your army is selected as the target of an attack. Until the end of the phase, each time an attack is allocated to that model, add 1 to any armour saving throw taken against that attack. If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
 		"keywords": ["IMPERIAL KNIGHTS", "VEHICLE", "ARMIGER-CLASS"]
 	},
@@ -112,7 +112,7 @@
 		"category": "Epic Deed",
 		"whose": "both",
 		"phase": "Fight",
-		"text": "Use this Stratagem in the Fight phase when an IMPERIAL KNIGHTS model from your army destroys an enemy TITANIC unit with a melee attack.Until the end of the battle, add 1 to this model\u2019s Attacks characteristic.If every unit from your army has the IMPERIAL KNIGHTS keyword (excluding units with the AGENT OF THE IMPERIUM or UNALIGNED keywords), you gain 1 Honour point.Until the end of the battle, when you are determining which Chivalric abilities are active for IMPERIAL KNIGHTS models in your army, this model always counts as if your army was Virtuous. This may mean that different Chivalric abilities are active for different models in your army.",
+		"text": "Use this Stratagem in the Fight phase when an IMPERIAL KNIGHTS model from your army destroys an enemy TITANIC unit with a melee attack. Until the end of the battle, add 1 to this model\u2019s Attacks characteristic.If every unit from your army has the IMPERIAL KNIGHTS keyword (excluding units with the AGENT OF THE IMPERIUM or UNALIGNED keywords), you gain 1 Honour point.Until the end of the battle, when you are determining which Chivalric abilities are active for IMPERIAL KNIGHTS models in your army, this model always counts as if your army was Virtuous. This may mean that different Chivalric abilities are active for different models in your army.",
 		"keywords": [
 			"IMPERIAL KNIGHTS",
 			"TITANIC",
@@ -234,7 +234,7 @@
 		"faction": "Imperial Knights",
 		"category": "Strategic Ploy",
 		"whose": "mine",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your Charge phase, when an IMPERIAL KNIGHTS VEHICLE model from your army finishes a charge move. Select one enemy unit within Engagement Range of your model and roll four D6s (if this model is TITANIC, roll six D6s instead). For each dice result that equals or exceeds that enemy unit\u2019s Toughness characteristic, it suffers 1 mortal wound; for each unmodified roll of a 6, that enemy unit instead suffers 2 mortal wounds. If this model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
 		"keywords": ["IMPERIAL KNIGHTS", "VEHICLE", "TITANIC", "ARMIGER-CLASS"]
 	},
@@ -275,7 +275,7 @@
 		"category": "Strategic Ploy",
 		"whose": "both",
 		"phase": "Any",
-		"text": "Use this Stratagem in any phase, when an IMPERIAL KNIGHTS \u0026lt;NOBLE HOUSEHOLD\u0026gt; CHARACTER unit from your army is destroyed by an enemy unit. Select one friendly \u0026lt;NOBLE HOUSEHOLD\u0026gt; ARMIGER-CLASS model from your army.At the end of the phase, that ARMIGER-CLASS model can shoot as if it were your Shooting phase, but it can only target that enemy unit (and only if that enemy unit is an eligible target for that attack).Until the end of the battle, each time that ARMIGER-CLASS model makes an attack that targets that enemy unit, you can re-roll the hit roll.",
+		"text": "Use this Stratagem in any phase, when an IMPERIAL KNIGHTS \u0026NOBLE HOUSEHOLD\u0026 CHARACTER unit from your army is destroyed by an enemy unit. Select one friendly \u0026NOBLE HOUSEHOLD\u0026 ARMIGER-CLASS model from your army.At the end of the phase, that ARMIGER-CLASS model can shoot as if it were your Shooting phase, but it can only target that enemy unit (and only if that enemy unit is an eligible target for that attack).Until the end of the battle, each time that ARMIGER-CLASS model makes an attack that targets that enemy unit, you can re-roll the hit roll.",
 		"keywords": ["IMPERIAL KNIGHTS", "CHARACTER", "ARMIGER-CLASS"]
 	},
 	{
@@ -315,7 +315,7 @@
 		"category": "Wargear",
 		"whose": "enemy",
 		"phase": "Command",
-		"text": "Use this Stratagem in your opponent\u2019s Command phase. Select one DOMINUS-CLASS model from your army. Until the end of the turn, that model has the following ability:Ion Aegis (Aura): While a friendly \u0026lt;NOBLE HOUSEHOLD\u0026gt; ARMIGER-CLASS model is within 6\u0022 of this model, that ARMIGER-CLASS model has a 4\u002B invulnerable save against ranged weapons.",
+		"text": "Use this Stratagem in your opponent\u2019s Command phase. Select one DOMINUS-CLASS model from your army. Until the end of the turn, that model has the following ability:Ion Aegis (Aura): While a friendly \u0026NOBLE HOUSEHOLD\u0026 ARMIGER-CLASS model is within 6\u0022 of this model, that ARMIGER-CLASS model has a 4\u002B invulnerable save against ranged weapons.",
 		"keywords": ["DOMINUS-CLASS", "ARMIGER-CLASS"]
 	},
 	{

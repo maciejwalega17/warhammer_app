@@ -32,7 +32,7 @@
 		"faction": "Deathwatch",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when a Death watch unit from your army is selected to shoot or fight. Until the end of the phase, each time a model in that unit makes an attack against a TYRANIDS SYNAPSE unit, an unmodified hit roll of 6 automatically wounds the target.",
 		"keywords": ["TYRANIDS", "SYNAPSE"]
 	},
@@ -52,7 +52,7 @@
 		"faction": "Deathwatch",
 		"category": "Epic Deed",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent\u2019s Charge phase. Select one DEATHWATCH unit from your army that contains a Black Shield, that unit can perform a Heroic Intervention this phase as if it were a CHARACTER unit.",
 		"keywords": ["DEATHWATCH", "CHARACTER"]
 	},
@@ -82,7 +82,7 @@
 		"faction": "Deathwatch",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in the Charge phase, after an enemy ORK unit has declared a charge against one or more DEATHWATCH units from your army.The DEATHWATCH units that were selected as a target of that charge can fire Overwatch at that ORK unit.Until the end of the phase, if any models from that ORK unit are destroyed as a result of Overwatch, subtract 2 from charge rolls made for that unit.",
 		"keywords": ["ORK", "DEATHWATCH"]
 	},
@@ -112,7 +112,7 @@
 		"faction": "Deathwatch",
 		"category": "Strategic Ploy",
 		"whose": "both",
-		"phase": "Shooting",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, after making attacks with a DEATHWATCH unit from your army against a NECRONS unit. Your opponent must subtract 1 from Reanimation Protocol rolls made for that NECRONS unit as a result of those attacks.",
 		"keywords": ["DEATHWATCH", "NECRONS"]
 	},

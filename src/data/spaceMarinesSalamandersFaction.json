@@ -15,7 +15,7 @@
 		"faction": "Salamanders",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in the Shooting or Fight phase, when a SALAMANDERS CORE or SALAMANDERS CHARACTER unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit, add 1 to the wound roll.",
 		"keywords": ["SALAMANDERS", "CORE", "CHARACTER"]
 	},
@@ -35,7 +35,7 @@
 		"faction": "Salamanders",
 		"category": "Strategic Ploy",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Charge",
 		"text": "Use this Stratagem in your Shooting phase or in your opponent\u2019s Charge phase, when a SALAMANDERS model from your army shoots with a flame weapon or melta weapon. Until the end of that phase, when resolving an attack made with that weapon, on an unmodified wound roll of 4\u002B the target suffers 1 mortal wound in addition to any normal damage (a maximum of 3 mortal wounds can be inflicted per phase via this Stratagem).",
 		"keywords": ["SALAMANDERS"]
 	},
@@ -111,7 +111,7 @@
 		"faction": "Salamanders",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in your opponent\u2019s Charge phase, when a charge is declared against a SALAMANDERS unit from your army. Select one friendly SALAMANDERS unit that is more than 1\u0022 away from any enemy units and within 12\u0022 of the unit that is the target of that charge. The selected unit can fire Overwatch at the charging unit as if it were a target of that charge; if the selected unit is a target of that charge, it instead fires Overwatch as normal. In addition, if that charge is successful, the selected unit can perform a Heroic Intervention as if it were a CHARACTER; if it does, it can move up to 2D6\u0022, but must end that move closer to the unit that charged and cannot move within 1\u0022 of any other enemy units.",
 		"keywords": ["SALAMANDERS", "CHARACTER"]
 	},

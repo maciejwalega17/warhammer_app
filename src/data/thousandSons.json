@@ -35,7 +35,7 @@
 		"faction": "Thousand Sons",
 		"category": "Battle Tactic",
 		"whose": "mine",
-		"phase": "Shooting",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase, when an ARCANA ASTARTES INFANTRY unit from your army is selected to shoot, or in the Fight phase, when an ARCANA ASTARTES INFANTRY unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes an attack, add 1 to that attack\u2019s wound roll.",
 		"keywords": ["ARCANA ASTARTES", "INFANTRY"]
 	},
@@ -281,7 +281,7 @@
 		"faction": "Thousand Sons",
 		"category": "Strategic Ploy",
 		"whose": "enemy",
-		"phase": "Fight",
+		"phase": "Charge",
 		"text": "Use this Stratagem in the Heroic Interventions step of your opponent\u2019s Charge phase. Select one enemy unit that finished a charge move within Engagement Range of any ARCANA ASTARTES CHARACTER units from your army that phase: one friendly RUBRIC MARINES or SCARAB OCCULT TERMINATORS unit that is within 12\u0022 of that enemy unit and not within Engagement Range of any enemy units can perform a Heroic Intervention. When performing that Heroic Intervention, each model in that unit can move up to 2D6\u0022 instead of up to 3\u0022 and does not have to finish that move closer to the closest enemy model; instead, at least one model from that unit must end that move within Engagement Range of the selected enemy unit, and no models from that unit can end that move within Engagement Range of any other enemy units (otherwise it does not move).",
 		"keywords": [
 			"ARCANA ASTARTES",

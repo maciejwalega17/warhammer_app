@@ -25,7 +25,7 @@
 		"faction": "Imperial Fists",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when an IMPERIAL FISTS unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit against a BUILDING unit, add 1 to the hit roll and add 1 to the wound roll.",
 		"keywords": ["IMPERIAL FISTS", "BUILDING"]
 	},
@@ -65,7 +65,7 @@
 		"faction": "Imperial Fists",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when you choose an IMPERIAL FISTS unit from your army to shoot or fight with. Select one enemy VEHICLE unit. Until the end of that phase, when resolving an attack made by a model in that IMPERIAL FISTS unit against the selected unit, add 1 to the wound roll.",
 		"keywords": ["IMPERIAL FISTS", "VEHICLE"]
 	},
@@ -141,7 +141,7 @@
 		"faction": "Imperial Fists",
 		"category": "Battle Tactic",
 		"whose": "mine",
-		"phase": "Shooting",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when a CRIMSON FISTS unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit against a CHARACTER unit, add 1 to the hit roll.",
 		"keywords": ["CRIMSON FISTS", "CHARACTER"]
 	},
@@ -151,7 +151,7 @@
 		"faction": "Imperial Fists",
 		"category": "Battle Tactic",
 		"whose": "both",
-		"phase": "Any",
+		"phase": "Shooting Fight",
 		"text": "Use this Stratagem in your Shooting phase or the Fight phase, when a CRIMSON FISTS unit from your army is chosen to shoot or fight with. Until the end of that phase, when resolving an attack made by a model in that unit against an ORK unit, you can re-roll the wound roll.",
 		"keywords": ["CRIMSON FISTS", "ORK"]
 	}

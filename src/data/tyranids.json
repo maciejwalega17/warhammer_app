@@ -84,7 +84,7 @@
 		"name": "PHEROMONE TRAIL",
 		"cost": "1",
 		"category": "Epic Deed",
-		"phase": "Fight",
+		"phase": "Charge",
 		"whose": "mine",
 		"text": "Use this Stratagem in your Charge phase. Select one enemy unit within 6\" of a <HIVE FLEET> LICTOR model from your army. Until the end of the phase, each time a friendly <HIVE FLEET> unit declares a charge that targets that enemy unit, add 2 to the charge roll.",
 		"keywords": ["LICTOR"]
