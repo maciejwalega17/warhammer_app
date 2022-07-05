@@ -90,7 +90,7 @@
 		"faction": "Chaos Space Marines",
 		"category": "Epic Deed",
 		"whose": "mine",
-		"phase": "Movement",
+		"phase": "Command",
 		"text": "Use this Stratagem in your Command phase. Select one TRAITORIS ASTARTES MACHINE SPIRIT or TRAITORIS ASTARTES DEAMON ENGINE model from your army that has a Wound characteristics of 10 or more. Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what chatacteristics on its profile to use. If that model has the TITANIC keyword, this stratagem costs 2CP, otherwise it costs 1CP.",
 		"keywords": [
 			"TRAITORIS ASTARTES",

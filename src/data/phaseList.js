@@ -4,8 +4,8 @@ const phaseList = [
 	'Movement',
 	'Psychic',
 	'Shooting',
-	'Fight',
 	'Charge',
+	'Fight',
 	'Morale',
 	'End of Turn',
 ];
