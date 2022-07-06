@@ -22,7 +22,7 @@ const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
 	const [selectedArmy, setSelectedArmy] = useState(armyList[0]);
 	const [selectedSubfaction, setSelectedSubfaction] = useState('');
-	const [commandPoints, setCommandPoints] = useState(12);
+	const [commandPoints, setCommandPoints] = useState(6);
 	const [listShow, setlistShow] = useState('mine');
 
 	const [showModalSmall, setShowModalSmall] = useState(false);
