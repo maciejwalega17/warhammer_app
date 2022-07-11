@@ -32,7 +32,7 @@ import imperialknightsFaction from './imperialKnightsFaction.json';
 import genestealercultsFaction from './genestealerCultsFaction.json';
 // import thousandsonsFaction from './thousandSonsFaction.json';
 import chaosknightsFaction from './chaosKnightsFaction.json';
-// import chaosspacemarinesFaction from './chaosSpaceMarinesFaction.json';
+import chaosspacemarinesFaction from './chaosSpaceMarinesFaction.json';
 import spacemarinesblacktemplarsFaction from './spaceMarinesBlackTemplarsFaction.json';
 import spacemarinesbloodangelsFaction from './spaceMarinesBloodAngelsFaction.json';
 import spacemarinesdarkangelsFaction from './spaceMarinesDarkAngelsFaction.json';
@@ -158,6 +158,7 @@ const stratagemListMerged = startingArr.concat(
 	drukhariFaction,
 	imperialknightsFaction,
 	genestealercultsFaction,
+	chaosspacemarinesFaction,
 	spacemarinesblacktemplarsFaction,
 	spacemarinesbloodangelsFaction,
 	spacemarinesdarkangelsFaction,

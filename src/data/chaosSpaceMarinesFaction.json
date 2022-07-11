@@ -1,0 +1,82 @@
+[
+	{
+		"name": "BRINGERS OF DESPAIR",
+		"cost": "2",
+		"faction": "Black Legion",
+		"category": "Strategic Ploy",
+		"whose": "enemy",
+		"phase": "Fight",
+		"text": "Use this Stratagem at the start of your opponent's Fight phase. Select one BLACK LEGION CHAOS TERMINATOR SQUAD unit within 3 inches of one or more enemy units. That unit is eligible to fight and fights first this phase. Until the end of the phase, add 1 to the Attacks characteristics of models in that unit.",
+		"keywords": ["BLACK LEGION", "CHAOS TERMINATOR SQUAD"]
+	},
+	{
+		"name": "TIP OF THE SPEAR",
+		"cost": "2",
+		"faction": "Black Legion",
+		"category": "Battle Tactic",
+		"whose": "mine",
+		"phase": "Charge",
+		"text": "Use this Stratagem at the start of your Cahrge phase, if no BLACK LEGION units from your army are within Engagement Range of any enemy units. Select the BLACK LEGION CORE, BLACK LEGION DAEMONKIN or BLACK LEGION CHARACTER unit from your army that is closest to an enemy unit. Until the end of the turn you can re-roll charge rolls made for that unit and each time a model in that unit makes a melee attack against an enemy unit that is either in range of an objective marker or within your opponent's deployment zone, improve the Armor Penetration characteristic of that attack by 1.",
+		"keywords": ["BLACK LEGION", "CORE", "DAEMONKIN", "CHARACTER"]
+	},
+	{
+		"name": "HATRED UNBOUND",
+		"cost": "2",
+		"faction": "Black Legion",
+		"category": "Epic Deed",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase, if a BLACK LEGION WARLORD from your army is on the battlefield and your army is engaged in either Wanton Destruction, Wanton Massacre or Wanton Slaughter (pg 145). Select one BLACK LEGION CORE unit from your army within 18 inches of your WARLORD. Until the start of your next Command phase, that unit is considered to be engaged in Wanton Destruction, Wanton Massacre and Wanton Slaughter.",
+		"keywords": ["BLACK LEGION", "WARLORD", "CORE"]
+	},
+	{
+		"name": "LORD OF THE EZEKARION",
+		"cost": "1",
+		"faction": "Black Legion",
+		"category": "Requisition",
+		"whose": "both",
+		"phase": "Before the Battle",
+		"text": "Use this Stratagem after nominating a BLACK LEGION CHARACTER model (excluding named characters and DEAMON models) to be your WARLORD. Generate one additional Black Legion Warlord Trait (pg 79) for taht CHARACTER model. Each Warlord Trait is your army must be unique (if randomly generated, re-roll duplicate results). You can only use this stratagem once.",
+		"keywords": ["BLACK LEGION", "CHARACTER", "DEAMON"]
+	},
+	{
+		"name": "CONFLUENCE OF TRAITORS",
+		"cost": "1",
+		"faction": "Black Legion",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one BLACK LEGION HERETIC ASTARTES unit from your army, then select one Legion Trait (pg 78-105). Until the start of yourr next Command phase, models in that unit have that Legion Trait. You can only use this Stratagem once.",
+		"keywords": ["BLACK LEGION", "HERETIC ASTARTES"]
+	},
+	{
+		"name": "UNRELENTING ONSLAUGHT",
+		"cost": "2",
+		"faction": "Black Legion",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Movement",
+		"text": "Use this Stratagem in your Movement phase, when you select a BLACK LEGION unit from your army to move. Until the start of your next Movement phase that unit can ignore any or all modifiers to its Move characteristics, Advance rolls and charge rolls and that unit is eligible to shoot and declare a charge, even if it Falls Back this turn.",
+		"keywords": ["BLACK LEGION"]
+	},
+	{
+		"name": "VENGEFUL SKIES",
+		"cost": "3",
+		"faction": "Black Legion",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase, if any BLACK LEGION CHARACTER models from your army are on the battlefield. Select one point of the battlefield and place a marker on that point. At the start of your next Command phase, place another marker on the battlefield within 12 inches of the center of taht marker and draw a straight line between the centers of these markers. Roll one D6 for each unit that line would pass over or through, adding 1 if the unit beingrolled for contains 11 or more models and subtracting 1 if unit being rolled for is a CHARACTER unit. On 3+ taht unit suffers D3 mortal wounds. The markers are then removed. You can inly use this Stratagem once.",
+		"keywords": ["BLACK LEGION", "CHARACTER"]
+	},
+	{
+		"name": "HERALDS OF DOOM",
+		"cost": "2",
+		"faction": "Black Legion",
+		"category": "Strategic Ploy",
+		"whose": "mine",
+		"phase": "Command",
+		"text": "Use this Stratagem in your Command phase. Select one BLACK LEGION LEGIONARIES unit from your army that is on battlefield. Until the start of your next Command phase, that unit has the following ability: 'Heralds of Doom (Aura): While an enemy unit with the Objective Secured ability is within 6 inches of that unit, it loses that ability'.",
+		"keywords": ["BLACK LEGION", "LEGIONARIES"]
+	}
+]
