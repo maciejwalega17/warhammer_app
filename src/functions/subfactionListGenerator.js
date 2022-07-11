@@ -152,9 +152,11 @@ const subfactionListGenerator = (army) => {
 		return [
 			'Alpha Legion',
 			'Black Legion',
+			'Creations of Bile',
 			"Emperor's Children",
 			'Iron Warriors',
 			'Night Lords',
+			'Red Corsairs',
 			'Word Bearers',
 		];
 	}
