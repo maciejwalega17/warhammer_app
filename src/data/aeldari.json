@@ -16,7 +16,7 @@
 		"category": "Battle Tactic",
 		"whose": "mine",
 		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase, when an ASURYANI unit from your army makes a Battle Focus move. Do not roll one D6 to determine the distance that unit can move; instead, until the end of the phase, that unit can move up to 6\u0022.",
+		"text": "Use this Stratagem in your Shooting phase, after rolling the D6 to determine how far an Asuryani unit from your army moves when it makes a Battle Focus move (pg 142). Re-roll that D6.",
 		"keywords": ["ASURYANI"]
 	},
 	{
@@ -206,7 +206,7 @@
 		"category": "Strategic Ploy",
 		"whose": "mine",
 		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase, after making attacks with an ASURYANI, HARLEQUINS or YNNARI unit (excluding AIRCRAFT units) from your army. That unit can immediately make a Normal Move of up to 7\u0022. Unless that unit is a HARLEQUINS unit, it cannot embark within a TRANSPORT model at the end of this move. Until the end of the turn, that unit is not eligible to declare a charge. Units with the Battle Focus ability cannot make a Battle Focus move in a turn in which they are selected for this Stratagem.",
+		"text": "Use this Stratagem in your Shooting phase, after making attacks with an ASURYANI, HARLEQUINS or YNNARI unit (excluding AIRCRAFT units) from your army. That unit can immediately make a Normal Move of up to 7\u0022. Unless that unit is a HARLEQUINS unit, it cannot embark within a TRANSPORT model at the end of this move. Until the end of the turn, that unit is not eligible to declare a charge. Units with the Battle Focus ability cannot make a Battle Focus move in a turn in which they are selected for this Stratagem. You can only use this Stratagem once.",
 		"keywords": ["ASURYANI", "HARLEQUINS", "YNNARI", "AIRCRAFT", "TRANSPORT"]
 	},
 	{
