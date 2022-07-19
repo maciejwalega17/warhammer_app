@@ -114,7 +114,7 @@
 		"name": "TRAMPLING CHARGE",
 		"cost": "1",
 		"category": "Epic Deed",
-		"phase": "Fight",
+		"phase": "Charge",
 		"whose": "mine",
 		"text": "Use this Stratagem in your Charge phase, when a HIVE TENDRIL MONSTER model from your army finishes a charge move. Select one enemy unit within Engagement Range of that MONSTER model and roll one D6. If that MONSTER model has the HORNED CHITIN keyword, on a 2-4, that enemy unit suffers 3 mortal wounds; on a 5+, that enemy unit suffers D3+3 mortal wounds. If that MONSTER model does not have the HORNED CHITIN keyword, on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5+, that enemy unit suffers 3 mortal wounds.",
 		"keywords": ["HORNED CHITIN", "MONSTER", "HIVE TENDRIL"]

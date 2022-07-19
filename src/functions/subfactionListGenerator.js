@@ -1,6 +1,7 @@
 const subfactionListGenerator = (army) => {
 	if (army === 'Tyranids') {
 		return [
+			'--Custom--',
 			'Behemoth',
 			'Kraken',
 			'Leviathan',
@@ -11,6 +12,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Orks') {
 		return [
+			'--Custom--',
 			'Bad Moons',
 			'Blood Axes',
 			'Deathskulls',
@@ -20,9 +22,18 @@ const subfactionListGenerator = (army) => {
 			'Snakebites',
 		];
 	} else if (army === 'Aeldari') {
-		return ['Ulthwé', 'Alaitoc', 'Biel-Tan', 'Iyanden', 'Saim-Hann', 'Ynnari'];
+		return [
+			'--Custom--',
+			'Ulthwé',
+			'Alaitoc',
+			'Biel-Tan',
+			'Iyanden',
+			'Saim-Hann',
+			'Ynnari',
+		];
 	} else if (army === 'Adepta Sororitas') {
 		return [
+			'--Custom--',
 			'Order of Our Martyred Lady',
 			'Order of the Valorous Heart',
 			'Order of the Bloody Rose',
@@ -32,6 +43,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Adeptus Custodes') {
 		return [
+			'--Custom--',
 			'Emperor’s Chosen',
 			'Shadowkeepers ',
 			'Dread Host',
@@ -41,6 +53,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'T\u2019au Empire') {
 		return [
+			'--Custom--',
 			'T’au Sept',
 			'Vior’la',
 			'Sa’cea',
@@ -49,11 +62,20 @@ const subfactionListGenerator = (army) => {
 			'Farsight Enclaves',
 		];
 	} else if (army === 'Aeldari (Harlequins)') {
-		return ['Light', 'Dark', 'Twilight'];
+		return ['--Custom--', 'Light', 'Dark', 'Twilight'];
 	} else if (army === 'Adeptus Mechanicus') {
-		return ['Mars', 'Lucius', 'Agripinaa', 'Graia', 'Ryza', 'Metalica'];
+		return [
+			'--Custom--',
+			'Mars',
+			'Lucius',
+			'Agripinaa',
+			'Graia',
+			'Ryza',
+			'Metalica',
+		];
 	} else if (army === 'Necrons') {
 		return [
+			'--Custom--',
 			'Mephrit',
 			'Nephrekh',
 			'Nihilakh',
@@ -63,6 +85,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Chaos Knights') {
 		return [
+			'--Custom--',
 			'HOUSE HERPETRAX',
 			'HOUSE LUCARIS',
 			'HOUSE KHYMERE',
@@ -72,6 +95,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Death Guard') {
 		return [
+			'--Custom--',
 			'HARBINGERS',
 			'THE INEXORABLE',
 			'MORTARION’S ANVIL',
@@ -82,6 +106,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Grey Knights') {
 		return [
+			'--Custom--',
 			'Swordbearers',
 			'Blades of Victory',
 			'Wardmakers',
@@ -93,6 +118,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Drukhari') {
 		return [
+			'--Custom--',
 			'Kabal of the Black Heart',
 			'Kabal of the Flayed Skull',
 			'Kabal of the Obsidian Rose',
@@ -106,6 +132,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Genestealer Cults') {
 		return [
+			'--Custom--',
 			'Cult of the Four-armed Emperor',
 			'The Hivecult',
 			'Bladed Cog',
@@ -115,6 +142,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Imperial Knights') {
 		return [
+			'--Custom--',
 			'House Terryn',
 			'House Griffith',
 			'House Cadmus',
@@ -124,6 +152,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Adeptus Astartes') {
 		return [
+			'--Custom--',
 			'Black Templars',
 			'Blood Angels',
 			'Dark Angels',
@@ -138,6 +167,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Thousand Sons') {
 		return [
+			'--Custom--',
 			'Cult of Mutation',
 			'Cult of Prophecy',
 			'Cult of Time',
@@ -150,6 +180,7 @@ const subfactionListGenerator = (army) => {
 		];
 	} else if (army === 'Chaos Space Marines') {
 		return [
+			'--Custom--',
 			'Alpha Legion',
 			'Black Legion',
 			'Creations of Bile',
