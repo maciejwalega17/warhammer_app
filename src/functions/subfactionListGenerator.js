@@ -149,6 +149,9 @@ const subfactionListGenerator = (army) => {
 			'House Hawkshroud',
 			'House Mortan',
 			'House Raven',
+			'House Taranis',
+			'House Krast',
+			'House Vulker',
 		];
 	} else if (army === 'Adeptus Astartes') {
 		return [

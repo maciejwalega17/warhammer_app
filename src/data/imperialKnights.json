@@ -1,15 +1,5 @@
 [
 	{
-		"name": "CALCULATED TARGETING",
-		"cost": "2/3/4",
-		"faction": "Imperial Knights",
-		"category": "Battle Tactic",
-		"whose": "mine",
-		"phase": "Shooting",
-		"text": "Use this Stratagem in your Shooting phase, when a QUESTOR MECHANICUS model from your army is selected to shoot. Until the end of the phase, each time that model makes a ranged attack, on an unmodified wound roll of 6, that attack inflicts a number of mortal wounds on the target equal to the Damage characteristic of that attack, and the attack sequence ends. If that model is an ARMIGER-CLASS model, this Stratagem costs 2CP; if that model is a QUESTORIS-CLASS model, this Stratagem costs 3CP; otherwise, it costs 4CP.",
-		"keywords": ["QUESTOR MECHANICUS", "ARMIGER-CLASS", "QUESTORIS-CLASS"]
-	},
-	{
 		"name": "FULL TILT",
 		"cost": "1",
 		"faction": "Imperial Knights",
@@ -45,16 +35,7 @@
 		"text": "Use this Stratagem when an ARMIGER-CLASS model from your army is selected to fight in the Fight phase. Until the end of the phase, each time that model makes a melee attack, on an unmodified hit roll of 6, one additional hit is scored.",
 		"keywords": ["ARMIGER-CLASS"]
 	},
-	{
-		"name": "LINEBREAKER",
-		"cost": "1",
-		"faction": "Imperial Knights",
-		"category": "Battle Tactic",
-		"whose": "mine",
-		"phase": "Fight",
-		"text": "Use the Stratagem in your Fight phase, when a QUESTOR IMPERIALIS VEHICLE model from your army makes a consolidation move. Until the end of the phase, when making that consolidation move, that model:Can move up to 6\u0022 instead of up to 3\u0022 (this is cumulative with the Vow of Honour Questor Allegiance Oath, meaning that such a model would move up to 7\u0022 when it consolidates this phase).Can move in any direction, provided it ends that consolidation move either within Engagement Range of an enemy model, or it ends that move at least 3\u0022 closer to your opponent\u2019s battlefield edge.",
-		"keywords": ["QUESTOR IMPERIALIS", "VEHICLE"]
-	},
+
 	{
 		"name": "MARTIAL PROWESS",
 		"cost": "1/2",
@@ -121,16 +102,7 @@
 			"UNALIGNED"
 		]
 	},
-	{
-		"name": "BENEVOLENCE OF THE MACHINE GOD",
-		"cost": "1",
-		"faction": "Imperial Knights",
-		"category": "Epic Deed",
-		"whose": "both",
-		"phase": "Any",
-		"text": "Use this Stratagem in any phase, when a QUESTOR MECHANICUS model from your army would lose a wound as the result of a mortal wound. Until the end of the phase, each time that model would lose a wound as the result of a mortal wound, roll one D6: on a 5\u002B, that wound is not lost.",
-		"keywords": ["QUESTOR MECHANICUS"]
-	},
+
 	{
 		"name": "CRUSHED",
 		"cost": "1",
@@ -141,26 +113,7 @@
 		"text": "Use this Stratagem in the Fight phase when an attack made with Freedom\u2019s Hand or a thunderstrike gauntlet (or a Relic that replaces such a weapon) by an IMPERIAL KNIGHTS model from your army is allocated to an enemy model. Before any saving throw is taken against that attack, both players roll off (if the Strength characteristic of this IMPERIAL KNIGHTS is greater than that of the model the attack has been allocated to, add 1 to your result). If you win the roll off, invulnerable saving throws cannot be taken against that attack; otherwise the Damage characteristic of that attack is 0.",
 		"keywords": ["IMPERIAL KNIGHTS"]
 	},
-	{
-		"name": "MACHINE SPIRIT RESURGENT",
-		"cost": "1/2",
-		"faction": "Imperial Knights",
-		"category": "Epic Deed",
-		"whose": "mine",
-		"phase": "Command",
-		"text": "Use this Stratagem in your Command phase. Select one QUESTOR MECHANICUS model from your army. Until the start of your next Command phase, that model is considered to have its full wounds remaining for the purposes of determining what characteristics on its profile to use. If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
-		"keywords": ["QUESTOR MECHANICUS", "ARMIGER-CLASS"]
-	},
-	{
-		"name": "VALIANT LAST STAND",
-		"cost": "1/2",
-		"faction": "Imperial Knights",
-		"category": "Epic Deed",
-		"whose": "both",
-		"phase": "Fight",
-		"text": "Use this Stratagem in the Fight phase, when a QUESTOR IMPERIALIS model from your army that has not already been selected to fight this phase is destroyed (but did not explode). Do not remove that model from play - it can fight after the attacking model\u2019s unit has finished making attacks. When resolving these attacks, assume the model has 1 wound remaining when determining which characteristics to use. After resolving the destroyed model\u2019s attacks, it is then removed. If that model is an ARMIGER-CLASS model, this Stratagem costs 1CP; otherwise, it costs 2CP.",
-		"keywords": ["QUESTOR IMPERIALIS", "ARMIGER-CLASS"]
-	},
+
 	{
 		"name": "NOBLE SACRIFICE",
 		"cost": "1/2/3",
@@ -174,7 +127,6 @@
 			"VEHICLE",
 			"DOMINUS-CLASS",
 			"ARMIGER-CLASS",
-
 			"QUESTORIS-CLASS"
 		]
 	},
@@ -258,16 +210,7 @@
 		"text": "Use this Stratagem at the start of your Movement phase. Select up to two ARMIGER-CLASS models from your army that are more than 6\u0022 from any enemy models and within 6\u0022 of any battlefield edge. If the mission you are playing is using the Strategic Reserves rule, place that unit into Strategic Reserves - that model cannot arrive from Strategic Reserves in the same turn it is placed into Strategic Reserves.",
 		"keywords": ["ARMIGER-CLASS"]
 	},
-	{
-		"name": "STORMSTRIDERS",
-		"cost": "1",
-		"faction": "Imperial Knights",
-		"category": "Strategic Ploy",
-		"whose": "mine",
-		"phase": "Movement",
-		"text": "Use this Stratagem in your Movement phase, when you select one QUESTOR IMPERIALIS TITANIC model from your army to make a Normal Move or Advance. After this model has moved, select one enemy unit it moved across (excluding AIRCRAFT units) and roll one D6. Add 1 to the result if that enemy unit contains between 6-10 models, and add 2 to the result if that enemy unit contains 11 or more models: on a 3-6, that enemy unit suffers D3 mortal wounds; on a 7\u002B, that unit suffers D6 mortal wounds.",
-		"keywords": ["QUESTOR IMPERIALIS", "TITANIC", "AIRCRAFT"]
-	},
+
 	{
 		"name": "DEFIANT FURY",
 		"cost": "2",
