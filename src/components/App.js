@@ -21,7 +21,7 @@ import switchColor from '../functions/switchColor';
 const App = () => {
 	const [selectedPhase, setSelectedPhase] = useState(phaseList[0]);
 	const [selectedArmy, setSelectedArmy] = useState(armyList[0]);
-	const [selectedSubfaction, setSelectedSubfaction] = useState('');
+	const [selectedSubfaction, setSelectedSubfaction] = useState('--Custom--');
 	const [commandPoints, setCommandPoints] = useState(6);
 	const [listShow, setlistShow] = useState('mine');
 
