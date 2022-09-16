@@ -4,19 +4,15 @@ import listItemGenerator from '../functions/listItemGenerator';
 
 import '../styles/list.css';
 
-const List = ({ title, listArr, callback }) => {
+function List({ title, listArr, callback }) {
+  const listItemList = listItemGenerator(listArr, callback);
 
-
-	const listItemList = listItemGenerator(listArr, callback);
-
-	return (
-		<>
-			<div className='list-container'>
-				{listArr.length ? <h2>{title}</h2> : null}
-				<div className="listitem-container">{listItemList}</div>
-			</div>
-		</>
-	);
-};
+  return (
+    <div className='list-container'>
+      {listArr.length ? <h2>{title}</h2> : null}
+      <div className='listitem-container'>{listItemList}</div>
+    </div>
+  );
+}
 
 export default List;
