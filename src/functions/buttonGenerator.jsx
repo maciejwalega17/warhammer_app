@@ -1,21 +1,21 @@
 import React from 'react';
-import Button from '../components/button';
 
 const buttonGenerator = (cost, callback, name) => {
-	const costSplit = cost.split('/');
-	const btnArr = [];
-	costSplit.forEach((el) => {
-		btnArr.push(
-			<Button
-				key={name + el}
-				name={`${el} CP`}
-				onClick={() => {
-					callback(name, el);
-				}}
-			/>
-		);
-	});
-	return btnArr;
+  const costSplit = cost.split('/');
+  const btnArr = [];
+  costSplit.forEach((el) => {
+    btnArr.push(
+      <button
+        key={name + el}
+        type='button'
+        className='btn'
+        onClick={() => callback(name, el)}
+      >
+        {`${el} CP`}
+      </button>
+    );
+  });
+  return btnArr;
 };
 
 export default buttonGenerator;

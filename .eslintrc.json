@@ -1,0 +1,77 @@
+{
+    "extends": [
+      "airbnb",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:testing-library/react",
+      "plugin:jest-dom/recommended"
+    ],
+    "plugins": [
+      "import",
+      "react",
+      "prettier",
+      "testing-library",
+      "jest-dom"
+    ],
+    "env": {
+      "es6": true,
+      "browser": true,
+      "jest": true
+    },
+    "rules": {
+      "react/prop-types": "off",
+      "no-var": [
+        "error"
+      ],
+      "jsx-quotes": [
+        "error",
+        "prefer-single"
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "jsxSingleQuote": true
+        }
+      ],
+      "object-shorthand": [
+        "error",
+        "always"
+      ],
+        // note you must disable the base rule as it can report incorrect errors
+      "no-unused-vars": "off",
+      "no-use-before-define": "off",
+      "no-shadow": "off",
+      "no-console": "off",
+      "import/order": ["error", {"newlines-between": "always"}],
+      "import/prefer-default-export": "off",
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+      "react/jsx-curly-newline": "off",
+      "react/destructuring-assignment": "off",
+      "class-methods-use-this": "off",
+      "no-param-reassign": "off",
+      "max-classes-per-file": "off",
+      "no-plusplus": "off",
+      "react/jsx-wrap-multilines": "off",
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+      "no-useless-constructor": "off",
+      "react/sort-comp": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/static-property-placement": ["warn", "property assignment", {
+        "childContextTypes": "static getter",
+        "contextTypes": "static public field",
+        "contextType": "static public field",
+        "displayName": "static public field"
+      }]
+    },
+    "settings": {
+      "react": {
+        "pragma": "React",
+        "version": "detect"
+      }
+    }
+  }

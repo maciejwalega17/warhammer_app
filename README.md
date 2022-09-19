@@ -10,12 +10,28 @@ Features:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Stratagem Converter
+# Requirements
+`nvm` - for managing node version: https://github.com/nvm-sh/nvm 
 
-Simple pure-js app made for converting pasted data into json format used in main app. Used for testing.
+# Local development
 
-## Stratagem Scraper
+This project uses eslint with prettier plugin to style the code. If you're using Intellij go to `Preferences... -> Languages & Frameworks -> JavaScript -> Code Quality Tools -> Eslint` and select `Automatic ESlint configuration` and `run eslint --fix on save`
 
-Attemp by Denis Firat on a scrapper to extarct raw stratagem data from internet sources. ~Python
+To auto-format code:
+```
+npm run lint:fix
+```
 
-In the end data was scrapped using C# scrapper link: https://github.com/Vyctrus/WebScrapT1
+## Setup
+```
+nvm install
+npm ci
+npm run build
+```
+
+# Running locally
+
+```
+npm run start
+```
+
