@@ -1,4 +1,4 @@
-const switchColor = (state) => {
+export const switchColor = (state) => {
   if (
     state === 'Tyranids' ||
     state === 'Orks' ||
@@ -39,5 +39,3 @@ const switchColor = (state) => {
     );
   }
 };
-
-export default switchColor;

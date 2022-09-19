@@ -3,7 +3,6 @@
 		width: 90px;
 	}
 	.stratagem-btn-container .btn {
-		width: 120px;
 		margin: 5px;
 		font-size: 10px;
 	}
@@ -15,6 +14,20 @@
 	}
 }
 
+.stratagem-btn-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.stratagem-btn-container button {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 40%;
+}
+
 @media (min-width: 381px) {
 	.nav .btn {
 		width: 150px;
@@ -22,7 +35,6 @@
 }
 @media (min-width: 381px) and (max-width: 576px) {
 	.stratagem-btn-container .btn {
-		width: 160px;
 		margin: 5px;
 		font-size: 12px;
 	}
@@ -36,7 +48,6 @@
 }
 @media (min-width: 577px) and (max-width: 768px) {
 	.stratagem-btn-container .btn {
-		width: 200px;
 		height: 75px;
 		margin: 5px;
 	}
@@ -57,7 +68,6 @@
 
 @media (min-width: 769px) {
 	.stratagem-btn-container .btn {
-		width: 300px;
 		margin: 5px;
 	}
 
@@ -77,7 +87,7 @@
 	display: flex;
 	align-items: center;
 }
-.clicked .btn {
+.clicked {
 	background-color: var(--btn-color);
 }
 .nav .btn {
