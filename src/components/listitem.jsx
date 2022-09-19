@@ -1,6 +1,6 @@
 import React from 'react';
 
-import buttonGenerator from '../functions/buttonGenerator';
+import buttonGenerator from '../utils/buttonGenerator';
 import '../styles/listitem.css';
 
 function ListItem({ name, cost, category, phase, text, keywords, callback }) {

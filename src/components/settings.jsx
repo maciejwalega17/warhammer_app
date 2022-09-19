@@ -1,23 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import switchLight from '../functions/switchLight';
-import switchDark from '../functions/switchDark';
+import { switchLight } from '../utils/switchLight';
+import { switchDark } from '../utils/switchDark';
 
 import '../styles/settings.css';
 
-function Settings({ mode, callback }) {
+export default function Settings() {
+  const [darkModeOn, setDarkModeOn] = useState(true);
+
   const switchToLight = () => {
     switchLight();
-    callback(false);
+    setDarkModeOn(false);
   };
   const switchToDark = () => {
     switchDark();
-    callback(true);
+    setDarkModeOn(true);
   };
 
   return (
     <div className='settings-container'>
-      {mode ? (
+      {darkModeOn ? (
         <button type='button' className='btn' onClick={switchToLight}>
           Light Mode
         </button>
@@ -29,5 +31,3 @@ function Settings({ mode, callback }) {
     </div>
   );
 }
-
-export default Settings;

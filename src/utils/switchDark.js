@@ -1,21 +1,22 @@
-const switchLight = () => {
+export const switchDark = () => {
   document.documentElement.style.setProperty(
     '--bg-primary-color',
-    'rgb(240, 240, 240)'
+    'rgb(43, 43, 43)'
   );
   document.documentElement.style.setProperty(
     '--bg-secondary-color',
-    'rgb(250, 250, 250)'
+    'rgb(66, 66, 66)'
   );
   document.documentElement.style.setProperty(
     '--bg-tertiary-color',
-    'rgb(200, 200, 200)'
+    'rgb(121, 121, 121)'
   );
   document.documentElement.style.setProperty(
     '--bg-quaternary-color',
-    'rgb(220, 220, 220)'
+    'rgb(51, 51, 51)'
   );
-  document.documentElement.style.setProperty('--text-color', 'rgb(0, 0, 0)');
+  document.documentElement.style.setProperty(
+    '--text-color',
+    'rgb(255, 255, 255)'
+  );
 };
-
-export default switchLight;
