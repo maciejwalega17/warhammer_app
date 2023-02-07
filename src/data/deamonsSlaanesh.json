@@ -1,0 +1,82 @@
+[
+	{
+		"Name": "THIRST FOR SOULS",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a LEGIONES DAEMONICA SLAANESH unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a melee attack against an AELDARI unit, you can re-roll the hit roll and you can re-roll the wound roll.",
+		"Keywords": ["LEGIONES DAEMONICA", "SLAANESH", "AELDARI"]
+	},
+	{
+		"Name": "RAZOR-SHARP CARESS",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a DAEMONETTES unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a melee attack, on an unmodified wound roll of 6, improve the Armour Penetration characteristic of that attack by 1.",
+		"Keywords": ["DAEMONETTES"]
+	},
+	{
+		"Name": "THE ENDLESS DANCE",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem in the Fight phase, when a DAEMONETTES unit from your army is selected to fight. Until the end of the phase, each time a model in that unit makes a pile-in or consolidation move, it can move up to an additional 3\u0026#34;. This is not cumulative with any other rule that increases the distance models can pile in or consolidate.",
+		"Keywords": ["DAEMONETTES"]
+	},
+	{
+		"Name": "IMPOSSIBLE ELEGANCE",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Epic Deed",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem at the start of the Fight phase. Select one LEGIONES DAEMONICA SLAANESH CHARACTER model from your army (excluding VEHICLE units). Until the end of the phase, each time a melee attack is made against that unit, an unmodified hit roll of 1-3 always fails, irrespective of any abilities that the weapon or the model making the attack may have.",
+		"Keywords": ["LEGIONES DAEMONICA", "SLAANESH", "CHARACTER", "VEHICLE"]
+	},
+	{
+		"Name": "EXQUISITE GIFTS",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle. Select one LEGIONES DAEMONICA SLAANESH CHARACTER model from your army and give them one Relic of Slaanesh (this must be a Relic they can have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"Keywords": ["LEGIONES DAEMONICA", "SLAANESH", "CHARACTER"]
+	},
+	{
+		"Name": "MELODIC DELIRIUM",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Strategic Ploy",
+		"Whose": "enemy",
+		"Phase": "Psychic",
+		"Text": "Use this Stratagem at the start of your opponent\u2019s Psychic phase. Select one FIENDS unit from your army. Until the end of the phase, that unit has the following ability:Melodic Delirium (Aura): While an enemy PSYKER unit is within 12\u0026#34; of this unit, each time a Psychic test is taken for that unit, subtract 2 from the result.",
+		"Keywords": ["FIENDS", "PSYKER"]
+	},
+	{
+		"Name": "RACE THROUGH THE WARP",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Command",
+		"Text": "Use this Stratagem in your Command phase. Select one LEGIONES DAEMONICA SLAANESH VEHICLE unit (excluding SOUL GRINDER units) from your army. Remove that unit from the battlefield and place it into Strategic Reserves.",
+		"Keywords": ["LEGIONES DAEMONICA", "SLAANESH", "VEHICLE", "SOUL GRINDER"]
+	},
+	{
+		"Name": "RAPTUROUS STANDARD",
+		"Cost": "1",
+		"Faction": "Legions of Slaanesh",
+		"Category": "Wargear",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem at the start of the Fight phase. Select one LEGIONES DAEMONICA SLAANESH ICON unit from your army. Until the end of the phase, each time a model in that unit makes a melee attack, you can re-roll the hit roll.",
+		"Keywords": ["LEGIONES DAEMONICA", "SLAANESH", "ICON"]
+	}
+]

@@ -1,0 +1,69 @@
+[
+	{
+		"Name": "FRENETIC BLOODLUST",
+		"Cost": "1/2",
+		"Faction": "Legions of Khorne",
+		"Category": "Battle Tactic",
+		"Whose": "both",
+		"Phase": "Fight",
+		"Text": "Use this Stratagem at the start of the Fight phase. Select one BLOODLETTERS CORE unit from your army.If that unit is not within Engagement Range of any enemy units, make a Normal Move of up to 6\u0026#34; with that unit. It must end this move closer to the closest visible enemy unit.If that unit is within Engagement Range of any enemy units, make a pile-in move with that unit.If this unit makes a Normal Move, this Stratagem costs 2CP; otherwise, it costs 1CP.",
+		"Keywords": ["BLOODLETTERS", "CORE"]
+	},
+	{
+		"Name": "GLORIOUS DECAPITATION",
+		"Cost": "2",
+		"Faction": "Legions of Khorne",
+		"Category": "Epic Deed",
+		"Whose": "both",
+		"Phase": "Any",
+		"Text": "Use this Stratagem when an enemy CHARACTER model is destroyed by a melee attack made by a LEGIONES DAEMONICA KHORNE CHARACTER model from your army. Until the end of the battle, that KHORNE CHARACTER model has the following ability:Slayer of Champions (Aura): While a friendly LEGIONES DAEMONICA KHORNE unit is within 6\u0026#34; of this model, each time a model in that unit makes an attack, an unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage. A unit can only suffer a maximum of 6 mortal wounds per phase as a result of this ability.You can only use this Stratagem once.",
+		"Keywords": ["CHARACTER", "LEGIONES DAEMONICA", "KHORNE"]
+	},
+	{
+		"Name": "RELICS OF THE BRASS CITADEL",
+		"Cost": "1",
+		"Faction": "Legions of Khorne",
+		"Category": "Requisition",
+		"Whose": "mine",
+		"Phase": "Before the Battle",
+		"Text": "Use this Stratagem before the battle, when you are mustering your army. Select one LEGIONES DAEMONICA KHORNE CHARACTER model from your army and give them one Relic of Khorne (this must be a Relic they can have). Each Relic in your army must be unique, and you cannot use this Stratagem to give a model two Relics. You can only use this Stratagem once, unless you are playing a Strike Force battle (in which case, you can use this Stratagem twice) or an Onslaught battle (in which case, you can use this Stratagem three times).",
+		"Keywords": ["LEGIONES DAEMONICA", "KHORNE", "CHARACTER"]
+	},
+	{
+		"Name": "CONTEMPT FOR SORCERY",
+		"Cost": "1",
+		"Faction": "Legions of Khorne",
+		"Category": "Strategic Ploy",
+		"Whose": "enemy",
+		"Phase": "Psychic",
+		"Text": "Use this Stratagem in your opponent\u2019s Psychic phase, after a Psychic test is passed for an enemy PSYKER unit and after any Deny the Witch attempt is made. If that enemy PSYKER unit is within 24\u0026#34; of any LEGIONES DAEMONICA KHORNE units from your army, roll one D6, adding 1 to the result if that enemy PSYKER is within 12\u0026#34; of any FLESH HOUNDS units from your army: on a 4\u002B that psychic power is denied.",
+		"Keywords": [
+			"PSYKER",
+
+			"LEGIONES DAEMONICA",
+			"KHORNE",
+			"PSYKER",
+			"FLESH HOUNDS"
+		]
+	},
+	{
+		"Name": "BRASS STAMPEDE",
+		"Cost": "1",
+		"Faction": "Legions of Khorne",
+		"Category": "Strategic Ploy",
+		"Whose": "mine",
+		"Phase": "Charge",
+		"Text": "Use this Stratagem after a LEGIONES DAEMONICA KHORNE CAVALRY or LEGIONES DAEMONICA KHORNE VEHICLE unit from your army finishes a charge move. Select one enemy unit within Engagement Range of that unit and roll one D6 for each model in the charging unit, adding 3 to the result if the charging unit is a VEHICLE unit:For each 6-8, that enemy unit suffers D3 mortal wounds.For each 9, that enemy unit suffers D3\u002B3 mortal wounds.",
+		"Keywords": ["LEGIONES DAEMONICA", "KHORNE", "CAVALRY", "VEHICLE"]
+	},
+	{
+		"Name": "BANNER OF BLOOD",
+		"Cost": "1",
+		"Faction": "Legions of Khorne",
+		"Category": "Wargear",
+		"Whose": "mine",
+		"Phase": "Charge",
+		"Text": "Use this Stratagem when a LEGIONES DAEMONICA KHORNE ICON unit from your army is selected to charge. Until the end of the phase, each time you make a charge roll for that unit, roll one additional D6 and discard the lowest result.",
+		"Keywords": ["LEGIONES DAEMONICA", "KHORNE", "ICON"]
+	}
+]
